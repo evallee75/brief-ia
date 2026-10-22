@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brief IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+  /* Mise en page : rail d'archives à gauche, une « une » pleine largeur puis une grille de 2 colonnes. */
+  :root {
+    --bg: #eef1f6;
+    --surface: #ffffff;
+    --ink: #141a2b;
+    --muted: #5b6478;
+    --line: #d7dce6;
+    --accent: #2f4bff;
+    --accent-soft: #e3e8ff;
+    --font-display: "Bricolage Grotesque", "Avenir Next", "Helvetica Neue", sans-serif;
+    --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1320;
+      --surface: #171c2c;
+      --ink: #e8ebf3;
+      --muted: #98a0b4;
+      --line: #2a3146;
+      --accent: #8c9dff;
+      --accent-soft: #232b4d;
+      color-scheme: dark;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 var(--font-body);
+  }
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .shell {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 48px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 40px max(16px, 3vw);
+  }
+
+  /* Rail d'archives */
+  .rail { position: sticky; top: 40px; align-self: start; display: flex; flex-direction: column; gap: 24px; }
+  .brand { font: 700 28px/1 var(--font-display); letter-spacing: -0.02em; margin: 0; }
+  .brand span { color: var(--accent); }
+  .brand-sub { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+  .rail h2 {
+    font: 500 12px/1 var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 0 0 10px;
+  }
+  .archive { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; max-height: 60vh; overflow-y: auto; }
+  .archive button {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font: 500 15px/1.3 var(--font-display);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .archive button:hover { background: var(--accent-soft); }
+  .archive button[aria-current="true"] { background: var(--accent); color: var(--surface); }
+  .archive small { display: block; font: 400 12px/1.3 var(--font-mono); opacity: 0.75; margin-top: 2px; }
+  .hint { font: 400 12px/1.5 var(--font-mono); color: var(--muted); margin: 0; }
+
+  /* Edition */
+  .edition-head { display: flex; flex-direction: column; gap: 8px; margin-bottom: 32px; }
+  .stamp { font: 500 13px/1 var(--font-mono); color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; }
+  .edition-head h1 {
+    font: 700 clamp(32px, 4.4vw, 52px)/1.05 var(--font-display);
+    letter-spacing: -0.03em;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .intro { color: var(--muted); font-size: 19px; margin: 0; max-width: 62ch; }
+
+  .stories { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+  .story {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .story.lead { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+  /* Un nombre impair de cartes sous la une : la dernière prend toute la largeur au lieu de rester seule. */
+  .story:last-child:nth-child(even) { grid-column: 1 / -1; }
+  .media { aspect-ratio: 16 / 9; background: var(--accent-soft); position: relative; overflow: hidden; max-width: 100%; }
+  .story.lead .media { aspect-ratio: auto; min-height: 320px; }
+  .media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .media .placeholder {
+    position: absolute; inset: 0;
+    display: flex; align-items: flex-end;
+    padding: 20px;
+    font: 700 clamp(22px, 3vw, 34px)/1.05 var(--font-display);
+    letter-spacing: -0.02em;
+    color: var(--accent);
+    background:
+      repeating-linear-gradient(135deg, transparent 0 18px, color-mix(in srgb, var(--accent) 10%, transparent) 18px 19px),
+      var(--accent-soft);
+  }
+  .body { padding: 22px 24px 24px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+  .meta { display: flex; align-items: center; gap: 10px; font: 500 12px/1 var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .rank { color: var(--accent); }
+  .story h3 { font: 700 23px/1.2 var(--font-display); letter-spacing: -0.015em; margin: 0; text-wrap: balance; }
+  .story.lead h3 { font-size: 30px; }
+  .story p { margin: 0; }
+  .why { background: var(--accent-soft); border-radius: 10px; padding: 12px 14px; font-size: 16px; }
+  .why b { font-family: var(--font-display); font-weight: 700; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
+  .links a {
+    font: 500 14px/1 var(--font-display);
+    text-decoration: none;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 9px 14px;
+    color: var(--ink);
+  }
+  .links a:hover { border-color: var(--accent); color: var(--accent); }
+  .lang { font: 500 11px/1 var(--font-mono); color: var(--muted); margin-left: 4px; }
+
+  .quick { margin-top: 40px; border-top: 1px solid var(--line); padding-top: 24px; }
+  .quick h2 { font: 700 22px/1 var(--font-display); margin: 0 0 14px; }
+  .quick ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; }
+  .quick li { display: flex; gap: 12px; align-items: baseline; }
+  .quick li::before { content: "→"; color: var(--accent); font-family: var(--font-mono); }
+
+  .empty { color: var(--muted); }
+  footer { margin-top: 48px; color: var(--muted); font: 400 12px/1.5 var(--font-mono); }
+
+  @media (max-width: 860px) {
+    .shell { grid-template-columns: minmax(0, 1fr); gap: 28px; padding-top: 24px; }
+    .rail { position: static; }
+    .archive { flex-direction: row; overflow-x: auto; max-height: none; padding-bottom: 4px; }
+    .archive button { white-space: nowrap; }
+    .hint { display: none; }
+    .stories { grid-template-columns: minmax(0, 1fr); }
+    .story.lead { grid-template-columns: minmax(0, 1fr); }
+    .story.lead .media { aspect-ratio: 16 / 9; min-height: 0; }
+    .story.lead h3 { font-size: 25px; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .story { animation: rise 0.4s ease both; }
+    .story:nth-child(2) { animation-delay: 0.05s; }
+    .story:nth-child(3) { animation-delay: 0.1s; }
+    .story:nth-child(4) { animation-delay: 0.15s; }
+    .story:nth-child(5) { animation-delay: 0.2s; }
+    @keyframes rise { from { transform: translateY(8px); } to { transform: none; } }
+  }
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="rail">
+    <div>
+      <p class="brand">Brief <span>IA</span></p>
+      <p class="brand-sub">Les 10 actus IA du jour, chaque matin à 9h.</p>
+    </div>
+    <nav aria-label="Archives">
+      <h2>Éditions</h2>
+      <ul class="archive" id="archive"></ul>
+    </nav>
+    <p class="hint">← → pour changer de jour</p>
+  </aside>
+
+  <main id="edition">
+    <p class="empty">Aucune édition pour l'instant. La première arrive à 9h.</p>
+  </main>
+</div>
+
+<script src="editions.js"></script>
+<script>
+  const editions = window.EDITIONS || [];
+  const archive = document.getElementById("archive");
+  const editionRoot = document.getElementById("edition");
+  let currentIndex = 0;
+
+  const longDate = (iso) =>
+    new Date(iso + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+  const shortDate = (iso) =>
+    new Date(iso + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" });
+
+  function el(tag, attrs = {}, children = []) {
+    const node = document.createElement(tag);
+    for (const [key, value] of Object.entries(attrs)) {
+      if (key === "text") node.textContent = value;
+      else node.setAttribute(key, value);
+    }
+    for (const child of [].concat(children)) if (child) node.append(child);
+    return node;
+  }
+
+  function linkPill(link) {
+    return el("a", { href: link.url, target: "_blank", rel: "noopener" }, [
+      "Lire sur " + link.label,
+      link.lang ? el("span", { class: "lang", text: link.lang }) : null,
+    ]);
+  }
+
+  function renderMedia(story) {
+    const media = el("div", { class: "media" });
+    const placeholder = el("div", { class: "placeholder", text: story.category });
+    if (story.image) {
+      const img = el("img", { src: story.image, alt: "", loading: "lazy", referrerpolicy: "no-referrer" });
+      img.addEventListener("error", () => img.replaceWith(placeholder));
+      media.append(img);
+    } else {
+      media.append(placeholder);
+    }
+    return media;
+  }
+
+  function renderStory(story, index) {
+    return el("article", { class: "story" + (index === 0 ? " lead" : "") }, [
+      renderMedia(story),
+      el("div", { class: "body" }, [
+        el("div", { class: "meta" }, [
+          el("span", { class: "rank", text: "#" + (index + 1) }),
+          el("span", { text: story.category }),
+        ]),
+        el("h3", { text: story.title }),
+        el("p", { text: story.summary }),
+        story.why ? el("p", { class: "why" }, [el("b", { text: (story.whyLabel || "Pourquoi c'est important") + " : " }), story.why]) : null,
+        el("div", { class: "links" }, (story.links || []).map(linkPill)),
+      ]),
+    ]);
+  }
+
+  function renderEdition(index) {
+    currentIndex = index;
+    const edition = editions[index];
+    editionRoot.replaceChildren(
+      el("header", { class: "edition-head" }, [
+        el("span", { class: "stamp", text: index === 0 ? "Édition du jour" : "Archive" }),
+        el("h1", { text: longDate(edition.date).replace(/^./, (c) => c.toUpperCase()) }),
+        edition.intro ? el("p", { class: "intro", text: edition.intro }) : null,
+      ]),
+      el("section", { class: "stories" }, edition.stories.map(renderStory)),
+      edition.quick && edition.quick.length
+        ? el("section", { class: "quick" }, [
+            el("h2", { text: "En vitesse" }),
+            el("ul", {}, edition.quick.map((item) =>
+              el("li", {}, [el("span", {}, [item.text + " ", el("a", { href: item.url, target: "_blank", rel: "noopener", text: "Lire" + (item.lang ? " (" + item.lang + ")" : "") })])])
+            )),
+          ])
+        : null,
+      el("footer", { text: "Résumés rédigés par Claude à partir des articles liés. Vérifiez les détails à la source." }),
+    );
+    archive.querySelectorAll("button").forEach((button, i) => button.setAttribute("aria-current", String(i === index)));
+    document.title = "Brief IA · " + shortDate(edition.date);
+    window.scrollTo({ top: 0 });
+  }
+
+  if (editions.length) {
+    editions.forEach((edition, index) => {
+      const button = el("button", { type: "button" }, [
+        shortDate(edition.date).replace(/^./, (c) => c.toUpperCase()),
+        el("small", { text: edition.stories.length + " actus" }),
+      ]);
+      button.addEventListener("click", () => renderEdition(index));
+      archive.append(el("li", {}, button));
+    });
+    renderEdition(0);
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight" && currentIndex > 0) renderEdition(currentIndex - 1);
+      if (event.key === "ArrowLeft" && currentIndex < editions.length - 1) renderEdition(currentIndex + 1);
+    });
+  }
+</script>
+</body>
+</html>
