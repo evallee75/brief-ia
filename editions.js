@@ -1,5 +1,173 @@
 window.EDITIONS = [
  {
+  "date": "2026-10-25",
+  "intro": "Grok et ChatGPT ne votent pas pour les mêmes candidats, Tesla lance son robot Optimus, et Uber donne ChatGPT à tous ses salariés.",
+  "stories": [
+   {
+    "category": "Politique",
+    "title": "Voter pour qui ? Grok choisit la droite, ChatGPT la gauche",
+    "summary": "Une étude menée sur près de 500 élections américaines de mi-mandat montre que Grok (xAI) recommande le candidat républicain dans 92 % des cas, tandis que le modèle d'OpenAI choisit le démocrate dans 97 % des cas. Les deux IA sont d'accord moins d'une fois sur dix.",
+    "whyLabel": "À savoir",
+    "why": "Le test forçait l'IA à nommer un candidat via l'API ; les applications grand public refusent de le faire, et OpenAI estime que ce n'est pas un usage typique.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1777713346.jpg?resize=1200,900",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Robots",
+    "title": "Tesla lance la production de son robot Optimus, mais ses bénéfices chutent de 43 %",
+    "summary": "Tesla fabrique désormais son robot humanoïde Optimus dans son usine de Fremont, en Californie. Elon Musk parle de « production précoce » et vise 20 000 robots par semaine fin 2027. Au troisième trimestre, le bénéfice net a reculé de 43 %, à 787 millions de dollars, pesé par les dépenses en IA.",
+    "whyLabel": "Le contexte",
+    "why": "Tesla a aussi repoussé de nouveau son logiciel de conduite entièrement autonome : les premiers véhicules de clients pourraient rejoindre une flotte de robotaxis vers le deuxième trimestre 2027.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/04/tesla-opitmus-Getty.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Entreprise",
+    "title": "Uber donne ChatGPT Work à ses 30 000 salariés",
+    "summary": "Uber étend son partenariat avec OpenAI : tous ses quelque 30 000 employés auront accès à ChatGPT Work, l'agent IA pour entreprises lancé par OpenAI en juillet. Un test auprès de 1 000 salariés a eu lieu plus tôt cette année.",
+    "whyLabel": "En bref",
+    "why": "Environ 80 % des testeurs n'étaient pas ingénieurs : l'IA au travail ne concerne plus seulement les développeurs. Uber n'a pas dévoilé le coût du déploiement.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/wayve-uber-uk.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Voix",
+    "title": "Dessa, la voix artificielle de Block qui rit et pleure",
+    "summary": "Block, l'entreprise de Jack Dorsey, dévoile Dessa, un modèle vocal capable de rire, de marquer des pauses ou de pleurer. Il peut écouter et parler en même temps, comme dans une vraie conversation, et fonctionne en local sur un ordinateur.",
+    "whyLabel": "À savoir",
+    "why": "Dessa n'est pas encore public. Block a demandé à des chercheurs en sécurité de tester le risque que des voix artificielles trompent les gens.",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/07/jack-dorsey.jpg?resize=1200,822",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Matériel",
+    "title": "Surface Laptop Ultra : un portable Microsoft qui fait tourner de gros modèles d'IA chez soi",
+    "summary": "Une prise en main du Surface Laptop Ultra, équipé d'une puce NVIDIA et de 128 Go de mémoire, montre qu'il peut faire tourner localement de grands modèles d'IA tout en restant fluide. Le testeur le juge « formidable » pour les passionnés d'IA locale.",
+    "whyLabel": "En bref",
+    "why": "Cette configuration est affichée à 5 899,99 dollars : l'IA sans passer par le cloud existe, mais c'est pour l'instant un produit haut de gamme.",
+    "image": "https://cdn.theneuron.ai/Microsoft%20Surface%20Laptop%20Ultra%20Review%20Remarkable%20Local%20AI%20Performance.png",
+    "links": [
+     {
+      "label": "The Neuron",
+      "url": "https://www.theneuron.ai/guides/microsoft-surface-laptop-ultra-review-the-local-ai-performance-is-remarkable/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Transport",
+    "title": "Des robotaxis au Kazakhstan : inDrive s'allie à Pony.ai et Nvidia",
+    "summary": "L'application de VTC inDrive a signé un accord avec Pony.ai et Nvidia pour tester des robotaxis à Astana, au Kazakhstan, au premier semestre 2027. Un opérateur de sécurité sera d'abord à bord, l'objectif à long terme étant des trajets sans conducteur.",
+    "whyLabel": "Le contexte",
+    "why": "inDrive prépare aussi un projet de robotaxis en Arabie saoudite avec WeRide : les voitures autonomes s'étendent bien au-delà des États-Unis et de la Chine.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/indrive-pony-ai-kazakhstan.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Recherche",
+    "title": "Livrées à elles-mêmes sur une île virtuelle, 13 IA se sont mises à jouer",
+    "summary": "Des chercheurs du MIT ont laissé 13 agents IA sur une île désertique simulée pendant 30 heures. Ils ont inventé des jeux, et ceux qui avaient exploré l'île se sont ensuite montrés plus efficaces sur des défis précis que des IA sans cette expérience.",
+    "whyLabel": "Le contexte",
+    "why": "Une chercheuse de Berkeley est impressionnée mais rappelle que l'étude ne prouve pas que les IA « jouaient » vraiment.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-at-5.42.44-PM.png?resize=1200,590",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Le cimetière de l'IA : Character.ai en faillite, Sora fermé",
+    "summary": "TechCrunch tient la liste des projets d'IA qui ont échoué. Character.ai a déposé le bilan début octobre, OpenAI a fermé son application vidéo Sora en mars 2026 car elle coûtait cher, et l'outil Relay a disparu en août face aux géants.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Malgré l'euphorie, tous les projets ne survivent pas : coûts élevés, pression réglementaire et concurrence des grandes plateformes pèsent lourd.",
+    "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Usages",
+    "title": "24 assistants IA que l'on peut simplement contacter par SMS",
+    "summary": "TechCrunch recense 24 agents IA joignables par iMessage, SMS, WhatsApp ou Telegram, sans application à installer. Certains gèrent agenda, e-mails et réservations ; d'autres aident les familles à organiser calendriers, corvées et repas, ou préparent des voyages.",
+    "whyLabel": "En bref",
+    "why": "Un des agents fait tourner son modèle uniquement sur l'appareil de l'utilisateur, pour mieux protéger sa vie privée.",
+    "image": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Science",
+    "title": "Un problème de maths ouvert depuis 31 ans résolu avec l'aide d'agents IA",
+    "summary": "Microsoft Research annonce que Xinzhi Zhang et Zhao Song ont démontré la conjecture KLS, un problème de géométrie ouvert depuis 31 ans. Des agents IA ont exploré plus de 100 pistes, les chercheurs choisissant les idées à suivre et vérifiant la preuve finale.",
+    "whyLabel": "À savoir",
+    "why": "Deux autres équipes ont publié des preuves indépendantes, et une vérification informatique confirme une version du résultat.",
+    "image": "https://www.unite.ai/wp-content/uploads/2026/10/microsoft-researcher-collaborator-prove-kls-conjecture.jpg",
+    "links": [
+     {
+      "label": "Unite.AI",
+      "url": "https://www.unite.ai/microsoft-researcher-and-collaborator-prove-31-year-old-kls-conjecture/",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "OpenAI ouvre à tous son API « Decisions », un modèle ultra-rapide (100 à 180 millisecondes) qui choisit entre plusieurs options ; Box, Datadog ou Ramp l'ont testé.",
+    "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+    "lang": "EN"
+   },
+   {
+    "text": "L'application Muse de Meta atteint 10 millions de téléchargements aux États-Unis en 40 jours, un cap que seules 11 autres applications ont franchi.",
+    "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+    "lang": "EN"
+   }
+  ]
+ },
+ {
   "date": "2026-10-24",
   "intro": "Le gouvernement suédois ferme la porte à ChatGPT, Google assouplit ses règles sur les pubs, et l'IA fait grimper le prix des ordinateurs.",
   "stories": [
