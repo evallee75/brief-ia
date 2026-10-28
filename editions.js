@@ -1,5 +1,178 @@
 window.EDITIONS = [
  {
+  "date": "2026-10-28",
+  "intro": "Microsoft propose un plan de départs volontaires à environ 60 000 salariés pendant qu'il dépense massivement dans l'IA, et OpenAI envisagerait d'acheter des puces de Google.",
+  "stories": [
+   {
+    "category": "Travail",
+    "title": "Microsoft propose des départs volontaires à environ 60 000 salariés",
+    "summary": "Selon Reuters, qui reprend Business Insider, Microsoft offre des indemnités de départ volontaire à environ 60 000 employés éligibles aux États-Unis, au Canada, au Royaume-Uni et en Inde. Cela représente plus d'un quart de ses effectifs mondiaux, alors que l'entreprise augmente ses dépenses en centres de données et en services d'IA.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Cela montre comment les géants de la tech réorientent leur argent et leurs équipes vers l'IA.",
+    "image": "",
+    "links": [
+     {
+      "label": "Reuters",
+      "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "OpenAI prévoirait d'acheter des puces d'IA de Google",
+    "summary": "D'après The Information, repris par Reuters, OpenAI prévoit d'acheter des puces TPU de Google en plus de ses puces Nvidia. Les conditions et les volumes ne sont pas connus et aucune des deux entreprises n'a confirmé. OpenAI loue déjà des TPU.",
+    "whyLabel": "À savoir",
+    "why": "Les grands acteurs de l'IA cherchent à ne plus dépendre d'un seul fournisseur de puces, devenues très chères et rares.",
+    "image": "",
+    "links": [
+     {
+      "label": "Reuters",
+      "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Anthropic étend son accord avec l'administration américaine, avec 40 % de réduction",
+    "summary": "L'accord d'Anthropic avec l'agence d'achats de l'État fédéral américain (GSA) couvre désormais aussi les États et les collectivités locales, avec 40 % de remise sur ses offres Claude. Anthropic estime l'économie à 1 milliard de dollars et indique qu'environ 500 organisations publiques américaines utilisent Claude.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les administrations deviennent de gros clients de l'IA, ce qui renforce la concurrence entre les entreprises du secteur pour ces contrats.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+    "links": [
+     {
+      "label": "Anthropic",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Travail",
+    "title": "Les Pays-Bas prévoient de supprimer 25 000 postes de fonctionnaires, en comptant sur l'IA",
+    "summary": "Selon Semafor, le gouvernement néerlandais veut supprimer 25 000 emplois publics, soit plus de 15 % de ses effectifs, en s'appuyant sur des économies attendues grâce à l'IA.",
+    "whyLabel": "Le contexte",
+    "why": "C'est un exemple concret d'un État qui compte sur l'IA pour réduire ses effectifs.",
+    "image": "https://img.semafor.com/f6d0e122cafd43362e6f64e67e12b05ad4b25233-6000x4000.jpg?rect=0,425,6000,3150&w=1200&h=630&q=75&auto=format",
+    "links": [
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/10/27/2026/netherlands-to-slash-state-jobs-as-part-of-ai-related-savings",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Apple ajoute un assistant IA à Pages, Keynote et Numbers",
+    "summary": "L'assistant peut rédiger et réviser des documents, travailler sur des présentations et analyser des tableaux. macOS 27 ajoutera la prise en charge du protocole MCP, pour que des agents IA tiers puissent se connecter à ces applications.",
+    "whyLabel": "En bref",
+    "why": "L'IA arrive dans des logiciels de bureautique que beaucoup de gens utilisent déjà au quotidien.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Apple-Creator-Studio-intelligent-assistant-in-Keynote-on-iPad-Pro-261027_big.jpg.large_2x.jpg?quality=90&strip=all&crop=0%2C10.727975106345%2C100%2C78.54404978731&w=1200",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Google DeepMind présente Genie 4, un modèle qui simule des mondes interactifs",
+    "summary": "Genie 4 génère des mondes dans lesquels on peut agir en temps réel, avec du son intégré, des mouvements humains plus naturels et une simulation de la physique. L'accès est d'abord réservé à des testeurs de confiance, puis prévu pour les abonnés Google AI Ultra.",
+    "whyLabel": "En bref",
+    "why": "Ces mondes simulés servent à imaginer de futurs jeux, des outils créatifs et des environnements d'entraînement pour des robots.",
+    "image": "",
+    "links": [
+     {
+      "label": "Google DeepMind",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "Cloudflare reconnaît que des clients ont reçu les données d'autres clients",
+    "summary": "Une erreur de configuration a déclenché un bogue dans son service d'IA Workers AI : certaines longues requêtes ont reçu des données en cache appartenant à d'autres clients. Cloudflare a compté 155 réponses touchées entre le 27 août et le 9 septembre, sans trace d'exploitation volontaire, et dit avoir corrigé le problème.",
+    "whyLabel": "À savoir",
+    "why": "Quand plusieurs clients partagent les mêmes machines d'IA, une erreur peut mélanger leurs informations.",
+    "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png",
+    "links": [
+     {
+      "label": "Cloudflare",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "La désinformation par IA se répand avant les élections américaines de mi-mandat",
+    "summary": "Selon The Guardian, les outils d'IA permettent de produire à très bas coût de nombreuses versions d'une même fausse information. La réduction des équipes de modération et une surveillance plus faible dans des langues comme l'espagnol compliquent les corrections.",
+    "whyLabel": "Le contexte",
+    "why": "À l'approche du vote, il devient plus difficile de distinguer le vrai du faux sur les réseaux sociaux.",
+    "image": "https://i.guim.co.uk/img/media/d68f11cd3f15233005d45b70d00a9d9862b743ac/433_0_4332_3466/master/4332.jpg?width=1200&height=630&quality=85&auto=format&fit=crop",
+    "links": [
+     {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/27/ai-disinformation-social-media-midterm-elections",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Vie privée",
+    "title": "Google précise comment vos données Gmail, Drive et Photos peuvent alimenter ses fonctions d'IA",
+    "summary": "Une mise à jour de la politique de confidentialité, en vigueur depuis le 16 octobre, explique que des données de Gmail, Drive et Photos peuvent servir à des fonctions de personnalisation facultatives comme Personal Intelligence. Google affirme que cela ne revient pas à analyser toutes les boîtes mail pour la publicité ni à transmettre les données aux annonceurs.",
+    "whyLabel": "À savoir",
+    "why": "La fonction semble indisponible dans l'Espace économique européen, en Suisse et au Royaume-Uni.",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg",
+    "links": [
+     {
+      "label": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Santé",
+    "title": "Anthropic présente ses premiers résultats dans la recherche de médicaments",
+    "summary": "Les résultats viennent de six partenariats, dont un projet avec BigHat Biosciences qui a testé environ 1 010 variantes d'anticorps conçues avec l'aide de Claude. Anthropic a aussi présenté ses propres programmes sur des maladies musculaires rares de l'enfant. La plupart des travaux sont encore au stade préclinique.",
+    "whyLabel": "Le contexte",
+    "why": "Aucun médicament n'est encore concerné : le premier essai sur l'humain est envisagé au plus tôt fin 2028.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6a50f5ba4c0931f8d2c411f26d860955c1efeae7-1200x630.jpg",
+    "links": [
+     {
+      "label": "Anthropic",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Opera lance WebAI, un standard de navigateur qui fait tourner des modèles d'IA directement sur l'ordinateur de l'utilisateur, en préversion dans Opera One.",
+    "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+    "lang": "EN"
+   },
+   {
+    "text": "Les applications Oracle arrivent dans ChatGPT : les employés peuvent accéder aux données Oracle autorisées et lancer des tâches d'entreprise depuis le chatbot.",
+    "url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+    "lang": "EN"
+   },
+   {
+    "text": "Ant Group lance LingGuang 2.0, un assistant avec mémoire durable qui peut, avec permission, suivre des prix de voyage ou repérer des abonnements dans vos factures Alipay.",
+    "url": "https://technode.com/2026/10/27/ant-launches-lingguang-2-0-ai-assistant-for-ongoing-personal-tasks/",
+    "lang": "EN"
+   }
+  ]
+ },
+ {
   "date": "2026-10-27",
   "intro": "Anthropic dépose son dossier de mise en Bourse et révèle avoir mis en pause l'entraînement de son prochain grand modèle, pendant que SpaceX sécurise 40 milliards de dollars pour ses puces d'IA.",
   "stories": [
