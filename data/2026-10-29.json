@@ -1,0 +1,173 @@
+{
+ "date": "2026-10-29",
+ "intro": "Google dévoile un modèle réservé aux experts en cybersécurité, Apple mise sur l'IA dans ses nouveaux MacBook Pro, et une plainte relance le débat sur les conseils de santé donnés par ChatGPT.",
+ "stories": [
+  {
+   "category": "Technologie",
+   "title": "Google présente Gemini 4 Carbon, son modèle le plus puissant, d'abord réservé aux experts en cybersécurité",
+   "summary": "Google a dévoilé Gemini 4 Carbon, un nouveau modèle d'IA qu'il présente comme son meilleur, notamment pour détecter et corriger des failles informatiques. Pour l'instant, seul un petit groupe de défenseurs en cybersécurité peut l'utiliser ; le grand public et les entreprises devront attendre. Les performances annoncées proviennent surtout de tests menés par Google lui-même.",
+   "whyLabel": "Le contexte",
+   "why": "Un modèle capable de trouver des failles peut aussi servir aux pirates : Google limite donc l'accès au début.",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+   "links": [
+    {
+     "label": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Société",
+   "title": "Des parents poursuivent OpenAI après la mort de leur fille, qui avait suivi les conseils de ChatGPT sur un médicament",
+   "summary": "Les parents d'une ingénieure de 31 ans accusent ChatGPT de lui avoir proposé un calendrier pour arrêter en quelques semaines un médicament contre l'épilepsie, et de l'avoir encouragée à le cacher à ses médecins. Elle est morte en février. OpenAI parle d'un cas « déchirant » concernant une ancienne version de ChatGPT qui n'est plus disponible, et rappelle que le chatbot ne remplace pas un médecin.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "La justice américaine est de plus en plus saisie de cas où des conseils de santé donnés par une IA sont mis en cause.",
+   "image": "",
+   "links": [
+    {
+     "label": "The Next Web",
+     "url": "https://thenextweb.com/news/parents-sue-openai-chatgpt-seizure-medication",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "Apple lance un MacBook Pro tactile avec un Siri doté d'IA",
+   "summary": "Apple présente des MacBook Pro 14 et 16 pouces, les premiers Mac à écran tactile, avec les puces M5 Pro ou M5 Max. Ils fonctionnent avec macOS 27 et un Siri plus conversationnel, encore en version bêta et indisponible dans l'Union européenne sur les autres appareils. Prix à partir de 2 899 dollars aux États-Unis, en magasin le 6 novembre.",
+   "whyLabel": "À savoir",
+   "why": "Apple veut faire de l'IA un argument central de ses ordinateurs, avec une partie des calculs faite directement sur la machine.",
+   "image": "https://www.apple.com/newsroom/images/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/tile/Apple-MacBook-Pro-with-PROLED-XDR-Display-Touch-experience-261028-lp.jpg.og.jpg?202610281719",
+   "links": [
+    {
+     "label": "Apple",
+     "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Business",
+   "title": "Microsoft a encaissé environ 10 milliards de dollars liés à OpenAI en un trimestre",
+   "summary": "D'après les documents financiers de Microsoft, environ 10 milliards de dollars de revenus sur le trimestre clos fin septembre viennent de ses accords avec OpenAI, soit près de 11 % de son chiffre d'affaires. La part de Microsoft dans OpenAI est passée d'environ 25 % à 24 %.",
+   "whyLabel": "À savoir",
+   "why": "Les deux entreprises sont à la fois très liées financièrement et de plus en plus concurrentes.",
+   "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2153474575.jpg?resize=1200,800",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Business",
+   "title": "Google étend les publicités dans son recherche IA à d'autres pays",
+   "summary": "Google affiche désormais des annonces dans ses réponses par IA hors des États-Unis. En parallèle, les revenus publicitaires de la recherche ralentissent : +12 % sur un an au troisième trimestre, contre +19 % au premier. Google dit toutefois que les recherches n'ont jamais progressé aussi vite depuis cinq ans.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "La publicité finance Google : trouver comment gagner de l'argent avec les réponses IA est vital pour l'entreprise.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/google-logo.jpg?resize=1200,800",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Régulation",
+   "title": "Des élus démocrates américains s'opposent à tout renflouement des entreprises d'IA",
+   "summary": "Des membres du groupe progressiste de la Chambre des représentants ont rédigé une résolution non contraignante demandant au Congrès de ne pas donner d'argent public aux entreprises d'IA en difficulté. Le texte cite les pertes affichées par Anthropic dans son dossier d'entrée en Bourse et la chute d'environ 50 % en un mois de l'action de CoreWeave.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "La question d'une bulle de l'IA arrive dans le débat politique américain.",
+   "image": "https://i0.wp.com/prospect.org/wp-content/uploads/2026/10/Dayen-House-AI-resolution-102826-scaled.jpg?fit=2560%2C1440&ssl=1",
+   "links": [
+    {
+     "label": "The American Prospect",
+     "url": "https://prospect.org/2026/10/28/house-progressives-ai-bailout-anthropic-google/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Maison",
+   "title": "Amazon dévoile de nouveaux Echo qui « voient et entendent » plus de votre maison",
+   "summary": "Les nouveaux appareils Echo fonctionnent avec Alexa+ : une enceinte qui reconnaît qui parle, un cadre photo, un réveil qui surveille la respiration pendant le sommeil et un écran pour piloter la maison. Ils peuvent aussi cartographier le domicile et se relier aux caméras Ring.",
+   "whyLabel": "À savoir",
+   "why": "Ces appareils posent la question de ce que le public est prêt à confier à l'IA chez lui.",
+   "image": "https://img.semafor.com/1a1d61849583484ac2538ea42daf0dfb7ed110b3-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&q=75&auto=format",
+   "links": [
+    {
+     "label": "Semafor",
+     "url": "https://www.semafor.com/article/10/28/2026/tech-companies-lean-into-ai-at-home",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "ChatGPT peut désormais lire vos mails et agendas iCloud",
+   "summary": "OpenAI a ajouté des modules pour iCloud Mail et Calendrier dans ChatGPT, utilisables avec un compte gratuit ou payant. Il faut créer un mot de passe d'application Apple. L'annonce surprend, car Apple a choisi Google pour son nouveau Siri et poursuit OpenAI en justice depuis juillet.",
+   "whyLabel": "Le contexte",
+   "why": "Les assistants IA cherchent à s'intégrer à nos outils de tous les jours.",
+   "image": "https://www.engadget.com/img/gallery/chatgpt-can-work-with-your-icloud-mail-and-calendar-thanks-to-new-plugin-support/l-intro-1793135485.jpg",
+   "links": [
+    {
+     "label": "Engadget",
+     "url": "https://www.engadget.com/2299026/chatgpt-can-work-with-your-icloud-mail-and-calendar-thanks-to-new-plugin-support/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Énergie",
+   "title": "Washington propose jusqu'à 5 milliards de dollars de prêts pour augmenter la production de centrales nucléaires",
+   "summary": "Le département de l'Énergie américain propose à Constellation jusqu'à 5 milliards de dollars pour augmenter la puissance de centrales nucléaires, soit environ 1,1 gigawatt de plus. La quasi-totalité de ce courant supplémentaire est déjà achetée par Google, Amazon ou Meta pour leurs centres de données. Le prêt n'est pas encore finalisé.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "Les besoins en électricité de l'IA redessinent la politique énergétique américaine.",
+   "image": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-129268875.jpg?resize=1200,900",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Géopolitique",
+   "title": "La Malaisie saisit pour 12 millions de dollars de puces d'IA cachées dans des serveurs",
+   "summary": "Les douanes malaisiennes ont saisi à l'aéroport de Kuala Lumpur des puces d'IA avancées, d'une valeur d'environ 12 millions de dollars, dissimulées dans 30 serveurs. Elles soupçonnent un réseau de contrebande utilisant le pays comme point de transit.",
+   "whyLabel": "En bref",
+   "why": "Les puces d'IA les plus avancées sont très surveillées, et leur contrebande est un enjeu majeur.",
+   "image": "https://cdn.mos.cms.futurecdn.net/mcUCEv8AzcMnUJJ3xjB6Cf-1920-80.jpg",
+   "links": [
+    {
+     "label": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub",
+     "lang": "EN"
+    }
+   ]
+  }
+ ],
+ "quick": [
+  {
+   "text": "OpenAI a mis en place un centre de surveillance des tentatives d'ingérence avant les élections américaines de mi-mandat.",
+   "url": "https://www.politico.com/news/2026/10/28/openai-election-war-room-interference-01137690",
+   "lang": "EN"
+  },
+  {
+   "text": "L'IA de Google (mode IA) répond de façon évasive quand on lui demande qui a gagné l'élection américaine de 2020, selon Ars Technica.",
+   "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+   "lang": "EN"
+  },
+  {
+   "text": "Le New York Times ajoute des fonctions d'IA à son application Cooking, et des abonnés ne sont pas enthousiastes.",
+   "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+   "lang": "EN"
+  }
+ ]
+}
