@@ -1,7 +1,8 @@
 # Instructions de l'édition quotidienne
 
-Tu prépares l'édition du jour du « Brief IA », une page web d'actualité IA en français publiée
-via GitHub Pages depuis ce dépôt (branche `main`).
+Tu prépares l'édition du jour du « Brief IA », une page web d'actualité en français publiée
+via GitHub Pages depuis ce dépôt (branche `main`). Elle comporte deux volets : **IA** (étapes 2 à 5)
+et **Bourse** (étape 6).
 
 1. Détermine la date du jour à Paris avec `TZ=Europe/Paris date +%F` (appelée DATE ci-dessous).
    Si `data/DATE.json` existe déjà, arrête-toi : rien à faire.
@@ -29,7 +30,28 @@ via GitHub Pages depuis ce dépôt (branche `main`).
      (« Pourquoi c'est important », « En bref », « À savoir » ou « Le contexte »), `why`
      (1-2 phrases), `image`, `links` (liste de `{label, url, lang}`)
    - `quick` : liste de `{text, url, lang}`
-7. Lance `python3 build.py` pour régénérer `editions.js`.
-8. Commite `data/DATE.json` et `editions.js` avec le message `Brief IA du DATE`, puis pousse
+   - `markets` : le volet Bourse, décrit à l'étape suivante
+7. **Volet Bourse.** Priorité aux marchés US et à la tech (Nasdaq d'abord, puis S&P 500), puis
+   les mouvements majeurs en Europe et en Asie.
+   - Lance `python3 fetch_markets.py` : il renvoie `indices` et `stocks` (dernières clôtures et
+     variations, source Yahoo Finance). Recopie-les tels quels dans `markets.indices` et
+     `markets.stocks`, sans jamais modifier ni inventer un chiffre. Si le script échoue, mets des
+     listes vides plutôt que des valeurs approximatives. Le script met aussi à jour
+     `market_history.js` (historique 5 ans du graphique Nasdaq / S&P 500 / CAC 40 / émergents) :
+     n'y touche pas à la main.
+   - Cherche sur le web l'actualité boursière de la dernière séance (Reuters, CNBC, Bloomberg,
+     Les Echos, Boursorama, Zonebourse, Nikkei Asia...) : ce qui a fait bouger le Nasdaq et le
+     S&P 500 (résultats des géants de la tech, Fed, inflation, emploi, taux), les plus fortes
+     hausses et baisses tech, puis les faits marquants en Europe et en Asie.
+   - `markets.intro` : une ou deux phrases qui résument la séance US (sens du Nasdaq et du
+     S&P 500, et pourquoi).
+   - `markets.stories` : **5 à 6 actus**, même structure que les `stories` du volet IA ;
+     `category` parmi « Nasdaq », « S&P 500 », « Tech US », « Macro / Fed », « Europe », « Asie ».
+     Au moins 3 actus sur les US. Mets la plus marquante en premier. Langage simple, pas de
+     conseil d'investissement.
+   - `markets.quick` : 2 ou 3 brèves, même structure que `quick`.
+   - Les règles des étapes 4 et 5 s'appliquent aussi (image `og:image`, français, sources vérifiées).
+8. Lance `python3 build.py` pour régénérer `editions.js`.
+9. Commite `data/DATE.json`, `editions.js` et `market_history.js` avec le message `Brief IA du DATE`, puis pousse
    directement sur `main` (pas de branche, pas de pull request) : c'est ce qui publie la page.
    Ne modifie aucun autre fichier.

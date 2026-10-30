@@ -146,6 +146,82 @@
   .quick li { display: flex; gap: 12px; align-items: baseline; }
   .quick li::before { content: "→"; color: var(--accent); font-family: var(--font-mono); }
 
+  /* Volets de l'édition (IA, Bourse...) */
+  .tabs { display: flex; gap: 8px; margin: -8px 0 28px; flex-wrap: wrap; }
+  .tabs button {
+    font: 500 15px/1 var(--font-display);
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--ink);
+    border-radius: 999px;
+    padding: 10px 18px;
+    cursor: pointer;
+  }
+  .tabs button:hover { border-color: var(--accent); color: var(--accent); }
+  .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+
+  /* Volet Bourse : tableaux de cours */
+  .up { --trend: #0f8a4a; }
+  .down { --trend: #c62f3a; }
+  @media (prefers-color-scheme: dark) { .up { --trend: #4cd38a; } .down { --trend: #ff7a85; } }
+  .board { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; margin-bottom: 28px; }
+  .tile { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; }
+  .tile.featured { border-color: var(--accent); }
+  .tile .region { font: 500 11px/1 var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .tile .name { font: 700 16px/1.2 var(--font-display); }
+  .tile .value { font: 500 20px/1.1 var(--font-mono); }
+  .tile .change { font: 500 14px/1 var(--font-mono); color: var(--trend, var(--muted)); }
+  .tile .session { font: 400 11px/1 var(--font-mono); color: var(--muted); }
+  .section-title { font: 700 22px/1 var(--font-display); margin: 0 0 14px; }
+
+  /* Graphique de performance des indices (couleurs : palette catégorielle validée, clair / sombre) */
+  .chart-card {
+    --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-4: #eda100;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    padding: 20px 22px 16px; margin-bottom: 28px; display: flex; flex-direction: column; gap: 14px;
+    min-width: 0;
+  }
+  .chart-card > * { min-width: 0; }
+  @media (prefers-color-scheme: dark) {
+    .chart-card { --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500; }
+  }
+  .chart-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .chart-top h2 { margin: 0; }
+  .chart-sub { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+  .periods { display: flex; gap: 4px; flex-wrap: wrap; }
+  .periods button {
+    font: 500 13px/1 var(--font-mono); border: 1px solid var(--line); background: none; color: var(--ink);
+    border-radius: 999px; padding: 7px 11px; cursor: pointer;
+  }
+  .periods button:hover { border-color: var(--accent); }
+  .periods button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; font: 500 14px/1 var(--font-display); }
+  .legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .swatch { width: 14px; height: 3px; border-radius: 2px; background: var(--c); display: inline-block; flex: none; }
+  .plot { position: relative; }
+  .plot svg { display: block; width: 100%; overflow: visible; }
+  .plot .grid { stroke: var(--line); stroke-width: 1; }
+  .plot .zero { stroke: var(--muted); stroke-width: 1; }
+  .plot .tick { fill: var(--muted); font: 400 11px var(--font-mono); }
+  .plot .end-label { fill: var(--ink); font: 500 12px var(--font-mono); }
+  .plot .crosshair { stroke: var(--muted); stroke-width: 1; }
+  .plot .hover-dot { stroke: var(--surface); stroke-width: 2; }
+  .tooltip {
+    position: absolute; top: 0; pointer-events: none; background: var(--surface); border: 1px solid var(--line);
+    border-radius: 10px; padding: 10px 12px; box-shadow: 0 6px 20px rgb(0 0 0 / 0.12);
+    font: 400 12px/1.5 var(--font-mono); min-width: 250px; z-index: 2;
+  }
+  .tooltip b { font-family: var(--font-display); font-size: 13px; display: block; margin-bottom: 4px; }
+  .tooltip div { display: flex; align-items: center; gap: 8px; }
+  .tooltip .pct { margin-left: auto; font-weight: 500; }
+  .perf-table { width: 100%; border-collapse: collapse; font: 400 13px/1.3 var(--font-mono); }
+  .perf-table th, .perf-table td { padding: 8px 6px; text-align: right; border-top: 1px solid var(--line); white-space: nowrap; }
+  .perf-table th:first-child, .perf-table td:first-child { text-align: left; }
+  .perf-table thead th { color: var(--muted); font-weight: 500; border-top: 0; }
+  .perf-table td:first-child { font-family: var(--font-display); font-weight: 500; }
+  .perf-table .name { display: inline-flex; align-items: center; gap: 8px; }
+  .table-scroll { overflow-x: auto; }
+
   .empty { color: var(--muted); }
   footer { margin-top: 48px; color: var(--muted); font: 400 12px/1.5 var(--font-mono); }
 
@@ -175,7 +251,7 @@
   <aside class="rail">
     <div>
       <p class="brand">Brief <span>IA</span></p>
-      <p class="brand-sub">Les 10 actus IA du jour, chaque matin à 9h.</p>
+      <p class="brand-sub">L'actu IA et Bourse du jour, chaque matin à 9h.</p>
     </div>
     <nav aria-label="Archives">
       <h2>Éditions</h2>
@@ -190,11 +266,19 @@
 </div>
 
 <script src="editions.js"></script>
+<script src="market_history.js"></script>
 <script>
   const editions = window.EDITIONS || [];
   const archive = document.getElementById("archive");
   const editionRoot = document.getElementById("edition");
   let currentIndex = 0;
+  let currentTab = "ai";
+  const TABS = [
+    { key: "ai", label: "IA", available: (edition) => edition.stories && edition.stories.length },
+    { key: "markets", label: "Bourse", available: (edition) => edition.markets },
+  ];
+  // Indices mis en avant en premier dans le volet Bourse.
+  const FEATURED_INDICES = ["Nasdaq Composite", "Nasdaq 100", "S&P 500"];
 
   const longDate = (iso) =>
     new Date(iso + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
@@ -247,26 +331,297 @@
     ]);
   }
 
-  function renderEdition(index) {
+  function renderQuick(quick) {
+    if (!quick || !quick.length) return null;
+    return el("section", { class: "quick" }, [
+      el("h2", { text: "En vitesse" }),
+      el("ul", {}, quick.map((item) =>
+        el("li", {}, [el("span", {}, [item.text + " ", el("a", { href: item.url, target: "_blank", rel: "noopener", text: "Lire" + (item.lang ? " (" + item.lang + ")" : "") })])])
+      )),
+    ]);
+  }
+
+  /* Graphique de performance des indices, à partir de window.MARKET_HISTORY (market_history.js). */
+  const CHART_PERIODS = [
+    { key: "1m", label: "1 mois", months: 1 },
+    { key: "3m", label: "3 mois", months: 3 },
+    { key: "6m", label: "6 mois", months: 6 },
+    { key: "ytd", label: "Depuis janv.", yearToDate: true },
+    { key: "1y", label: "1 an", months: 12 },
+    { key: "5y", label: "5 ans", months: 60 },
+  ];
+  let chartPeriod = "1y";
+  const formatPercent = (v) => (v > 0 ? "+" : "") + v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + " %";
+  const SVG_NS = "http://www.w3.org/2000/svg";
+
+  function svgEl(tag, attrs = {}) {
+    const node = document.createElementNS(SVG_NS, tag);
+    for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, value);
+    return node;
+  }
+
+  const isoDay = (date) => date.getFullYear() + "-" + String(date.getMonth() + 1).padStart(2, "0") + "-" + String(date.getDate()).padStart(2, "0");
+
+  // Indice de la séance de référence : dernière clôture avant le début de la période.
+  function baseIndex(dates, period) {
+    const last = new Date(dates[dates.length - 1] + "T12:00:00");
+    const cutoff = period.yearToDate
+      ? (last.getFullYear() - 1) + "-12-31"
+      : isoDay(new Date(last.getFullYear(), last.getMonth() - period.months, last.getDate()));
+    let index = 0;
+    for (let i = 0; i < dates.length && dates[i] <= cutoff; i++) index = i;
+    return index;
+  }
+
+  function performance(closes, from, to) {
+    if (closes[from] == null || closes[to] == null) return null;
+    return (closes[to] / closes[from] - 1) * 100;
+  }
+
+  function niceStep(range, target) {
+    const raw = range / target;
+    const magnitude = Math.pow(10, Math.floor(Math.log10(raw)));
+    return [1, 2, 2.5, 5, 10].map((m) => m * magnitude).find((step) => step >= raw);
+  }
+
+  // Historique arrêté à la veille de l'édition, pour que les archives montrent le graphique de leur jour.
+  function historyFor(editionDate) {
+    const history = window.MARKET_HISTORY;
+    if (!history || !history.dates.length) return null;
+    const end = history.dates.filter((day) => day < editionDate).length;
+    if (end < 2) return null;
+    return {
+      dates: history.dates.slice(0, end),
+      series: history.series.map((serie, i) => ({ ...serie, closes: serie.closes.slice(0, end), color: "var(--series-" + (i + 1) + ")" })),
+    };
+  }
+
+  function drawChart(plot, history) {
+    const period = CHART_PERIODS.find((p) => p.key === chartPeriod);
+    const from = baseIndex(history.dates, period);
+    const to = history.dates.length - 1;
+    const dates = history.dates.slice(from, to + 1);
+    const times = dates.map((day) => Date.parse(day + "T12:00:00Z"));
+    const lines = history.series
+      .map((serie) => ({ ...serie, values: serie.closes.slice(from, to + 1).map((close, i) => performance(serie.closes, from, from + i)) }))
+      .filter((serie) => serie.values[0] != null);
+
+    const width = Math.max(plot.clientWidth, 280);
+    const compact = width < 560;
+    const height = compact ? 260 : 340;
+    const margin = { top: 12, right: compact ? 8 : 185, bottom: 28, left: 52 };
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+
+    const allValues = lines.flatMap((serie) => serie.values.filter((v) => v != null)).concat(0);
+    const step = niceStep(Math.max(...allValues) - Math.min(...allValues) || 1, 5);
+    const yMin = Math.floor(Math.min(...allValues) / step) * step;
+    const yMax = Math.ceil(Math.max(...allValues) / step) * step;
+    const x = (t) => margin.left + ((t - times[0]) / (times[times.length - 1] - times[0] || 1)) * innerWidth;
+    const y = (v) => margin.top + (1 - (v - yMin) / (yMax - yMin)) * innerHeight;
+    const pct = formatPercent;
+
+    const svg = svgEl("svg", { viewBox: `0 0 ${width} ${height}`, height, role: "img",
+      "aria-label": "Performance en % sur " + period.label + " : " + lines.map((s) => s.name + " " + pct(s.values[s.values.length - 1])).join(", ") });
+
+    for (let v = yMin; v <= yMax + step / 2; v += step) {
+      svg.append(svgEl("line", { class: Math.abs(v) < step / 1000 ? "zero" : "grid", x1: margin.left, x2: margin.left + innerWidth, y1: y(v), y2: y(v) }));
+      const label = svgEl("text", { class: "tick", x: margin.left - 8, y: y(v) + 4, "text-anchor": "end" });
+      label.textContent = (Math.abs(v) < step / 1000 ? "0" : (v > 0 ? "+" : "") + Math.round(v * 10) / 10) + " %";
+      svg.append(label);
+    }
+
+    const shortSpan = period.months && period.months <= 3;
+    const tickCount = compact ? 3 : 6;
+    let previousTickX = -Infinity;
+    for (let k = 0; k < tickCount; k++) {
+      const i = Math.round((k / (tickCount - 1)) * (dates.length - 1));
+      // Pas de date trop proche de la précédente (périodes courtes, séances serrées).
+      if (x(times[i]) - previousTickX < 100 && k < tickCount - 1) continue;
+      previousTickX = x(times[i]);
+      const day = new Date(dates[i] + "T12:00:00");
+      const label = svgEl("text", { class: "tick", x: x(times[i]), y: height - 8, "text-anchor": k === 0 ? "start" : k === tickCount - 1 ? "end" : "middle" });
+      label.textContent = shortSpan
+        ? day.toLocaleDateString("fr-FR", { day: "numeric", month: "short" })
+        : day.toLocaleDateString("fr-FR", { month: "short", year: "2-digit" });
+      svg.append(label);
+    }
+
+    for (const serie of lines) {
+      const d = serie.values.map((v, i) => (v == null ? "" : (i === 0 ? "M" : "L") + x(times[i]).toFixed(1) + "," + y(v).toFixed(1))).join("");
+      svg.append(svgEl("path", { d, fill: "none", stroke: serie.color, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    }
+
+    // Étiquettes directes en bout de courbe, écartées si elles se chevauchent.
+    if (!compact) {
+      const labels = lines.map((serie) => ({ serie, value: serie.values[serie.values.length - 1] }))
+        .map((item) => ({ ...item, y: y(item.value) })).sort((a, b) => a.y - b.y);
+      for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + 17);
+      const overflow = labels.length ? labels[labels.length - 1].y - (margin.top + innerHeight) : 0;
+      if (overflow > 0) labels.forEach((item) => (item.y -= overflow));
+      for (const item of labels) {
+        svg.append(svgEl("circle", { cx: margin.left + innerWidth + 10, cy: item.y, r: 4, fill: item.serie.color }));
+        const text = svgEl("text", { class: "end-label", x: margin.left + innerWidth + 18, y: item.y + 4 });
+        text.textContent = item.serie.name + " " + pct(item.value);
+        svg.append(text);
+      }
+    }
+
+    // Survol : réticule vertical calé sur la séance la plus proche, et une infobulle pour toutes les séries.
+    const crosshair = svgEl("line", { class: "crosshair", y1: margin.top, y2: margin.top + innerHeight, visibility: "hidden" });
+    const dots = lines.map((serie) => svgEl("circle", { class: "hover-dot", r: 4, fill: serie.color, visibility: "hidden" }));
+    const hitArea = svgEl("rect", { x: margin.left, y: margin.top, width: innerWidth, height: innerHeight, fill: "transparent" });
+    svg.append(crosshair, ...dots, hitArea);
+    const tooltip = el("div", { class: "tooltip", hidden: "" });
+
+    hitArea.addEventListener("pointermove", (event) => {
+      const box = svg.getBoundingClientRect();
+      const pointerX = ((event.clientX - box.left) / box.width) * width;
+      const t = times[0] + ((pointerX - margin.left) / innerWidth) * (times[times.length - 1] - times[0]);
+      let i = 0;
+      while (i < times.length - 1 && Math.abs(times[i + 1] - t) <= Math.abs(times[i] - t)) i++;
+      const cx = x(times[i]);
+      crosshair.setAttribute("x1", cx); crosshair.setAttribute("x2", cx); crosshair.setAttribute("visibility", "visible");
+      lines.forEach((serie, n) => {
+        const v = serie.values[i];
+        dots[n].setAttribute("visibility", v == null ? "hidden" : "visible");
+        if (v != null) { dots[n].setAttribute("cx", cx); dots[n].setAttribute("cy", y(v)); }
+      });
+      tooltip.replaceChildren(
+        el("b", { text: new Date(dates[i] + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "long", year: "numeric" }) }),
+        ...lines.map((serie) => el("div", {}, [
+          el("span", { class: "swatch", style: "--c: " + serie.color }),
+          el("span", { text: serie.name + " · " + formatNumber(serie.closes[from + i]) }),
+          el("span", { class: "pct", text: serie.values[i] == null ? "–" : pct(serie.values[i]) }),
+        ])),
+      );
+      tooltip.hidden = false;
+      const scale = box.width / width;
+      const left = cx * scale + 14 + tooltip.offsetWidth > box.width ? cx * scale - 14 - tooltip.offsetWidth : cx * scale + 14;
+      tooltip.style.left = Math.max(0, left) + "px";
+    });
+    hitArea.addEventListener("pointerleave", () => {
+      tooltip.hidden = true;
+      crosshair.setAttribute("visibility", "hidden");
+      dots.forEach((dot) => dot.setAttribute("visibility", "hidden"));
+    });
+
+    plot.replaceChildren(svg, tooltip);
+  }
+
+  function renderPerformanceTable(history) {
+    const to = history.dates.length - 1;
+    const cell = (v) => {
+      if (v == null) return el("td", { text: "–" });
+      return el("td", { class: v > 0 ? "up" : v < 0 ? "down" : "", style: "color: var(--trend, var(--ink))", text: formatPercent(v) });
+    };
+    return el("div", { class: "table-scroll" }, el("table", { class: "perf-table" }, [
+      el("thead", {}, el("tr", {}, [el("th", { text: "Performance" }), el("th", { text: "Clôture" }), ...CHART_PERIODS.map((p) => el("th", { text: p.label }))])),
+      el("tbody", {}, history.series.map((serie) => el("tr", {}, [
+        el("td", {}, el("span", { class: "name" }, [el("span", { class: "swatch", style: "--c: " + serie.color }), serie.name])),
+        el("td", { text: serie.closes[to] == null ? "–" : formatNumber(serie.closes[to]) }),
+        ...CHART_PERIODS.map((p) => cell(performance(serie.closes, baseIndex(history.dates, p), to))),
+      ]))),
+    ]));
+  }
+
+  let chartObserver = null;
+
+  function renderChart(editionDate) {
+    const history = historyFor(editionDate);
+    if (!history) return null;
+    const plot = el("div", { class: "plot" });
+    const periodButtons = CHART_PERIODS.map((p) => {
+      const button = el("button", { type: "button", "aria-pressed": String(p.key === chartPeriod), text: p.label });
+      button.addEventListener("click", () => {
+        chartPeriod = p.key;
+        periodButtons.forEach((b, i) => b.setAttribute("aria-pressed", String(CHART_PERIODS[i].key === chartPeriod)));
+        drawChart(plot, history);
+      });
+      return button;
+    });
+    if (chartObserver) chartObserver.disconnect();
+    let lastWidth = 0;
+    chartObserver = new ResizeObserver(() => {
+      if (plot.clientWidth && plot.clientWidth !== lastWidth) { lastWidth = plot.clientWidth; drawChart(plot, history); }
+    });
+    chartObserver.observe(plot);
+    const lastClose = new Date(history.dates[history.dates.length - 1] + "T12:00:00");
+    return el("section", { class: "chart-card" }, [
+      el("div", { class: "chart-top" }, [
+        el("div", {}, [
+          el("h2", { class: "section-title", text: "Performance des indices" }),
+          el("p", { class: "chart-sub", text: "Évolution en %, base 0 au début de la période · dernière clôture le " + lastClose.toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) }),
+        ]),
+        el("div", { class: "periods", role: "group", "aria-label": "Période" }, periodButtons),
+      ]),
+      el("div", { class: "legend" }, history.series.map((serie) => el("span", {}, [el("span", { class: "swatch", style: "--c: " + serie.color }), serie.name]))),
+      plot,
+      renderPerformanceTable(history),
+      el("p", { class: "chart-sub", text: "Marchés émergents : ETF iShares MSCI Emerging Markets (EEM), en dollars." }),
+    ]);
+  }
+
+  const formatNumber = (value) => value.toLocaleString("fr-FR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const formatChange = (pct) => (pct > 0 ? "+" : "") + formatNumber(pct) + " %";
+
+  function renderTile(quote, region, featured) {
+    const trend = quote.changePct > 0 ? "up" : quote.changePct < 0 ? "down" : "";
+    // Le VIX mesure la peur : une hausse est une mauvaise nouvelle, on inverse donc les couleurs.
+    const colour = quote.name.startsWith("VIX") ? { up: "down", down: "up" }[trend] || "" : trend;
+    return el("div", { class: ["tile", colour, featured ? "featured" : ""].join(" ").trim() }, [
+      el("span", { class: "region", text: region }),
+      el("span", { class: "name", text: quote.name }),
+      el("span", { class: "value", text: formatNumber(quote.value) }),
+      el("span", { class: "change", text: (trend === "up" ? "▲ " : trend === "down" ? "▼ " : "") + formatChange(quote.changePct) }),
+      quote.session ? el("span", { class: "session", text: "Clôture du " + shortDate(quote.session) }) : null,
+    ]);
+  }
+
+  function renderMarkets(markets, editionDate) {
+    const indices = [...(markets.indices || [])].sort((a, b) => {
+      const rank = (quote) => { const i = FEATURED_INDICES.indexOf(quote.name); return i === -1 ? 99 : i; };
+      return rank(a) - rank(b);
+    });
+    return [
+      markets.intro ? el("p", { class: "intro", text: markets.intro, style: "margin-bottom: 24px" }) : null,
+      renderChart(editionDate),
+      indices.length ? el("h2", { class: "section-title", text: "Les indices" }) : null,
+      indices.length ? el("div", { class: "board" }, indices.map((quote) => renderTile(quote, quote.region, FEATURED_INDICES.includes(quote.name)))) : null,
+      markets.stocks && markets.stocks.length ? el("h2", { class: "section-title", text: "Les géants de la tech" }) : null,
+      markets.stocks && markets.stocks.length ? el("div", { class: "board" }, markets.stocks.map((quote) => renderTile(quote, quote.ticker, false))) : null,
+      markets.stories && markets.stories.length ? el("section", { class: "stories" }, markets.stories.map(renderStory)) : null,
+      renderQuick(markets.quick),
+    ];
+  }
+
+  function renderEdition(index, tab = currentTab) {
     currentIndex = index;
     const edition = editions[index];
-    editionRoot.replaceChildren(
+    const tabs = TABS.filter((t) => t.available(edition));
+    currentTab = tabs.some((t) => t.key === tab) ? tab : tabs[0].key;
+    const tabBar = tabs.length > 1
+      ? el("div", { class: "tabs", role: "tablist" }, tabs.map((t) => {
+          const button = el("button", { type: "button", role: "tab", "aria-selected": String(t.key === currentTab), text: t.label });
+          button.addEventListener("click", () => renderEdition(index, t.key));
+          return button;
+        }))
+      : null;
+    const content = currentTab === "markets"
+      ? renderMarkets(edition.markets, edition.date)
+      : [el("section", { class: "stories" }, edition.stories.map(renderStory)), renderQuick(edition.quick)];
+    editionRoot.replaceChildren(...[
       el("header", { class: "edition-head" }, [
         el("span", { class: "stamp", text: index === 0 ? "Édition du jour" : "Archive" }),
         el("h1", { text: longDate(edition.date).replace(/^./, (c) => c.toUpperCase()) }),
-        edition.intro ? el("p", { class: "intro", text: edition.intro }) : null,
+        currentTab === "ai" && edition.intro ? el("p", { class: "intro", text: edition.intro }) : null,
       ]),
-      el("section", { class: "stories" }, edition.stories.map(renderStory)),
-      edition.quick && edition.quick.length
-        ? el("section", { class: "quick" }, [
-            el("h2", { text: "En vitesse" }),
-            el("ul", {}, edition.quick.map((item) =>
-              el("li", {}, [el("span", {}, [item.text + " ", el("a", { href: item.url, target: "_blank", rel: "noopener", text: "Lire" + (item.lang ? " (" + item.lang + ")" : "") })])])
-            )),
-          ])
-        : null,
-      el("footer", { text: "Résumés rédigés par Claude à partir des articles liés. Vérifiez les détails à la source." }),
-    );
+      tabBar,
+      ...content,
+      el("footer", { text: currentTab === "markets"
+        ? "Cours issus de Yahoo Finance, résumés rédigés par Claude. Ceci n'est pas un conseil en investissement."
+        : "Résumés rédigés par Claude à partir des articles liés. Vérifiez les détails à la source." }),
+    ].filter(Boolean));
     archive.querySelectorAll("button").forEach((button, i) => button.setAttribute("aria-current", String(i === index)));
     document.title = "Brief IA · " + shortDate(edition.date);
     window.scrollTo({ top: 0 });
@@ -276,7 +631,7 @@
     editions.forEach((edition, index) => {
       const button = el("button", { type: "button" }, [
         shortDate(edition.date).replace(/^./, (c) => c.toUpperCase()),
-        el("small", { text: edition.stories.length + " actus" }),
+        el("small", { text: edition.stories.length + " actus" + (edition.markets ? " · Bourse" : "") }),
       ]);
       button.addEventListener("click", () => renderEdition(index));
       archive.append(el("li", {}, button));
