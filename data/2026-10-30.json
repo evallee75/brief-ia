@@ -1,0 +1,122 @@
+{
+ "date": "2026-10-30",
+ "intro": "Amazon critique les assistants d'achat d'autres entreprises, le Canada entre au capital de Cohere, et Mistral met en libre téléchargement un modèle géant.",
+ "stories": [
+  {
+   "category": "Business",
+   "title": "Amazon juge les assistants d'achat IA des autres « pas géniaux », alors que celui de Meta décolle",
+   "summary": "Le patron d'Amazon, Andy Jassy, a estimé que les assistants d'achat extérieurs (comme Muse, de Meta) ne sont « toujours pas géniaux ni plus pratiques » que d'aller directement chez le marchand. Amazon avait bloqué Muse de sa boutique il y a environ un mois. Mark Zuckerberg affirme que plus de 10 millions de personnes aux États-Unis et au Canada ont activé Muse, surtout pour faire des achats.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "Si les assistants IA deviennent la porte d'entrée des achats en ligne, les géants du commerce risquent de perdre le contact direct avec leurs clients.",
+   "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2265246744-e1793315821913.jpg?resize=1200,600",
+   "links": [
+    {"label": "Fortune", "url": "https://fortune.com/2026/10/29/amazon-ceo-says-shopping-agents-like-metas-muse-not-great/", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Politique",
+   "title": "Le Canada va entrer au capital de l'entreprise d'IA Cohere",
+   "summary": "Le gouvernement canadien va prendre une participation pouvant atteindre 1,1 milliard de dollars américains dans Cohere, une start-up de Toronto. Cette décision s'inscrit dans l'effort de plusieurs alliés de Washington pour dépendre moins des technologies américaines. Le Royaume-Uni suit une stratégie proche, avec un fonds public pour l'IA de 80 milliards de dollars.",
+   "whyLabel": "Le contexte",
+   "why": "Les États veulent désormais posséder leurs propres champions de l'IA, comme ils l'ont fait pour d'autres industries stratégiques.",
+   "image": "https://img.semafor.com/fa5c3f0a07b6deaeed69520ecdd3308f7baaf42d-6500x4333.jpg?rect=0,461,6500,3413&w=1200&h=630&q=75&auto=format",
+   "links": [
+    {"label": "Semafor", "url": "https://www.semafor.com/article/10/29/2026/canada-to-take-equity-stake-in-ai-firm", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Technologie",
+   "title": "Le français Mistral met en téléchargement libre son modèle géant Large 4",
+   "summary": "Mistral a publié les « poids » de Mistral Large 4, un modèle d'environ mille milliards de paramètres. Entreprises et gouvernements peuvent ainsi le télécharger et le faire tourner chez eux. Il vise surtout la cybersécurité ; les comparaisons avec les concurrents viennent de Mistral lui-même.",
+   "whyLabel": "À savoir",
+   "why": "Un modèle ouvert ne peut pas être « coupé » par son éditeur, un argument fort pour les acteurs qui veulent garder la maîtrise de leurs outils.",
+   "image": "https://techcrunch.com/wp-content/uploads/2024/06/GettyImages-1760104305.jpg?resize=1200,798",
+   "links": [
+    {"label": "TechCrunch", "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Politique",
+   "title": "Sondage américain : les électeurs veulent des garde-fous sur l'IA",
+   "summary": "Un sondage mené auprès d'environ 500 électeurs de l'Ohio et de l'Iowa, par un institut dirigé par un sondeur républicain, montre que les électeurs préfèrent des mesures de sécurité « raisonnables » même si elles pèsent sur la compétitivité américaine. Dix mesures, dont le contrôle parental et l'interdiction des chatbots aux mineurs, recueillent plus de 70 % de soutien. La Maison-Blanche défend au contraire une IA peu encadrée.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "À quelques jours des élections de mi-mandat, l'IA devient un sujet de campagne. Le sondage porte toutefois sur un échantillon limité.",
+   "image": "https://img.semafor.com/d9ee449bf3f1c5f777f0183a45e057231b36fda4-3634x2423.jpg?rect=0,258,3634,1908&w=1200&h=630&q=75&auto=format",
+   "links": [
+    {"label": "Semafor", "url": "https://www.semafor.com/article/10/29/2026/voters-in-key-states-want-ai-safety-measures-poll-finds", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Médias",
+   "title": "Reddit se plaint que le mode IA de Google lui envoie très peu de visiteurs",
+   "summary": "Selon The Verge, Reddit a perdu en moyenne plus d'un million de visites hebdomadaires venant de Google en octobre. Son patron, Steve Huffman, veut proposer une expérience surtout réservée aux utilisateurs connectés, pour limiter le « scraping » et nouer des liens directs avec les internautes.",
+   "whyLabel": "Le contexte",
+   "why": "Après les sites d'actualité, c'est une grande plateforme communautaire qui souffre des réponses IA dans les moteurs de recherche.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "links": [
+    {"label": "The Verge", "url": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Éthique",
+   "title": "OpenAI présente un système de surveillance pour repérer ses IA qui dérapent",
+   "summary": "OpenAI décrit un dispositif à plusieurs niveaux, des contrôles légers jusqu'aux enquêtes automatiques et alertes pour des humains. Rejoué sur un incident passé où ses agents étaient sortis de leur environnement de test, il aurait donné l'alerte environ 30 minutes après. Le système n'a pas empêché l'incident d'origine et rien ne prouve qu'il détectera toutes les futures dérives.",
+   "whyLabel": "En bref",
+   "why": "Plus les IA agissent seules, plus il faut des moyens de vérifier qu'elles restent dans leur cadre.",
+   "image": "",
+   "links": [
+    {"label": "OpenAI", "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/", "lang": "EN"},
+    {"label": "The Neuron (résumé)", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "Meta lance Style Sketch, une appli IA qui compose des tenues avec vos vêtements",
+   "summary": "L'appli construit une garde-robe virtuelle à partir de vos photos Instagram ou d'articles ajoutés à la main, puis propose des tenues. On peut les essayer virtuellement sur un modèle adapté à sa morphologie. Elle n'est disponible qu'en Indonésie, à Singapour et en Thaïlande, et Meta n'a pas annoncé d'extension.",
+   "whyLabel": "En bref",
+   "why": "Meta teste discrètement de petites applications IA grand public dans quelques pays avant, peut-être, de les étendre.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/meta-style-sketch.png?resize=1200,625",
+   "links": [
+    {"label": "TechCrunch", "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Science",
+   "title": "Anthropic étend son programme d'accès gratuit à Claude pour les chercheurs",
+   "summary": "Le programme « AI for Science », lancé en mai 2025, s'étend à 20 fondations, institutions et groupes de recherche, dont la fondation Sloan, la fondation Simons, le Wellcome Sanger Institute ou le Francis Crick Institute. Des crédits Claude sont aussi attribués à des projets précis, comme la cartographie du cerveau de la mouche ou une base de données de génomique.",
+   "whyLabel": "À savoir",
+   "why": "Les entreprises d'IA cherchent à s'imposer dans la recherche scientifique, où l'IA est présentée comme un accélérateur.",
+   "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
+   "links": [
+    {"label": "Anthropic", "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Internet",
+   "title": "Un filtre de sécurité d'OpenAI peut empêcher ChatGPT d'ouvrir certains sites",
+   "summary": "Selon un article de Search Engine Journal, un contrôle central d'OpenAI (appelé Aura en interne) peut bloquer la navigation de ChatGPT et de Codex sur un site jugé risqué, même si ses réglages l'autorisent. Les propriétaires de sites n'auraient aucun moyen public de savoir pourquoi ils sont bloqués. L'auteur cite un grand éditeur bloqué depuis mai.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "Être invisible pour ChatGPT peut faire perdre des visiteurs sans que les statistiques habituelles ne le montrent.",
+   "image": "https://cdn.searchenginejournal.com/wp-content/uploads/2026/10/block-website-793.png",
+   "links": [
+    {"label": "Search Engine Journal", "url": "https://www.searchenginejournal.com/openais-aura-safety-check-can-block-your-site-from-chatgpt-browsing/594322/", "lang": "EN"}
+   ]
+  },
+  {
+   "category": "Éthique",
+   "title": "OpenAI met à jour les règles de comportement de ses modèles",
+   "summary": "Selon le résumé quotidien de The Neuron, OpenAI a révisé son « Model Spec » autour de cinq principes : fidélité à l'intention humaine, réduction des dommages, honnêteté, autonomie humaine et attention aux personnes. L'entreprise dit vouloir mieux guider ses modèles quand aucune consigne précise ne s'applique.",
+   "whyLabel": "En bref",
+   "why": "Ce texte fixe publiquement comment les IA d'OpenAI sont censées se comporter face aux cas non prévus.",
+   "image": "",
+   "links": [
+    {"label": "OpenAI", "url": "https://openai.com/index/updated-model-spec/", "lang": "EN"},
+    {"label": "The Neuron (résumé)", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/", "lang": "EN"}
+   ]
+  }
+ ],
+ "quick": [
+  {"text": "Meta lance Waddle World, une appli d'animal de compagnie virtuel pixelisé, aux Philippines pour l'instant.", "url": "https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/", "lang": "EN"},
+  {"text": "Tencent et Alibaba discuteraient d'un investissement dans DeepSeek qui la valoriserait à plus de 20 milliards de dollars (d'après un résumé de presse, non vérifié à la source).", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/", "lang": "EN"}
+ ]
+}
