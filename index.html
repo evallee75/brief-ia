@@ -361,14 +361,15 @@
 
   /* Graphique de performance des indices, à partir de window.MARKET_HISTORY (market_history.js). */
   const CHART_PERIODS = [
+    { key: "1w", label: "1 semaine", days: 7 },
     { key: "1m", label: "1 mois", months: 1 },
     { key: "3m", label: "3 mois", months: 3 },
     { key: "6m", label: "6 mois", months: 6 },
-    { key: "ytd", label: "Depuis janv.", yearToDate: true },
+    { key: "ytd", label: "YTD", yearToDate: true },
     { key: "1y", label: "1 an", months: 12 },
     { key: "5y", label: "5 ans", months: 60 },
   ];
-  let chartPeriod = "1y";
+  let chartPeriod = "1m";
   const formatPercent = (v) => (v > 0 ? "+" : "") + v.toLocaleString("fr-FR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + " %";
   const SVG_NS = "http://www.w3.org/2000/svg";
 
@@ -385,7 +386,9 @@
     const last = new Date(dates[dates.length - 1] + "T12:00:00");
     const cutoff = period.yearToDate
       ? (last.getFullYear() - 1) + "-12-31"
-      : isoDay(new Date(last.getFullYear(), last.getMonth() - period.months, last.getDate()));
+      : period.days
+        ? isoDay(new Date(last.getFullYear(), last.getMonth(), last.getDate() - period.days))
+        : isoDay(new Date(last.getFullYear(), last.getMonth() - period.months, last.getDate()));
     let index = 0;
     for (let i = 0; i < dates.length && dates[i] <= cutoff; i++) index = i;
     return index;
@@ -453,7 +456,7 @@
       svg.append(label);
     }
 
-    const shortSpan = period.months && period.months <= 3;
+    const shortSpan = period.days || (period.months && period.months <= 3);
     const tickCount = compact ? 3 : 6;
     let previousTickX = -Infinity;
     for (let k = 0; k < tickCount; k++) {
