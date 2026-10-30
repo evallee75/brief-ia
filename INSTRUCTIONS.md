@@ -57,3 +57,31 @@ et **Bourse** (étape 6).
 9. Commite `data/DATE.json`, `editions.js` et `market_history.js` avec le message `Brief IA du DATE`, puis pousse
    directement sur `main` (pas de branche, pas de pull request) : c'est ce qui publie la page.
    Ne modifie aucun autre fichier.
+
+## Mise à jour du soir (vers 18 h, heure de Paris)
+
+Cette section est suivie par une deuxième exécution quotidienne. Elle complète l'édition du jour
+au lieu d'en créer une nouvelle (ne pas appliquer l'étape 1 ci-dessus).
+
+1. Détermine DATE comme à l'étape 1. Si `data/DATE.json` n'existe pas, prépare d'abord l'édition
+   complète (étapes 2 à 9), puis arrête-toi.
+2. Si `intro` contient déjà « Mise à jour du soir », arrête-toi : rien à faire.
+3. **IA** : cherche les actus IA parues depuis l'édition du matin. Ajoute **3 à 5 actus** nouvelles,
+   jamais déjà traitées dans `data/` (vérifie les titres et les URLs). Insère-les après les 3
+   premières actus existantes. Ajoute 1 ou 2 brèves à la fin de `quick`. Complète `intro` avec une
+   phrase qui commence par « Mise à jour du soir : ». Mêmes règles qu'aux étapes 2 à 5.
+4. **Bourse** : lance `python3 fetch_markets.py` et remplace `markets.indices` et `markets.stocks`
+   par sa sortie, telle quelle (l'Europe a clôturé ; Wall Street est encore en séance, ses chiffres
+   restent ceux de la veille, c'est normal).
+   - Cherche l'actualité de la séance du jour : clôture européenne, Wall Street en séance,
+     faits marquants en Asie.
+   - Ajoute **4 à 6 actus** en tête de `markets.stories` (même structure, champ `region`), titres
+     préfixés du jour de la semaine (« Vendredi : ... »). Au moins 2 Amérique, 1 Europe, 1 Asie
+     si l'actualité le permet.
+   - Réécris `markets.intro` : la séance du jour d'abord, en précisant que les chiffres de Wall
+     Street sont en séance (« vers 18 h, le Nasdaq perdait... »), puis une demi-phrase sur la veille.
+   - Ajoute 1 ou 2 brèves en tête de `markets.quick`.
+   - Aucun chiffre inventé : uniquement ce que disent les sources.
+5. Lance `python3 build.py`, puis commite `data/DATE.json`, `editions.js` et `market_history.js`
+   avec le message `Brief IA du DATE : mise à jour du soir` et pousse directement sur `main`.
+   Ne modifie aucun autre fichier.
