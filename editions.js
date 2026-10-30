@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-10-30",
-  "intro": "Amazon critique les assistants d'achat d'autres entreprises, le Canada entre au capital de Cohere, et Mistral met en libre téléchargement un modèle géant.",
+  "intro": "Amazon critique les assistants d'achat d'autres entreprises, le Canada entre au capital de Cohere, et Mistral met en libre téléchargement un modèle géant. Mise à jour du soir : l'IA et l'emploi (Comcast, Goldman Sachs, Proton) et l'appel du pape à garder l'humain aux commandes.",
   "stories": [
    {
     "category": "Business",
@@ -44,6 +44,66 @@ window.EDITIONS = [
      {
       "label": "TechCrunch",
       "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Emploi",
+    "title": "Les travailleurs remplacés par l'IA mettent plus de temps à retrouver un emploi",
+    "summary": "Selon une étude de Goldman Sachs publiée ce vendredi, les personnes qui ont perdu un poste très exposé à l'IA depuis 2025 mettent environ un mois de plus que les autres à retrouver du travail. Un an après, elles ont environ 10 points de chances en plus d'être toujours au chômage. L'écart est plus marqué après 35 ans : environ cinq semaines de plus, contre trois pour les plus jeunes.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Goldman compare cet effet aux vagues technologiques précédentes, dont les conséquences sur l'emploi ont été durables. Aux États-Unis, l'IA est déjà la première raison citée dans les annonces de licenciements en 2026.",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2273897892-e1785621366556.jpg?resize=1200,600",
+    "links": [
+     {
+      "label": "Fortune",
+      "url": "https://fortune.com/2026/10/30/goldman-sachs-ai-layoffs-displaced-workers-older-workers-past-tech-disruptions/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Emploi",
+    "title": "Comcast supprime des centaines de postes et mise sur les agents IA pour ses clients",
+    "summary": "Le géant américain du câble va licencier 634 personnes à son siège de Philadelphie au 31 décembre, et d'autres dans le New Jersey, l'État de Washington et en Californie. La direction dit « repenser en profondeur l'organisation », notamment en déployant des agents IA pour échanger avec les clients. Comcast prévoit aussi plus de 1 100 recrutements.",
+    "whyLabel": "Le contexte",
+    "why": "Comcast parle de la plus grande opération de réduction des coûts de son histoire, sur fond de perte d'abonnés au câble.",
+    "image": "https://www.inquirer.com/resizer/v2/VDNJIONB4VFLXCWNVA3O7E3T4E.jpg?auth=2630a873537a38a1cbdbc914b87214296132966028a844e9e935a7ecd2696dbf&width=760&height=507&smart=true",
+    "links": [
+     {
+      "label": "The Philadelphia Inquirer",
+      "url": "https://inquirer.com/business/comcast/comcast-layoffs-warn-notice-philadelphia-ai-jobs-20261030.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Le pape Léon XIV : les décisions qui touchent à la vie humaine ne doivent jamais être confiées à une machine",
+    "summary": "Devant des scientifiques réunis au Vatican, le pape a rappelé que les IA sont des outils et non des personnes. Il s'oppose à l'idée de leur donner une personnalité juridique, qui risquerait de laisser les victimes face à « une entité sans visage ». Il appelle aussi les États réunis à Genève en novembre à avancer vers l'interdiction des armes autonomes létales.",
+    "whyLabel": "À savoir",
+    "why": "Le Vatican pèse de plus en plus dans le débat éthique sur l'IA et réclame des règles communes, un contrôle indépendant et des recours en cas de préjudice.",
+    "image": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/srv/2026/10/30/2026-10-30-partecipanti-all-incontro-promosso-dalla-pontificia-a/1793361001703.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg",
+    "links": [
+     {
+      "label": "Vatican News",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-ai-decisions-affecting-human-life-must-never-be-delegated.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Proton renonce à faire repasser des entretiens à ses salariés sur leur usage de l'IA",
+    "summary": "Le patron de Proton (messagerie chiffrée), Andy Yen, voulait que presque tous les employés repassent un entretien pour expliquer comment ils utilisent l'IA, avec un risque de licenciement pour ceux jugés trop peu utilisateurs. Après une enquête de 404 Media, il a annulé ces entretiens. Il affirme qu'ils ont « déjà rempli leur rôle » et continuera à pousser l'IA.",
+    "whyLabel": "Le contexte",
+    "why": "De plus en plus d'entreprises font de l'usage de l'IA un critère d'évaluation, ce qui crée des tensions avec les équipes.",
+    "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/andy4.png",
+    "links": [
+     {
+      "label": "404 Media",
+      "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
       "lang": "EN"
      }
     ]
@@ -174,10 +234,20 @@ window.EDITIONS = [
     "text": "Tencent et Alibaba discuteraient d'un investissement dans DeepSeek qui la valoriserait à plus de 20 milliards de dollars (d'après un résumé de presse, non vérifié à la source).",
     "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/",
     "lang": "EN"
+   },
+   {
+    "text": "Le numéro 2 de l'université de Dartmouth démissionne : une enquête interne a conclu qu'il avait utilisé l'IA sans le déclarer, y compris pour une tribune dans le Washington Post.",
+    "url": "https://vtdigger.org/2026/10/29/dartmouth-provost-resigns-after-review-finds-undisclosed-ai-use/",
+    "lang": "EN"
+   },
+   {
+    "text": "Thrive Holdings, soutenue par OpenAI, rachète le spécialiste des alarmes ADT pour 15,3 milliards de dollars, dette comprise.",
+    "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+    "lang": "EN"
    }
   ],
   "markets": {
-   "intro": "Wall Street a reculé jeudi : le Nasdaq perd 1,4 % et le S&P 500 0,3 %, plombés par la chute d'Alphabet qui ravive les doutes sur le coût de l'IA. L'Europe a fait mieux, portée par de bons résultats d'entreprises.",
+   "intro": "Vendredi, Wall Street décroche : vers 18 h, le Nasdaq perdait environ 3 % et le S&P 500 environ 1,7 %, plombés par l'effondrement d'Intel et les doutes sur la rentabilité des dépenses géantes dans l'IA. L'Europe a mieux résisté, le CAC 40 finit stable. Jeudi, le Nasdaq avait déjà cédé 1,4 % après la chute d'Alphabet.",
    "indices": [
     {
      "name": "Nasdaq Composite",
@@ -217,37 +287,37 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 7970.0,
-     "changePct": 1.05,
-     "session": "2026-10-29"
+     "value": 7969.42,
+     "changePct": -0.01,
+     "session": "2026-10-30"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 26039.68,
-     "changePct": 1.31,
-     "session": "2026-10-29"
+     "value": 25818.21,
+     "changePct": -0.85,
+     "session": "2026-10-30"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6207.07,
-     "changePct": 0.64,
-     "session": "2026-10-29"
+     "value": 6131.31,
+     "changePct": -1.22,
+     "session": "2026-10-30"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 63290.11,
-     "changePct": -2.12,
-     "session": "2026-10-30"
+     "value": 64659.47,
+     "changePct": 1.1,
+     "session": "2026-10-29"
     },
     {
      "name": "Hang Seng",
      "region": "Asie",
-     "value": 23294.42,
-     "changePct": 1.46,
-     "session": "2026-10-30"
+     "value": 22958.65,
+     "changePct": -0.59,
+     "session": "2026-10-29"
     }
    ],
    "stocks": [
@@ -302,6 +372,107 @@ window.EDITIONS = [
     }
    ],
    "stories": [
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Vendredi : Intel s'effondre d'environ 30 % et entraîne tous les fabricants de puces",
+     "summary": "Intel a chuté d'environ 30 % après avoir prévenu qu'il allait consommer beaucoup de trésorerie et donné des prévisions décevantes. Toute la filière a suivi : AMD et Qualcomm perdaient 11 %, Broadcom 5,7 % et Nvidia 4,3 %. L'indice des semi-conducteurs de Philadelphie reculait de 8 % à la clôture européenne.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Les puces sont le cœur du boom de l'IA en Bourse : quand elles flanchent, c'est tout le Nasdaq qui recule.",
+     "image": "",
+     "links": [
+      {
+       "label": "Boursorama (Reuters)",
+       "url": "https://boursorama.com/bourse/actualites/l-europe-finit-en-baisse-l-ia-fait-plonger-le-nasdaq-de-3-5368be6111b188ea93cf364d8746d262",
+       "lang": "FR"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Nasdaq",
+     "title": "Vendredi : le Nasdaq plonge de plus de 3 %, sa pire séance depuis juin",
+     "summary": "Les résultats d'Amazon et d'Alphabet ont ravivé les inquiétudes sur le coût de l'IA : Amazon a dépensé environ 77 milliards de dollars en investissements sur le trimestre et sa trésorerie disponible est négative de plus de 42 milliards sur un an. En séance, le Nasdaq perdait 3,3 %, le S&P 500 2 % et le Dow Jones 1 %. Seules les pétrolières ExxonMobil et Chevron ont touché des records.",
+     "whyLabel": "Le contexte",
+     "why": "Le Nasdaq 100 s'apprête à perdre plus de 2 000 milliards de dollars de valeur sur le seul mois d'octobre.",
+     "image": "https://s.yimg.com/lo/mysterio/api/abd6d02b3b18cceff8bea46f331b48f5f577e795a06d9ebd0ad62d06faaf5195/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-08%2F30c37b1b-860e-46e4-95a2-6e33368a9f3f",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Vendredi : Reddit chute de 24 %, Pinterest et Roblox reculent aussi",
+     "summary": "Reddit a dévissé après un nombre d'utilisateurs quotidiens inférieur aux attentes et des prévisions de chiffre d'affaires sous le consensus. Roblox perdait 16 % malgré des résultats meilleurs que prévu, et Pinterest 6 % après un chiffre d'affaires de 1,17 milliard de dollars, sous les 1,21 milliard attendus.",
+     "whyLabel": "En bref",
+     "why": "Reddit se plaint aussi de recevoir beaucoup moins de visiteurs depuis le mode IA de Google.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "Vendredi : le CAC 40 finit stable, Sanofi, Capgemini et Imerys en vedette",
+     "summary": "Le CAC 40 termine quasiment inchangé (−0,01 %) à 7 969 points et gagne 2,4 % sur la semaine. Imerys bondit de plus de 13 %, Vivendi de 6,9 % grâce à UMG, Sanofi de 4,7 % et Capgemini de 3,7 % après avoir relevé leurs objectifs. Le DAX recule de 0,85 % et l'Euro Stoxx 50 de 1,2 %, plombé par la tech (−2,8 %).",
+     "whyLabel": "En bref",
+     "why": "Les bons résultats d'entreprises européennes ont limité la contagion venue de Wall Street.",
+     "image": "",
+     "links": [
+      {
+       "label": "Boursorama (Reuters)",
+       "url": "https://boursorama.com/bourse/actualites/l-europe-finit-en-baisse-l-ia-fait-plonger-le-nasdaq-de-3-5368be6111b188ea93cf364d8746d262",
+       "lang": "FR"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Macro / Fed",
+     "title": "France : l'économie recule au troisième trimestre et l'inflation grimpe à 3,8 %",
+     "summary": "Le PIB français s'est contracté au troisième trimestre, l'inflation harmonisée a atteint 3,8 % sur un an en octobre et le taux d'emprunt de l'État à 10 ans s'approche de 5 %. La BCE a marqué une pause cette semaine sans exclure de nouvelles hausses de taux.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Une économie qui ralentit avec des prix qui montent est la pire combinaison pour une banque centrale.",
+     "image": "",
+     "links": [
+      {
+       "label": "Boursorama (Reuters)",
+       "url": "https://boursorama.com/bourse/actualites/l-europe-finit-en-baisse-l-ia-fait-plonger-le-nasdaq-de-3-5368be6111b188ea93cf364d8746d262",
+       "lang": "FR"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "TSMC rachète deux usines d'écrans à AUO pour 1,2 milliard de dollars",
+     "summary": "Le géant taïwanais des puces achète le site de Taichung d'AUO (salles blanches, bâtiments et équipements) pour 38,8 milliards de dollars taïwanais. Le site pourrait servir à rapprocher fabrication de puces et assemblage avancé. Le même jour, la Banque du Japon a laissé son taux directeur à 1,25 %.",
+     "whyLabel": "Le contexte",
+     "why": "TSMC court après les capacités pour suivre la demande en puces IA, et réutiliser des usines existantes peut faire gagner du temps.",
+     "image": "https://img.trendforce.com/blog/wp-content/uploads/2026/04/28104038/TSMC-advanced-packaging-fab-20260428-624x416.jpg",
+     "links": [
+      {
+       "label": "TrendForce",
+       "url": "https://www.trendforce.com/news/2026/10/30/news-display-maker-auo-to-sell-taichung-plants-to-tsmc-for-twd-38-8b-separate-quanta-deal-canceled/",
+       "lang": "EN"
+      },
+      {
+       "label": "Yahoo Finance (BoJ)",
+       "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html",
+       "lang": "EN"
+      }
+     ]
+    },
     {
      "region": "Amérique",
      "category": "Tech US",
@@ -431,6 +602,16 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Le Bitcoin perd plus de 5 %, vers 76 600 $, après un piratage de 6,3 milliards de dollars chez Binance.",
+     "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-083236552.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Le pétrole repart : le Brent gagne 2,3 % à 117,56 $ sur fond de tensions entre les États-Unis et l'Iran ; l'or tombe à 3 895 $, au plus bas depuis un an.",
+     "url": "https://boursorama.com/bourse/actualites/l-europe-finit-en-baisse-l-ia-fait-plonger-le-nasdaq-de-3-5368be6111b188ea93cf364d8746d262",
+     "lang": "FR"
+    },
     {
      "text": "Hong Kong à contre-courant : le Hang Seng a progressé vendredi pendant que Tokyo et Séoul reculaient.",
      "url": "https://www.fxstreet.com/news/asian-stocks-trade-mixed-kospi-leads-losses-as-worries-about-ai-grow-202610300439",
