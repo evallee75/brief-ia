@@ -36,11 +36,16 @@ STOCKS = [
     ("TSLA", "Tesla"),
 ]
 
-# Séries du graphique, dans l'ordre des couleurs de la page.
+# Séries des graphiques. Noms repris tels quels par les sous-onglets de la page (MARKET_REGIONS dans index.html).
 CHART_SERIES = [
     ("^IXIC", "Nasdaq"),
     ("^GSPC", "S&P 500"),
+    ("^DJI", "Dow Jones"),
     ("^FCHI", "CAC 40"),
+    ("^GDAXI", "DAX"),
+    ("^STOXX50E", "Euro Stoxx 50"),
+    ("^N225", "Nikkei 225"),
+    ("^HSI", "Hang Seng"),
     ("EEM", "Marchés émergents"),
 ]
 

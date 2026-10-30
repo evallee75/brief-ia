@@ -175,7 +175,279 @@ window.EDITIONS = [
     "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-october-30-2026/",
     "lang": "EN"
    }
-  ]
+  ],
+  "markets": {
+   "intro": "Wall Street a reculé jeudi : le Nasdaq perd 1,4 % et le S&P 500 0,3 %, plombés par la chute d'Alphabet qui ravive les doutes sur le coût de l'IA. L'Europe a fait mieux, portée par de bons résultats d'entreprises.",
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 26184.72,
+     "changePct": -1.38,
+     "session": "2026-10-29"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 29402.51,
+     "changePct": -1.38,
+     "session": "2026-10-29"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7720.39,
+     "changePct": -0.3,
+     "session": "2026-10-29"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 52342.56,
+     "changePct": -0.25,
+     "session": "2026-10-29"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 17.2,
+     "changePct": 1.71,
+     "session": "2026-10-29"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 7970.0,
+     "changePct": 1.05,
+     "session": "2026-10-29"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 26039.68,
+     "changePct": 1.31,
+     "session": "2026-10-29"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6207.07,
+     "changePct": 0.64,
+     "session": "2026-10-29"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 63290.11,
+     "changePct": -2.12,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 23294.42,
+     "changePct": 1.46,
+     "session": "2026-10-30"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 213.66,
+     "changePct": -0.8,
+     "session": "2026-10-29"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 348.91,
+     "changePct": 1.48,
+     "session": "2026-10-29"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 530.14,
+     "changePct": -0.16,
+     "session": "2026-10-29"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 283.82,
+     "changePct": -12.64,
+     "session": "2026-10-29"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 243.79,
+     "changePct": -4.25,
+     "session": "2026-10-29"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 624.52,
+     "changePct": 1.96,
+     "session": "2026-10-29"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 403.3,
+     "changePct": -0.23,
+     "session": "2026-10-29"
+    }
+   ],
+   "stories": [
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Alphabet chute de 12,6 % et entraîne le Nasdaq",
+     "summary": "La maison mère de Google a déçu avec ses résultats trimestriels : sa recherche ralentit et ses dépenses dans l'IA sont si lourdes que l'entreprise a brûlé 9 milliards de dollars de trésorerie sur le trimestre. L'action a perdu 12,6 %, soit près de 500 milliards de dollars de valeur en une séance.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Alphabet est l'un des plus gros poids du Nasdaq. Sa chute relance la grande question des marchés : les centaines de milliards investis dans l'IA rapporteront-ils assez ?",
+     "image": "https://s.yimg.com/lo/mysterio/api/2486ed75880fe1a434cea7af3e9b58014773bf025935b0c0d8cb3223696fedc4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F2b575b21-612b-4ab3-a828-4258fe2ebb00",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html",
+       "lang": "EN"
+      },
+      {
+       "label": "France 24",
+       "url": "https://www.france24.com/en/live-news/20261029-asian-stock-markets-fluctuate-after-mixed-tech-results",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Amazon et Intel plongent après la clôture",
+     "summary": "Publiés après la fermeture de Wall Street, les résultats d'Amazon et d'Intel ont fait chuter leurs actions dans les échanges du soir : environ −7 % pour Amazon, dont les dépenses liées à l'IA font passer le flux de trésorerie sous zéro, et environ −23 % pour Intel, qui prévoit des ventes en baisse.",
+     "whyLabel": "À savoir",
+     "why": "Les contrats à terme sur le Nasdaq 100 reculaient de près de 2 % dans la soirée : la séance de vendredi s'annonce encore tendue pour la tech.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/10/29/stock-market-today-live-updates.html",
+       "lang": "EN"
+      },
+      {
+       "label": "Stock Titan",
+       "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Microsoft résiste grâce à sa trésorerie",
+     "summary": "Contrairement à Alphabet, Microsoft a rassuré : malgré 39 milliards de dollars d'investissements sur le trimestre, il lui reste 18,6 milliards de trésorerie disponible. L'action a fini quasi stable (−0,16 %) après avoir monté en début de séance.",
+     "whyLabel": "Le contexte",
+     "why": "Les investisseurs font désormais le tri entre les géants dont l'IA se finance toute seule et ceux qui y laissent leur trésorerie.",
+     "image": "",
+     "links": [
+      {
+       "label": "Stock Titan",
+       "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Macro / Fed",
+     "title": "Une économie américaine solide, mais une inflation qui accélère",
+     "summary": "La croissance américaine a atteint 3,4 % en rythme annuel au troisième trimestre, mieux que prévu. Mais l'indice des prix préféré de la Fed (PCE) a grimpé à 3,6 % sur un an en septembre.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Une inflation qui remonte rend moins probable une baisse des taux, un soutien dont la Bourse et la tech profitent habituellement.",
+     "image": "",
+     "links": [
+      {
+       "label": "France 24",
+       "url": "https://www.france24.com/en/live-news/20261029-asian-stock-markets-fluctuate-after-mixed-tech-results",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "Le CAC 40 gagne 1 % et s'approche des 8 000 points",
+     "summary": "Porté par les bons résultats de plusieurs poids lourds, le CAC 40 a gagné 1,05 % à 7 970 points jeudi. Renault a bondi de 6,9 % et Air Liquide de 1,8 %. À Francfort, le DAX a pris 1,3 %.",
+     "whyLabel": "En bref",
+     "why": "L'Europe, moins exposée aux géants de l'IA, a échappé au coup de froid de la tech américaine.",
+     "image": "https://www.tradingsat.com/media/pictures/realsize/news/le-cac-termine-la-semaine-sur-une-bonne-note-673469.jpg",
+     "links": [
+      {
+       "label": "BFM Bourse",
+       "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-relance-par-les-bons-resultats-de-plusieurs-de-ses-poids-lourds-le-cac-40-gagne-plus-de-1-pour-se-rapprocher-des-8000-points-1172791.html",
+       "lang": "FR"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "La BCE garde ses taux, Christine Lagarde partira en février",
+     "summary": "La Banque centrale européenne a laissé son taux directeur à 2,5 %, après deux hausses cette année. Sa présidente Christine Lagarde quittera ses fonctions en février 2027, neuf mois avant la fin de son mandat.",
+     "whyLabel": "Le contexte",
+     "why": "L'inflation en zone euro a atteint 3,8 % en septembre, un plus haut depuis trois ans, surtout à cause de l'énergie : la BCE reste prudente.",
+     "image": "",
+     "links": [
+      {
+       "label": "France 24",
+       "url": "https://www.france24.com/en/live-news/20261029-asian-stock-markets-fluctuate-after-mixed-tech-results",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Séoul et Tokyo chutent dans le sillage d'Alphabet",
+     "summary": "Le choc Alphabet a traversé le Pacifique : le Kospi coréen a perdu 3,5 % après avoir chuté de plus de 5 % en séance, ce qui a déclenché une suspension temporaire des ordres automatiques. SK Hynix a perdu 7,1 % et Samsung 3 %. À Tokyo, le Nikkei a cédé 2,12 %.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Samsung et SK Hynix fabriquent les mémoires des serveurs d'IA : tout doute sur les dépenses des géants américains les touche directement.",
+     "image": "https://cdn.digitaltoday.co.kr/news/photo/202610/711428_658940_4625.jpg",
+     "links": [
+      {
+       "label": "Digital Today",
+       "url": "https://www.digitaltoday.co.kr/en/view/122026/kospi-slumps-3point5percent-on-alphabet-shock-foreigners-sell-1point6-trillion-won",
+       "lang": "EN"
+      },
+      {
+       "label": "Invezz",
+       "url": "https://invezz.com/news/2026/10/30/kospi-crash-today-samsung-sk-hynix-october-30/",
+       "lang": "EN"
+      }
+     ]
+    }
+   ],
+   "quick": [
+    {
+     "text": "Hong Kong à contre-courant : le Hang Seng a progressé vendredi pendant que Tokyo et Séoul reculaient.",
+     "url": "https://www.fxstreet.com/news/asian-stocks-trade-mixed-kospi-leads-losses-as-worries-about-ai-grow-202610300439",
+     "lang": "EN"
+    },
+    {
+     "text": "Eli Lilly et Mastercard ont monté jeudi après leurs résultats trimestriels.",
+     "url": "https://www.france24.com/en/live-news/20261029-asian-stock-markets-fluctuate-after-mixed-tech-results",
+     "lang": "EN"
+    },
+    {
+     "text": "Le pétrole recule légèrement : le Brent termine à 114,88 $ (−0,4 %) et le WTI à 102 $ (−0,8 %).",
+     "url": "https://www.france24.com/en/live-news/20261029-asian-stock-markets-fluctuate-after-mixed-tech-results",
+     "lang": "EN"
+    }
+   ]
+  }
  },
  {
   "date": "2026-10-29",

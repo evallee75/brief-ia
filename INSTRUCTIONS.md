@@ -37,7 +37,7 @@ et **Bourse** (étape 6).
      variations, source Yahoo Finance). Recopie-les tels quels dans `markets.indices` et
      `markets.stocks`, sans jamais modifier ni inventer un chiffre. Si le script échoue, mets des
      listes vides plutôt que des valeurs approximatives. Le script met aussi à jour
-     `market_history.js` (historique 5 ans du graphique Nasdaq / S&P 500 / CAC 40 / émergents) :
+     `market_history.js` (historique 5 ans des graphiques de chaque zone) :
      n'y touche pas à la main.
    - Cherche sur le web l'actualité boursière de la dernière séance (Reuters, CNBC, Bloomberg,
      Les Echos, Boursorama, Zonebourse, Nikkei Asia...) : ce qui a fait bouger le Nasdaq et le
@@ -45,11 +45,13 @@ et **Bourse** (étape 6).
      hausses et baisses tech, puis les faits marquants en Europe et en Asie.
    - `markets.intro` : une ou deux phrases qui résument la séance US (sens du Nasdaq et du
      S&P 500, et pourquoi).
-   - `markets.stories` : **5 à 6 actus**, même structure que les `stories` du volet IA ;
-     `category` parmi « Nasdaq », « S&P 500 », « Tech US », « Macro / Fed », « Europe », « Asie ».
-     Au moins 3 actus sur les US. Mets la plus marquante en premier. Langage simple, pas de
-     conseil d'investissement.
-   - `markets.quick` : 2 ou 3 brèves, même structure que `quick`.
+   - `markets.stories` : **6 à 8 actus**, même structure que les `stories` du volet IA, plus un
+     champ `region` : « Amérique », « Europe » ou « Asie » (la page les range dans le sous-onglet
+     correspondant). Au moins 3 actus Amérique, 1 à 2 Europe, 1 à 2 Asie. `category` parmi
+     « Nasdaq », « S&P 500 », « Tech US », « Macro / Fed », « Europe », « Asie », « Émergents ».
+     Dans chaque zone, mets la plus marquante en premier. Langage simple, pas de conseil
+     d'investissement.
+   - `markets.quick` : 2 ou 3 brèves, même structure que `quick` (affichées dans l'onglet Monde).
    - Les règles des étapes 4 et 5 s'appliquent aussi (image `og:image`, français, sources vérifiées).
 8. Lance `python3 build.py` pour régénérer `editions.js`.
 9. Commite `data/DATE.json`, `editions.js` et `market_history.js` avec le message `Brief IA du DATE`, puis pousse

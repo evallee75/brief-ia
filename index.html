@@ -159,6 +159,14 @@
   }
   .tabs button:hover { border-color: var(--accent); color: var(--accent); }
   .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+  .subtabs { display: flex; gap: 24px; border-bottom: 1px solid var(--line); margin: -4px 0 24px; overflow-x: auto; }
+  .subtabs button {
+    font: 500 16px/1 var(--font-display); background: none; border: 0; color: var(--muted);
+    padding: 10px 0 12px; border-bottom: 2px solid transparent; margin-bottom: -1px; cursor: pointer; white-space: nowrap;
+  }
+  .subtabs button:hover { color: var(--ink); }
+  .subtabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+  .note { color: var(--muted); font-size: 15px; margin: 0 0 24px; }
 
   /* Volet Bourse : tableaux de cours */
   .up { --trend: #0f8a4a; }
@@ -251,7 +259,7 @@
   <aside class="rail">
     <div>
       <p class="brand">Brief <span>IA</span></p>
-      <p class="brand-sub">L'actu IA et Bourse du jour, chaque matin à 9h.</p>
+      <p class="brand-sub">L'actu IA et Bourse du jour, chaque matin à 8h.</p>
     </div>
     <nav aria-label="Archives">
       <h2>Éditions</h2>
@@ -275,8 +283,18 @@
   let currentTab = "ai";
   const TABS = [
     { key: "ai", label: "IA", available: (edition) => edition.stories && edition.stories.length },
-    { key: "markets", label: "Bourse", available: (edition) => edition.markets },
+    { key: "markets", label: "Bourse", available: (edition) => edition.markets || historyFor(edition.date) },
   ];
+  // Sous-onglets du volet Bourse : séries du graphique et place des indices / actus de chaque zone.
+  const MARKET_REGIONS = [
+    { key: "world", label: "Monde", chartTitle: "Comparaison mondiale", series: ["Nasdaq", "S&P 500", "CAC 40", "Marchés émergents"] },
+    { key: "americas", label: "Amérique", chartTitle: "Wall Street", series: ["Nasdaq", "S&P 500", "Dow Jones"], indexRegion: "US" },
+    { key: "europe", label: "Europe", chartTitle: "Bourses européennes", series: ["CAC 40", "DAX", "Euro Stoxx 50"], indexRegion: "Europe" },
+    { key: "asia", label: "Asie", chartTitle: "Asie et émergents", series: ["Nikkei 225", "Hang Seng", "Marchés émergents"], indexRegion: "Asie" },
+  ];
+  // Indices repris dans l'onglet Monde, une ou deux références par zone.
+  const WORLD_INDICES = ["Nasdaq Composite", "S&P 500", "CAC 40", "Nikkei 225", "Hang Seng"];
+  let currentRegion = "world";
   // Indices mis en avant en premier dans le volet Bourse.
   const FEATURED_INDICES = ["Nasdaq Composite", "Nasdaq 100", "S&P 500"];
 
@@ -385,14 +403,18 @@
   }
 
   // Historique arrêté à la veille de l'édition, pour que les archives montrent le graphique de leur jour.
-  function historyFor(editionDate) {
+  function historyFor(editionDate, names) {
     const history = window.MARKET_HISTORY;
     if (!history || !history.dates.length) return null;
     const end = history.dates.filter((day) => day < editionDate).length;
     if (end < 2) return null;
+    const series = names
+      ? names.map((name) => history.series.find((serie) => serie.name === name)).filter(Boolean)
+      : history.series;
+    if (!series.length) return null;
     return {
       dates: history.dates.slice(0, end),
-      series: history.series.map((serie, i) => ({ ...serie, closes: serie.closes.slice(0, end), color: "var(--series-" + (i + 1) + ")" })),
+      series: series.map((serie, i) => ({ ...serie, closes: serie.closes.slice(0, end), color: "var(--series-" + (i + 1) + ")" })),
     };
   }
 
@@ -527,8 +549,8 @@
 
   let chartObserver = null;
 
-  function renderChart(editionDate) {
-    const history = historyFor(editionDate);
+  function renderChart(editionDate, region) {
+    const history = historyFor(editionDate, region.series);
     if (!history) return null;
     const plot = el("div", { class: "plot" });
     const periodButtons = CHART_PERIODS.map((p) => {
@@ -550,7 +572,7 @@
     return el("section", { class: "chart-card" }, [
       el("div", { class: "chart-top" }, [
         el("div", {}, [
-          el("h2", { class: "section-title", text: "Performance des indices" }),
+          el("h2", { class: "section-title", text: region.chartTitle }),
           el("p", { class: "chart-sub", text: "Évolution en %, base 0 au début de la période · dernière clôture le " + lastClose.toLocaleDateString("fr-FR", { day: "numeric", month: "long" }) }),
         ]),
         el("div", { class: "periods", role: "group", "aria-label": "Période" }, periodButtons),
@@ -558,7 +580,9 @@
       el("div", { class: "legend" }, history.series.map((serie) => el("span", {}, [el("span", { class: "swatch", style: "--c: " + serie.color }), serie.name]))),
       plot,
       renderPerformanceTable(history),
-      el("p", { class: "chart-sub", text: "Marchés émergents : ETF iShares MSCI Emerging Markets (EEM), en dollars." }),
+      region.series.includes("Marchés émergents")
+        ? el("p", { class: "chart-sub", text: "Marchés émergents : ETF iShares MSCI Emerging Markets (EEM), en dollars." })
+        : null,
     ]);
   }
 
@@ -578,21 +602,53 @@
     ]);
   }
 
-  function renderMarkets(markets, editionDate) {
-    const indices = [...(markets.indices || [])].sort((a, b) => {
-      const rank = (quote) => { const i = FEATURED_INDICES.indexOf(quote.name); return i === -1 ? 99 : i; };
-      return rank(a) - rank(b);
-    });
+  // Zone d'une actu : champ `region` (« Amérique », « Europe », « Asie »), sinon déduite de la catégorie.
+  function regionOf(story) {
+    const label = story.region || story.category || "";
+    if (/europe/i.test(label)) return "europe";
+    if (/asie/i.test(label)) return "asia";
+    return "americas";
+  }
+
+  function renderBoard(title, quotes, label) {
+    if (!quotes.length) return [];
     return [
-      markets.intro ? el("p", { class: "intro", text: markets.intro, style: "margin-bottom: 24px" }) : null,
-      renderChart(editionDate),
-      indices.length ? el("h2", { class: "section-title", text: "Les indices" }) : null,
-      indices.length ? el("div", { class: "board" }, indices.map((quote) => renderTile(quote, quote.region, FEATURED_INDICES.includes(quote.name)))) : null,
-      markets.stocks && markets.stocks.length ? el("h2", { class: "section-title", text: "Les géants de la tech" }) : null,
-      markets.stocks && markets.stocks.length ? el("div", { class: "board" }, markets.stocks.map((quote) => renderTile(quote, quote.ticker, false))) : null,
-      markets.stories && markets.stories.length ? el("section", { class: "stories" }, markets.stories.map(renderStory)) : null,
-      renderQuick(markets.quick),
+      el("h2", { class: "section-title", text: title }),
+      el("div", { class: "board" }, quotes.map((quote) => renderTile(quote, label(quote), FEATURED_INDICES.includes(quote.name)))),
     ];
+  }
+
+  function renderMarkets(markets, editionDate) {
+    markets = markets || {};
+    const region = MARKET_REGIONS.find((r) => r.key === currentRegion);
+    const subtabs = el("div", { class: "subtabs", role: "tablist", "aria-label": "Zones" }, MARKET_REGIONS.map((r) => {
+      const button = el("button", { type: "button", role: "tab", "aria-selected": String(r.key === currentRegion), text: r.label });
+      button.addEventListener("click", () => { currentRegion = r.key; renderEdition(currentIndex); });
+      return button;
+    }));
+    const indices = markets.indices || [];
+    const content = [];
+
+    if (region.key === "world") {
+      if (markets.intro) content.push(el("p", { class: "intro", text: markets.intro, style: "margin-bottom: 24px" }));
+      if (!markets.indices) content.push(el("p", { class: "note", text: "Pas d'actus Bourse dans cette édition : le volet a démarré le 30 octobre 2026. Les graphiques restent consultables." }));
+      content.push(renderChart(editionDate, region));
+      const headline = WORLD_INDICES.map((name) => indices.find((quote) => quote.name === name)).filter(Boolean);
+      content.push(...renderBoard("Les indices de référence", headline, (quote) => quote.region));
+      content.push(renderQuick(markets.quick));
+    } else {
+      const regional = indices.filter((quote) => quote.region === region.indexRegion).sort((a, b) => {
+        const rank = (quote) => { const i = FEATURED_INDICES.indexOf(quote.name); return i === -1 ? 99 : i; };
+        return rank(a) - rank(b);
+      });
+      const stories = (markets.stories || []).filter((story) => regionOf(story) === region.key);
+      content.push(renderChart(editionDate, region));
+      content.push(...renderBoard("Les indices", regional, (quote) => quote.region));
+      if (region.key === "americas") content.push(...renderBoard("Les géants de la tech", markets.stocks || [], (quote) => quote.ticker));
+      if (stories.length) content.push(el("section", { class: "stories" }, stories.map(renderStory)));
+      else if (markets.indices) content.push(el("p", { class: "note", text: "Pas d'actu marquante sur cette zone aujourd'hui." }));
+    }
+    return [subtabs, ...content];
   }
 
   function renderEdition(index, tab = currentTab) {
@@ -600,13 +656,11 @@
     const edition = editions[index];
     const tabs = TABS.filter((t) => t.available(edition));
     currentTab = tabs.some((t) => t.key === tab) ? tab : tabs[0].key;
-    const tabBar = tabs.length > 1
-      ? el("div", { class: "tabs", role: "tablist" }, tabs.map((t) => {
-          const button = el("button", { type: "button", role: "tab", "aria-selected": String(t.key === currentTab), text: t.label });
-          button.addEventListener("click", () => renderEdition(index, t.key));
-          return button;
-        }))
-      : null;
+    const tabBar = el("div", { class: "tabs", role: "tablist" }, tabs.map((t) => {
+      const button = el("button", { type: "button", role: "tab", "aria-selected": String(t.key === currentTab), text: t.label });
+      button.addEventListener("click", () => renderEdition(index, t.key));
+      return button;
+    }));
     const content = currentTab === "markets"
       ? renderMarkets(edition.markets, edition.date)
       : [el("section", { class: "stories" }, edition.stories.map(renderStory)), renderQuick(edition.quick)];
@@ -617,7 +671,7 @@
         currentTab === "ai" && edition.intro ? el("p", { class: "intro", text: edition.intro }) : null,
       ]),
       tabBar,
-      ...content,
+      ...content.filter(Boolean),
       el("footer", { text: currentTab === "markets"
         ? "Cours issus de Yahoo Finance, résumés rédigés par Claude. Ceci n'est pas un conseil en investissement."
         : "Résumés rédigés par Claude à partir des articles liés. Vérifiez les détails à la source." }),
