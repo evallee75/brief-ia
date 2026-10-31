@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-10-31",
-  "intro": "OpenAI réduit sa levée de fonds, Thrive (soutenu par OpenAI) rachète ADT pour 15,3 milliards de dollars, et une version piégée de l'extension Claude Code a circulé.",
+  "intro": "OpenAI réduit sa levée de fonds, Thrive (soutenu par OpenAI) rachète ADT pour 15,3 milliards de dollars, et une version piégée de l'extension Claude Code a circulé. Mise à jour du soir : Google, OpenAI, Anthropic et Microsoft s'engagent à respecter un signal commun permettant aux sites de refuser l'entraînement des IA sur leurs contenus. Les marchés sont fermés ce week-end : le volet Bourse reste celui de vendredi.",
   "stories": [
    {
     "category": "Business",
@@ -44,6 +44,21 @@ window.EDITIONS = [
      {
       "label": "TechCrunch",
       "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Google, OpenAI, Anthropic et Microsoft s'engagent à respecter un même signal « non » des éditeurs",
+    "summary": "Les quatre entreprises ont promis de respecter une nouvelle consigne dans le fichier robots.txt des sites web, qui permet aux éditeurs de refuser que leurs contenus servent à entraîner des IA. Anthropic la gère déjà ; Microsoft suivra le 1er février 2027, Google début 2027 et OpenAI dans les prochains mois.",
+    "whyLabel": "À savoir",
+    "why": "Les éditeurs n'auront plus à écrire des règles différentes pour chaque robot, mais la consigne n'efface pas ce qui a déjà été collecté.",
+    "image": "https://www.engadget.com/img/gallery/google-joins-openai-and-anthropic-in-promising-new-scraping-controls/l-intro-1793442580.jpg",
+    "links": [
+     {
+      "label": "Engadget",
+      "url": "https://engadget.com/2303225/google-openai-anthropic-ai-crawling-controls",
       "lang": "EN"
      }
     ]
