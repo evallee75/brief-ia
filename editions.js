@@ -1,5 +1,425 @@
 window.EDITIONS = [
  {
+  "date": "2026-10-31",
+  "intro": "OpenAI réduit sa levée de fonds, Thrive (soutenu par OpenAI) rachète ADT pour 15,3 milliards de dollars, et une version piégée de l'extension Claude Code a circulé.",
+  "stories": [
+   {
+    "category": "Business",
+    "title": "OpenAI revoit à la baisse sa levée de fonds, en pleine inquiétude sur l'IA",
+    "summary": "Selon le Financial Times, repris par CoinDesk, OpenAI cherchait à lever 30 milliards de dollars sur la base d'une valeur de 1 400 milliards. L'objectif serait désormais d'environ 20 milliards, pour une valeur de 1 250 milliards. Ce recul survient pendant une forte baisse des valeurs liées à l'IA en Bourse.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Même les entreprises les plus en vue de l'IA doivent désormais composer avec des investisseurs plus prudents.",
+    "image": "",
+    "links": [
+     {
+      "label": "CoinDesk (d'après le FT)",
+      "url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Thrive Holdings, soutenu par OpenAI, rachète le spécialiste de l'alarme ADT pour 15,3 milliards de dollars",
+    "summary": "Thrive Holdings, issu du fonds Thrive Capital, a accepté de racheter ADT à 10 dollars l'action, soit une prime d'environ 46 %. OpenAI est investisseur et partenaire technologique de Thrive, qui possède plus de 75 entreprises. La finalisation est attendue au premier trimestre 2027, sous réserve d'approbations.",
+    "whyLabel": "À savoir",
+    "why": "Les acteurs de l'IA ne se contentent plus de vendre des outils : ils prennent des parts dans des entreprises « classiques » pour les transformer de l'intérieur.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/ADT-logo.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Technologie",
+    "title": "Waymo et Toyota : le prochain robotaxi sera un Toyota bZ4X, destiné au Japon et au Royaume-Uni",
+    "summary": "Toyota fabriquera des bZ4X 2027 équipés de la conduite autonome de Waymo. Des tests sont prévus au Japon l'an prochain, puis un déploiement au Royaume-Uni.",
+    "whyLabel": "En bref",
+    "why": "Les robotaxis sortent des États-Unis et s'appuient sur de grands constructeurs pour être produits en série.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/10/Waymo_Toyota_bZ4X.jpg?resize=1200,675",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "Une version piégée de l'extension Claude Code a circulé sur la boutique de Cursor",
+    "summary": "Une version truquée (2.1.313) de l'extension Claude Code pour l'éditeur de code VS Code était disponible le 29 octobre sur la boutique d'extensions de Cursor et installait une porte dérobée. Cursor estime que jusqu'à 5 000 utilisateurs pourraient être touchés. Anthropic a publié une version saine (2.1.314) le 30 octobre.",
+    "whyLabel": "À savoir",
+    "why": "Les outils d'IA pour développeurs, très répandus, deviennent une cible de choix pour les pirates.",
+    "image": "",
+    "links": [
+     {
+      "label": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Le régulateur britannique ouvre une enquête sur les conditions de Meta envers les éditeurs de presse",
+    "summary": "L'autorité de la concurrence britannique (CMA) a lancé le 30 octobre une enquête formelle. Elle veut savoir si les conditions proposées par Meta pour utiliser des contenus d'éditeurs britanniques dans ses fonctions d'IA constituent un abus de position dominante.",
+    "whyLabel": "Le contexte",
+    "why": "La question de la rémunération des médias par les géants de l'IA devient un sujet de régulation à part entière.",
+    "image": "https://britbrief.co.uk/images/2026/10/lg/cma-investigates-meta-terms-for-publishers-and-businesses.webp",
+    "links": [
+     {
+      "label": "BritBrief",
+      "url": "https://britbrief.co.uk/tech/regulation/cma-investigates-meta-terms-for-publishers-and-businesses.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Le gendarme de la Bourse américaine surveille ce que disent les entreprises d'IA à leurs investisseurs",
+    "summary": "David Woodcock, responsable des enquêtes de la SEC, a déclaré à Reuters que l'agence suit les informations publiées par les entreprises d'IA, alors que les craintes de bulle montent. Il n'a pas fait état d'enquête ouverte.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Avec les introductions en Bourse attendues dans le secteur, les promesses faites aux investisseurs seront scrutées de près.",
+    "image": "https://hermes.media.transform.aol.com/599e1824d0c81b35068377b81246dd59a26ca97a/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/10/30/e895d9d2-8e42-3fa8-9990-c7cf6e1ea34d/460fddd3-ee6c-478d-bd6b-743d3eb7eab7.jpg",
+    "links": [
+     {
+      "label": "AOL (Reuters)",
+      "url": "https://www.aol.com/articles/us-secs-top-cop-says-175527000.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Emploi",
+    "title": "Près d'un salarié sur cinq remplacé par l'IA aurait été rappelé ensuite",
+    "summary": "Selon une enquête 2026 du cabinet SHL, citée par CNBC, près d'un travailleur américain sur cinq licencié ou remplacé par l'IA s'est vu proposer de revenir.",
+    "whyLabel": "En bref",
+    "why": "Remplacer des humains par l'IA ne se passe pas toujours comme prévu par les employeurs.",
+    "image": "",
+    "links": [
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/make-it/2026/10/30/ai-rebounding-employees.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Les géants de la tech ont engagé plus de 3 000 milliards de dollars dans l'IA",
+    "summary": "D'après un décompte de Bloomberg des résultats du troisième trimestre, Alphabet, Meta, Microsoft, Amazon et Oracle totalisent plus de 3 000 milliards de dollars d'engagements liés à l'IA.",
+    "whyLabel": "Le contexte",
+    "why": "Ces dépenses colossales expliquent pourquoi les investisseurs exigent désormais des preuves de rentabilité.",
+    "image": "",
+    "links": [
+     {
+      "label": "The Next Web",
+      "url": "https://thenextweb.com/news/big-tech-3-trillion-ai-spending-commitments",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Technologie",
+    "title": "Sam Altman juge « assez terrible » que les PC grand public aient autant de mémoire vive",
+    "summary": "Dans un entretien, le patron d'OpenAI a estimé que la mémoire (DRAM) mondiale serait mieux utilisée dans les centres de données que dans les ordinateurs personnels. Des utilisateurs qui font tourner l'IA chez eux ont vivement réagi.",
+    "whyLabel": "À savoir",
+    "why": "La pénurie de mémoire due à l'IA fait déjà monter les prix des composants pour le grand public.",
+    "image": "https://cdn.mos.cms.futurecdn.net/Dsf9PuWymXVCr7nc5FwWtZ-2560-80.jpg",
+    "links": [
+     {
+      "label": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "La banque UBS compte plus de 12 700 agents IA personnels parmi ses employés",
+    "summary": "Dans ses résultats du troisième trimestre, UBS indique que ses salariés utilisent plus de 12 700 agents IA personnels et que la banque compte 608 usages en production.",
+    "whyLabel": "En bref",
+    "why": "Les assistants IA s'installent concrètement dans le quotidien des grandes banques.",
+    "image": "https://www.pymnts.com/wp-content/uploads/2022/01/UBS.jpg",
+    "links": [
+     {
+      "label": "PYMNTS",
+      "url": "https://www.pymnts.com/news/banking/2026/ubs-employees-run-12700-ai-agents-as-bank-automation-accelerates/",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Cisco a donné des jetons IA illimités à un ingénieur de 27 ans pour réécrire du code ancien, avec l'objectif d'en refaire 98 % en 24 mois.",
+    "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+    "lang": "EN"
+   },
+   {
+    "text": "LG vise le marché des robots humanoïdes domestiques d'ici 2030, avec Nvidia pour les données d'entraînement.",
+    "url": "https://www.lgnewsroom.com/",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "intro": "Pas de séance ce week-end : vendredi, le Nasdaq a clôturé en baisse de 2,9 % et le S&P 500 de 1,8 %, au terme d'un mois d'octobre difficile pour les valeurs de l'IA et des puces.",
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 25437.0,
+     "changePct": -2.86,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 28384.85,
+     "changePct": -3.46,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7580.07,
+     "changePct": -1.82,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 51770.31,
+     "changePct": -1.09,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 19.42,
+     "changePct": 12.91,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 7969.42,
+     "changePct": -0.01,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 25818.21,
+     "changePct": -0.85,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6131.31,
+     "changePct": -1.22,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 63290.11,
+     "changePct": -2.12,
+     "session": "2026-10-30"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 23294.42,
+     "changePct": 1.46,
+     "session": "2026-10-30"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 204.64,
+     "changePct": -4.22,
+     "session": "2026-10-30"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 344.63,
+     "changePct": -1.23,
+     "session": "2026-10-30"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 521.91,
+     "changePct": -1.55,
+     "session": "2026-10-30"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 279.84,
+     "changePct": -1.4,
+     "session": "2026-10-30"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 240.35,
+     "changePct": -1.41,
+     "session": "2026-10-30"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 614.99,
+     "changePct": -1.53,
+     "session": "2026-10-30"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 399.81,
+     "changePct": -0.87,
+     "session": "2026-10-30"
+    }
+   ],
+   "stories": [
+    {
+     "region": "Amérique",
+     "category": "Nasdaq",
+     "title": "Octobre : le Nasdaq termine son pire mois depuis mars 2025",
+     "summary": "Vendredi, le Nasdaq Composite a reculé de 2,9 % à 25 437 points. Sur le mois d'octobre, il perd plus de 5 %. Le S&P 500 cède 1,8 % sur la séance (7 580 points) et 0,9 % sur le mois ; le Dow Jones, lui, gagne 1,7 % sur octobre.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "La baisse est concentrée sur la tech et l'IA, tandis que les valeurs plus traditionnelles tiennent mieux.",
+     "image": "https://content-media.investing.com/news/LYNXMPEM3F1FY_1200_L.jpg",
+     "links": [
+      {
+       "label": "Investing.com",
+       "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Les valeurs des puces sont entrées en « marché baissier »",
+     "summary": "L'indice iShares des semi-conducteurs (SOXX) est à 29 % sous son récent sommet. Le fonds AIQ, centré sur l'IA, perd 8 % en octobre. Les investisseurs se tournent vers des valeurs comme Procter & Gamble ou Berkshire Hathaway.",
+     "whyLabel": "Le contexte",
+     "why": "Les investisseurs veulent désormais voir que les énormes dépenses en IA rapportent vraiment.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/amp/2026/10/30/ai-stocks-selloff-ai-spending-returns.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Meta : S&P Global dégrade la perspective de sa note à « négative »",
+     "summary": "L'agence S&P a confirmé la note AA- de Meta mais en a abaissé la perspective, en raison de dépenses d'investissement très élevées (135 à 145 milliards de dollars prévus) et d'une trésorerie disponible négative.",
+     "whyLabel": "À savoir",
+     "why": "Même un géant très rentable est jugé plus risqué quand il dépense autant dans l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Amazon : des résultats sous les attentes, mais le cloud accélère",
+     "summary": "Amazon a publié un bénéfice inférieur aux attentes et une trésorerie disponible fortement négative à cause de ses dépenses en IA. En revanche, sa branche cloud AWS affiche sa croissance la plus rapide depuis cinq ans. L'action a clôturé à 240,35 dollars.",
+     "whyLabel": "En bref",
+     "why": "Le cloud reste le moteur d'Amazon, mais son coût pèse sur les comptes.",
+     "image": "",
+     "links": [
+      {
+       "label": "Investing.com",
+       "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Macro / Fed",
+     "title": "Un célèbre investisseur compare les dépenses d'IA aux grands cycles passés",
+     "summary": "Paul Tudor Jones estime que l'économie est sur une trajectoire vers un « point de bascule » avec 60 % de chances contre 40. Selon lui, les émissions de dette liées à l'IA, rapportées au PIB, dépassent de 50 % celles des chemins de fer.",
+     "whyLabel": "Le contexte",
+     "why": "Ce type d'avertissement nourrit les craintes d'une bulle autour de l'IA ; ce n'est pas une prévision certaine.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/amp/2026/10/30/ai-stocks-selloff-ai-spending-returns.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "L'Europe termine presque stable après un très bon mois d'octobre",
+     "summary": "Le CAC 40 finit à 7 969 points (stable), le DAX recule de 0,85 % et l'Euro Stoxx 50 de 1,22 %. L'indice STOXX 600 baisse de 0,36 % vendredi, mais signe son meilleur mois depuis juin.",
+     "whyLabel": "En bref",
+     "why": "L'Europe a moins souffert que Wall Street, moins exposée aux géants de l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "Closing Look (Substack)",
+       "url": "https://cappnotes.substack.com/p/closing-look-friday-october-30-2026",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Tokyo chute de 2,1 %, Hong Kong résiste",
+     "summary": "Le Nikkei 225 a cédé 2,12 % à 63 290 points dans le sillage de la baisse des puces, tandis que l'indice Hang Seng de Hong Kong a gagné 1,46 % à 23 294 points. Shanghai a perdu 1,44 %.",
+     "whyLabel": "À savoir",
+     "why": "Les marchés asiatiques les plus liés aux puces ont suivi Wall Street ; Hong Kong a fait exception.",
+     "image": "",
+     "links": [
+      {
+       "label": "Armenpress",
+       "url": "https://armenpress.am/en/article/1264357",
+       "lang": "EN"
+      }
+     ]
+    }
+   ],
+   "quick": [
+    {
+     "text": "Le Bitcoin recule de 2,4 % vers 76 900 dollars.",
+     "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675",
+     "lang": "EN"
+    },
+    {
+     "text": "Le Nasdaq et le S&P 500 sont toujours sous leurs records ; la semaine se termine avec un Nasdaq en baisse de 2 %.",
+     "url": "https://www.cnbc.com/amp/2026/10/30/ai-stocks-selloff-ai-spending-returns.html",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-10-30",
   "intro": "Amazon critique les assistants d'achat d'autres entreprises, le Canada entre au capital de Cohere, et Mistral met en libre téléchargement un modèle géant. Mise à jour du soir : l'IA et l'emploi (Comcast, Goldman Sachs, Proton) et l'appel du pape à garder l'humain aux commandes.",
   "stories": [
