@@ -1,0 +1,331 @@
+{
+  "date": "2026-11-01",
+  "intro": "Apple affiche une stratégie IA prudente, la justice laisse avancer la plainte contre le centre de données de xAI, et Intel s'effondre en Bourse sur fond d'inquiétudes sur les dépenses des géants de l'IA.",
+  "stories": [
+    {
+      "category": "Technologie",
+      "title": "Le nouveau patron d'Apple : « pas question de mettre de l'IA juste pour faire de l'IA »",
+      "summary": "John Ternus, devenu PDG d'Apple début septembre, assure dans un entretien à Wired que « Apple va absolument tirer parti de l'IA » dans ses futurs produits. Mais il ne veut pas en ajouter sans raison : ce qui compte, dit-il, c'est que les gens aiment ce qu'Apple fabrique. Il rejette aussi l'idée que des agents IA rendraient les applications inutiles.",
+      "whyLabel": "Le contexte",
+      "why": "Apple est souvent vu comme en retard sur l'IA : son nouveau dirigeant affiche une stratégie prudente, à rebours de la course de ses concurrents.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Un juge laisse la plainte contre le centre de données de xAI aller jusqu'au procès",
+      "summary": "Une juge fédérale a refusé de classer la plainte de l'association NAACP, qui accuse xAI d'avoir fait tourner sans permis des turbines à gaz sur son site Colossus, près de Memphis. Selon l'association de juristes qui la soutient, au moins 35 turbines auraient été installées et utilisées sans autorisation. Un refus similaire avait déjà été opposé plus tôt ce mois-ci au ministère américain de la Justice.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les centres de données de l'IA consomment énormément d'énergie, et leur pollution locale devient un sujet de contestation, jusque devant les tribunaux.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Nvidia envisagerait de se porter garant d'un énorme centre de données pour Anthropic",
+      "summary": "Selon des informations rapportées par TechCrunch, Nvidia discuterait pour garantir des milliards de dollars de dettes de l'entreprise Nscale, qui construit un centre de données en Virginie-Occidentale. Anthropic a signé un contrat de 44,6 milliards de dollars pour le premier bâtiment, et un second accord d'environ 45 milliards serait en discussion. Nscale, qui cherche à entrer en Bourse, n'exploite aujourd'hui qu'environ 25 000 puces sur 500 000 prévues.",
+      "whyLabel": "À savoir",
+      "why": "Les fabricants de puces financent désormais eux-mêmes leurs clients : un montage qui inquiète certains investisseurs si la demande ralentit.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Des fissures apparaissent dans le boom des dépenses en IA",
+      "summary": "Alphabet, Amazon, Meta et Microsoft prévoient plus de 740 milliards de dollars d'investissements cette année, et ces géants ont levé, avec Oracle, 326 milliards de dollars de dette en 2026, environ trois fois plus que l'an dernier. Dans le même temps, leur trésorerie disponible s'effrite : elle est négative chez Alphabet, Amazon et Meta au dernier trimestre. Seul Microsoft reste positif.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les investisseurs se demandent si ces dépenses record seront rentabilisées, ce qui explique les secousses récentes en Bourse.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Intel chute de 28 % en Bourse après des prévisions décevantes",
+      "summary": "L'action du fabricant de puces a perdu environ 28 % vendredi, après des prévisions de chiffre d'affaires de 15 à 16 milliards de dollars pour le trimestre en cours, sous les attentes des analystes (environ 17 milliards). La baisse a fait fondre quelque 12 milliards de dollars de la participation de l'État américain dans l'entreprise. Intel prévoit aussi une marge en recul, même si les revenus de ses centres de données progressent de 78 % sur un an.",
+      "whyLabel": "Le contexte",
+      "why": "Intel est au cœur des efforts américains pour produire des puces sur son sol, et l'État en est actionnaire.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Élections américaines : les chatbots se trompent souvent en préparant des guides de vote",
+      "summary": "Le Washington Post a demandé à six chatbots populaires de rédiger des guides de vote pour des adresses dans tous les comtés américains. Les réponses contenaient de nombreuses erreurs, dont une course au Sénat du Missouri qui n'existe pas. Le journal signale aussi des sites générés par IA qui nourrissent les chatbots d'informations douteuses.",
+      "whyLabel": "À savoir",
+      "why": "À quelques jours des élections de mi-mandat, ces outils sont utilisés par environ un électeur sur cinq : mieux vaut vérifier sur les sites officiels.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/10/24/we-asked-six-chatbots-make-voter-guides-they-made-serious-errors/",
+          "lang": "EN"
+        },
+        {
+          "label": "Résumé : Let's Data Science",
+          "url": "https://letsdatascience.com/news/washington-post-tests-six-chatbots-on-voter-guides-finds-err-64c77967",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Technologie",
+      "title": "Anthropic apprend à Claude à faire sa propre « revue de sécurité » de chaque conversation",
+      "summary": "Anthropic décrit une méthode où Claude rédige un court bilan de sécurité juste après chaque réponse. Il repère ainsi 78 % des conversations signalées comme risquées par un contrôleur plus puissant, et 94 % des cas prioritaires, avec 1 % de fausses alertes. Pour bloquer les attaques en revanche, l'outil reste limité : il fait baisser leur taux de réussite de 79 % à 54 %, contre 25 % pour le contrôleur plus puissant.",
+      "whyLabel": "En bref",
+      "why": "Une piste peu coûteuse (moins de 2 % de calcul en plus) pour surveiller les IA, mais qui ne remplace pas les autres protections.",
+      "image": "https://safeguards.anthropic.com/2026/self-assessment/social-card.png",
+      "links": [
+        {
+          "label": "Anthropic (Safeguards)",
+          "url": "https://safeguards.anthropic.com/2026/self-assessment/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Ollie, l'assistant IA « respectueux de la vie privée » pour les familles, ferme le 6 novembre",
+      "summary": "La start-up, qui avait levé 7,5 millions de dollars auprès de Khosla Ventures, proposait un assistant relié aux mails et agendas pour réserver, planifier les repas ou payer les factures. Son fondateur reconnaît avoir « presque réussi » mais n'avoir pas pu suivre la concurrence. Les clients pourront récupérer leurs données et se faire rembourser.",
+      "whyLabel": "En bref",
+      "why": "Les petites start-up d'assistants IA peinent à résister face aux géants qui intègrent les mêmes fonctions.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Ollie_Hero.png?resize=1200,847",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "ElevenLabs lance SFX v3, un modèle qui crée des effets sonores à partir d'une description écrite et mélange mieux plusieurs sons dans un même enregistrement.",
+      "url": "https://elevenlabs.io/blog/sound-effects-v3",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "intro": "Pas de séance ce dimanche : vendredi, le Nasdaq a clôturé en baisse de 2,9 % et le S&P 500 de 1,8 %, sur fond d'inquiétude face aux dépenses en IA et à la chute d'Intel. Les chiffres ci-dessous sont ceux de vendredi.",
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 25437.0,
+        "changePct": -2.86,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 28384.85,
+        "changePct": -3.46,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7580.07,
+        "changePct": -1.82,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 51770.31,
+        "changePct": -1.09,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 19.42,
+        "changePct": 12.91,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 7969.42,
+        "changePct": -0.01,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 25818.21,
+        "changePct": -0.85,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6131.31,
+        "changePct": -1.22,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 63290.11,
+        "changePct": -2.12,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 23294.42,
+        "changePct": 1.46,
+        "session": "2026-10-30"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 204.64,
+        "changePct": -4.22,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 344.63,
+        "changePct": -1.23,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 521.91,
+        "changePct": -1.55,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 279.84,
+        "changePct": -1.4,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 240.35,
+        "changePct": -1.41,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 614.99,
+        "changePct": -1.53,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 399.81,
+        "changePct": -0.87,
+        "session": "2026-10-30"
+      }
+    ],
+    "stories": [
+      {
+        "category": "Tech US",
+        "title": "Intel s'effondre de 28 % et plombe les valeurs des puces",
+        "summary": "Vendredi, l'action Intel a chuté d'environ 28 % après des prévisions de chiffre d'affaires inférieures aux attentes (15 à 16 milliards de dollars contre environ 17 milliards attendus). L'État américain, actionnaire à 10 %, a vu sa participation perdre quelque 12 milliards de dollars.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Ce coup dur s'ajoute aux inquiétudes sur le secteur des puces, dans un mois déjà difficile pour la tech.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/10/Intel-Lip-Bu-Tan-1.jpg?resize=1200,800",
+        "links": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Alphabet : 500 milliards de dollars de valeur boursière envolés en une séance",
+        "summary": "Jeudi, l'action Alphabet a perdu 12 %, soit environ 500 milliards de dollars de valeur. Sa trésorerie disponible est devenue négative au troisième trimestre (-9,1 milliards de dollars), sous l'effet de dépenses record dans l'IA.",
+        "whyLabel": "Le contexte",
+        "why": "Les marchés sanctionnent de plus en plus les géants qui dépensent beaucoup en IA sans que les revenus suivent au même rythme.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
+        "links": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Nasdaq",
+        "title": "Le Nasdaq a reculé de 2,9 % vendredi sur fond d'inquiétude sur les dépenses en IA",
+        "summary": "Selon TechCrunch, l'inquiétude des investisseurs face aux dépenses des géants de la tech a fait baisser le Nasdaq de 2,9 % vendredi. Alphabet, Amazon, Meta, Microsoft et Oracle ont levé 326 milliards de dollars de dette cette année, environ le triple de 2025.",
+        "whyLabel": "À savoir",
+        "why": "Pas de séance ce week-end : la prochaine réaction des marchés viendra lundi.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/10/mick-haupt-7Kv1Elbagcc-unsplash.jpg?resize=1200,800",
+        "links": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Nvidia pourrait garantir la dette d'un centre de données de 45 milliards de dollars",
+        "summary": "Nvidia serait en discussion pour se porter garant de milliards de dollars de dettes de Nscale, dont le centre de données de Virginie-Occidentale a déjà un contrat de 44,6 milliards avec Anthropic. Nscale vise une introduction en Bourse jusqu'à 35 milliards de dollars de valorisation.",
+        "whyLabel": "En bref",
+        "why": "Nvidia finance ses propres clients, un mécanisme à surveiller si la demande d'IA se tasse.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+        "links": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      }
+    ],
+    "quick": []
+  }
+}
