@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-02",
-  "intro": "Apple prépare Apple Intelligence en Chine avec Alibaba, Meta passe devant Google dans la publicité, et l'IA s'invite dans les élections américaines.",
+  "intro": "Apple prépare Apple Intelligence en Chine avec Alibaba, Meta passe devant Google dans la publicité, et l'IA s'invite dans les élections américaines. Mise à jour du soir : Anthropic publie des résultats trimestriels contrastés, Google étend les pubs de son Mode IA et DeepSeek dévoile un prototype d'agent.",
   "stories": [
    {
     "category": "Technologie",
@@ -44,6 +44,51 @@ window.EDITIONS = [
      {
       "label": "TechCrunch",
       "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Anthropic dévoile ses résultats du 3e trimestre : 17 milliards de dollars de ventes, mais une perte",
+    "summary": "Dans son dossier d'introduction en Bourse mis à jour, Anthropic indique 17 milliards de dollars de chiffre d'affaires sur le trimestre clos fin septembre, contre 11,6 milliards au précédent. La croissance ralentit (environ +47 %, contre +144 % au trimestre précédent) et l'entreprise passe d'un bénéfice d'exploitation de 974 millions à une perte de 567 millions de dollars.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "L'entreprise attribue la perte surtout au coût de la puissance de calcul louée à court terme. Ces chiffres seront scrutés par les investisseurs avant la cotation attendue.",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297777280_ee4bc0-e1793633324778.jpg?resize=1200,600",
+    "links": [
+     {
+      "label": "Fortune",
+      "url": "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Google étend les publicités dans son « Mode IA » à dix pays de plus",
+    "summary": "Google a annoncé que des publicités apparaîtront dans le Mode IA de son moteur de recherche en Australie, au Canada, en Inde, au Kenya, en Malaisie, en Nouvelle-Zélande, au Nigeria, au Pakistan, aux Philippines et à Singapour. Elles sont signalées comme « sponsorisées ».",
+    "whyLabel": "Le contexte",
+    "why": "C'est la réponse de Google à la question de savoir comment gagner de l'argent avec les réponses générées par IA, un sujet qui a pesé sur l'action Alphabet cette semaine.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_mode_global_ads_hero.max-1440x810.png",
+    "links": [
+     {
+      "label": "Google",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Technologie",
+    "title": "DeepSeek publie le prototype d'un agent IA qui code à la demande",
+    "summary": "Le laboratoire chinois DeepSeek a mis en ligne le code d'un prototype d'agent qui peut traiter des demandes autorisées sur GitHub ou suivre des règles écrites par une équipe. Ses auteurs précisent qu'il ne s'agit pas d'un produit officiel prêt pour la production.",
+    "whyLabel": "À savoir",
+    "why": "La course aux assistants capables de programmer seuls oppose désormais aussi des acteurs chinois à OpenAI et Anthropic.",
+    "image": "",
+    "links": [
+     {
+      "label": "GitHub DeepSeek",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
       "lang": "EN"
      }
     ]
@@ -174,10 +219,15 @@ window.EDITIONS = [
     "text": "Le groupe chinois iQIYI ouvre à Shanghai un studio de cinéma par IA, avec « Cop in Trouble » comme premier film.",
     "url": "https://finance.yahoo.com/technology/ai/articles/iqiyi-launches-chinas-first-ai-013900330.html",
     "lang": "EN"
+   },
+   {
+    "text": "Anthropic fait état d'environ 895 milliards de dollars d'engagements de dépenses, surtout en puissance de calcul et infrastructures.",
+    "url": "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/",
+    "lang": "EN"
    }
   ],
   "markets": {
-   "intro": "Après un vendredi noir (Nasdaq -2,9 %, S&P 500 -1,8 %) sur les doutes autour des dépenses en IA, Wall Street s'annonce en rebond lundi d'après les contrats à terme, avant les résultats d'Apple, l'emploi américain et les élections.",
+   "intro": "Lundi, vers 18 h, Wall Street rebondissait en séance (Nasdaq autour de +0,6 %, S&P 500 autour de +0,5 %), aidée par la chute du pétrole et l'espoir d'un dialogue entre les États-Unis et l'Iran, alors que l'Europe a clôturé en hausse ; les chiffres de Wall Street du tableau restent ceux de vendredi, après un plongeon de 2,9 % du Nasdaq.",
    "indices": [
     {
      "name": "Nasdaq Composite",
@@ -217,30 +267,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 7969.42,
-     "changePct": -0.01,
-     "session": "2026-10-30"
+     "value": 8047.69,
+     "changePct": 0.98,
+     "session": "2026-11-02"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 25818.21,
-     "changePct": -0.85,
-     "session": "2026-10-30"
+     "value": 25981.09,
+     "changePct": 0.63,
+     "session": "2026-11-02"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6131.31,
-     "changePct": -1.22,
-     "session": "2026-10-30"
+     "value": 6176.06,
+     "changePct": 0.73,
+     "session": "2026-11-02"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 63081.86,
-     "changePct": -0.33,
-     "session": "2026-11-02"
+     "value": 63290.11,
+     "changePct": -2.12,
+     "session": "2026-10-30"
     },
     {
      "name": "Hang Seng",
@@ -302,6 +352,96 @@ window.EDITIONS = [
     }
    ],
    "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Lundi : Wall Street rebondit en séance après le choc de vendredi",
+     "summary": "Vers 18 h, heure de Paris, Wall Street progressait : environ +0,6 % pour le Nasdaq et +0,5 % pour le S&P 500, et un peu plus de +1 % pour le Dow Jones. Les valeurs de l'IA reprennent des couleurs après trois semaines de forte baisse.",
+     "whyLabel": "Le contexte",
+     "why": "Selon Yahoo Finance, les actions liées à l'IA ont perdu environ 5 000 milliards de dollars en trois semaines et le Nasdaq a reculé de 5,2 % en octobre.",
+     "image": "https://investinglive.com/cms/media/2026-11-02_09-04-07.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+       "lang": "EN"
+      },
+      {
+       "label": "InvestingLive",
+       "url": "https://investinglive.com/stocks/u-s-stocks-rebound-as-iran-diplomacy-hopes-and-lower-oil-outweigh-mixed-economic-data/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Lundi : le pétrole s'effondre sur l'espoir d'un dialogue entre Washington et Téhéran",
+     "summary": "Le baril américain (WTI) reculait de plus de 7 %, vers 96,5 dollars, après des informations sur une recherche de solution diplomatique à la guerre au Moyen-Orient. Le rendement des obligations américaines à 10 ans était d'environ 4,88 % et l'or gagnait plus de 2 %.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Moins de pétrole cher, c'est moins de pression sur l'inflation et sur les taux, ce qui soulage les actions. L'indice ISM de l'industrie a aussi progressé, à 55,5 contre 54,5.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Lundi : Oracle recule d'environ 5 % après l'annonce d'une levée de 20 milliards de dollars",
+     "summary": "L'action du géant du logiciel et du cloud baissait en séance après l'annonce d'une levée de fonds de 20 milliards de dollars. Alphabet, de son côté, progressait après une émission d'obligations.",
+     "whyLabel": "En bref",
+     "why": "Les géants de la tech doivent emprunter ou lever beaucoup d'argent pour financer leurs investissements dans l'IA. Apple publie ses résultats après la clôture.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Lundi : la Bourse de Paris en hausse de près de 1 % à la clôture",
+     "summary": "Les indices européens ont terminé la séance en hausse : environ +1,0 % pour le CAC 40, +0,6 % pour le DAX et +0,7 % pour l'Euro Stoxx 50, selon Yahoo Finance. Le recul du pétrole sur fond de discussions sur le Moyen-Orient a pesé sur les valeurs de l'énergie.",
+     "whyLabel": "À savoir",
+     "why": "Les comptes rendus de la séance divergent selon les sources : ces variations sont celles de la clôture relevées par Yahoo Finance.",
+     "image": "",
+     "links": [
+      {
+       "label": "MarketScreener",
+       "url": "https://www.marketscreener.com/news/european-shares-slip-as-investors-weigh-middle-east-talks-alstom-tanks-ce785fd8df80f22d",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Lundi : Séoul bondit de plus de 2 %, Tokyo quasi stable",
+     "summary": "L'indice Kospi sud-coréen a clôturé en hausse de 2,24 %, à 5 859 points, après avoir commencé la séance en baisse. Hong Kong gagnait un peu moins de 1 % et le Nikkei restait proche de 63 000 points.",
+     "whyLabel": "Le contexte",
+     "why": "Séoul rebondit après la chute de Wall Street de vendredi, tirée par les inquiétudes sur les puces (Intel).",
+     "image": "",
+     "links": [
+      {
+       "label": "Invezz",
+       "url": "https://invezz.com/uk/news/2026/11/02/kospi-reverses-early-decline-to-close-224percent-higher-as-korean-chip-exports-jump-259percent/",
+       "lang": "EN"
+      },
+      {
+       "label": "Baystreet",
+       "url": "https://www.baystreet.ca/foreignmarketwrap/5054/Asia-markets-close-mixed-Kospi-leads-gains",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
     {
      "category": "Nasdaq",
      "title": "Après le plongeon de vendredi, Wall Street s'annonce en rebond",
@@ -426,6 +566,16 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Le bitcoin évoluait autour de 78 000 dollars après un piratage de 6,3 milliards de dollars signalé sur Binance.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Les investisseurs attendent les résultats d'Apple après la clôture, les élections américaines de mardi et le rapport sur l'emploi vendredi.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+     "lang": "EN"
+    },
     {
      "text": "L'ASX australien a clôturé en baisse de 0,6 % ; Westpac a progressé de 1 % après un bénéfice annuel de 6,8 milliards de dollars.",
      "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",

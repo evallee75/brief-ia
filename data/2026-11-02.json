@@ -1,440 +1,590 @@
 {
- "date": "2026-11-02",
- "intro": "Apple prépare Apple Intelligence en Chine avec Alibaba, Meta passe devant Google dans la publicité, et l'IA s'invite dans les élections américaines.",
- "stories": [
-  {
-   "category": "Technologie",
-   "title": "Apple Intelligence arrive en Chine avec le modèle d'Alibaba",
-   "summary": "Apple a annoncé ses premières fonctions d'Apple Intelligence pour les iPhone vendus en Chine : traduction en direct, outils d'écriture, nettoyage de photos, résumés de notifications ou encore saisie de texte pour Siri. Les tests commencent le 4 novembre pour les développeurs, avec un déploiement en décembre. C'est le modèle Qwen d'Alibaba qui alimentera Siri et les outils d'écriture dans le pays.",
-   "whyLabel": "Pourquoi c'est important",
-   "why": "La Chine est un marché clé pour Apple : s'y associer à un acteur local est la condition pour y proposer de l'IA.",
-   "image": "https://www.apple.com.cn/newsroom/images/2026/10/apple-intelligence-features-are-coming-to-users-in-china/tile/Apple-Intelligence-hero-CN-lp.jpg.og.jpg?202611010328",
-   "links": [
+  "date": "2026-11-02",
+  "intro": "Apple prépare Apple Intelligence en Chine avec Alibaba, Meta passe devant Google dans la publicité, et l'IA s'invite dans les élections américaines. Mise à jour du soir : Anthropic publie des résultats trimestriels contrastés, Google étend les pubs de son Mode IA et DeepSeek dévoile un prototype d'agent.",
+  "stories": [
     {
-     "label": "Apple Chine",
-     "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
-     "lang": "ZH"
-    }
-   ]
-  },
-  {
-   "category": "Business",
-   "title": "Meta dépasse Google dans la publicité, grâce à l'IA",
-   "summary": "Au dernier trimestre, les revenus publicitaires de Meta ont progressé de 26 % à 63,1 milliards de dollars, contre +12 % pour la recherche de Google (63,4 milliards). Meta affirme que ses outils d'IA aident les annonceurs à obtenir près de 5 % de conversions en plus. Un analyste juge que le changement des habitudes de recherche, avec les chatbots, est « potentiellement catastrophique » pour la publicité de Google.",
-   "whyLabel": "Le contexte",
-   "why": "Alphabet a connu sa pire journée boursière jamais enregistrée la semaine dernière (-12 %, environ 500 milliards de dollars de valeur effacés).",
-   "image": "",
-   "links": [
-    {
-     "label": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Business",
-   "title": "Anthropic pourrait recevoir une note de crédit « spéculative » après son entrée en Bourse",
-   "summary": "Selon le Financial Times, relayé par TechCrunch, les agences de notation devraient attribuer à Anthropic une note dite « spéculative » (« junk ») après son introduction en Bourse. Blackstone, investisseur principal d'un financement de 63 milliards de dollars pour ses puces, s'attendrait désormais à la meilleure note de cette catégorie, alors qu'il tablait avant sur une note « investissement » avant 2027. Anthropic a déposé son dossier d'introduction cette semaine ; ni l'entreprise ni Blackstone n'ont commenté.",
-   "whyLabel": "À savoir",
-   "why": "Une mauvaise note rendrait plus cher le financement des énormes dépenses de calcul d'Anthropic, qui inquiètent déjà les investisseurs.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Éthique",
-   "title": "Anthropic demande aux utilisateurs de ne pas être cruels avec Claude",
-   "summary": "Anthropic a ajouté une ligne à sa politique d'usage : les utilisateurs ne doivent pas avoir de « comportement abusif ou cruel, prolongé et gratuit » envers ses modèles. Le sujet est relayé par CNN.",
-   "whyLabel": "En bref",
-   "why": "Une règle inhabituelle : elle protège le « bien-être » supposé de l'IA plutôt que des humains.",
-   "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2295330098.jpg?c=16x9&q=w_800,c_fill",
-   "links": [
-    {
-     "label": "CNN",
-     "url": "https://edition.cnn.com/2026/11/01/business/anthropic-dont-be-mean-claude-ban",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Société",
-   "title": "Les centres de données deviennent un enjeu des élections américaines",
-   "summary": "À cinq jours des élections de mi-mandat, l'IA et les centres de données reviennent dans toutes les conversations, même à Brooklyn. Selon un rapport cité par TechCrunch, près de 200 milliards de dollars de projets ont été retardés ou bloqués au premier semestre 2026 à cause de l'opposition locale. Plusieurs États, dont la Pennsylvanie, la Géorgie, le Texas, New York et la Virginie, envisagent davantage de règles.",
-   "whyLabel": "Pourquoi c'est important",
-   "why": "Électricité, eau, factures : l'IA devient un sujet de vote pour les électeurs ordinaires.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Newsreel-Midterm-Madness-22.jpg?resize=1200,800",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Politique",
-   "title": "OpenAI voudrait rebaptiser ses centres de données « campus de calcul IA »",
-   "summary": "Selon Axios, OpenAI prépare une campagne de communication après les élections de mi-mandat. Elle proposerait notamment des « limites de vitesse » pour l'IA et une aide des États-Unis pour fixer des standards mondiaux. Autre idée : rebaptiser les centres de données « AI compute campuses ». Amazon et Microsoft disent de leur côté renoncer aux clauses de confidentialité dans leurs négociations avec les collectivités locales.",
-   "whyLabel": "Le contexte",
-   "why": "Les centres de données sont très impopulaires : OpenAI cherche à changer leur image, et peut-être les règles.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Science",
-   "title": "Un agent IA a mené une injection dans le cerveau d'une souris",
-   "summary": "Une start-up de biotechnologie a laissé un agent IA choisir une thérapie génique, puis guider son injection réussie dans le cerveau d'une souris vivante, selon Wired. Des humains avaient autorisé l'intervention. Il s'agit d'une expérience menée par une jeune entreprise.",
-   "whyLabel": "À savoir",
-   "why": "Un aperçu de ce que pourraient devenir les laboratoires de recherche, avec des IA qui conduisent elles-mêmes les expériences.",
-   "image": "https://media.wired.com/photos/6ae4d6bbd55a0e2bc0a8d990/191:100/w_1280,c_limit/103026-AI%20Mouse%2002.jpg",
-   "links": [
-    {
-     "label": "Wired",
-     "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Cybersécurité",
-   "title": "Microsoft : les pirates nord-coréens se mettent à l'IA",
-   "summary": "Microsoft a publié une analyse de la façon dont des groupes de pirates nord-coréens utilisent de plus en plus l'IA dans leurs opérations, à des degrés variés selon les équipes. Elle s'inscrit dans le suivi par Microsoft de l'usage de l'IA par les attaquants pour aller plus vite et être plus efficaces.",
-   "whyLabel": "En bref",
-   "why": "Les mêmes outils qui aident les entreprises servent aussi aux pirates, d'où la course à la défense.",
-   "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/10/North-Korean-use-of-AI-featured-1.png",
-   "links": [
-    {
-     "label": "Microsoft Security",
-     "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Culture",
-   "title": "En Australie, des artistes dénoncent les imitations d'art aborigène faites par IA",
-   "summary": "Selon The Guardian, la présidente du groupe consultatif sur les Premières Nations de la National Gallery juge que ces imitations bon marché de styles culturellement importants sapent l'autonomie des artistes et l'authenticité de leurs œuvres.",
-   "whyLabel": "Pourquoi c'est important",
-   "why": "Au-delà du droit d'auteur, l'IA pose la question du respect des traditions culturelles.",
-   "image": "https://i.guim.co.uk/img/media/d42e0956def730a6b1eb335fab858536fb224a9c/224_0_6880_5504/master/6880.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a512af4d09236ad3d151d20d51c1b1e2",
-   "links": [
-    {
-     "label": "The Guardian",
-     "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Business",
-   "title": "Salesforce rachète Rune Technologies, spécialiste de la logistique militaire",
-   "summary": "Salesforce a signé un accord pour acquérir Rune Technologies, une entreprise de logiciels de logistique militaire. Salesforce n'a pas dévoilé le prix ; la presse évoque environ 375 millions de dollars.",
-   "whyLabel": "À savoir",
-   "why": "Les éditeurs de logiciels d'entreprise se positionnent sur le marché de la défense.",
-   "image": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/10/Rune-Salesforce.png",
-   "links": [
-    {
-     "label": "Salesforce",
-     "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-rune-technologies/",
-     "lang": "EN"
+      "category": "Technologie",
+      "title": "Apple Intelligence arrive en Chine avec le modèle d'Alibaba",
+      "summary": "Apple a annoncé ses premières fonctions d'Apple Intelligence pour les iPhone vendus en Chine : traduction en direct, outils d'écriture, nettoyage de photos, résumés de notifications ou encore saisie de texte pour Siri. Les tests commencent le 4 novembre pour les développeurs, avec un déploiement en décembre. C'est le modèle Qwen d'Alibaba qui alimentera Siri et les outils d'écriture dans le pays.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "La Chine est un marché clé pour Apple : s'y associer à un acteur local est la condition pour y proposer de l'IA.",
+      "image": "https://www.apple.com.cn/newsroom/images/2026/10/apple-intelligence-features-are-coming-to-users-in-china/tile/Apple-Intelligence-hero-CN-lp.jpg.og.jpg?202611010328",
+      "links": [
+        {
+          "label": "Apple Chine",
+          "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+          "lang": "ZH"
+        }
+      ]
     },
     {
-     "label": "TNW",
-     "url": "https://thenextweb.com/news/salesforce-rune-technologies-acquisition-missionforce-defence",
-     "lang": "EN"
+      "category": "Business",
+      "title": "Meta dépasse Google dans la publicité, grâce à l'IA",
+      "summary": "Au dernier trimestre, les revenus publicitaires de Meta ont progressé de 26 % à 63,1 milliards de dollars, contre +12 % pour la recherche de Google (63,4 milliards). Meta affirme que ses outils d'IA aident les annonceurs à obtenir près de 5 % de conversions en plus. Un analyste juge que le changement des habitudes de recherche, avec les chatbots, est « potentiellement catastrophique » pour la publicité de Google.",
+      "whyLabel": "Le contexte",
+      "why": "Alphabet a connu sa pire journée boursière jamais enregistrée la semaine dernière (-12 %, environ 500 milliards de dollars de valeur effacés).",
+      "image": "",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Anthropic pourrait recevoir une note de crédit « spéculative » après son entrée en Bourse",
+      "summary": "Selon le Financial Times, relayé par TechCrunch, les agences de notation devraient attribuer à Anthropic une note dite « spéculative » (« junk ») après son introduction en Bourse. Blackstone, investisseur principal d'un financement de 63 milliards de dollars pour ses puces, s'attendrait désormais à la meilleure note de cette catégorie, alors qu'il tablait avant sur une note « investissement » avant 2027. Anthropic a déposé son dossier d'introduction cette semaine ; ni l'entreprise ni Blackstone n'ont commenté.",
+      "whyLabel": "À savoir",
+      "why": "Une mauvaise note rendrait plus cher le financement des énormes dépenses de calcul d'Anthropic, qui inquiètent déjà les investisseurs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Anthropic dévoile ses résultats du 3e trimestre : 17 milliards de dollars de ventes, mais une perte",
+      "summary": "Dans son dossier d'introduction en Bourse mis à jour, Anthropic indique 17 milliards de dollars de chiffre d'affaires sur le trimestre clos fin septembre, contre 11,6 milliards au précédent. La croissance ralentit (environ +47 %, contre +144 % au trimestre précédent) et l'entreprise passe d'un bénéfice d'exploitation de 974 millions à une perte de 567 millions de dollars.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "L'entreprise attribue la perte surtout au coût de la puissance de calcul louée à court terme. Ces chiffres seront scrutés par les investisseurs avant la cotation attendue.",
+      "image": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297777280_ee4bc0-e1793633324778.jpg?resize=1200,600",
+      "links": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Google étend les publicités dans son « Mode IA » à dix pays de plus",
+      "summary": "Google a annoncé que des publicités apparaîtront dans le Mode IA de son moteur de recherche en Australie, au Canada, en Inde, au Kenya, en Malaisie, en Nouvelle-Zélande, au Nigeria, au Pakistan, aux Philippines et à Singapour. Elles sont signalées comme « sponsorisées ».",
+      "whyLabel": "Le contexte",
+      "why": "C'est la réponse de Google à la question de savoir comment gagner de l'argent avec les réponses générées par IA, un sujet qui a pesé sur l'action Alphabet cette semaine.",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_mode_global_ads_hero.max-1440x810.png",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Technologie",
+      "title": "DeepSeek publie le prototype d'un agent IA qui code à la demande",
+      "summary": "Le laboratoire chinois DeepSeek a mis en ligne le code d'un prototype d'agent qui peut traiter des demandes autorisées sur GitHub ou suivre des règles écrites par une équipe. Ses auteurs précisent qu'il ne s'agit pas d'un produit officiel prêt pour la production.",
+      "whyLabel": "À savoir",
+      "why": "La course aux assistants capables de programmer seuls oppose désormais aussi des acteurs chinois à OpenAI et Anthropic.",
+      "image": "",
+      "links": [
+        {
+          "label": "GitHub DeepSeek",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Éthique",
+      "title": "Anthropic demande aux utilisateurs de ne pas être cruels avec Claude",
+      "summary": "Anthropic a ajouté une ligne à sa politique d'usage : les utilisateurs ne doivent pas avoir de « comportement abusif ou cruel, prolongé et gratuit » envers ses modèles. Le sujet est relayé par CNN.",
+      "whyLabel": "En bref",
+      "why": "Une règle inhabituelle : elle protège le « bien-être » supposé de l'IA plutôt que des humains.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2295330098.jpg?c=16x9&q=w_800,c_fill",
+      "links": [
+        {
+          "label": "CNN",
+          "url": "https://edition.cnn.com/2026/11/01/business/anthropic-dont-be-mean-claude-ban",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Les centres de données deviennent un enjeu des élections américaines",
+      "summary": "À cinq jours des élections de mi-mandat, l'IA et les centres de données reviennent dans toutes les conversations, même à Brooklyn. Selon un rapport cité par TechCrunch, près de 200 milliards de dollars de projets ont été retardés ou bloqués au premier semestre 2026 à cause de l'opposition locale. Plusieurs États, dont la Pennsylvanie, la Géorgie, le Texas, New York et la Virginie, envisagent davantage de règles.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Électricité, eau, factures : l'IA devient un sujet de vote pour les électeurs ordinaires.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Newsreel-Midterm-Madness-22.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Politique",
+      "title": "OpenAI voudrait rebaptiser ses centres de données « campus de calcul IA »",
+      "summary": "Selon Axios, OpenAI prépare une campagne de communication après les élections de mi-mandat. Elle proposerait notamment des « limites de vitesse » pour l'IA et une aide des États-Unis pour fixer des standards mondiaux. Autre idée : rebaptiser les centres de données « AI compute campuses ». Amazon et Microsoft disent de leur côté renoncer aux clauses de confidentialité dans leurs négociations avec les collectivités locales.",
+      "whyLabel": "Le contexte",
+      "why": "Les centres de données sont très impopulaires : OpenAI cherche à changer leur image, et peut-être les règles.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Science",
+      "title": "Un agent IA a mené une injection dans le cerveau d'une souris",
+      "summary": "Une start-up de biotechnologie a laissé un agent IA choisir une thérapie génique, puis guider son injection réussie dans le cerveau d'une souris vivante, selon Wired. Des humains avaient autorisé l'intervention. Il s'agit d'une expérience menée par une jeune entreprise.",
+      "whyLabel": "À savoir",
+      "why": "Un aperçu de ce que pourraient devenir les laboratoires de recherche, avec des IA qui conduisent elles-mêmes les expériences.",
+      "image": "https://media.wired.com/photos/6ae4d6bbd55a0e2bc0a8d990/191:100/w_1280,c_limit/103026-AI%20Mouse%2002.jpg",
+      "links": [
+        {
+          "label": "Wired",
+          "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "Microsoft : les pirates nord-coréens se mettent à l'IA",
+      "summary": "Microsoft a publié une analyse de la façon dont des groupes de pirates nord-coréens utilisent de plus en plus l'IA dans leurs opérations, à des degrés variés selon les équipes. Elle s'inscrit dans le suivi par Microsoft de l'usage de l'IA par les attaquants pour aller plus vite et être plus efficaces.",
+      "whyLabel": "En bref",
+      "why": "Les mêmes outils qui aident les entreprises servent aussi aux pirates, d'où la course à la défense.",
+      "image": "https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/10/North-Korean-use-of-AI-featured-1.png",
+      "links": [
+        {
+          "label": "Microsoft Security",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Culture",
+      "title": "En Australie, des artistes dénoncent les imitations d'art aborigène faites par IA",
+      "summary": "Selon The Guardian, la présidente du groupe consultatif sur les Premières Nations de la National Gallery juge que ces imitations bon marché de styles culturellement importants sapent l'autonomie des artistes et l'authenticité de leurs œuvres.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Au-delà du droit d'auteur, l'IA pose la question du respect des traditions culturelles.",
+      "image": "https://i.guim.co.uk/img/media/d42e0956def730a6b1eb335fab858536fb224a9c/224_0_6880_5504/master/6880.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a512af4d09236ad3d151d20d51c1b1e2",
+      "links": [
+        {
+          "label": "The Guardian",
+          "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Salesforce rachète Rune Technologies, spécialiste de la logistique militaire",
+      "summary": "Salesforce a signé un accord pour acquérir Rune Technologies, une entreprise de logiciels de logistique militaire. Salesforce n'a pas dévoilé le prix ; la presse évoque environ 375 millions de dollars.",
+      "whyLabel": "À savoir",
+      "why": "Les éditeurs de logiciels d'entreprise se positionnent sur le marché de la défense.",
+      "image": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/10/Rune-Salesforce.png",
+      "links": [
+        {
+          "label": "Salesforce",
+          "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-rune-technologies/",
+          "lang": "EN"
+        },
+        {
+          "label": "TNW",
+          "url": "https://thenextweb.com/news/salesforce-rune-technologies-acquisition-missionforce-defence",
+          "lang": "EN"
+        }
+      ]
     }
-   ]
-  }
- ],
- "quick": [
-  {
-   "text": "OpenAI : à partir de décembre, l'usage de ChatGPT et de Codex puisera dans un seul quota partagé.",
-   "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
-   "lang": "EN"
-  },
-  {
-   "text": "Sam Altman a rencontré une cinquantaine de dirigeants de Samsung en Corée du Sud le 31 octobre pour parler d'IA dans la gestion.",
-   "url": "https://www.koreaherald.com/article/10921312",
-   "lang": "EN"
-  },
-  {
-   "text": "Le groupe chinois iQIYI ouvre à Shanghai un studio de cinéma par IA, avec « Cop in Trouble » comme premier film.",
-   "url": "https://finance.yahoo.com/technology/ai/articles/iqiyi-launches-chinas-first-ai-013900330.html",
-   "lang": "EN"
-  }
- ],
- "markets": {
-  "intro": "Après un vendredi noir (Nasdaq -2,9 %, S&P 500 -1,8 %) sur les doutes autour des dépenses en IA, Wall Street s'annonce en rebond lundi d'après les contrats à terme, avant les résultats d'Apple, l'emploi américain et les élections.",
-  "indices": [
-   {
-    "name": "Nasdaq Composite",
-    "region": "US",
-    "value": 25437.0,
-    "changePct": -2.86,
-    "session": "2026-10-30"
-   },
-   {
-    "name": "Nasdaq 100",
-    "region": "US",
-    "value": 28384.85,
-    "changePct": -3.46,
-    "session": "2026-10-30"
-   },
-   {
-    "name": "S&P 500",
-    "region": "US",
-    "value": 7580.07,
-    "changePct": -1.82,
-    "session": "2026-10-30"
-   },
-   {
-    "name": "Dow Jones",
-    "region": "US",
-    "value": 51770.31,
-    "changePct": -1.09,
-    "session": "2026-10-30"
-   },
-   {
-    "name": "VIX (peur)",
-    "region": "US",
-    "value": 19.42,
-    "changePct": 12.91,
-    "session": "2026-10-30"
-   },
-   {
-    "name": "CAC 40",
-    "region": "Europe",
-    "value": 7969.42,
-    "changePct": -0.01,
-    "session": "2026-10-30"
-   },
-   {
-    "name": "DAX",
-    "region": "Europe",
-    "value": 25818.21,
-    "changePct": -0.85,
-    "session": "2026-10-30"
-   },
-   {
-    "name": "Euro Stoxx 50",
-    "region": "Europe",
-    "value": 6131.31,
-    "changePct": -1.22,
-    "session": "2026-10-30"
-   },
-   {
-    "name": "Nikkei 225",
-    "region": "Asie",
-    "value": 63081.86,
-    "changePct": -0.33,
-    "session": "2026-11-02"
-   },
-   {
-    "name": "Hang Seng",
-    "region": "Asie",
-    "value": 23294.42,
-    "changePct": 1.46,
-    "session": "2026-10-30"
-   }
-  ],
-  "stocks": [
-   {
-    "ticker": "NVDA",
-    "name": "Nvidia",
-    "value": 204.64,
-    "changePct": -4.22,
-    "session": "2026-10-30"
-   },
-   {
-    "ticker": "AAPL",
-    "name": "Apple",
-    "value": 344.63,
-    "changePct": -1.23,
-    "session": "2026-10-30"
-   },
-   {
-    "ticker": "MSFT",
-    "name": "Microsoft",
-    "value": 521.91,
-    "changePct": -1.55,
-    "session": "2026-10-30"
-   },
-   {
-    "ticker": "GOOGL",
-    "name": "Alphabet",
-    "value": 279.84,
-    "changePct": -1.4,
-    "session": "2026-10-30"
-   },
-   {
-    "ticker": "AMZN",
-    "name": "Amazon",
-    "value": 240.35,
-    "changePct": -1.41,
-    "session": "2026-10-30"
-   },
-   {
-    "ticker": "META",
-    "name": "Meta",
-    "value": 614.99,
-    "changePct": -1.53,
-    "session": "2026-10-30"
-   },
-   {
-    "ticker": "TSLA",
-    "name": "Tesla",
-    "value": 399.81,
-    "changePct": -0.87,
-    "session": "2026-10-30"
-   }
-  ],
-  "stories": [
-   {
-    "category": "Nasdaq",
-    "title": "Après le plongeon de vendredi, Wall Street s'annonce en rebond",
-    "summary": "Lundi tôt, les contrats à terme progressaient : +0,9 % pour le Nasdaq-100, +0,5 % pour le S&P 500 et +0,4 % pour le Dow Jones. Vendredi, le S&P 500 avait perdu 1,8 % et le Nasdaq 2,9 %, sur fond d'inquiétudes sur les dépenses et la rentabilité de l'IA.",
-    "whyLabel": "Le contexte",
-    "why": "Sur la semaine, le Nasdaq a perdu 2 %, tandis que le S&P 500 et le Dow ont cédé moins de 1 %.",
-    "image": "",
-    "links": [
-     {
-      "label": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
-      "lang": "EN"
-     },
-     {
-      "label": "ABC News Australia",
-      "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Macro / Fed",
-    "title": "Une semaine chargée : Apple, emploi américain et élections",
-    "summary": "Apple publie ses résultats lundi après la clôture ; McDonald's et Qualcomm suivent plus tard dans la semaine. Les chiffres de l'emploi américain d'octobre sont attendus vendredi (55 000 créations de postes anticipées par les économistes interrogés). Les élections de mi-mandat ont lieu mardi : les démocrates sont donnés favoris pour la Chambre, l'issue au Sénat est incertaine.",
-    "whyLabel": "À savoir",
-    "why": "Ces rendez-vous peuvent faire bouger les marchés, déjà nerveux sur l'IA.",
-    "image": "",
-    "links": [
-     {
-      "label": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Tech US",
-    "title": "Les dépenses en IA, au cœur de la chute de la semaine passée",
-    "summary": "Selon CNBC, la vente de valeurs technologiques s'est poursuivie après que Alphabet et Microsoft ont annoncé des prévisions d'investissement inférieures aux attentes, ce qui suggère un possible ralentissement des dépenses en IA. Amazon a maintenu ses prévisions annuelles. Meta, lui, voit ses revenus publicitaires croître de 26 %, plus vite que ceux de la recherche Google.",
-    "whyLabel": "Pourquoi c'est important",
-    "why": "Les investisseurs cherchent à savoir si les milliards dépensés dans l'IA seront rentabilisés.",
-    "image": "",
-    "links": [
-     {
-      "label": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
-      "lang": "EN"
-     },
-     {
-      "label": "CNBC (Meta et Google)",
-      "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Macro / Fed",
-    "title": "Le pétrole recule sur l'espoir d'une discussion entre les États-Unis et l'Iran",
-    "summary": "Lundi, le Brent perdait environ 3 % à près de 110 dollars le baril, et le WTI à environ 100,6 dollars. Les deux camps semblent ouverts à la diplomatie, dans le conflit avec l'Iran ; des risques demeurent, des informations évoquant une possible reprise d'actions militaires après les élections.",
-    "whyLabel": "Le contexte",
-    "why": "Le prix du pétrole pèse sur l'inflation et donc sur les décisions des banques centrales.",
-    "image": "",
-    "links": [
-     {
-      "label": "CNBC",
-      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Europe",
-    "title": "L'Europe a fini la semaine en baisse, sauf Paris",
-    "summary": "Vendredi, le DAX allemand a perdu 0,85 % et l'Euro Stoxx 50 1,22 %, tandis que le CAC 40 restait stable (-0,01 %) à 7 969 points, dans le sillage de Wall Street.",
-    "whyLabel": "En bref",
-    "why": "L'inquiétude sur l'IA a aussi touché les Bourses européennes.",
-    "image": "",
-    "links": [
-     {
-      "label": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/%5EGDAXI/",
-      "lang": "EN"
-     }
-    ],
-    "region": "Europe"
-   },
-   {
-    "category": "Asie",
-    "title": "Séoul rebondit de plus de 2 %, Tokyo stable",
-    "summary": "Lundi, le Kospi sud-coréen gagnait environ 2,2 % en cours de séance après sa chute de vendredi, la Bourse de Shanghai 1,1 % et Hong Kong 0,5 %. Le Nikkei de Tokyo était stable. La Bourse australienne a reculé de 0,6 %, pénalisée par les mines.",
-    "whyLabel": "Le contexte",
-    "why": "Séoul avait perdu 3,5 % vendredi sur les craintes de bulle de l'IA et des semi-conducteurs.",
-    "image": "https://live-production.wcms.abc-cdn.net.au/debfed2e0044be4282a2ce2fb167a21b?impolicy=wcms_watermark_news&cropH=448&cropW=796&xPos=4&yPos=34&width=862&height=485&imformat=generic",
-    "links": [
-     {
-      "label": "ABC News Australia",
-      "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
-      "lang": "EN"
-     }
-    ],
-    "region": "Asie"
-   },
-   {
-    "category": "Asie",
-    "title": "Inde : Reliance bondit après ses résultats",
-    "summary": "À l'ouverture lundi, le Sensex gagnait 907 points à 75 366 et le Nifty 239 points à 23 292. Reliance Industries montait jusqu'à 6,46 %, sa plus forte hausse en neuf mois après ses résultats trimestriels. Le recul du pétrole et les achats d'investisseurs étrangers soutenaient aussi le marché.",
-    "whyLabel": "À savoir",
-    "why": "Chiffres d'ouverture, avant la clôture.",
-    "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6ae80ee62a489-reliance-industries-ltd-ril-shares-were-the-top-gainers-rising-6-per-cent-the-most-in-nine-months-021718640-16x9.png",
-    "links": [
-     {
-      "label": "Business Today",
-      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-extend-gains-four-factors-behind-the-rally-565026-2026-11-02",
-      "lang": "EN"
-     }
-    ],
-    "region": "Asie"
-   }
   ],
   "quick": [
-   {
-    "text": "L'ASX australien a clôturé en baisse de 0,6 % ; Westpac a progressé de 1 % après un bénéfice annuel de 6,8 milliards de dollars.",
-    "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
-    "lang": "EN"
-   },
-   {
-    "text": "Les marchés attendent une hausse de taux de 25 points de base de la banque centrale australienne mardi.",
-    "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
-    "lang": "EN"
-   }
-  ]
- }
+    {
+      "text": "OpenAI : à partir de décembre, l'usage de ChatGPT et de Codex puisera dans un seul quota partagé.",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "lang": "EN"
+    },
+    {
+      "text": "Sam Altman a rencontré une cinquantaine de dirigeants de Samsung en Corée du Sud le 31 octobre pour parler d'IA dans la gestion.",
+      "url": "https://www.koreaherald.com/article/10921312",
+      "lang": "EN"
+    },
+    {
+      "text": "Le groupe chinois iQIYI ouvre à Shanghai un studio de cinéma par IA, avec « Cop in Trouble » comme premier film.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/iqiyi-launches-chinas-first-ai-013900330.html",
+      "lang": "EN"
+    },
+    {
+      "text": "Anthropic fait état d'environ 895 milliards de dollars d'engagements de dépenses, surtout en puissance de calcul et infrastructures.",
+      "url": "https://fortune.com/2026/11/02/anthropics-growth-slowed-and-costs-jumped-in-the-third-quarter-updated-ipo-filing-shows/",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "intro": "Lundi, vers 18 h, Wall Street rebondissait en séance (Nasdaq autour de +0,6 %, S&P 500 autour de +0,5 %), aidée par la chute du pétrole et l'espoir d'un dialogue entre les États-Unis et l'Iran, alors que l'Europe a clôturé en hausse ; les chiffres de Wall Street du tableau restent ceux de vendredi, après un plongeon de 2,9 % du Nasdaq.",
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 25437.0,
+        "changePct": -2.86,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 28384.85,
+        "changePct": -3.46,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7580.07,
+        "changePct": -1.82,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 51770.31,
+        "changePct": -1.09,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 19.42,
+        "changePct": 12.91,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8047.69,
+        "changePct": 0.98,
+        "session": "2026-11-02"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 25981.09,
+        "changePct": 0.63,
+        "session": "2026-11-02"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6176.06,
+        "changePct": 0.73,
+        "session": "2026-11-02"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 63290.11,
+        "changePct": -2.12,
+        "session": "2026-10-30"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 23294.42,
+        "changePct": 1.46,
+        "session": "2026-10-30"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 204.64,
+        "changePct": -4.22,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 344.63,
+        "changePct": -1.23,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 521.91,
+        "changePct": -1.55,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 279.84,
+        "changePct": -1.4,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 240.35,
+        "changePct": -1.41,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 614.99,
+        "changePct": -1.53,
+        "session": "2026-10-30"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 399.81,
+        "changePct": -0.87,
+        "session": "2026-10-30"
+      }
+    ],
+    "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Lundi : Wall Street rebondit en séance après le choc de vendredi",
+        "summary": "Vers 18 h, heure de Paris, Wall Street progressait : environ +0,6 % pour le Nasdaq et +0,5 % pour le S&P 500, et un peu plus de +1 % pour le Dow Jones. Les valeurs de l'IA reprennent des couleurs après trois semaines de forte baisse.",
+        "whyLabel": "Le contexte",
+        "why": "Selon Yahoo Finance, les actions liées à l'IA ont perdu environ 5 000 milliards de dollars en trois semaines et le Nasdaq a reculé de 5,2 % en octobre.",
+        "image": "https://investinglive.com/cms/media/2026-11-02_09-04-07.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+            "lang": "EN"
+          },
+          {
+            "label": "InvestingLive",
+            "url": "https://investinglive.com/stocks/u-s-stocks-rebound-as-iran-diplomacy-hopes-and-lower-oil-outweigh-mixed-economic-data/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Lundi : le pétrole s'effondre sur l'espoir d'un dialogue entre Washington et Téhéran",
+        "summary": "Le baril américain (WTI) reculait de plus de 7 %, vers 96,5 dollars, après des informations sur une recherche de solution diplomatique à la guerre au Moyen-Orient. Le rendement des obligations américaines à 10 ans était d'environ 4,88 % et l'or gagnait plus de 2 %.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Moins de pétrole cher, c'est moins de pression sur l'inflation et sur les taux, ce qui soulage les actions. L'indice ISM de l'industrie a aussi progressé, à 55,5 contre 54,5.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Lundi : Oracle recule d'environ 5 % après l'annonce d'une levée de 20 milliards de dollars",
+        "summary": "L'action du géant du logiciel et du cloud baissait en séance après l'annonce d'une levée de fonds de 20 milliards de dollars. Alphabet, de son côté, progressait après une émission d'obligations.",
+        "whyLabel": "En bref",
+        "why": "Les géants de la tech doivent emprunter ou lever beaucoup d'argent pour financer leurs investissements dans l'IA. Apple publie ses résultats après la clôture.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Lundi : la Bourse de Paris en hausse de près de 1 % à la clôture",
+        "summary": "Les indices européens ont terminé la séance en hausse : environ +1,0 % pour le CAC 40, +0,6 % pour le DAX et +0,7 % pour l'Euro Stoxx 50, selon Yahoo Finance. Le recul du pétrole sur fond de discussions sur le Moyen-Orient a pesé sur les valeurs de l'énergie.",
+        "whyLabel": "À savoir",
+        "why": "Les comptes rendus de la séance divergent selon les sources : ces variations sont celles de la clôture relevées par Yahoo Finance.",
+        "image": "",
+        "links": [
+          {
+            "label": "MarketScreener",
+            "url": "https://www.marketscreener.com/news/european-shares-slip-as-investors-weigh-middle-east-talks-alstom-tanks-ce785fd8df80f22d",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Lundi : Séoul bondit de plus de 2 %, Tokyo quasi stable",
+        "summary": "L'indice Kospi sud-coréen a clôturé en hausse de 2,24 %, à 5 859 points, après avoir commencé la séance en baisse. Hong Kong gagnait un peu moins de 1 % et le Nikkei restait proche de 63 000 points.",
+        "whyLabel": "Le contexte",
+        "why": "Séoul rebondit après la chute de Wall Street de vendredi, tirée par les inquiétudes sur les puces (Intel).",
+        "image": "",
+        "links": [
+          {
+            "label": "Invezz",
+            "url": "https://invezz.com/uk/news/2026/11/02/kospi-reverses-early-decline-to-close-224percent-higher-as-korean-chip-exports-jump-259percent/",
+            "lang": "EN"
+          },
+          {
+            "label": "Baystreet",
+            "url": "https://www.baystreet.ca/foreignmarketwrap/5054/Asia-markets-close-mixed-Kospi-leads-gains",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
+      {
+        "category": "Nasdaq",
+        "title": "Après le plongeon de vendredi, Wall Street s'annonce en rebond",
+        "summary": "Lundi tôt, les contrats à terme progressaient : +0,9 % pour le Nasdaq-100, +0,5 % pour le S&P 500 et +0,4 % pour le Dow Jones. Vendredi, le S&P 500 avait perdu 1,8 % et le Nasdaq 2,9 %, sur fond d'inquiétudes sur les dépenses et la rentabilité de l'IA.",
+        "whyLabel": "Le contexte",
+        "why": "Sur la semaine, le Nasdaq a perdu 2 %, tandis que le S&P 500 et le Dow ont cédé moins de 1 %.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+            "lang": "EN"
+          },
+          {
+            "label": "ABC News Australia",
+            "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Une semaine chargée : Apple, emploi américain et élections",
+        "summary": "Apple publie ses résultats lundi après la clôture ; McDonald's et Qualcomm suivent plus tard dans la semaine. Les chiffres de l'emploi américain d'octobre sont attendus vendredi (55 000 créations de postes anticipées par les économistes interrogés). Les élections de mi-mandat ont lieu mardi : les démocrates sont donnés favoris pour la Chambre, l'issue au Sénat est incertaine.",
+        "whyLabel": "À savoir",
+        "why": "Ces rendez-vous peuvent faire bouger les marchés, déjà nerveux sur l'IA.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Les dépenses en IA, au cœur de la chute de la semaine passée",
+        "summary": "Selon CNBC, la vente de valeurs technologiques s'est poursuivie après que Alphabet et Microsoft ont annoncé des prévisions d'investissement inférieures aux attentes, ce qui suggère un possible ralentissement des dépenses en IA. Amazon a maintenu ses prévisions annuelles. Meta, lui, voit ses revenus publicitaires croître de 26 %, plus vite que ceux de la recherche Google.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les investisseurs cherchent à savoir si les milliards dépensés dans l'IA seront rentabilisés.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+            "lang": "EN"
+          },
+          {
+            "label": "CNBC (Meta et Google)",
+            "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Le pétrole recule sur l'espoir d'une discussion entre les États-Unis et l'Iran",
+        "summary": "Lundi, le Brent perdait environ 3 % à près de 110 dollars le baril, et le WTI à environ 100,6 dollars. Les deux camps semblent ouverts à la diplomatie, dans le conflit avec l'Iran ; des risques demeurent, des informations évoquant une possible reprise d'actions militaires après les élections.",
+        "whyLabel": "Le contexte",
+        "why": "Le prix du pétrole pèse sur l'inflation et donc sur les décisions des banques centrales.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "L'Europe a fini la semaine en baisse, sauf Paris",
+        "summary": "Vendredi, le DAX allemand a perdu 0,85 % et l'Euro Stoxx 50 1,22 %, tandis que le CAC 40 restait stable (-0,01 %) à 7 969 points, dans le sillage de Wall Street.",
+        "whyLabel": "En bref",
+        "why": "L'inquiétude sur l'IA a aussi touché les Bourses européennes.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/%5EGDAXI/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Séoul rebondit de plus de 2 %, Tokyo stable",
+        "summary": "Lundi, le Kospi sud-coréen gagnait environ 2,2 % en cours de séance après sa chute de vendredi, la Bourse de Shanghai 1,1 % et Hong Kong 0,5 %. Le Nikkei de Tokyo était stable. La Bourse australienne a reculé de 0,6 %, pénalisée par les mines.",
+        "whyLabel": "Le contexte",
+        "why": "Séoul avait perdu 3,5 % vendredi sur les craintes de bulle de l'IA et des semi-conducteurs.",
+        "image": "https://live-production.wcms.abc-cdn.net.au/debfed2e0044be4282a2ce2fb167a21b?impolicy=wcms_watermark_news&cropH=448&cropW=796&xPos=4&yPos=34&width=862&height=485&imformat=generic",
+        "links": [
+          {
+            "label": "ABC News Australia",
+            "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
+      {
+        "category": "Asie",
+        "title": "Inde : Reliance bondit après ses résultats",
+        "summary": "À l'ouverture lundi, le Sensex gagnait 907 points à 75 366 et le Nifty 239 points à 23 292. Reliance Industries montait jusqu'à 6,46 %, sa plus forte hausse en neuf mois après ses résultats trimestriels. Le recul du pétrole et les achats d'investisseurs étrangers soutenaient aussi le marché.",
+        "whyLabel": "À savoir",
+        "why": "Chiffres d'ouverture, avant la clôture.",
+        "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6ae80ee62a489-reliance-industries-ltd-ril-shares-were-the-top-gainers-rising-6-per-cent-the-most-in-nine-months-021718640-16x9.png",
+        "links": [
+          {
+            "label": "Business Today",
+            "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-extend-gains-four-factors-behind-the-rally-565026-2026-11-02",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Le bitcoin évoluait autour de 78 000 dollars après un piratage de 6,3 milliards de dollars signalé sur Binance.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+        "lang": "EN"
+      },
+      {
+        "text": "Les investisseurs attendent les résultats d'Apple après la clôture, les élections américaines de mardi et le rapport sur l'emploi vendredi.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
+        "lang": "EN"
+      },
+      {
+        "text": "L'ASX australien a clôturé en baisse de 0,6 % ; Westpac a progressé de 1 % après un bénéfice annuel de 6,8 milliards de dollars.",
+        "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+        "lang": "EN"
+      },
+      {
+        "text": "Les marchés attendent une hausse de taux de 25 points de base de la banque centrale australienne mardi.",
+        "url": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212",
+        "lang": "EN"
+      }
+    ]
+  }
 }
