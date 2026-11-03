@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "intro": "Anthropic dit approcher d'une IA qui s'améliore seule, OpenAI signe des contrats à Abou Dhabi et les entreprises d'IA se préparent aux élections américaines.",
+  "intro": "Anthropic dit approcher d'une IA qui s'améliore seule, OpenAI signe des contrats à Abou Dhabi et les entreprises d'IA se préparent aux élections américaines. Mise à jour du soir : Google coupe la recherche dans les écoles sans IA, Apple durcit les règles pour les compagnons IA et OpenAI rebaptise ses centres de données.",
   "stories": [
     {
       "category": "Sécurité",
@@ -48,6 +48,86 @@
         {
           "label": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Éducation",
+      "title": "Google coupe la recherche dans les écoles qui refusent son IA",
+      "summary": "Google a annoncé que Gemini et la recherche Google seront désactivés par défaut pour les comptes d'élèves du primaire et du secondaire, sauf si les administrateurs les activent. Impossible de désactiver l'IA seule : les écoles qui la refusent perdent aussi l'accès à la recherche.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Google justifie ce choix par l'intégration étroite de l'IA dans son moteur, alors que des parlementaires américains s'inquiètent des effets de l'IA sur les élèves.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK093_GOOGLE_A-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+          "lang": "EN"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "Apple impose le 18+ aux applis de rencontre et aux compagnons IA",
+      "summary": "Les nouvelles règles de l'App Store exigeront une classification 18+ pour les applis de rencontre et les compagnons IA proposant du contenu sexuel ou romantique. Les développeurs devront aussi indiquer si leur appli partage la position réelle d'un utilisateur avec d'autres.",
+      "whyLabel": "À savoir",
+      "why": "Les nouveaux descripteurs de contenu doivent être intégrés à partir du 16 novembre.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?resize=1200,672",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Apple mise sur l'IA, la sienne comme celle des autres",
+      "summary": "Apple a publié son meilleur exercice de son histoire : le chiffre d'affaires de l'iPhone a progressé de 17,5 % sur un an, à 57,6 milliards de dollars. Pour son nouveau PDG John Ternus, l'IA est « une formidable opportunité », que ce soit par la vente d'appareils ou par des commissions sur les applis d'IA tierces.",
+      "whyLabel": "Le contexte",
+      "why": "Apple profite de l'engouement pour l'IA sans dépenser des sommes colossales en infrastructures, contrairement à ses concurrents.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301906266.jpg?quality=90&strip=all&crop=0%2C14.171056661111%2C100%2C78.524215886627&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "OpenAI rebaptise discrètement ses centres de données « campus de calcul »",
+      "summary": "Dans l'annonce de son programme « Grid Protectors », OpenAI a employé « compute campus » bien plus souvent que « data center ». Des critiques estiment que l'entreprise devrait répondre aux inquiétudes des habitants plutôt que de changer de vocabulaire.",
+      "whyLabel": "Le contexte",
+      "why": "Les centres de données suscitent une opposition politique des deux bords, liée à leur consommation d'électricité et à la facture pour les consommateurs.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2236733575.jpg?quality=90&strip=all&crop=0%2C10.737892056687%2C100%2C78.524215886627&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Anthropic empêche Claude Code de recréer des jeux vidéo existants",
+      "summary": "Anthropic a ajouté deux phrases aux consignes de Claude Code pour qu'il ne reproduise pas un jeu précis. Créer des jeux originaux, d'un genre donné ou à partir de ses propres créations reste permis.",
+      "whyLabel": "À savoir",
+      "why": "Selon Anthropic, utiliser Claude pour violer la propriété intellectuelle est contraire à sa politique d'utilisation.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
           "lang": "EN"
         }
       ]
@@ -173,10 +253,20 @@
       "text": "Elon Musk limite l'usage de Grok, dont les coûts sont « insoutenablement élevés ».",
       "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
       "lang": "EN"
+    },
+    {
+      "text": "Google lance Dreambeans en Inde, une appli d'histoires personnelles générées par IA.",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "lang": "EN"
+    },
+    {
+      "text": "Garry Tan, patron de Y Combinator, dit dépenser jusqu'à 200 000 dollars par an en tokens pour ses agents IA.",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "lang": "EN"
     }
   ],
   "markets": {
-    "intro": "Lundi, Wall Street a fini dans le rouge : le Nasdaq a perdu 1,07 % et le S&P 500 0,51 %, les investisseurs continuant de quitter la tech, tandis que l'Europe a clôturé en hausse grâce à un pétrole moins cher.",
+    "intro": "Mardi, vers 17 h (heure de Paris), le Nasdaq gagnait 1,1 % et le S&P 500 0,6 % en séance, portés par le rebond des puces, tandis qu'Apple et Palantir reculaient ; l'Europe a fini en baisse avant les élections américaines de mi-mandat. Lundi, le Nasdaq avait perdu 1,07 % et le S&P 500 0,51 %.",
     "indices": [
       {
         "name": "Nasdaq Composite",
@@ -216,23 +306,23 @@
       {
         "name": "CAC 40",
         "region": "Europe",
-        "value": 8047.69,
-        "changePct": 0.98,
-        "session": "2026-11-02"
+        "value": 8020.31,
+        "changePct": -0.34,
+        "session": "2026-11-03"
       },
       {
         "name": "DAX",
         "region": "Europe",
-        "value": 25981.09,
-        "changePct": 0.63,
-        "session": "2026-11-02"
+        "value": 25864.62,
+        "changePct": -0.45,
+        "session": "2026-11-03"
       },
       {
         "name": "Euro Stoxx 50",
         "region": "Europe",
-        "value": 6176.06,
-        "changePct": 0.73,
-        "session": "2026-11-02"
+        "value": 6144.56,
+        "changePct": -0.51,
+        "session": "2026-11-03"
       },
       {
         "name": "Nikkei 225",
@@ -301,6 +391,117 @@
       }
     ],
     "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Mardi : les puces font rebondir Wall Street, Apple et Palantir reculent",
+        "summary": "Vers 17 h, heure de Paris, le Nasdaq gagnait 1,1 % et le S&P 500 0,6 %, tirés par les puces : Nvidia +2,9 %, Broadcom +3,8 %, AMD +5,5 %, Micron +3 %. Le Dow Jones reculait de 0,2 %.",
+        "whyLabel": "En bref",
+        "why": "Un rebond après la baisse de la veille : le Nasdaq-100 avait fini lundi plus de 10 % sous son record.",
+        "image": "https://www.bnnbloomberg.ca/resizer/v2/GGQUEXLANS4RE4YTGLK4NFHL2I.jpg?smart=true&auth=9fc71e55080dfd32d6e65940435cf902eaa89f5995e99a6ddf4f6e1cbae7fe82&width=1200&height=630",
+        "links": [
+          {
+            "label": "BNN Bloomberg (AP)",
+            "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+            "lang": "EN"
+          },
+          {
+            "label": "Invezz",
+            "url": "https://invezz.com/news/2026/11/03/nasdaq-rises-as-chip-stocks-rebound-while-apple-and-palantir-shares-fall/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Mardi : Apple recule d'environ 3 % à cause du prix des puces mémoire",
+        "summary": "Malgré des résultats supérieurs aux attentes, Apple perdait 2,7 % en séance. Le groupe prévoit une marge plus faible pour le trimestre des fêtes, car les puces mémoire coûtent de plus en plus cher.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "La demande des centres de données d'IA fait monter le prix de la mémoire, ce qui pèse aussi sur les fabricants d'appareils.",
+        "image": "https://www.bnnbloomberg.ca/resizer/v2/GGQUEXLANS4RE4YTGLK4NFHL2I.jpg?smart=true&auth=9fc71e55080dfd32d6e65940435cf902eaa89f5995e99a6ddf4f6e1cbae7fe82&width=1200&height=630",
+        "links": [
+          {
+            "label": "BNN Bloomberg (AP)",
+            "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+            "lang": "EN"
+          },
+          {
+            "label": "The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Mardi : Palantir baisse malgré un bénéfice supérieur aux attentes",
+        "summary": "L'action Palantir perdait 1,5 % en séance, alors que le groupe a publié un bénéfice au-dessus des attentes. Ses revenus commerciaux aux États-Unis ont bondi de 148 % sur un an.",
+        "whyLabel": "À savoir",
+        "why": "Après de fortes hausses, les investisseurs se montrent exigeants, et doutent du rendement des investissements dans l'IA.",
+        "image": "https://www.bnnbloomberg.ca/resizer/v2/GGQUEXLANS4RE4YTGLK4NFHL2I.jpg?smart=true&auth=9fc71e55080dfd32d6e65940435cf902eaa89f5995e99a6ddf4f6e1cbae7fe82&width=1200&height=630",
+        "links": [
+          {
+            "label": "BNN Bloomberg (AP)",
+            "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+            "lang": "EN"
+          },
+          {
+            "label": "Invezz",
+            "url": "https://invezz.com/news/2026/11/03/nasdaq-rises-as-chip-stocks-rebound-while-apple-and-palantir-shares-fall/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Mardi : élections de mi-mandat, pétrole et taux dans le viseur",
+        "summary": "Wall Street attend les élections américaines de mi-mandat. Le rendement des bons du Trésor à 10 ans était de 4,93 % et le Brent, passé de plus de 107 à environ 103 dollars, reculait de 1,6 % sur l'espoir d'avancées dans les discussions avec l'Iran.",
+        "whyLabel": "Le contexte",
+        "why": "Depuis 1970, le S&P 500 a été positif dans les six mois après chaque élection de mi-mandat, selon Edward Jones.",
+        "image": "https://www.bnnbloomberg.ca/resizer/v2/GGQUEXLANS4RE4YTGLK4NFHL2I.jpg?smart=true&auth=9fc71e55080dfd32d6e65940435cf902eaa89f5995e99a6ddf4f6e1cbae7fe82&width=1200&height=630",
+        "links": [
+          {
+            "label": "BNN Bloomberg (AP)",
+            "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Mardi : le CAC 40 recule de 0,34 % avant les élections américaines",
+        "summary": "À la clôture, le CAC 40 perdait 0,34 % à 8 020,31 points, le DAX 0,45 % et l'Euro Stoxx 50 0,51 %. Alstom chutait après un avertissement sur résultats et des dégradations de Citi et JPMorgan, tandis que Biomérieux gagnait environ 4,4 % grâce à ses résultats.",
+        "whyLabel": "En bref",
+        "why": "Les investisseurs ont réduit leur prise de risque avant le scrutin américain et doutent de la rentabilité des investissements dans l'IA.",
+        "image": "https://www.tradingsat.com/media/pictures/realsize/news/cac-40-709391.jpg",
+        "links": [
+          {
+            "label": "Tradingsat (BFM Bourse)",
+            "url": "https://www.tradingsat.com/cac-40-FR0003500008/actualites/cac-40-le-regard-tourne-vers-les-elections-de-mi-mandat-aux-etats-unis-le-cac-40-cede-un-peu-de-terrain-1173048.html",
+            "lang": "FR"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Mardi : le Kospi sud-coréen chute de 3,6 % avec Samsung et SK Hynix",
+        "summary": "La Bourse de Séoul figurait parmi les plus fortes baisses mondiales, entraînée par les pertes de Samsung Electronics et SK Hynix. L'Australie, elle, gagnait 0,3 % après la cinquième hausse de taux de l'année de sa banque centrale.",
+        "whyLabel": "À savoir",
+        "why": "Les inquiétudes sur des valorisations trop élevées dans l'IA pèsent sur les géants asiatiques des puces.",
+        "image": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/T73R7LO5S5CYDNZNUD6XC5AM2U.jpg",
+        "links": [
+          {
+            "label": "AP via News4Jax",
+            "url": "https://news4jax.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
       {
         "category": "Nasdaq",
         "title": "Lundi : le Nasdaq recule de 1,07 %, la rotation hors de la tech continue",
@@ -414,6 +615,16 @@
       }
     ],
     "quick": [
+      {
+        "text": "Revvity gagne 12 % à Wall Street, l'un des plus forts bonds du S&P 500, et DuPont 6,9 %.",
+        "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+        "lang": "EN"
+      },
+      {
+        "text": "La banque centrale australienne relève ses taux pour la cinquième fois de l'année.",
+        "url": "https://news4jax.com/business/2026/11/03/asian-shares-are-mixed-as-tech-losses-offset-broader-gains-on-wall-street",
+        "lang": "EN"
+      },
       {
         "text": "IDEXX bondit d'environ 20 % et Tempus AI d'environ 12 % après des résultats supérieurs aux attentes.",
         "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-midday-orcl-spcx-tem-rivn.html",
