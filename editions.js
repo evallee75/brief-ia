@@ -1,5 +1,434 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-03",
+  "intro": "Anthropic dit approcher d'une IA qui s'améliore seule, OpenAI signe des contrats à Abou Dhabi et les entreprises d'IA se préparent aux élections américaines.",
+  "stories": [
+   {
+    "category": "Sécurité",
+    "title": "Anthropic prévient qu'elle approche d'une IA capable de s'améliorer seule",
+    "summary": "Dans un dossier mis à jour en vue de son entrée en Bourse, Anthropic indique qu'elle pourrait « imminemment » atteindre le seuil d'un progrès « considérablement accéléré » grâce à l'IA. Elle précise qu'aucun de ses modèles actuels ne l'a franchi, mais admet qu'elle pourrait ne s'en apercevoir qu'après coup. Elle dit ne pas vouloir laisser Claude concevoir seul les futurs modèles sans supervision humaine.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Une IA qui accélère sa propre amélioration est l'un des scénarios que les experts surveillent le plus. Des sceptiques rappellent toutefois qu'un tel dossier sert aussi d'argument commercial.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Recursive-Neural-Spiral-in-Circuitry.png?resize=1200,600",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "OpenAI signe quatre accords à Abou Dhabi, en pleine levée de fonds",
+    "summary": "Sam Altman a obtenu des contrats pour déployer les produits d'OpenAI dans l'administration, le secteur pétrolier et la gestion de fonds souverains des Émirats. Le plus gros est un accord pluriannuel avec la compagnie pétrolière ADNOC pour créer des agents IA sur l'infrastructure du groupe G42, sans montant dévoilé. Altman a aussi déclaré que son plus grand défi est « l'énergie ».",
+    "whyLabel": "Le contexte",
+    "why": "OpenAI chercherait une très grosse levée de fonds avant son entrée en Bourse, avec un consortium émirati comme principal investisseur.",
+    "image": "https://img.semafor.com/c269bb91ed04e250cd0b7ab0b31ddce8b862bfcb-1362x762.jpg?rect=0,24,1362,715&w=1200&h=630&q=75&auto=format",
+    "links": [
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/11/02/2026/openais-sam-altman-courts-abu-dhabi-ahead-of-ipo",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Droit d'auteur",
+    "title": "Le New York Times et d'autres médias attaquent le navigateur Brave",
+    "summary": "Des éditeurs de presse, dont le New York Times, accusent Brave d'avoir copié des articles protégés, contourné des paywalls et fourni ces contenus à des entreprises d'IA.",
+    "whyLabel": "À savoir",
+    "why": "Les procès entre médias et acteurs de l'IA se multiplient : la question est de savoir qui a le droit d'utiliser le travail des journalistes.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "lang": "EN"
+     },
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Élections américaines : OpenAI et Anthropic montent des « cellules de crise »",
+    "summary": "Pour la première fois, les deux entreprises mettent en place des équipes dédiées à repérer les usages malveillants et les informations trompeuses avant les élections de mi-mandat. La semaine dernière, le Mode IA de Google a refusé de dire qui avait gagné la présidentielle de 2020 ; Google dit travailler à un correctif.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les chatbots et les moteurs de recherche IA sont devenus une source d'information pour les électeurs, avec le risque de répandre de fausses informations.",
+    "image": "https://img.semafor.com/3aa0f08a825d145ec3115d9816d7ec544f46fbca-4000x2672.jpg?rect=0,286,4000,2100&w=1200&h=630&q=75&auto=format",
+    "links": [
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/11/02/2026/election-war-rooms-enter-the-ai-age",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Des centaines d'applis anodines cachaient des outils de deepfakes sexuels",
+    "summary": "Selon une enquête de WIRED, plus de 400 applications et sites dissimulaient des fonctions permettant de créer des images sexuelles truquées abusives. Certaines se trouvaient sur les boutiques d'applications d'Apple et de Google.",
+    "whyLabel": "En bref",
+    "why": "Cela pose la question du contrôle des boutiques d'applications face aux usages abusifs de l'IA.",
+    "image": "https://media.wired.com/photos/6adfc11328ba980ed3d0219a/191:100/w_1280,c_limit/Security_ChinaAppsBehindDeepFakes_v1.jpg",
+    "links": [
+     {
+      "label": "WIRED",
+      "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Goldman Sachs retire les outils de programmation IA à ses traders et banquiers",
+    "summary": "D'après Bloomberg, relayé par The Decoder, la banque réserve désormais les outils comme Claude Code aux seuls ingénieurs. Ses traders et banquiers les utilisaient pour suivre les flux de marché ou créer du contenu. La banque invoque la productivité et la gestion des risques, et estime que « la phase d'expérimentation est terminée ».",
+    "whyLabel": "Le contexte",
+    "why": "Ce recul tranche avec les éloges de la direction, en juillet, pour le « vibe coding » des équipes non techniques.",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/11/goldman_sachs_logo.png",
+    "links": [
+     {
+      "label": "The Decoder",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "ChatGPT fusionne ses onglets « Chat » et « Travail »",
+    "summary": "OpenAI va regrouper dans l'appli ordinateur de ChatGPT la discussion et l'exécution de tâches, avec accès aux fichiers et aux plugins de l'utilisateur. ChatGPT et Codex puiseront aussi dans la même enveloppe d'usage. Anthropic avait fait un choix similaire en septembre pour Claude.",
+    "whyLabel": "En bref",
+    "why": "Les assistants IA passent du simple chat à un outil qui agit à votre place, dans un seul écran.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Quotidien",
+    "title": "Starbucks teste un drive avec commande assistée par IA",
+    "summary": "Starbucks prévoit d'expérimenter, lors de son exercice 2027, une prise de commande au drive assistée par IA, avec peut-être une reconnaissance des clients. La façon dont les clients seraient identifiés n'a pas été précisée.",
+    "whyLabel": "À savoir",
+    "why": "Reconnaître un client pour anticiper sa commande soulève des questions de vie privée.",
+    "image": "https://www.cnet.com/wp-content/uploads/sites/2/GettyImages-1447155961.jpg",
+    "links": [
+     {
+      "label": "CNET",
+      "url": "https://www.cnet.com/tech/starbucks-drive-thru-ai-customer-recognition/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Randonneurs égarés : les chatbots donnent des conseils de navigation dangereux",
+    "summary": "WIRED rapporte que des randonneurs, dont des alpinistes bloqués au mont Shasta, se sont en partie appuyés sur des chatbots, qui leur ont fourni des indications d'orientation fautives.",
+    "whyLabel": "À savoir",
+    "why": "Un chatbot répond toujours avec assurance, même quand il se trompe : en montagne, l'erreur peut coûter cher.",
+    "image": "https://media.wired.com/photos/6ae22d8856ee4dcb93f11713/191:100/w_1280,c_limit/HCN406-scaled.jpg",
+    "links": [
+     {
+      "label": "WIRED",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Énergie",
+    "title": "OpenAI lance « Grid Protectors » pour soulager le réseau électrique",
+    "summary": "Ce programme vise à réduire la consommation électrique des centres de données lors des situations d'urgence. Un site prévu en Géorgie (États-Unis) pourrait offrir jusqu'à 1 000 mégawatts de capacité.",
+    "whyLabel": "Le contexte",
+    "why": "L'électricité devient un enjeu majeur de l'IA, jusque dans la campagne des élections américaines.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Un responsable financier chinois alerte : l'investissement dans l'IA se concentre trop et pourrait renchérir le crédit des industries traditionnelles.",
+    "url": "https://www.reuters.com/business/finance/ai-investment-is-becoming-overly-concentrated-chinese-official-says-2026-11-03/",
+    "lang": "EN"
+   },
+   {
+    "text": "Squarespace supprime 19 % de ses effectifs.",
+    "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+    "lang": "EN"
+   },
+   {
+    "text": "Elon Musk limite l'usage de Grok, dont les coûts sont « insoutenablement élevés ».",
+    "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "intro": "Lundi, Wall Street a fini dans le rouge : le Nasdaq a perdu 1,07 % et le S&P 500 0,51 %, les investisseurs continuant de quitter la tech, tandis que l'Europe a clôturé en hausse grâce à un pétrole moins cher.",
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 25164.31,
+     "changePct": -1.07,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 27989.82,
+     "changePct": -1.39,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7541.4,
+     "changePct": -0.51,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 51983.98,
+     "changePct": 0.41,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 21.15,
+     "changePct": 8.91,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8047.69,
+     "changePct": 0.98,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 25981.09,
+     "changePct": 0.63,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6176.06,
+     "changePct": 0.73,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 63081.86,
+     "changePct": -0.33,
+     "session": "2026-11-02"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 23393.32,
+     "changePct": 0.42,
+     "session": "2026-11-02"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 202.06,
+     "changePct": -1.26,
+     "session": "2026-11-02"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 338.32,
+     "changePct": -1.83,
+     "session": "2026-11-02"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 507.12,
+     "changePct": -2.83,
+     "session": "2026-11-02"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 278.99,
+     "changePct": -0.3,
+     "session": "2026-11-02"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 245.63,
+     "changePct": 2.2,
+     "session": "2026-11-02"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 606.73,
+     "changePct": -1.34,
+     "session": "2026-11-02"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 403.82,
+     "changePct": 1.0,
+     "session": "2026-11-02"
+    }
+   ],
+   "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Lundi : le Nasdaq recule de 1,07 %, la rotation hors de la tech continue",
+     "summary": "Le Nasdaq Composite a perdu 1,07 % et le S&P 500 0,51 %, tandis que le Dow Jones a gagné 0,41 %. CNBC attribue la faiblesse à des investisseurs qui continuent de sortir des valeurs technologiques.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Quand les investisseurs quittent la tech, les indices dominés par les géants du secteur, comme le Nasdaq, baissent plus que les autres.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Marvell s'offre Lumentum pour 115 milliards de dollars et chute en Bourse",
+     "summary": "Marvell a annoncé le rachat de Lumentum, spécialiste des lasers, dans une opération 100 % en actions. L'action Marvell a perdu environ 12 % et celle de Lumentum 18 %. Pendant ce temps, Oracle a reculé d'environ 8 % après avoir annoncé vouloir lever 10 milliards de dollars en actions et 10 milliards en obligations pour financer ses investissements dans l'IA.",
+     "whyLabel": "À savoir",
+     "why": "Les investisseurs sanctionnent les entreprises qui dépensent ou s'endettent massivement pour l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+       "lang": "EN"
+      },
+      {
+       "label": "CNBC (valeurs en séance)",
+       "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-midday-orcl-spcx-tem-rivn.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Apple et Palantir publient leurs résultats : Bourse mitigée après la clôture",
+     "summary": "Apple a perdu environ 2 % après la clôture, avec des prévisions de marge jugées décevantes et des ventes d'iPad inférieures aux attentes. Palantir a dépassé les attentes (chiffre d'affaires de plus de 2 milliards de dollars, presque le double d'il y a un an, ventes commerciales américaines en hausse de 148 %), mais a quand même reculé d'environ 2 % à 3 %.",
+     "whyLabel": "En bref",
+     "why": "Même de bons résultats ne suffisent pas toujours à faire monter une action déjà très chère.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-after-hours-fn-clx-aapl-pltr.html",
+       "lang": "EN"
+      },
+      {
+       "label": "CNBC (Palantir)",
+       "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "À la veille des élections de mi-mandat, Wall Street retient son souffle",
+     "summary": "Les marchés de prédiction donnent près de 75 % de chances aux démocrates de prendre le Sénat. JPMorgan avertit qu'une victoire démocrate dans les deux chambres pourrait provoquer une chute des valeurs de l'IA. Les opérateurs attendent aussi le rapport JOLTS sur les offres d'emploi et les commandes industrielles.",
+     "whyLabel": "Le contexte",
+     "why": "Un analyste cité par CNBC rappelle que les marchés se comportent souvent bien une fois l'incertitude levée.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Europe : les Bourses finissent en hausse, aidées par la baisse du pétrole",
+     "summary": "Le CAC 40 a gagné 0,98 % (8 047,69 points), le DAX 0,63 % et l'Euro Stoxx 50 0,73 %. L'indice paneuropéen STOXX 600 progresse de 0,42 %, près d'un plus haut de deux mois. Les compagnies aériennes ont profité de carburants moins chers, les producteurs d'énergie ont reculé.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Le pétrole moins cher soulage les entreprises et l'inflation, ce qui soutient les actions.",
+     "image": "https://eurasiabusinessnews.com/wp-content/uploads/2026/11/image-2.png",
+     "links": [
+      {
+       "label": "Eurasia Business News",
+       "url": "https://eurasiabusinessnews.com/2026/11/02/european-stock-markets-today-shares-rise-as-oil-falls-and-gold-rebounds/",
+       "lang": "EN"
+      },
+      {
+       "label": "Ad-hoc-news (DAX)",
+       "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/dax-closes-0-63-prozent-higher-as-oil-prices-fall-on-iran-diplomacy-hopes/70447776",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Asie : le Kospi sud-coréen rebondit de 2,24 % grâce aux puces",
+     "summary": "Après une baisse de plus de 1,5 % en début de séance, le Kospi a terminé à 5 859,08 points. Les exportations coréennes de semi-conducteurs ont bondi de 259 % en octobre sur un an. Le Nikkei a perdu 0,33 % et le Hang Seng gagné 0,42 %.",
+     "whyLabel": "À savoir",
+     "why": "La Corée du Sud est un grand fabricant de puces mémoire, très demandées par l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "TradingView",
+       "url": "https://tradingview.com/news/invezz:287981d65094b:0-kospi-reverses-early-decline-to-close-2-24-higher-as-korean-chip-exports-jump-259",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    }
+   ],
+   "quick": [
+    {
+     "text": "IDEXX bondit d'environ 20 % et Tempus AI d'environ 12 % après des résultats supérieurs aux attentes.",
+     "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-midday-orcl-spcx-tem-rivn.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Rivian gagne 10 % après une relève de recommandation à l'achat par UBS ; SpaceX progresse de plus de 3 % sur des informations de rachat dans la téléphonie.",
+     "url": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-midday-orcl-spcx-tem-rivn.html",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-02",
   "intro": "Apple prépare Apple Intelligence en Chine avec Alibaba, Meta passe devant Google dans la publicité, et l'IA s'invite dans les élections américaines. Mise à jour du soir : Anthropic publie des résultats trimestriels contrastés, Google étend les pubs de son Mode IA et DeepSeek dévoile un prototype d'agent.",
   "stories": [
