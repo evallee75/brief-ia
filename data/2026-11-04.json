@@ -1,0 +1,435 @@
+{
+  "date": "2026-11-04",
+  "intro": "Anthropic révèle l'ampleur de ses coûts de calcul, Palantir double ses revenus, Fal vaut 16 milliards de dollars et Netflix teste un onglet de recommandations par IA.",
+  "stories": [
+    {
+      "category": "Business",
+      "title": "Anthropic : les coûts de calcul pèsent de plus en plus lourd",
+      "summary": "Selon le dossier d'entrée en Bourse mis à jour, le chiffre d'affaires d'Anthropic a atteint 17 milliards de dollars au troisième trimestre, contre 11,5 milliards au précédent. Mais le calcul informatique absorbe désormais 58 % de ce revenu (contre 48 %), pour une facture de 10 milliards de dollars. L'entreprise doit louer de la capacité à court terme, plus chère, car ses propres centres de données ne suivent pas la demande.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Même une IA très demandée coûte énormément cher à faire tourner : c'est l'un des grands enjeux économiques du secteur.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294935494.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Investissement",
+      "title": "Fal, l'entreprise qui fait tourner les IA d'images et de vidéos, vaut désormais 16 milliards de dollars",
+      "summary": "La start-up californienne Fal, qui héberge et exécute des modèles d'IA pour la vidéo, l'image et l'audio, a levé 1,3 milliard de dollars, avec notamment Nvidia parmi les investisseurs. Sa valeur a doublé en sept mois, passant de 8 à 16 milliards de dollars.",
+      "whyLabel": "À savoir",
+      "why": "La demande pour « faire tourner » les IA au quotidien, et pas seulement les entraîner, explose et attire les investisseurs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1268605503.jpg?resize=1200,420",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Palantir double son chiffre d'affaires, mais un signal inquiète",
+      "summary": "Le spécialiste de l'analyse de données a réalisé 2,31 milliards de dollars de revenus au troisième trimestre, en hausse de 96 % sur un an. Aux États-Unis, ses clients privés dépassent pour la première fois les clients publics. Mais la valeur des nouveaux contrats a reculé par rapport au trimestre précédent, les entreprises signant des contrats plus courts.",
+      "whyLabel": "Le contexte",
+      "why": "Palantir est l'un des symboles de l'IA en entreprise : ses résultats servent de baromètre à la Bourse.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Palantir-Alex-Karp.png?resize=1200,688",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Chez Proton, le patron renonce à « réinterroger » ses salariés sur leur usage de l'IA",
+      "summary": "Le PDG de Proton, Andy Yen, a annulé des entretiens prévus pour presque tous les employés, destinés à vérifier comment ils utilisaient l'IA, avec la menace de licenciement pour ceux qui l'utilisaient trop peu. Le recul est intervenu un jour après une enquête de 404 Media, qui le montrait poussant l'IA même face à des objections de sécurité.",
+      "whyLabel": "À savoir",
+      "why": "De plus en plus d'entreprises pressent leurs équipes d'adopter l'IA, ce qui provoque des tensions en interne.",
+      "image": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/11/2022_-_FullSTK_SAM_4002_-52475204075-.jpg",
+      "links": [
+        {
+          "label": "404 Media",
+          "url": "https://www.404media.co/reaping-and-sowing-ceo-edition/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Éthique",
+      "title": "Microsoft dépose un brevet pour modifier ce que dit une personne en vidéo",
+      "summary": "Microsoft a déposé un brevet décrivant une IA capable de changer en direct les mots d'un intervenant en visioconférence et d'ajuster le mouvement de ses lèvres pour que cela paraisse naturel. Usages cités : la traduction ou la suppression des « euh ». Le brevet évoque aussi la conservation de l'enregistrement original.",
+      "whyLabel": "En bref",
+      "why": "Un brevet n'est pas un produit, mais l'idée relance le débat sur les vidéos truquées et la confiance dans ce que l'on voit.",
+      "image": "https://futurism.com/wp-content/uploads/2026/10/microsoft-patents-ai-words-in-peoples-mouths.jpg?w=1200",
+      "links": [
+        {
+          "label": "Futurism",
+          "url": "https://futurism.com/artificial-intelligence/microsoft-patents-ai-words-in-peoples-mouths",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Énergie",
+      "title": "Pour s'alimenter plus vite, des centres de données utilisent de vieux moteurs d'avion",
+      "summary": "Faute de pouvoir se brancher rapidement au réseau électrique, certains centres de données produisent leur propre courant avec des moteurs d'avion recyclés brûlant du gaz. Cela prend environ 24 mois, contre environ sept ans pour un raccordement de 100 mégawatts en Virginie du Nord. xAI en a installé huit dans le Mississippi, mais ces moteurs polluent davantage.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "L'appétit en électricité de l'IA devient un frein majeur, au point de recourir à des solutions d'urgence.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Commercial-plane-clouds.jpg?w=719",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Streaming",
+      "title": "Netflix teste un onglet « Découvrir » qui propose des films selon votre humeur",
+      "summary": "Netflix lance un onglet alimenté par l'IA : on choisit une envie, comme « quelque chose de léger » ou « fais-moi peur », puis on affine. Il est déployé auprès des utilisateurs américains anglophones sur les téléviseurs compatibles, avec un élargissement prévu dans les prochaines semaines.",
+      "whyLabel": "En bref",
+      "why": "Un exemple d'IA du quotidien : choisir quoi regarder devient une conversation plutôt qu'un défilement sans fin.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2235383828.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Sécurité",
+      "title": "Anthropic travaille sur un moyen de prouver quelle IA a écrit un texte",
+      "summary": "Anthropic développe « FlashProve », un système libre qui utiliserait la cryptographie pour vérifier qu'une réponse vient bien du modèle annoncé. Les laboratoires publieraient une empreinte de chaque modèle. Le code et les spécifications sont en ligne, mais aucun déploiement n'est prévu pour l'instant.",
+      "whyLabel": "Le contexte",
+      "why": "Savoir si l'on parle vraiment au modèle que l'on a payé devient un enjeu de confiance.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Oracle lève 20 milliards de dollars pour financer ses investissements dans l'IA",
+      "summary": "Oracle va lever environ 10 milliards en actions et 10 milliards en dette. Les actions ont été vendues 116 dollars, soit 11,2 % sous le cours de clôture du vendredi précédent. Selon MarketScreener, le titre a reculé de 8,8 % à 119,22 dollars et perd environ 39 % depuis le début de l'année.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Construire l'infrastructure de l'IA coûte si cher que même les géants doivent emprunter ou émettre des actions.",
+      "image": "",
+      "links": [
+        {
+          "label": "MarketScreener",
+          "url": "https://www.marketscreener.com/news/oracle-to-offer-10-billion-in-bonds-ce785fd8d08ff52d",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produit",
+      "title": "Les montres Apple vont résumer les conversations grâce à l'IA",
+      "summary": "Apple a lancé en bêta pour les développeurs de nouvelles fonctions pour l'Apple Watch Series 12 et Ultra 4. « Live Rewind » affiche en texte les 15 dernières secondes de parole, et « Siri Recaps » résume une conversation en quelques points. Apple assure ne pas conserver l'audio brut ni identifier les personnes.",
+      "whyLabel": "À savoir",
+      "why": "Ces fonctions sont facultatives et supposent d'accepter que la montre écoute son environnement.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/live-rewind-restaurant.jpg?resize=1200,669",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "Google lance Dreambeans en Inde, une appli d'histoires personnalisées générées par IA.",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "lang": "EN"
+    },
+    {
+      "text": "Ted Schlein (Ballistic Ventures) cherche 490 millions de dollars pour de nouveaux fonds dédiés à la cybersécurité de l'IA.",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "lang": "EN"
+    },
+    {
+      "text": "Elon Musk reconnaît que Grok Bot coûte trop cher à faire tourner par rapport à ses revenus.",
+      "url": "https://startupfortune.com/elon-musk-admits-grok-bot-costs-too-much-to-run-as-users-hit-weekly-caps/",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 25372.01,
+        "changePct": 0.83,
+        "session": "2026-11-03"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 28180.26,
+        "changePct": 0.68,
+        "session": "2026-11-03"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7568.92,
+        "changePct": 0.36,
+        "session": "2026-11-03"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 51786.72,
+        "changePct": -0.38,
+        "session": "2026-11-03"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 20.83,
+        "changePct": -1.51,
+        "session": "2026-11-03"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8020.31,
+        "changePct": -0.34,
+        "session": "2026-11-03"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 25864.62,
+        "changePct": -0.45,
+        "session": "2026-11-03"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6144.56,
+        "changePct": -0.51,
+        "session": "2026-11-03"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 62188.63,
+        "changePct": -1.42,
+        "session": "2026-11-04"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 23525.97,
+        "changePct": 0.57,
+        "session": "2026-11-03"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 206.69,
+        "changePct": 2.29,
+        "session": "2026-11-03"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 331.9,
+        "changePct": -1.9,
+        "session": "2026-11-03"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 520.99,
+        "changePct": 2.74,
+        "session": "2026-11-03"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 280.03,
+        "changePct": 0.37,
+        "session": "2026-11-03"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 250.69,
+        "changePct": 2.06,
+        "session": "2026-11-03"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 621.03,
+        "changePct": 2.36,
+        "session": "2026-11-03"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 398.5,
+        "changePct": -1.32,
+        "session": "2026-11-03"
+      }
+    ],
+    "intro": "Mardi, le Nasdaq a gagné 0,8 % et le S&P 500 0,4 %, portés par Nvidia, Broadcom, Microsoft, Amazon et Meta, tandis qu'Apple (-1,9 %) pâtissait du coût des puces mémoire et que le Dow Jones reculait de 0,4 %. Mercredi, les contrats à terme américains reculent après les élections de mi-mandat.",
+    "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Mardi : les géants de la tech tirent le Nasdaq vers le haut, malgré Apple",
+        "summary": "Le Nasdaq a gagné 0,8 % à 25 372 points et le S&P 500 0,4 % à 7 568,92. Nvidia a pris 2,3 %, Broadcom 3,1 %, et Microsoft, Amazon et Meta plus de 2 % chacun. Mais la plupart des actions du S&P 500 ont reculé, et le Dow Jones a perdu 0,4 %.",
+        "whyLabel": "En bref",
+        "why": "La hausse reposait sur quelques très grandes valeurs, pas sur l'ensemble du marché.",
+        "image": "https://www.bnnbloomberg.ca/resizer/v2/GGQUEXLANS4RE4YTGLK4NFHL2I.jpg?smart=true&auth=9fc71e55080dfd32d6e65940435cf902eaa89f5995e99a6ddf4f6e1cbae7fe82&width=1200&height=630",
+        "links": [
+          {
+            "label": "BNN Bloomberg (AP)",
+            "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Apple recule de 1,9 % : les puces mémoire coûtent plus cher",
+        "summary": "Apple a publié un chiffre d'affaires supérieur aux attentes pour son quatrième trimestre, mais les ventes d'iPad ont déçu et ses prévisions de marge aussi, à cause de la hausse du prix des mémoires. C'était la première publication depuis que John Ternus a succédé à Tim Cook comme PDG.",
+        "whyLabel": "Le contexte",
+        "why": "L'action avait gagné 25 % depuis janvier : peu de marge pour la moindre déception.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Palantir cède 1,6 % malgré des résultats meilleurs que prévu",
+        "summary": "Le titre a terminé en baisse après des revenus presque doublés sur un an. Les nouveaux contrats avec les clients privés américains ont ralenti (environ 1,5 milliard de dollars contre un record de 2,1 milliards au trimestre précédent), notamment à cause de contrats plus courts.",
+        "whyLabel": "À savoir",
+        "why": "Les investisseurs regardent désormais la croissance future plus que les résultats passés.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/11/Palantir-Alex-Karp.png?resize=1200,688",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/apple-palantir-stock-earnings.html",
+            "lang": "EN"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Le taux à 10 ans américain monte à 4,96 %, le pétrole reste au-dessus de 100 dollars",
+        "summary": "Le rendement des bons du Trésor à 10 ans est passé de 4,91 % à 4,96 %. Le Brent a fini à 103,60 dollars, en baisse de 1,1 %, sur fond d'incertitude liée à la guerre avec l'Iran.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Des taux élevés pèsent sur les valeurs technologiques et sur le coût des emprunts.",
+        "image": "",
+        "links": [
+          {
+            "label": "BNN Bloomberg (AP)",
+            "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Les Bourses européennes reculent",
+        "summary": "Mardi, les indices européens ont terminé en baisse : le CAC 40 a perdu 0,34 %, le DAX 0,45 % et l'Euro Stoxx 50 0,51 %.",
+        "whyLabel": "En bref",
+        "why": "Les marchés européens n'ont pas suivi le rebond des grandes valeurs tech américaines.",
+        "image": "",
+        "links": [
+          {
+            "label": "BNN Bloomberg (AP)",
+            "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Émergents",
+        "title": "Séoul chute de 3,6 %, entraînée par Samsung et SK Hynix",
+        "summary": "L'indice sud-coréen Kospi a reculé de 3,6 % mardi, avec de lourdes pertes pour les fabricants de puces Samsung Electronics et SK Hynix. Les autres Bourses asiatiques ont fini en ordre dispersé. En Australie, les actions ont gagné 0,3 % malgré une cinquième hausse de taux de la banque centrale cette année.",
+        "whyLabel": "À savoir",
+        "why": "Les fabricants de puces sont très sensibles aux humeurs du marché de l'IA.",
+        "image": "",
+        "links": [
+          {
+            "label": "BNN Bloomberg (AP)",
+            "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/11/03/us-stocks-drift-in-mixed-early-trading-on-wall-street-as-apple-falls/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
+      {
+        "category": "Asie",
+        "title": "Mercredi : le Nikkei recule de 1,42 %",
+        "summary": "À Tokyo, le Nikkei 225 a clôturé en baisse de 1,42 % à 62 188,63 points, tandis que le Hang Seng à Hong Kong progressait de 0,57 % à 23 525,97 points (chiffres de la dernière clôture disponible).",
+        "whyLabel": "En bref",
+        "why": "Les Bourses asiatiques n'ont pas évolué dans le même sens.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/quote/%5EN225/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Après la victoire des démocrates aux élections de mi-mandat, les contrats à terme sur les indices américains reculent mercredi (Invezz).",
+        "url": "https://invezz.com/news/2026/11/04/us-stock-futures-dip-as-democrats-reclaim-congress-in-major-setback-for-trump/",
+        "lang": "EN"
+      },
+      {
+        "text": "Marathon Petroleum bat les attentes et vend deux raffineries à CVR Energy pour 4,2 milliards de dollars.",
+        "url": "https://www.bnnbloomberg.ca/markets/oil/2026/11/03/marathon-beats-third-quarter-estimates-to-sell-two-refineries-to-cvr-energy/",
+        "lang": "EN"
+      },
+      {
+        "text": "Saudi Aramco : bénéfice net en hausse de 35 % au troisième trimestre, grâce au pétrole plus cher.",
+        "url": "https://www.bnnbloomberg.ca/markets/oil/2026/11/03/higher-oil-prices-boost-saudi-aramco-profits-despite-disruption-from-attacks/",
+        "lang": "EN"
+      }
+    ]
+  }
+}
