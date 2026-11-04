@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "intro": "Anthropic révèle l'ampleur de ses coûts de calcul, Palantir double ses revenus, Fal vaut 16 milliards de dollars et Netflix teste un onglet de recommandations par IA.",
+  "intro": "Anthropic révèle l'ampleur de ses coûts de calcul, Palantir double ses revenus, Fal vaut 16 milliards de dollars et Netflix teste un onglet de recommandations par IA. Mise à jour du soir : les assistants IA personnels butent sur le coût du calcul, OpenAI lève moins que prévu et recrute l'ancien secrétaire de l'armée américaine.",
   "stories": [
     {
       "category": "Business",
@@ -43,6 +43,51 @@
         {
           "label": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Assistants IA personnels : le calcul informatique pourrait freiner la course",
+      "summary": "Les assistants « Dots » d'OpenAI, qui lisent et répondent aux e-mails ou réservent des places, tournent chacun sur leur propre ordinateur dans le cloud et restent réservés aux abonnés Pro à 100 dollars par mois. Elon Musk juge le coût de son assistant Grok Bot « insoutenable » par rapport aux revenus et limite la puissance allouée. Mardi, OpenAI a aussi annoncé un routeur qui envoie chaque tâche vers le modèle le plus adapté, dont le plus léger GPT-6.1 Terra.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les assistants qui agissent à votre place sont très gourmands en puissance : leur prix et leur disponibilité en dépendent.",
+      "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2297784118-e1793789855446.jpg?resize=1200,600",
+      "links": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/11/04/will-compute-curtail-personal-ai-agent-push/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "OpenAI lève 11 milliards de dollars, loin de son objectif de 30 milliards",
+      "summary": "Selon le Wall Street Journal, cité par Fortune, la dernière levée de fonds d'OpenAI a atteint 11 milliards de dollars. Côté Anthropic, des analystes lui conseillent de fixer son prix d'introduction en Bourse au bas de la fourchette annoncée. Ni l'une ni l'autre de ces entreprises n'est encore rentable.",
+      "whyLabel": "Le contexte",
+      "why": "Les besoins d'argent des géants de l'IA sont immenses, et les investisseurs deviennent plus prudents.",
+      "image": "",
+      "links": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/11/04/will-compute-curtail-personal-ai-agent-push/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "OpenAI recrute l'ancien secrétaire de l'armée américaine Dan Driscoll",
+      "summary": "Selon Fortune, Dan Driscoll devient conseiller principal d'OpenAI pour la « modernisation de la sécurité nationale », deux mois après son départ du Pentagone. L'entreprise a aussi embauché Jill Hazelbaker, ex-directrice des affaires publiques d'Uber, pour un poste de communication.",
+      "whyLabel": "À savoir",
+      "why": "Les entreprises d'IA se rapprochent de plus en plus de l'État américain et du monde de la défense.",
+      "image": "",
+      "links": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/11/04/will-compute-curtail-personal-ai-agent-push/",
           "lang": "EN"
         }
       ]
@@ -168,6 +213,11 @@
       "text": "Elon Musk reconnaît que Grok Bot coûte trop cher à faire tourner par rapport à ses revenus.",
       "url": "https://startupfortune.com/elon-musk-admits-grok-bot-costs-too-much-to-run-as-users-hit-weekly-caps/",
       "lang": "EN"
+    },
+    {
+      "text": "Apple avertit que des agents IA « voyous » pourraient « dissimuler » et « manipuler » d'une façon nuisible à son activité (Fortune).",
+      "url": "https://fortune.com/2026/11/04/will-compute-curtail-personal-ai-agent-push/",
+      "lang": "EN"
     }
   ],
   "markets": {
@@ -210,30 +260,30 @@
       {
         "name": "CAC 40",
         "region": "Europe",
-        "value": 8020.31,
-        "changePct": -0.34,
-        "session": "2026-11-03"
+        "value": 8177.89,
+        "changePct": 1.96,
+        "session": "2026-11-04"
       },
       {
         "name": "DAX",
         "region": "Europe",
-        "value": 25864.62,
-        "changePct": -0.45,
-        "session": "2026-11-03"
+        "value": 26437.67,
+        "changePct": 2.22,
+        "session": "2026-11-04"
       },
       {
         "name": "Euro Stoxx 50",
         "region": "Europe",
-        "value": 6144.56,
-        "changePct": -0.51,
-        "session": "2026-11-03"
+        "value": 6265.71,
+        "changePct": 1.97,
+        "session": "2026-11-04"
       },
       {
         "name": "Nikkei 225",
         "region": "Asie",
-        "value": 62188.63,
-        "changePct": -1.42,
-        "session": "2026-11-04"
+        "value": 63081.86,
+        "changePct": -0.33,
+        "session": "2026-11-02"
       },
       {
         "name": "Hang Seng",
@@ -294,8 +344,104 @@
         "session": "2026-11-03"
       }
     ],
-    "intro": "Mardi, le Nasdaq a gagné 0,8 % et le S&P 500 0,4 %, portés par Nvidia, Broadcom, Microsoft, Amazon et Meta, tandis qu'Apple (-1,9 %) pâtissait du coût des puces mémoire et que le Dow Jones reculait de 0,4 %. Mercredi, les contrats à terme américains reculent après les élections de mi-mandat.",
+    "intro": "Mercredi, vers 18 h, Wall Street rebondissait fortement après la victoire des démocrates aux élections de mi-mandat : le Dow Jones gagnait plus de 1 500 points et le Nasdaq environ 1,9 % (chiffres CNBC de 11 h 57 à New York, séance en cours), tandis que l'Europe montait aussi. La veille, le Nasdaq avait gagné 0,8 % et le S&P 500 0,4 %.",
     "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Mercredi : Wall Street s'envole après la victoire des démocrates au Congrès",
+        "summary": "Vers 18 h à Paris (11 h 57 à New York), le Dow Jones gagnait 1 514 points (+2,9 %), le S&P 500 1,7 % et le Nasdaq Composite 1,9 %. Les démocrates ont remporté la Chambre et le Sénat. Un analyste cité par CNBC parle d'un Congrès bloqué, ce qui a historiquement plutôt plu aux marchés.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les investisseurs misent sur moins de grands bouleversements politiques.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Mercredi : Amazon, Apple et Microsoft bondissent, les valeurs de l'IA reculent",
+        "summary": "En séance, Amazon gagnait 7 %, Apple et Microsoft 6 %, Alphabet 5 % et Meta 2 %. À l'inverse, Nvidia perdait 1 % et Tesla 2 %. Les fournisseurs de puissance pour l'IA décrochaient : CoreWeave plus de 7 %, Nebius plus de 4 %.",
+        "whyLabel": "En bref",
+        "why": "Le marché distingue les géants du numérique des spécialistes des centres de données.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Mercredi : le pétrole chute de plus de 7 %, l'or grimpe",
+        "summary": "Le pétrole américain perdait plus de 7 % et le Brent plus de 8 % en séance. Le taux à 10 ans américain tournait autour de 4,93 %, et l'or gagnait 2,93 % à 4 043 dollars l'once. L'enquête ADP indique 86 000 emplois privés créés en octobre, contre 75 000 attendus.",
+        "whyLabel": "Le contexte",
+        "why": "Moins cher, le pétrole allège la pression sur les prix.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "S&P 500",
+        "title": "Mercredi : énergies renouvelables et santé en fête, Trump Media chute",
+        "summary": "First Solar gagnait 8,5 %, Plug Power 10,6 %, HCA 7,2 %. Trump Media reculait de 11 % avant l'ouverture. McDonald's progressait d'environ 2 % après un bénéfice par action supérieur aux attentes (3,57 dollars contre 3,38), malgré un chiffre d'affaires un peu inférieur.",
+        "whyLabel": "À savoir",
+        "why": "Les secteurs jugés favorisés par un Congrès démocrate montent.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Mercredi : les Bourses européennes bondissent, les banques en tête",
+        "summary": "À la mi-séance (vers 14 h à Paris), le CAC 40 gagnait 1,76 % à 8 161,77 points, le Stoxx 600 1,55 % et les banques européennes 4,38 %. Les énergies renouvelables montaient (Ørsted +6,7 %), la défense reculait (Thales -3 %), et Novo Nordisk gagnait 5 %. L'inflation de la zone euro est estimée à 4 % en octobre.",
+        "whyLabel": "À savoir",
+        "why": "Les chiffres de clôture n'étaient pas encore disponibles à la rédaction.",
+        "image": "",
+        "links": [
+          {
+            "label": "Boursorama (Reuters)",
+            "url": "https://boursorama.com/bourse/actualites/wall-street-vue-dans-le-desordre-apres-les-midterms-l-europe-prend-de-l-elan-0808799f4d0411bac0922bd20c6c19aa",
+            "lang": "FR"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Mercredi : Asie partagée, Tokyo recule, Séoul et la Chine progressent",
+        "summary": "Le Nikkei a fini en baisse de 1,42 % à 62 188,63 points, tandis que le Kospi coréen gagnait 0,62 % à 5 683,8 points et le CSI 300 chinois 2,31 %, selon CNBC.",
+        "whyLabel": "En bref",
+        "why": "Les places asiatiques ont réagi de façon contrastée.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
       {
         "category": "Nasdaq",
         "title": "Mardi : les géants de la tech tirent le Nasdaq vers le haut, malgré Apple",
@@ -415,6 +561,16 @@
       }
     ],
     "quick": [
+      {
+        "text": "L'inflation de la zone euro est estimée à 4 % en octobre (chiffres préliminaires, Reuters via Boursorama).",
+        "url": "https://boursorama.com/bourse/actualites/wall-street-vue-dans-le-desordre-apres-les-midterms-l-europe-prend-de-l-elan-0808799f4d0411bac0922bd20c6c19aa",
+        "lang": "FR"
+      },
+      {
+        "text": "Le Brent passe sous 103 dollars le baril à la mi-séance européenne (-1,27 % à 102,28 dollars, Reuters via Boursorama).",
+        "url": "https://boursorama.com/bourse/actualites/wall-street-vue-dans-le-desordre-apres-les-midterms-l-europe-prend-de-l-elan-0808799f4d0411bac0922bd20c6c19aa",
+        "lang": "FR"
+      },
       {
         "text": "Après la victoire des démocrates aux élections de mi-mandat, les contrats à terme sur les indices américains reculent mercredi (Invezz).",
         "url": "https://invezz.com/news/2026/11/04/us-stock-futures-dip-as-democrats-reclaim-congress-in-major-setback-for-trump/",
