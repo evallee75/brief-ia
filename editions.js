@@ -1,5 +1,451 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-05",
+  "intro": "Les centres de données de l'IA deviennent un enjeu électoral aux États-Unis, Apple rationne le budget IA de ses ingénieurs, et presque personne ne réserve encore son Uber avec un agent IA.",
+  "stories": [
+   {
+    "category": "Société",
+    "title": "Après les élections américaines, les centres de données de l'IA dans le viseur des électeurs",
+    "summary": "Les démocrates ont pris le contrôle du Congrès lors des élections de mi-mandat du 3 novembre. Selon un sondage de sortie des urnes NBC, plus de la moitié des personnes interrogées pensent que l'IA fera plus de mal que de bien, et près de 80 % s'opposent à un centre de données près de chez elles. Dans l'Ohio, un comté où Meta prévoyait un site de 70 000 m² (700 000 pieds carrés) a voté une interdiction.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "L'IA devient un sujet électoral : la construction des centres de données pourrait être freinée.",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/11/us-congress-at-night.jpg?resize=1200,677",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Apple réduit le budget IA de ses ingénieurs",
+    "summary": "Selon Bloomberg, Apple a abaissé en octobre le plafond quotidien de dépenses en IA de ses équipes d'ingénierie de 300 à 200 dollars, certaines enveloppes devant tomber à 100 dollars par jour. Hors ingénierie, Apple envisagerait une limite aussi basse que 25 dollars par jour.",
+    "whyLabel": "Le contexte",
+    "why": "Après avoir encouragé l'usage maximal de l'IA, de nombreuses entreprises rationnent désormais, car la facture grimpe.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Presque personne ne réserve son Uber avec un agent IA",
+    "summary": "Lors de la présentation des résultats d'Uber, l'entreprise a indiqué que seules quatre courses ont été réservées par un agent IA pendant la semaine la plus chargée d'octobre, sur environ 320 millions de trajets et commandes. Uber Eats n'a reçu que 500 commandes passées par un agent. Réserver dans l'application prend en moyenne 50 secondes.",
+    "whyLabel": "À savoir",
+    "why": "Les assistants IA qui font les démarches à votre place restent, pour l'instant, très peu utilisés.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/uber-getty.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Les groupes d'influence de l'IA ont dépensé des millions pour les élections : bilan mitigé",
+    "summary": "Des comités politiques liés à l'IA ont dépensé des dizaines de millions de dollars. Leading the Future a dépensé 27,38 millions de dollars lors des primaires, dont 8 millions contre Alex Bores, qui a perdu. Mais plusieurs candidats soutenus par d'autres groupes ont perdu, et l'effet de l'IA est difficile à isoler de la vague démocrate.",
+    "whyLabel": "Le contexte",
+    "why": "L'industrie de l'IA cherche à peser sur les lois, avec des résultats inégaux.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2264644532.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Politique",
+    "title": "OpenAI veut déjà peser sur l'élection présidentielle de 2028",
+    "summary": "Dans un essai publié mercredi, Chris Lehane, responsable des affaires publiques d'OpenAI, compare l'impact de l'IA sur l'économie au New Deal des années 1930 et présente cinq priorités, dont la protection des travailleurs, l'éducation et la sécurité. Des critiques jugent certaines positions peu sincères, rappelant l'opposition d'OpenAI à une loi californienne sur la sécurité de l'IA.",
+    "whyLabel": "À savoir",
+    "why": "Les grandes entreprises de l'IA préparent déjà le débat politique de la prochaine présidentielle.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Meta rachète Conductor, une start-up d'assistants de programmation",
+    "summary": "Meta a racheté Conductor, créée en 2024, qui permet de lancer plusieurs agents IA en parallèle pour écrire du code. Son service cloud fermera le 20 novembre. Meta, qui a lancé en août son propre agent de programmation Muse Code, n'a pas donné d'autres détails.",
+    "whyLabel": "En bref",
+    "why": "Les géants se disputent les outils qui aident à programmer avec l'IA.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-ray-bans.png?resize=1200,653",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Nothing annonce pour décembre un mystérieux appareil « IA »",
+    "summary": "Le patron de Nothing, Carl Pei, a indiqué sur X que le premier produit « natif IA » de la marque sortira en décembre. Il a décrit un outil de productivité sans écran qui « n'aurait pas pu être une appli ». Aucune date précise n'a été annoncée.",
+    "whyLabel": "En bref",
+    "why": "Après les smartphones, de nouveaux objets pensés autour de l'IA se préparent.",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/02/2560x2040_5fe778b6-8919-4143-bf11-8d86af754f52_2192x.webp?resize=1200,956",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Éducation",
+    "title": "DuckDuckGo courtise les écoles face à la polémique sur la politique IA de Google",
+    "summary": "Google propose aux écoles de désactiver Gemini, mais couper ses autres fonctions IA leur ferait perdre la Recherche Google. DuckDuckGo en profite pour se présenter comme alternative. Google compte environ 50 millions de Chromebooks dans les écoles.",
+    "whyLabel": "Le contexte",
+    "why": "L'IA dans les écoles crée un rapport de force entre les écoles et les géants du numérique.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/05/DuckDuckGo_NoAI.png?resize=1200,784",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Napster devient une entreprise d'agents IA",
+    "summary": "Napster développe des agents IA visuels pour les entreprises, capables de discuter avec les clients. Son dirigeant affirme pouvoir les facturer autour d'un centime par minute. Il défend l'idée que les entreprises doivent rester propriétaires de leurs données clients.",
+    "whyLabel": "En bref",
+    "why": "Une marque connue du grand public se réinvente autour de l'IA.",
+    "image": "https://cdn.theneuron.ai/TN_Thumb_110426_JohnAcunto_Napster_B.png",
+    "links": [
+     {
+      "label": "The Neuron",
+      "url": "https://www.theneuron.ai/newsletter/watch-napster-is-an-ai-company-now/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Technologie",
+    "title": "L'open source en plein boom : Hugging Face explique qui en profite",
+    "summary": "Dans le podcast Equity de TechCrunch, Irene Solaiman, responsable des politiques de Hugging Face, explique pourquoi entreprises, États et start-up adoptent des modèles d'IA ouverts : coûts plus bas et plus de contrôle. L'épisode demande aussi si les acteurs américains peuvent suivre les modèles ouverts chinois.",
+    "whyLabel": "À savoir",
+    "why": "Les modèles gratuits et ouverts concurrencent de plus en plus les géants payants.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Le service Muse de Meta aurait dépassé 10 millions d'utilisateurs, selon TechCrunch.",
+    "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+    "lang": "EN"
+   },
+   {
+    "text": "Des éditeurs vendent des publicités que seuls les agents IA voient (The Neuron).",
+    "url": "https://www.theneuron.ai/newsletter/publishers-sell-ads-only-ai-agents-see/",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 25736.51,
+     "changePct": 1.44,
+     "session": "2026-11-04"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 28437.17,
+     "changePct": 0.91,
+     "session": "2026-11-04"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7688.62,
+     "changePct": 1.58,
+     "session": "2026-11-04"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 53356.12,
+     "changePct": 3.03,
+     "session": "2026-11-04"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 16.61,
+     "changePct": -20.26,
+     "session": "2026-11-04"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8177.89,
+     "changePct": 1.96,
+     "session": "2026-11-04"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 26437.67,
+     "changePct": 2.22,
+     "session": "2026-11-04"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6265.71,
+     "changePct": 1.97,
+     "session": "2026-11-04"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 61077.9,
+     "changePct": -1.79,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 23919.5,
+     "changePct": 1.67,
+     "session": "2026-11-04"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 200.13,
+     "changePct": -3.17,
+     "session": "2026-11-04"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 349.51,
+     "changePct": 5.31,
+     "session": "2026-11-04"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 555.8,
+     "changePct": 6.68,
+     "session": "2026-11-04"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 288.93,
+     "changePct": 3.18,
+     "session": "2026-11-04"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 266.03,
+     "changePct": 6.12,
+     "session": "2026-11-04"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 630.0,
+     "changePct": 1.44,
+     "session": "2026-11-04"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 385.19,
+     "changePct": -3.34,
+     "session": "2026-11-04"
+    }
+   ],
+   "intro": "Mercredi, Wall Street a fortement progressé après la victoire des démocrates : le Dow Jones a gagné 3,03 %, le S&P 500 1,58 % et le Nasdaq 1,44 %, avec un pétrole en chute et un Congrès bloqué jugé rassurant.",
+   "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Wall Street grimpe après la victoire des démocrates au Congrès",
+     "summary": "Le Dow Jones a gagné 3,03 % (+1 569 points), sa meilleure journée depuis avril 2025. Le S&P 500 a pris 1,58 % et le Nasdaq Composite 1,44 %. Les démocrates ont remporté la Chambre et le Sénat, et les investisseurs y voient un Congrès bloqué, plutôt favorable aux marchés.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Moins de grandes réformes à craindre : les marchés ont accueilli le résultat avec soulagement.",
+     "image": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/05/thumbs_b_c_8130f73ecd1357cc5e2f15aab245e35a.jpg",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+       "lang": "EN"
+      },
+      {
+       "label": "Anadolu",
+       "url": "https://aa.com.tr/en/americas/us-stocks-surge-at-midweek-close-as-democrats-win-congress-oil-prices-plunge/4112113",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Apple, Amazon et Microsoft bondissent, Nvidia et Tesla reculent",
+     "summary": "À la clôture, Microsoft gagnait 6,68 %, Amazon 6,12 % et Apple 5,31 %, cette dernière atteignant un record historique en séance. Nvidia perdait 3,17 % et Tesla 3,34 %. Les valeurs les plus liées aux centres de données, comme CoreWeave, reculaient.",
+     "whyLabel": "En bref",
+     "why": "Les investisseurs craignent un encadrement plus strict des centres de données de l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Le pétrole plonge de plus de 8 %, l'or grimpe",
+     "summary": "Le brut américain et le Brent ont chuté de plus de 8 % après l'élection, les investisseurs misant sur une pression accrue pour mettre fin au conflit avec l'Iran. L'or gagnait près de 3 % tôt dans la journée, autour de 4 043 dollars l'once.",
+     "whyLabel": "Le contexte",
+     "why": "Un pétrole moins cher soulage les entreprises et les ménages.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "S&P 500",
+     "title": "Le calme revient : l'indice de la peur recule de 20 %",
+     "summary": "L'indice de volatilité VIX, souvent appelé « indice de la peur », est tombé à 16,61, en baisse de 20,26 %, signe d'un apaisement des investisseurs après l'élection.",
+     "whyLabel": "En bref",
+     "why": "Moins d'incertitude politique, donc moins de nervosité sur les marchés.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "La Bourse européenne signe sa meilleure journée depuis juin",
+     "summary": "Le CAC 40 a gagné 1,96 % et le DAX 2,22 %. D'après Bloomberg, l'indice STOXX 600 a pris 1,82 %, porté par les banques, tandis que la tech européenne restait à la traîne, par crainte d'un durcissement des règles sur l'IA.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "L'Europe a suivi le soulagement de Wall Street, mais la tech y est restée prudente.",
+     "image": "",
+     "links": [
+      {
+       "label": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-04/european-stocks-set-to-dip-as-democrat-sweep-stokes-ai-worries",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Europe",
+     "title": "Les banques européennes s'envolent",
+     "summary": "Les banques européennes ont fortement progressé mercredi, selon Bloomberg, les investisseurs se tournant vers des établissements tournés vers le marché intérieur.",
+     "whyLabel": "En bref",
+     "why": "Les banques sont les grandes gagnantes de la séance en Europe.",
+     "image": "",
+     "links": [
+      {
+       "label": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-04/european-stocks-set-to-dip-as-democrat-sweep-stokes-ai-worries",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Tokyo recule, la tech japonaise sous pression",
+     "summary": "Le Nikkei 225 a reculé, plombé par les valeurs technologiques liées à l'IA, les investisseurs craignant un durcissement de l'encadrement américain. Le Nikkei a perdu 1,79 % lors de la dernière séance.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Les inquiétudes sur l'IA traversent l'Atlantique et pèsent sur l'Asie.",
+     "image": "",
+     "links": [
+      {
+       "label": "Bloomberg",
+       "url": "https://bloomberg.com/news/articles/2026-11-04/japanese-stocks-sink-as-us-midterm-results-hit-tech-shares",
+       "lang": "EN"
+      },
+      {
+       "label": "Upstox",
+       "url": "https://upstox.com/news/market-news/trading/asian-markets-tumble-nikkei-225-crashes-3-000-points-kospi-tanks-4-amid-us-midterm-vote-count-ai-sell-off/article-202952/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
+    {
+     "category": "Asie",
+     "title": "Hong Kong progresse de 1,67 %",
+     "summary": "L'indice Hang Seng a gagné 1,67 % lors de la séance du 4 novembre, à contre-courant du Japon.",
+     "whyLabel": "En bref",
+     "why": "Les places asiatiques n'ont pas toutes réagi de la même façon.",
+     "image": "",
+     "links": [
+      {
+       "label": "Upstox",
+       "url": "https://upstox.com/news/market-news/trading/asian-markets-tumble-nikkei-225-crashes-3-000-points-kospi-tanks-4-amid-us-midterm-vote-count-ai-sell-off/article-202952/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    }
+   ],
+   "quick": [
+    {
+     "text": "Apple a atteint un record en Bourse, avec une capitalisation de plus de 5 000 milliards de dollars (CNBC).",
+     "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Les rendements obligataires américains à 10 ans étaient proches de 4,93 % en début de journée (CNBC).",
+     "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-04",
   "intro": "Anthropic révèle l'ampleur de ses coûts de calcul, Palantir double ses revenus, Fal vaut 16 milliards de dollars et Netflix teste un onglet de recommandations par IA. Mise à jour du soir : les assistants IA personnels butent sur le coût du calcul, OpenAI lève moins que prévu et recrute l'ancien secrétaire de l'armée américaine.",
   "stories": [
