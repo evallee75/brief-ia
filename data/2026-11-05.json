@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "intro": "Les centres de données de l'IA deviennent un enjeu électoral aux États-Unis, Apple rationne le budget IA de ses ingénieurs, et presque personne ne réserve encore son Uber avec un agent IA.",
+  "intro": "Les centres de données de l'IA deviennent un enjeu électoral aux États-Unis, Apple rationne le budget IA de ses ingénieurs, et presque personne ne réserve encore son Uber avec un agent IA. Mise à jour du soir : OpenAI veut racheter Pierre, Anthropic signe avec l'AP, Dropbox s'offre Tigris et Agility entre en Bourse.",
   "stories": [
     {
       "category": "Société",
@@ -43,6 +43,66 @@
         {
           "label": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "OpenAI veut racheter Pierre, une start-up d'outils pour développeurs",
+      "summary": "OpenAI prévoit d'acquérir Pierre Computer, dont la technologie de navigation dans le code alimente déjà une partie de Codex, son assistant de programmation. Selon Axios, l'opération vise à concurrencer GitHub dans le développement logiciel assisté par IA.",
+      "whyLabel": "Le contexte",
+      "why": "Les géants de l'IA se disputent désormais les outils que les programmeurs utilisent au quotidien.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Neuron (digest du jour)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-5-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Anthropic signe son premier accord payant avec un éditeur de presse",
+      "summary": "D'après Adweek, Anthropic a conclu un accord avec l'agence Associated Press : Claude peut désormais fournir des informations électorales en temps réel attribuées à l'AP. L'entreprise évitait jusqu'ici ce type de partenariat, contrairement à OpenAI. Les conditions financières n'ont pas été dévoilées.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les assistants IA cherchent des sources d'information fiables et à jour, et les médias veulent être payés.",
+      "image": "https://static-www.adweek.com/wp-content/uploads/2026/04/Claude-Design-hero-image-2026.png?w=600&h=315&crop=1",
+      "links": [
+        {
+          "label": "Adweek",
+          "url": "https://www.adweek.com/media/anthropic-licensing-deal-ap-election/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Dropbox rachète Tigris Data pour 350 millions de dollars",
+      "summary": "Dropbox a annoncé le rachat de Tigris Data, un spécialiste du stockage dans le cloud fondé par d'anciens ingénieurs d'Uber. C'est sa plus grosse acquisition à ce jour. Elle doit nourrir « DBX Agent Cloud », et Dropbox assure qu'il n'y aura pas de suppressions de postes.",
+      "whyLabel": "À savoir",
+      "why": "Même les entreprises de stockage de fichiers se transforment pour servir les agents IA.",
+      "image": "https://techcrunch.com/wp-content/uploads/2021/03/GettyImages-1211180751.jpg?w=1024",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Robotique",
+      "title": "Agility, premier fabricant de robots humanoïdes à entrer en Bourse",
+      "summary": "Agility va être cotée au Nasdaq via une fusion avec une société vide (SPAC) et espère lever 465 millions de dollars. Ses robots Digit n'ont rapporté que 174 000 dollars au premier semestre 2026, pour 362 millions de dollars de pertes. Son prochain modèle, Digit 5, doit être présenté au CES 2027.",
+      "whyLabel": "Le contexte",
+      "why": "Les robots humanoïdes attirent les investisseurs, mais leurs revenus restent minuscules.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Agility_Digit5_01.png?resize=900,1200",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
           "lang": "EN"
         }
       ]
@@ -163,6 +223,16 @@
       "text": "Des éditeurs vendent des publicités que seuls les agents IA voient (The Neuron).",
       "url": "https://www.theneuron.ai/newsletter/publishers-sell-ads-only-ai-agents-see/",
       "lang": "EN"
+    },
+    {
+      "text": "ChatGPT peut désormais créer des GIF animés à partir d'un texte ou d'une photo (The Decoder).",
+      "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
+      "lang": "EN"
+    },
+    {
+      "text": "Selon Reuters, l'IA aspire la production de puces au détriment d'autres secteurs, a dit le PDG de Siltronic.",
+      "url": "https://www.reuters.com/business/ai-boom-draws-chip-supply-other-end-markets-siltronic-ceo-says-2026-11-04/",
+      "lang": "EN"
     }
   ],
   "markets": {
@@ -205,30 +275,30 @@
       {
         "name": "CAC 40",
         "region": "Europe",
-        "value": 8177.89,
-        "changePct": 1.96,
-        "session": "2026-11-04"
+        "value": 8205.37,
+        "changePct": 0.34,
+        "session": "2026-11-05"
       },
       {
         "name": "DAX",
         "region": "Europe",
-        "value": 26437.67,
-        "changePct": 2.22,
-        "session": "2026-11-04"
+        "value": 26325.01,
+        "changePct": -0.43,
+        "session": "2026-11-05"
       },
       {
         "name": "Euro Stoxx 50",
         "region": "Europe",
-        "value": 6265.71,
-        "changePct": 1.97,
-        "session": "2026-11-04"
+        "value": 6231.54,
+        "changePct": -0.55,
+        "session": "2026-11-05"
       },
       {
         "name": "Nikkei 225",
         "region": "Asie",
-        "value": 61077.9,
-        "changePct": -1.79,
-        "session": "2026-11-05"
+        "value": 62188.63,
+        "changePct": -1.42,
+        "session": "2026-11-04"
       },
       {
         "name": "Hang Seng",
@@ -289,8 +359,119 @@
         "session": "2026-11-04"
       }
     ],
-    "intro": "Mercredi, Wall Street a fortement progressé après la victoire des démocrates : le Dow Jones a gagné 3,03 %, le S&P 500 1,58 % et le Nasdaq 1,44 %, avec un pétrole en chute et un Congrès bloqué jugé rassurant.",
+    "intro": "Jeudi, vers 18 h (heure de Paris), Wall Street est en chute en séance : le Nasdaq perdait plus de 4,5 %, le S&P 500 plus de 3 % et le Dow Jones environ 2 à 2,6 %, avec les puces et l'IA en première ligne, par crainte d'un frein aux centres de données après la victoire démocrate. Les chiffres de Wall Street dans les tableaux restent ceux de la veille, quand le Nasdaq avait gagné 1,44 %.",
     "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Jeudi : le Nasdaq s'effondre de près de 5 % en séance, les puces en tête",
+        "summary": "Vers 18 h (heure de Paris), le Nasdaq Composite perdait plus de 4,5 % et le S&P 500 plus de 3 %, effaçant d'un coup la hausse de la veille. Le Dow Jones reculait d'environ 2 à 2,6 %. Le VIX, l'indice de la peur, bondissait de plus de 45 %. Les chiffres sont ceux de la séance en cours et peuvent encore changer.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les investisseurs craignent qu'un Congrès démocrate freine la construction des centres de données de l'IA.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+            "lang": "EN"
+          },
+          {
+            "label": "Stock Titan",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Jeudi : Nvidia, Micron, AMD et Broadcom plongent, AppLovin s'envole",
+        "summary": "Les valeurs des puces et de l'IA ont lourdement chuté : en séance, Nvidia perdait entre 6 et 9 %, Micron plus de 12 %, et l'indice des semi-conducteurs SOX environ 11 %. Qualcomm reculait après des ventes de puces pour téléphones en baisse de 26 %. À l'inverse, AppLovin gagnait plus de 20 % après des résultats supérieurs aux attentes.",
+        "whyLabel": "À savoir",
+        "why": "Qualcomm, Arm, CoreWeave ou Nebius ont aussi perdu entre 13 et 18 % à un moment de la séance.",
+        "image": "",
+        "links": [
+          {
+            "label": "Stock Titan",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+            "lang": "EN"
+          },
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Jeudi : pétrole en rebond, taux en baisse, bitcoin sous 76 000 dollars",
+        "summary": "Le pétrole remonte après quatre séances de baisse, autour de 97 dollars le baril pour le Brent. Le rendement des obligations américaines à 10 ans tourne autour de 4,83 %. Le bitcoin a perdu plus de 5 %. Vendredi, le rapport sur l'emploi américain sera très suivi.",
+        "whyLabel": "Le contexte",
+        "why": "Un Sénat démocrate est vu comme un frein aux projets de Donald Trump pour réformer la Réserve fédérale.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Jeudi : la Banque d'Angleterre relève ses taux à 4 %",
+        "summary": "La banque centrale britannique a augmenté son taux directeur d'un quart de point, à 4 %, sa première hausse depuis 2023, par 8 voix contre 1. Son gouverneur Andrew Bailey juge d'autres hausses peu probables sauf si le conflit au Moyen-Orient se résout. En Europe, le CAC 40 gagnait 0,34 % à la clôture, le DAX perdait 0,43 %.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les taux plus élevés renchérissent le crédit pour les ménages et les entreprises britanniques.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+            "lang": "EN"
+          },
+          {
+            "label": "Stock Titan",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Europe",
+        "title": "Jeudi : le géant de l'huile d'olive Deoleo chute de près de 20 % en Bourse",
+        "summary": "L'action de Deoleo a reculé de 19,9 % après l'accord de ses rivaux Dcoop et Acesur pour le racheter, à parts égales. L'opération valorise l'entreprise 520 millions d'euros, au-dessus de la première offre de Dcoop (470 millions). Le titre reste en hausse d'environ 55 % depuis janvier.",
+        "whyLabel": "À savoir",
+        "why": "Deoleo est le premier groupe mondial d'huile d'olive.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/05/deoleo-olive-oil-takeover-dcoop-acesur.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Jeudi : le Kospi sud-coréen perd 5,28 %, SK hynix recule de 9 %",
+        "summary": "La Bourse de Séoul a clôturé en forte baisse, entraînée par SK hynix (-9,03 %), les investisseurs craignant des limites plus strictes sur les centres de données. À Hong Kong, les valeurs technologiques chinoises, dont Alibaba et Tencent, progressaient.",
+        "whyLabel": "Le contexte",
+        "why": "Les fabricants asiatiques de puces dépendent fortement de la demande de l'IA américaine.",
+        "image": "",
+        "links": [
+          {
+            "label": "Stock Titan",
+            "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-5-2026",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
       {
         "category": "Nasdaq",
         "title": "Wall Street grimpe après la victoire des démocrates au Congrès",
@@ -431,6 +612,16 @@
       }
     ],
     "quick": [
+      {
+        "text": "La Banque d'Angleterre relève son taux directeur à 4 %, première hausse depuis 2023 (Yahoo Finance).",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+        "lang": "EN"
+      },
+      {
+        "text": "Bitcoin sous 76 000 dollars en séance, en baisse de plus de 5 % (Yahoo Finance).",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+        "lang": "EN"
+      },
       {
         "text": "Apple a atteint un record en Bourse, avec une capitalisation de plus de 5 000 milliards de dollars (CNBC).",
         "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
