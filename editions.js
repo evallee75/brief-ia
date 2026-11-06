@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-06",
-  "intro": "OpenAI évoque une entrée en Bourse en 2027, Claude peut analyser vos dépenses et Meta lance les appels vidéo avec son assistant IA, pendant que la chute des valeurs de l'IA secoue Wall Street puis l'Asie.",
+  "intro": "OpenAI évoque une entrée en Bourse en 2027, Claude peut analyser vos dépenses et Meta lance les appels vidéo avec son assistant IA, pendant que la chute des valeurs de l'IA secoue Wall Street puis l'Asie. Mise à jour du soir : l'IA des entreprises montre des signes d'essoufflement, Amazon lance les achats par SMS avec Alexa et des villes américaines abandonnent les caméras Flock.",
   "stories": [
    {
     "category": "Business",
@@ -44,6 +44,66 @@ window.EDITIONS = [
      {
       "label": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Les dépenses en IA des entreprises ralentissent, à l'approche de l'entrée en Bourse d'Anthropic",
+    "summary": "Selon les données de Ramp, les dépenses des entreprises en « tokens » (l'unité de facturation de l'IA) n'ont progressé que de 1,5 % en août et septembre, après +42 % en juillet. Presque toutes ces dépenses viennent d'entreprises technologiques financées par du capital-risque. En octobre, elles ont rebondi de 8,9 %.",
+    "whyLabel": "Le contexte",
+    "why": "Ces chiffres alimentent les doutes sur la rentabilité de l'IA, au cœur de la chute des valeurs technologiques à Wall Street. La valorisation espérée d'Anthropic en Bourse aurait été revue à la baisse, selon TechCrunch.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/ara-stripe-5.png?resize=1200,779",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Amazon : faites vos achats par SMS avec l'IA d'Alexa",
+    "summary": "Amazon permet désormais de discuter par SMS avec son agent IA Alexa pour chercher des produits, les ajouter au panier et les acheter. Alexa peut aussi comparer, suivre les prix, vérifier une commande ou retrouver un article à partir d'une photo. Le service est ouvert à certains clients américains, les autres peuvent s'inscrire sur liste d'attente.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Le lancement arrive juste avant la saison des achats de fin d'année et montre la course des géants du commerce à l'achat conversationnel.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Alexa-Shopping-Text-Hero.jpeg?resize=1200,725",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Des villes américaines abandonnent les caméras de surveillance Flock",
+    "summary": "Au moins 10 collectivités et services de police américains ont limité ou arrêté l'usage des caméras de lecture de plaques de Flock Safety depuis l'été, par crainte d'une surveillance de masse. Plus de 100 000 de ses caméras sont utilisées dans le pays. Flock affirme ne pas vendre de données.",
+    "whyLabel": "À savoir",
+    "why": "Des cas d'abus par des policiers et la crainte d'un accès des autorités fédérales aux données nourrissent le débat ; certaines villes, comme Cleveland, gardent le système mais le encadrent davantage.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1463816688.jpg?resize=973,1200",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Technologie",
+    "title": "Underdog dévoile un modèle de voix de seulement 32 Mo",
+    "summary": "La start-up Underdog a publié un jeu dans le navigateur reposant sur Woof, un modèle de synthèse vocale d'environ 32 Mo. Il fonctionne en local, sans connexion internet : on tape sur une machine à écrire virtuelle qui lit le texte à voix haute.",
+    "whyLabel": "En bref",
+    "why": "Des modèles aussi petits pourraient permettre de faire parler des appareils du quotidien sans envoyer de données dans le cloud.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-7.02.34-PM.jpg?resize=1200,542",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
       "lang": "EN"
      }
     ]
@@ -169,6 +229,16 @@ window.EDITIONS = [
     "text": "Agility devient la première entreprise de robots humanoïdes cotée en Bourse.",
     "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
     "lang": "EN"
+   },
+   {
+    "text": "Physicl lève 10 millions de dollars pour créer des mondes virtuels réalistes qui servent à entraîner des robots.",
+    "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+    "lang": "EN"
+   },
+   {
+    "text": "Tesla arrêtera la production du Cybertruck en 2027.",
+    "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/",
+    "lang": "EN"
    }
   ],
   "markets": {
@@ -211,30 +281,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8205.37,
-     "changePct": 0.34,
-     "session": "2026-11-05"
+     "value": 8139.0,
+     "changePct": -0.81,
+     "session": "2026-11-06"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 26325.01,
-     "changePct": -0.43,
-     "session": "2026-11-05"
+     "value": 25820.36,
+     "changePct": -1.92,
+     "session": "2026-11-06"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6231.54,
-     "changePct": -0.55,
-     "session": "2026-11-05"
+     "value": 6170.49,
+     "changePct": -0.98,
+     "session": "2026-11-06"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 57434.77,
-     "changePct": -5.96,
-     "session": "2026-11-06"
+     "value": 61077.9,
+     "changePct": -1.79,
+     "session": "2026-11-05"
     },
     {
      "name": "Hang Seng",
@@ -295,8 +365,88 @@ window.EDITIONS = [
      "session": "2026-11-05"
     }
    ],
-   "intro": "Jeudi, le Nasdaq a chuté de 5,52 % et le S&P 500 de 4,36 %, entraînés par un effondrement des valeurs de puces et d'IA, par crainte d'un frein aux centres de données et par des prises de bénéfices ; la baisse s'est étendue vendredi à Tokyo et Séoul.",
+   "intro": "Vendredi, vers 17 h 30 à Paris, Wall Street rebondissait en séance (Nasdaq environ +1,4 %, S&P 500 environ +0,75 %) après un emploi américain au-dessus des attentes (165 000 postes), tandis que l'Europe ouvrait en baisse et que Tokyo et Séoul chutaient de 6 % ; jeudi, le Nasdaq avait perdu 5,52 % et le S&P 500 4,36 % dans une débâcle des valeurs de puces et d'IA.",
    "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Vendredi : Wall Street rebondit en séance après la chute de jeudi",
+     "summary": "Vers 17 h 30 (heure de Paris), le Nasdaq gagnait environ 1,4 %, le S&P 500 environ 0,75 % et le Dow Jones restait stable. Le Nasdaq venait d'entrer en correction jeudi. L'indice de la peur (VIX) reculait d'environ 15 %, autour de 24.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Un rebond après une chute aussi brutale rassure, mais les marchés restent nerveux. Ces chiffres sont ceux de la séance en cours, pas des clôtures.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Vendredi : emplois américains nettement au-dessus des attentes",
+     "summary": "L'économie américaine a créé 165 000 emplois en octobre, contre environ 65 000 attendus, et le chômage est à 4,1 %. Les salaires ont progressé de 0,4 % sur un mois. Les mois précédents ont été révisés à la hausse.",
+     "whyLabel": "Le contexte",
+     "why": "Ces chiffres maintiennent la possibilité d'une hausse de taux de la Fed en décembre, alors que les responsables surveillent l'inflation.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Vendredi : les puces rebondissent, AMD +8 %, Nvidia +6 %",
+     "summary": "Après la chute de jeudi, l'indice des semi-conducteurs gagnait environ 4 % en séance, AMD environ 8 %, Nvidia environ 6 % et Intel environ 6 %. Airbnb montait d'environ 11 % après des résultats trimestriels supérieurs aux attentes.",
+     "whyLabel": "En bref",
+     "why": "Les valeurs de puces avaient perdu environ 12 % jeudi : le rebond n'efface qu'une partie de la baisse.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Vendredi : les Bourses européennes ouvrent en baisse",
+     "summary": "En début de séance, le Stoxx 600 reculait de 1,2 %, le DAX de 1,6 %, le CAC 40 de 1,4 % et le FTSE 100 de 1,4 %. Les investisseurs craignent que la victoire des démocrates aux élections de mi-mandat n'entraîne des règles plus dures pour les centres de données.",
+     "whyLabel": "Le contexte",
+     "why": "L'Europe a suivi la chute des valeurs de puces et d'IA à Wall Street. Ce sont des chiffres de début de séance, pas de clôture.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/global-stock-rout-deepens-ai-070141088.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Vendredi : Tokyo et Séoul chutent de 6 %, Taïwan de 4,5 %",
+     "summary": "À la clôture, le Nikkei a perdu 6 % et le Kospi sud-coréen 6 % (après un plongeon de 8,8 % et une pause de 20 minutes), le Taiex taïwanais 4,5 %. SK Hynix a cédé 10,4 %, Samsung 6,4 % et TSMC 4,7 %.",
+     "whyLabel": "À savoir",
+     "why": "Les valeurs de puces asiatiques ont subi le contrecoup de la chute américaine de jeudi. Shanghai a perdu 1,1 % et Sydney 0,5 %.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/global-stock-rout-deepens-ai-070141088.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
     {
      "category": "Nasdaq",
      "title": "Jeudi : le Nasdaq plonge de 5,52 % et entre en correction",
@@ -426,6 +576,16 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Le prix de l'or recule d'environ 1 % vendredi, vers 4 075 dollars l'once ; le pétrole WTI est autour de 90 dollars (Yahoo Finance).",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Les investisseurs particuliers ont vendu 257 millions de dollars net d'actions jeudi, l'une des plus fortes journées de ventes depuis 2020 (Yahoo Finance).",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+     "lang": "EN"
+    },
     {
      "text": "Wendy's a rejeté une offre de rachat de 1,4 milliard de dollars de Trian (Yahoo Finance).",
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
