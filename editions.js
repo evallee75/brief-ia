@@ -1,5 +1,445 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-06",
+  "intro": "OpenAI évoque une entrée en Bourse en 2027, Claude peut analyser vos dépenses et Meta lance les appels vidéo avec son assistant IA, pendant que la chute des valeurs de l'IA secoue Wall Street puis l'Asie.",
+  "stories": [
+   {
+    "category": "Business",
+    "title": "OpenAI pourrait être prêt pour la Bourse dès 2027",
+    "summary": "Greg Brockman, président d'OpenAI, a déclaré lors d'une conférence du Wall Street Journal que l'entreprise pourrait être prête à entrer en Bourse en 2027 (« Je pense que oui »). Les ventes aux entreprises, qui représentaient environ 30 % des revenus, en sont devenues la majorité, et le chiffre d'affaires annualisé a progressé de 70 % d'un trimestre à l'autre au troisième trimestre. Il a aussi reconnu que les deux premiers trimestres de 2026 avaient été « plutôt difficiles » dans la programmation, où Claude Code d'Anthropic a gagné du terrain.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Une introduction en Bourse d'OpenAI serait l'un des plus gros événements financiers de l'IA.",
+    "image": "https://techcrunch.com/wp-content/uploads/2019/10/Greg-Brockman-OpenAIDSC02862.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Claude peut désormais analyser vos dépenses",
+    "summary": "Anthropic lance « Personal Finance », un outil qui permet à Claude de se connecter, via Plaid, à vos comptes bancaires et cartes de crédit pour répondre à des questions sur vos dépenses. L'accès est en lecture seule : l'outil ne peut ni déplacer, ni gérer, ni investir de l'argent. Il est déployé en bêta cette semaine pour les abonnés Pro, Max et Ultra aux États-Unis.",
+    "whyLabel": "À savoir",
+    "why": "Les assistants IA entrent dans un domaine sensible, celui de votre argent, avec un accès limité à la lecture.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Personal-Finance-2.png?resize=1200,675",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Meta : la colère contre les centres de données pourrait freiner l'IA",
+    "summary": "Lors de la conférence du Wall Street Journal, Dina Powell McCormick, présidente de Meta, a estimé que les victoires démocrates aux élections de mi-mandat rendront la construction de centres de données plus difficile. Selon elle, le secteur n'a « pas assez bien expliqué les bénéfices » de ces investissements. Meta exploite des centres de données dans 23 États et en prévoit cinq de 1 gigawatt ou plus.",
+    "whyLabel": "Le contexte",
+    "why": "Le sujet nourrit aussi la chute des valeurs de l'IA en Bourse ces deux derniers jours.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/data-center-2.jpg?resize=1200,899",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Meta : discutez en vidéo avec son assistant IA Muse",
+    "summary": "Meta ouvre à tous les utilisateurs aux États-Unis « Muse Voice », qui permet d'appeler et de discuter en vidéo avec Muse, son assistant IA. Muse apparaît sous forme d'avatar animé que l'on peut personnaliser (personne, animal ou autre personnage). Il entend l'utilisateur mais ne le voit pas. La fonction marche sur mobile, web et Mac ; les lunettes IA de Meta suivront plus tard.",
+    "whyLabel": "En bref",
+    "why": "Parler à une IA qui a un visage devient un usage grand public chez Meta.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Airbnb promet un agent de voyage IA avant juillet 2027",
+    "summary": "Dans sa lettre aux actionnaires, Airbnb annonce que son agent de voyage IA arrivera avant juillet 2027. Plutôt qu'un simple chatbot, il composera une interface sur mesure avec cartes, photos et itinéraires. Il pourra aussi aider pendant le séjour : modifier une réservation, régler un problème de paiement, rembourser. Le chiffre d'affaires du trimestre a progressé de 19 % à 4,87 milliards de dollars.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les grandes plateformes de voyage préparent la réservation par agent IA.",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/05/Airbnb-Summer-feat.jpg?resize=1200,675",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Éthique",
+    "title": "OpenAI lance ChatGPT Cyber, un modèle pour traquer les failles informatiques",
+    "summary": "OpenAI a rendu ChatGPT Cyber disponible au niveau supérieur de son programme Daybreak Red, destiné aux chercheurs en sécurité offensive. Selon l'entreprise, le modèle a repéré 948 problèmes potentiels dans le noyau Linux et 81 nouvelles vulnérabilités dans Firefox, et un chercheur a utilisé un modèle OpenAI pour trouver une faille grave touchant des serveurs Ubuntu. Des critiques jugent la réponse insuffisante.",
+    "whyLabel": "À savoir",
+    "why": "Une IA capable de trouver des failles sert la défense, mais peut aussi aider les attaquants.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/08/openai-daybreak.jpg?resize=1200,798",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Palo Alto Networks veut racheter Clutch pour 500 millions de dollars",
+    "summary": "Selon TechCrunch, Palo Alto Networks négocie le rachat de Clutch Security, jeune société qui gère les accès des agents IA aux systèmes des entreprises, pour 500 millions de dollars en espèces plus des paiements liés à des objectifs. Clutch approche 10 millions de dollars de revenus annuels. Ce serait la septième acquisition de l'année du géant de la cybersécurité.",
+    "whyLabel": "Le contexte",
+    "why": "Sécuriser les agents IA devient un marché très disputé : Cisco et Cyera ont aussi racheté des start-up similaires.",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2215666246.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Meta, Google et TikTok attaquent une loi californienne sur les ados",
+    "summary": "Les trois groupes ont porté plainte contre le procureur général de Californie pour bloquer la loi AB 1709, qui interdit aux moins de 16 ans la lecture automatique de vidéos et les fils personnalisés. Les plateformes risquent jusqu'à 50 000 dollars d'amende par utilisateur concerné à partir du début de l'année. Elles invoquent la liberté d'expression ; le bureau du procureur dit défendre des lois de bon sens pour protéger les enfants.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les fils personnalisés par algorithme, cœur des réseaux sociaux, sont visés.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2268918823.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Culture",
+    "title": "ElevenLabs permet de publier de la musique générée par IA sur SoundCloud",
+    "summary": "ElevenLabs annonce que les morceaux créés avec sa plateforme ElevenMusic peuvent être publiés directement sur SoundCloud. Ses utilisateurs ont déjà créé plus de 25 millions de morceaux. D'autres plateformes réagissent autrement : Deezer ajoute un filtre pour masquer la musique IA, Bandcamp l'a interdite, Spotify et YouTube misent sur l'étiquetage.",
+    "whyLabel": "Le contexte",
+    "why": "Les plateformes musicales n'ont pas de position commune sur la musique générée par IA.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/ElevenMusicxSoundcloud.jpg?resize=1200,675",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Science",
+    "title": "Axiom Math fait vérifier par IA une énorme encyclopédie de mathématiques",
+    "summary": "La start-up Axiom Math, valorisée 1,6 milliard de dollars, affirme que ses agents IA ont vérifié formellement le « Stacks Project », référence collaborative lancée en 2005 : environ 7 654 pages converties en 16 millions de lignes de code Lean, contrôlées ligne par ligne par un assistant de preuve. Elle veut offrir aux IA un socle de connaissances vérifié.",
+    "whyLabel": "En bref",
+    "why": "Des preuves vérifiées par machine limitent le risque d'erreurs d'une IA en mathématiques.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Axiom-Team-2.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Aina lance une bague connectée à 399 dollars (499 ensuite) avec écran, joystick et micro pour parler à des agents IA ; livraison prévue en janvier 2027.",
+    "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+    "lang": "EN"
+   },
+   {
+    "text": "Dropbox rachète Tigris Data pour 350 millions de dollars afin de renforcer son infrastructure IA.",
+    "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-ai-iinfrastructure/",
+    "lang": "EN"
+   },
+   {
+    "text": "Agility devient la première entreprise de robots humanoïdes cotée en Bourse.",
+    "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 24315.0,
+     "changePct": -5.52,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 26629.81,
+     "changePct": -6.36,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7353.73,
+     "changePct": -4.36,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 51523.06,
+     "changePct": -3.44,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 28.18,
+     "changePct": 69.66,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8205.37,
+     "changePct": 0.34,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 26325.01,
+     "changePct": -0.43,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6231.54,
+     "changePct": -0.55,
+     "session": "2026-11-05"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 57434.77,
+     "changePct": -5.96,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 24796.98,
+     "changePct": 3.67,
+     "session": "2026-11-05"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 181.6,
+     "changePct": -9.26,
+     "session": "2026-11-05"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 344.17,
+     "changePct": -1.53,
+     "session": "2026-11-05"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 535.93,
+     "changePct": -3.58,
+     "session": "2026-11-05"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 282.57,
+     "changePct": -2.2,
+     "session": "2026-11-05"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 260.21,
+     "changePct": -2.19,
+     "session": "2026-11-05"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 605.08,
+     "changePct": -3.96,
+     "session": "2026-11-05"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 343.69,
+     "changePct": -10.77,
+     "session": "2026-11-05"
+    }
+   ],
+   "intro": "Jeudi, le Nasdaq a chuté de 5,52 % et le S&P 500 de 4,36 %, entraînés par un effondrement des valeurs de puces et d'IA, par crainte d'un frein aux centres de données et par des prises de bénéfices ; la baisse s'est étendue vendredi à Tokyo et Séoul.",
+   "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Jeudi : le Nasdaq plonge de 5,52 % et entre en correction",
+     "summary": "Le Nasdaq Composite a perdu 5,52 % à 24 315 points, le S&P 500 4,36 % à 7 353,73 (sa pire journée depuis avril 2025) et le Dow Jones 3,44 %, soit plus de 1 800 points. Le Nasdaq termine plus de 10 % sous son record du mois dernier, ce qui s'appelle une « correction ». Les investisseurs craignent que la victoire démocrate au Congrès freine la construction de centres de données, et des fonds prennent leurs bénéfices avant la fin de l'année.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Les valeurs de l'IA, championnes de 2026, subissent leur plus forte baisse depuis des mois.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+       "lang": "EN"
+      },
+      {
+       "label": "StockTitan",
+       "url": "https://stocktitan.net/articles/stock-market-today-live-november-5-2026",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Les puces s'effondrent : Micron −17 %, AMD −17 %, Nvidia −9 %",
+     "summary": "L'indice des semi-conducteurs a perdu plus de 12 % selon CNBC, sa pire séance depuis mars 2020. Micron a cédé 17,46 % à 656,39 dollars, AMD 17,26 %, Broadcom 10,43 % et Nvidia 9,26 % à 181,60 dollars. Seule exception notable : AppLovin a bondi de 31 % après des résultats supérieurs aux attentes.",
+     "whyLabel": "À savoir",
+     "why": "Les fabricants de puces, au cœur du boom de l'IA, ont été les plus touchés.",
+     "image": "",
+     "links": [
+      {
+       "label": "StockTitan",
+       "url": "https://stocktitan.net/articles/stock-market-today-live-november-5-2026",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Fed : un emploi attendu ce vendredi, une hausse de taux jugée probable en décembre",
+     "summary": "Selon l'outil CME FedWatch cité par CNBC, les opérateurs voient 70,1 % de chances d'une hausse des taux en décembre, contre 82,7 % la veille. Le rapport officiel sur l'emploi américain de ce vendredi est très attendu. Le pétrole s'échange autour de 98 dollars le baril pour le Brent selon Yahoo Finance, et le bitcoin est brièvement passé sous 76 000 dollars.",
+     "whyLabel": "Le contexte",
+     "why": "Taux élevés et chute des actions tech pèsent sur le moral des marchés.",
+     "image": "",
+     "links": [
+      {
+       "label": "StockTitan",
+       "url": "https://stocktitan.net/articles/stock-market-today-live-november-5-2026",
+       "lang": "EN"
+      },
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Les petits porteurs ont vendu à grande échelle",
+     "summary": "D'après Vanda Research cité par Yahoo Finance, les investisseurs particuliers ont vendu pour un montant net de 358 millions de dollars d'actions américaines, leur plus fort mouvement de vente depuis mars 2020. Palantir aurait perdu environ 40 milliards de dollars de valeur boursière dans la séance.",
+     "whyLabel": "En bref",
+     "why": "Même les particuliers participent à la vague de ventes.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Europe : le CAC 40 résiste, la Banque d'Angleterre relève ses taux",
+     "summary": "Jeudi, le CAC 40 a gagné 0,34 % à 8 205,37 points, tandis que le DAX perdait 0,43 % et l'Euro Stoxx 50 0,55 %. La Banque d'Angleterre a relevé son taux directeur d'un quart de point à 4 %, par 8 voix contre 1, sa première hausse depuis 2023.",
+     "whyLabel": "À savoir",
+     "why": "L'Europe a mieux tenu que Wall Street, dont la séance s'est jouée après sa clôture.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Vendredi : Tokyo et Séoul chutent, le Kospi brièvement suspendu",
+     "summary": "Le Nikkei 225 a clôturé en baisse de 5,96 %, à 57 434,77 points, tiré par les valeurs de puces comme Advantest (−12,2 % selon une source en cours de séance). En Corée du Sud, le Kospi a perdu plus de 8 % en séance, déclenchant un arrêt temporaire des cotations, avec SK Hynix et Samsung en forte baisse.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Le choc des puces américaines s'est propagé à toute l'Asie.",
+     "image": "https://resource.tradingkey.com/uploads/20260612/kospi612-1-3866ed784203413bacaf4e3842d40939.jpg",
+     "links": [
+      {
+       "label": "TradingKey",
+       "url": "https://www.tradingkey.com/analysis/stocks/more/262287971-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-mu-sox-tradingkey",
+       "lang": "EN"
+      },
+      {
+       "label": "Reuters via FMT",
+       "url": "https://www.freemalaysiatoday.com/category/business/2026/11/06/chinese-stocks-tumble-as-global-tech-selloff-deepens",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
+    {
+     "category": "Asie",
+     "title": "Chine et Hong Kong : baisse moins marquée, avec les valeurs IA en tête",
+     "summary": "Selon Reuters, le Hang Seng reculait d'environ 1 % vendredi en cours de séance et son indice dédié à l'IA de 4 %. À Shanghai, l'indice Composite perdait 1,1 %. Les mesures de soutien de Pékin et les achats à bon compte ont limité les dégâts sur le continent.",
+     "whyLabel": "Le contexte",
+     "why": "La Chine a mieux résisté, mais ses valeurs IA n'ont pas été épargnées.",
+     "image": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/12/d1c52a24-china-hong-kong-stock-market.webp",
+     "links": [
+      {
+       "label": "Reuters via FMT",
+       "url": "https://www.freemalaysiatoday.com/category/business/2026/11/06/chinese-stocks-tumble-as-global-tech-selloff-deepens",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    }
+   ],
+   "quick": [
+    {
+     "text": "Wendy's a rejeté une offre de rachat de 1,4 milliard de dollars de Trian (Yahoo Finance).",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Les nouvelles suppressions d'emplois annoncées aux États-Unis en octobre sont au plus bas depuis 2023, soit 43 994 (Challenger, via Yahoo Finance).",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-05",
   "intro": "Les centres de données de l'IA deviennent un enjeu électoral aux États-Unis, Apple rationne le budget IA de ses ingénieurs, et presque personne ne réserve encore son Uber avec un agent IA. Mise à jour du soir : OpenAI veut racheter Pierre, Anthropic signe avec l'AP, Dropbox s'offre Tigris et Agility entre en Bourse.",
   "stories": [
