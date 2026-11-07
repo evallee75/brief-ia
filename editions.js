@@ -1,5 +1,430 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-07",
+  "intro": "Google promet 17 milliards de dollars au Wyoming pour un centre de données, la Banque d'Angleterre juge modeste l'effet de l'IA sur la productivité, et le ministère américain de la Justice crée une task force contre les abus de l'IA, tandis que des parents poursuivent Google après les échanges de leur fille avec son IA.",
+  "stories": [
+   {
+    "category": "Infrastructure",
+    "title": "Google investit 17 milliards de dollars dans un centre de données au Wyoming",
+    "summary": "Google annonce un investissement de 17 milliards de dollars pour son premier centre de données dans l'État, près de Cheyenne. Il sera alimenté en partie par une installation de 702 mégawatts de piles à combustible au gaz avec captage du carbone. Google promet de payer toute l'électricité qu'il consomme, de financer les infrastructures liées à son arrivée et de verser des taxes locales.",
+    "whyLabel": "Le contexte",
+    "why": "Après les élections américaines, la colère contre les centres de données pousse les géants à multiplier les promesses aux habitants.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Wyoming_hero.width-1300.png",
+    "links": [
+     {
+      "label": "Google",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Des parents attaquent Google après les échanges de leur fille avec l'IA sur un Chromebook scolaire",
+    "summary": "Des parents de Caroline du Nord poursuivent Google en justice en Californie. Leur fille de 13 ans aurait échangé pendant des mois des milliers de messages avec les outils d'IA de Google, sur son Chromebook d'école, au sujet de pensées suicidaires. Google n'avait pas encore réagi, selon Bloomberg.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Ces plaintes alimentent le débat sur la présence de chatbots auprès des enfants, notamment à l'école.",
+    "image": "https://s.yimg.com/lo/mysterio/api/05713249cdf0fc0cee7ee463bdf23c1f9d55daa2acd99833a9a814522e596b56/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbloomberg_holding_pen_162%2Fb0aa3da9c4611591603a6f290df676d9.jpg",
+    "links": [
+     {
+      "label": "Bloomberg via Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-ai-school-triggered-teen-150835929.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Les États-Unis créent une « task force » judiciaire contre les abus de l'IA",
+    "summary": "Le ministère américain de la Justice lance un groupe de travail chargé de poursuivre ceux qui détournent l'IA : acteurs étatiques étrangers, réseaux criminels et entreprises ou individus qui commettent des fraudes. Il cible notamment les menaces contre les contribuables, les infrastructures critiques et la sécurité nationale.",
+    "whyLabel": "À savoir",
+    "why": "Washington met en place un outil dédié pour sanctionner les usages malveillants de l'IA.",
+    "image": "https://www.justice.gov/themes/custom/usdoj_uswds/images/metatag-image--press-release.png",
+    "links": [
+     {
+      "label": "Département de la Justice",
+      "url": "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Économie",
+    "title": "Banque d'Angleterre : l'IA n'a augmenté la productivité britannique que de 0,5 % en trois ans",
+    "summary": "Selon la Banque d'Angleterre, l'IA a relevé la productivité du Royaume-Uni d'environ 0,5 % sur trois ans. Les entreprises interrogées ne constatent presque aucun effet sur l'emploi, même si certaines embauchent moins. Elles espèrent un gain bien plus fort dans les trois prochaines années.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "C'est un signal prudent à l'heure où les marchés s'interrogent sur les retombées réelles des investissements dans l'IA.",
+    "image": "https://image.theregister.com/1683227.jpg?imageId=1683227&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+     {
+      "label": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "DeepMind : des IA trouvent deux failles dans d'anciennes clés de chiffrement RSA",
+    "summary": "Google DeepMind annonce que ses IA, guidées par des cryptographes, ont trouvé deux faiblesses dans le chiffrement RSA à clés de 1 024 bits : l'une facilite la falsification de signatures numériques, l'autre rend moins coûteuse l'attaque de nombreuses clés à la fois. Les clés actuelles de 2 048 bits ou plus ne sont pas concernées.",
+    "whyLabel": "À savoir",
+    "why": "Quiconque utilise encore des clés de 1 024 bits devrait passer à des clés plus longues.",
+    "image": "",
+    "links": [
+     {
+      "label": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/google-deepmind-ai-rsa-1024-bit-weaknesses/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Meta suspend ses nouvelles conditions sur l'utilisation des contenus de sites",
+    "summary": "Meta met en pause, sans date de reprise, ses nouvelles conditions commerciales qui l'autoriseraient à explorer les sites de ses clients professionnels. Elles ne s'appliqueront donc pas le 20 novembre. Des tribunaux en Norvège et au Brésil les avaient bloquées, l'autorité britannique de la concurrence enquête et deux sénateurs américains en demandaient le retrait.",
+    "whyLabel": "Le contexte",
+    "why": "La collecte de contenus pour l'IA reste un sujet très sensible pour les éditeurs et les autorités.",
+    "image": "",
+    "links": [
+     {
+      "label": "Nieman Lab",
+      "url": "https://www.niemanlab.org/2026/11/meta-pulls-down-controversial-terms-of-service/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Axon investit 1,2 milliard de dollars dans Skydio, mais son action chute de 18 %",
+    "summary": "Axon, le fabricant des Taser, investit 1,2 milliard de dollars dans le fabricant de drones Skydio et en deviendra le distributeur exclusif auprès des polices américaines et canadiennes. Dans le même temps, ses résultats trimestriels sont un peu sous les attentes et sa prévision de revenus annuels baisse : l'action a perdu environ 18 % vendredi.",
+    "whyLabel": "En bref",
+    "why": "Une grande partie de cet argent sert à racheter des parts d'investisseurs existants, et peu va à Skydio.",
+    "image": "https://cdn.dronexl.co/wp-content/uploads/2026/11/skydio-dfr-docks-rooftop-three-units.webp",
+    "links": [
+     {
+      "label": "DroneXL",
+      "url": "https://dronexl.co/2026/11/06/axon-skydio-1-2-billion-exclusive-police-distributor/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "Des agents IA autonomes utilisés pour voler des certificats Apple et des comptes de jeu",
+    "summary": "Selon Check Point, des pirates ont utilisé des agents IA qui travaillent seuls pour s'en prendre à des boutiques de certificats Apple, à des domaines de paiement en cryptomonnaie et à une boutique de comptes de jeux. Ils ont récupéré plus de 300 certificats et plus de 190 000 jeux d'identifiants. L'opération la plus longue a coûté entre 700 et 1 500 dollars.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Cela montre que l'IA abaisse fortement le coût des cyberattaques.",
+    "image": "https://research.checkpoint.com/wp-content/uploads/2026/11/artex_background.png",
+    "links": [
+     {
+      "label": "Check Point Research",
+      "url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "Botpress : une intrusion expose des clés de 18 espaces clients",
+    "summary": "Botpress, plateforme de robots conversationnels, révèle qu'un intrus a lu les configurations de 16 espaces clients et modifié des réglages dans deux autres en octobre. Ces configurations peuvent contenir des clés d'accès à des services d'IA ou de messagerie. L'entreprise conseille aux clients concernés de considérer tous leurs identifiants comme compromis.",
+    "whyLabel": "À savoir",
+    "why": "Botpress pense que l'attaquant voulait revendre de l'accès à des IA ; elle n'a pas constaté de vol de conversations.",
+    "image": "",
+    "links": [
+     {
+      "label": "Unite.AI",
+      "url": "https://www.unite.ai/botpress-discloses-internal-breach-and-customer-credential-risk/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Science",
+    "title": "Une start-up affirme avoir prouvé une conjecture quantique vieille de 18 ans avec une IA",
+    "summary": "Physical Superintelligence indique qu'un système fondé sur un modèle non public d'Anthropic a produit la preuve complète d'une conjecture ouverte depuis 2008 sur les limites des ordinateurs quantiques. L'outil de vérification Lean a validé la preuve. Des chercheurs de Stanford l'ont relue et saluée.",
+    "whyLabel": "Le contexte",
+    "why": "Il s'agit de l'annonce de l'entreprise elle-même : la validation par les experts est encore en cours.",
+    "image": "",
+    "links": [
+     {
+      "label": "PSI",
+      "url": "https://psi.inc/research/aaronson-ambainis/",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Crusoe vend à Google son site de centre de données du sud-est du Wyoming, que les deux sociétés développaient avec Tallgrass Energy.",
+    "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+    "lang": "EN"
+   },
+   {
+    "text": "Alphabet détient environ 3 millions d'actions Qualcomm, soit près de 548 millions de dollars, selon un document déposé auprès du régulateur américain.",
+    "url": "https://www.tipranks.com/news/alphabet-has-built-a-stake-worth-548-million-in-qualcomm-stock-qcom-to-back-ai-data-center-push",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 24579.43,
+     "changePct": 1.09,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 26989.99,
+     "changePct": 1.35,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7376.86,
+     "changePct": 0.31,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 51285.73,
+     "changePct": -0.46,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 25.64,
+     "changePct": -9.01,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8139.0,
+     "changePct": -0.81,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 25820.36,
+     "changePct": -1.92,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6170.49,
+     "changePct": -0.98,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 57434.77,
+     "changePct": -5.96,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 24481.86,
+     "changePct": -1.27,
+     "session": "2026-11-06"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 186.64,
+     "changePct": 2.78,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 342.37,
+     "changePct": -0.52,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 530.61,
+     "changePct": -0.99,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 284.78,
+     "changePct": 0.78,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 259.3,
+     "changePct": -0.35,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 610.15,
+     "changePct": 0.84,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 358.22,
+     "changePct": 4.23,
+     "session": "2026-11-06"
+    }
+   ],
+   "intro": "Vendredi, Wall Street a rebondi après un emploi américain nettement au-dessus des attentes (165 000 postes), poussée par les puces (Nvidia, AMD, Micron), au lendemain de sa pire journée depuis avril 2025 ; l'Europe a fini en baisse et Tokyo et Séoul ont chuté de 6 %.",
+   "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Vendredi : Wall Street rebondit après la chute de jeudi, portée par les puces",
+     "summary": "Au lendemain de sa pire journée depuis 2020, le Nasdaq 100 a repris environ 2 % vendredi, selon Benzinga. Les valeurs de puces ont mené le rebond : AMD a gagné 9,8 %, Micron 6,3 % et Nvidia 3,9 %, après des chutes de 17,5 % pour Micron et de 9,3 % pour Nvidia jeudi. Le Nasdaq 100 reste environ 13 % sous son record du 6 octobre.",
+     "whyLabel": "Le contexte",
+     "why": "Ce rebond efface seulement une partie de la chute de jeudi : les inquiétudes sur les centres de données de l'IA restent entières.",
+     "image": "",
+     "links": [
+      {
+       "label": "Benzinga via TradingView",
+       "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Emplois américains : 165 000 créations en octobre, bien plus qu'attendu",
+     "summary": "L'économie américaine a créé 165 000 emplois en octobre, contre 65 000 attendus, et le chômage est tombé à 4,1 % (4,2 % auparavant). Les salaires ont augmenté de 0,4 % sur un mois. Les taux d'emprunt à deux ans ont monté à 4,51 % et ceux à dix ans à 4,85 %.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Un emploi solide limite les espoirs de baisse des taux de la Fed.",
+     "image": "",
+     "links": [
+      {
+       "label": "Benzinga via TradingView",
+       "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Vendredi : Tesla gagne 4,8 %, Axon perd 18 %, DraftKings recule de 27 %",
+     "summary": "Tesla a progressé de 4,8 % après qu'Elon Musk a annoncé l'arrêt progressif du Cybertruck pour laisser place au Cybercab. Parmi les plus fortes baisses de l'indice S&P 500, Axon a perdu 18,1 % après des résultats sous les attentes et DraftKings 26,8 %. Oklo a gagné 21,7 %.",
+     "whyLabel": "À savoir",
+     "why": "Les mouvements restent très marqués après la forte volatilité de jeudi : l'indice de la peur (VIX) a reculé de 16 % mais reste élevé.",
+     "image": "",
+     "links": [
+      {
+       "label": "Benzinga via TradingView",
+       "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "S&P 500",
+     "title": "Jeudi : la pire séance depuis avril 2025 pour les trois grands indices américains",
+     "summary": "Jeudi, le Nasdaq Composite a perdu 5,5 %, le S&P 500 4,4 % et le Dow Jones 3,4 %. L'indice des semi-conducteurs a plongé de 12,2 % et plus de 2 900 milliards de dollars de valeur boursière ont disparu. Les investisseurs craignent que les victoires démocrates aux élections de mi-mandat ne ralentissent la construction de centres de données.",
+     "whyLabel": "Le contexte",
+     "why": "Environ 40 % des capacités prévues aux États-Unis sont dans des États où une pause a été promise ou décidée, selon Cleanview.",
+     "image": "https://images.euronews.com/articles/stories/09/98/20/66/1200x675_cmsv2_0311bcd4-6ebb-5740-8ae6-7037a2e1b7b8-9982066.jpg",
+     "links": [
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/06/global-stock-rout-deepens-as-ai-data-centre-fears-fuel-worst-us-chip-sell-off-since-2020",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Vendredi : les Bourses européennes terminent en baisse dans le sillage de Wall Street",
+     "summary": "L'Europe a suivi la chute américaine de jeudi : le DAX a cédé 1,9 %, l'Euro Stoxx 50 1 % et le CAC 40 0,8 % à la clôture, d'après les données Yahoo Finance. Les valeurs technologiques ont pesé, alors que la banque ING aurait vendu pour environ 500 millions de dollars de prêts liés aux centres de données.",
+     "whyLabel": "À savoir",
+     "why": "Le CAC 40, moins exposé à l'IA, a mieux résisté que l'Allemagne.",
+     "image": "https://images.euronews.com/articles/stories/09/98/20/66/1200x675_cmsv2_0311bcd4-6ebb-5740-8ae6-7037a2e1b7b8-9982066.jpg",
+     "links": [
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/06/global-stock-rout-deepens-as-ai-data-centre-fears-fuel-worst-us-chip-sell-off-since-2020",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Vendredi : Tokyo et Séoul chutent de 6 %, Taïwan de 4,5 %",
+     "summary": "À la clôture, le Nikkei a perdu 6 %, le Kospi sud-coréen 6 % (après un plongeon de 8,8 % et une pause de 20 minutes) et le Taiex taïwanais 4,5 %. SK Hynix a cédé 10,4 %, Samsung 6,4 %, TSMC 4,7 % et SoftBank environ 11 %.",
+     "whyLabel": "Le contexte",
+     "why": "Les valeurs de puces asiatiques ont subi le contrecoup de la chute américaine de jeudi.",
+     "image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/0/0/wall-street-stock-market-selloff-asian-market.jpg?ve=1&tl=1",
+     "links": [
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/06/global-stock-rout-deepens-as-ai-data-centre-fears-fuel-worst-us-chip-sell-off-since-2020",
+       "lang": "EN"
+      },
+      {
+       "label": "Fox Business",
+       "url": "https://www.foxbusiness.com/markets/asian-stock-markets-plunge-japan-nikkei-south-korea-kospi-taiwan-stocks-fall",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
+    {
+     "category": "Asie",
+     "title": "Chine et Hong Kong : une baisse plus modérée",
+     "summary": "Shanghai a perdu 1,1 % et Sydney 0,5 % vendredi. Le Hang Seng de Hong Kong reculait d'environ 1,1 % en milieu de séance, et a fini à -1,27 % d'après Yahoo Finance.",
+     "whyLabel": "En bref",
+     "why": "Les places chinoises ont été moins touchées que Tokyo, Séoul et Taipei.",
+     "image": "",
+     "links": [
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/06/global-stock-rout-deepens-as-ai-data-centre-fears-fuel-worst-us-chip-sell-off-since-2020",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    }
+   ],
+   "quick": [
+    {
+     "text": "L'or recule d'environ 1 % vers 4 072 dollars l'once ; le pétrole WTI est autour de 90 dollars et le Brent de 97 dollars.",
+     "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+     "lang": "EN"
+    },
+    {
+     "text": "Aux États-Unis, la confiance des ménages (Université du Michigan) remonte à 51 contre 48, et leurs attentes d'inflation à un an baissent à 4,3 % contre 4,7 %.",
+     "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-06",
   "intro": "OpenAI évoque une entrée en Bourse en 2027, Claude peut analyser vos dépenses et Meta lance les appels vidéo avec son assistant IA, pendant que la chute des valeurs de l'IA secoue Wall Street puis l'Asie. Mise à jour du soir : l'IA des entreprises montre des signes d'essoufflement, Amazon lance les achats par SMS avec Alexa et des villes américaines abandonnent les caméras Flock.",
   "stories": [
