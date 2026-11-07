@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-07",
-  "intro": "Google promet 17 milliards de dollars au Wyoming pour un centre de données, la Banque d'Angleterre juge modeste l'effet de l'IA sur la productivité, et le ministère américain de la Justice crée une task force contre les abus de l'IA, tandis que des parents poursuivent Google après les échanges de leur fille avec son IA.",
+  "intro": "Google promet 17 milliards de dollars au Wyoming pour un centre de données, la Banque d'Angleterre juge modeste l'effet de l'IA sur la productivité, et le ministère américain de la Justice crée une task force contre les abus de l'IA, tandis que des parents poursuivent Google après les échanges de leur fille avec son IA. Mise à jour du soir : des militants occupent un chantier de Microsoft à Amsterdam, Meta lance Spaces dans Muse et Claude efface par erreur les cours d'un professeur.",
   "stories": [
    {
     "category": "Infrastructure",
@@ -44,6 +44,66 @@ window.EDITIONS = [
      {
       "label": "Département de la Justice",
       "url": "https://www.justice.gov/opa/pr/department-justice-launches-super-intelligence-task-force",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Amsterdam : des centaines de militants occupent un chantier de centre de données de Microsoft",
+    "summary": "Plusieurs centaines de militants ont envahi vendredi le chantier d'un centre de données de Microsoft dans le quartier de Sloterdijk, à Amsterdam. Certains ont grimpé sur une grue et allumé des fumigènes ; la police néerlandaise a interpellé 150 à 200 personnes. Microsoft dit respecter l'expression pacifique, mais ne tolère pas les actions illégales.",
+    "whyLabel": "Le contexte",
+    "why": "L'action faisait partie d'une campagne de deux jours, « Stop Dirty Data Centres », prévue dans 15 pays européens.",
+    "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aee37531362-1793996627.jpg?resize=1920%2C1440",
+    "links": [
+     {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Meta lance « Spaces » pour organiser son travail avec l'assistant Muse",
+    "summary": "Meta ajoute à son assistant Muse des conversations séparées par sujet, listées dans la barre latérale. On peut décrire une idée et demander à Muse de créer un suivi, un planning ou un tableau de projet, que des applications tierces connectées peuvent mettre à jour automatiquement.",
+    "whyLabel": "En bref",
+    "why": "Mark Zuckerberg citait 10 millions d'utilisateurs de Muse aux États-Unis et au Canada en octobre.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Claude efface un an de cours d'un professeur de droit de l'université de Chicago",
+    "summary": "William Baude affirme sur X que Claude, d'Anthropic, a supprimé douze mois de supports de cours et son programme en cours pendant qu'il déjeunait. Il lui avait seulement demandé de renuméroter les pages de vieilles notes. L'IA a reconnu l'erreur sans pouvoir restaurer les fichiers ; le professeur a tout retrouvé grâce à Dropbox.",
+    "whyLabel": "À savoir",
+    "why": "La cause exacte et le modèle utilisé ne sont pas connus : un rappel de sauvegarder avant de confier ses fichiers à un agent.",
+    "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/07/delete-button.jpg",
+    "links": [
+     {
+      "label": "Dexerto",
+      "url": "https://www.dexerto.com/entertainment/professor-returns-from-lunch-to-find-ai-deleted-years-worth-of-lecture-notes-3425652/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Au Royaume-Uni, l'IA n'a pas encore changé les comptes des banques",
+    "summary": "Selon le rapport 2026 de KPMG, la plupart des banques britanniques ont embauché et augmenté le coût par salarié en 2025. Plus de la moitié ont au moins un usage de l'IA qui rapporte de façon mesurable, mais dans des fonctions précises, sans preuve d'amélioration financière d'ensemble.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Cela rejoint le constat de la Banque d'Angleterre sur l'effet modeste de l'IA sur la productivité.",
+    "image": "https://hotminute.co.uk/wp-content/uploads/2026/11/professionals-in-suits-london.jpg",
+    "links": [
+     {
+      "label": "Hot Minute (KPMG)",
+      "url": "https://hotminute.co.uk/2026/11/07/uk-banks-invest-in-hiring-as-benefits-from-ai-remain-elusive/",
       "lang": "EN"
      }
     ]
@@ -163,6 +223,11 @@ window.EDITIONS = [
    {
     "text": "Alphabet détient environ 3 millions d'actions Qualcomm, soit près de 548 millions de dollars, selon un document déposé auprès du régulateur américain.",
     "url": "https://www.tipranks.com/news/alphabet-has-built-a-stake-worth-548-million-in-qualcomm-stock-qcom-to-back-ai-data-center-push",
+    "lang": "EN"
+   },
+   {
+    "text": "Northampton (Massachusetts) a voté à l'unanimité un moratoire d'un an sur les centres de données d'IA.",
+    "url": "https://gazettenet.com/2026/11/06/northampton-city-council-unanimously-approves-yearlong-moratorium-on-ai-data-centers/",
     "lang": "EN"
    }
   ],
