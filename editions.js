@@ -1,5 +1,398 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-08",
+  "intro": "Dimanche calme dans l'actualité de l'IA : procès musicaux contre Suno, enquête sur les puces Nvidia vendues à des sociétés chinoises, failles de sécurité chez Claude Code et débat politique croissant sur les centres de données.",
+  "stories": [
+   {
+    "category": "Droit d'auteur",
+    "title": "Les ayants droit d'Elvis et d'Eminem attaquent le générateur de musique Suno",
+    "summary": "L'un des détenteurs des droits d'Elvis Presley et l'éditeur de nombreux titres d'Eminem ont déposé de nouvelles plaintes fédérales en Californie contre Suno, un service qui crée de la musique par IA. Ils lui reprochent notamment d'imiter des voix d'artistes. Suno répond que ses outils aident les gens à créer des morceaux originaux.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Après les procès des labels, ce sont désormais les ayants droit de stars légendaires qui s'en prennent à la musique générée par IA.",
+    "image": "https://variety.com/wp-content/uploads/2026/11/Elvis-Eminem-Split.jpg?w=1000&h=563&crop=1",
+    "links": [
+     {
+      "label": "Variety",
+      "url": "https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Puces & géopolitique",
+    "title": "Puces Nvidia pour la Chine : des entreprises autorisées dans des bureaux vides",
+    "summary": "Selon une enquête du New York Times, plusieurs entreprises chinoises autorisées à acheter les puces H200 de Nvidia seraient installées dans des bureaux vides ou liées à des sociétés sur liste noire. Des élus des deux partis américains réclament un audit.",
+    "whyLabel": "Le contexte",
+    "why": "Les puces d'IA les plus puissantes sont au cœur de la rivalité entre Washington et Pékin ; la façon dont elles sont contrôlées fait débat.",
+    "image": "",
+    "links": [
+     {
+      "label": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Entreprises",
+    "title": "Microsoft ferme son groupe de recherche « AI Frontiers »",
+    "summary": "John Langford, chercheur à l'origine de ce groupe d'environ 50 personnes (créateur d'outils comme Autogen), annonce sa fermeture et son départ. Le groupe avait été rattaché en septembre à Microsoft AI, dont la direction privilégie selon lui la course à la taille des modèles plutôt que la recherche.",
+    "whyLabel": "En bref",
+    "why": "Un témoignage de plus sur la tension entre recherche à long terme et course commerciale dans les grands groupes d'IA.",
+    "image": "",
+    "links": [
+     {
+      "label": "Blog de John Langford",
+      "url": "https://hunch.net/?p=13764006",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "Claude Code enregistre parfois des mots de passe en clair dans les projets",
+    "summary": "Selon l'entreprise de sécurité Apiiro, l'option « ne plus demander » de l'outil de programmation d'Anthropic sauvegarde la commande approuvée telle quelle, y compris les mots de passe tapés dedans. Sur 104 185 fichiers publics analysés sur GitHub, 1 122 contenaient au moins un secret. L'article ne mentionne aucune réponse d'Anthropic.",
+    "whyLabel": "À savoir",
+    "why": "Les développeurs concernés sont invités à changer leurs identifiants et à ne plus publier ce fichier.",
+    "image": "",
+    "links": [
+     {
+      "label": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Semi-conducteurs",
+    "title": "Microchip : les clients de l'IA ont « poussé tout le monde dehors » des usines",
+    "summary": "Le patron du fabricant de puces Microchip explique que les acheteurs liés à l'IA ont accaparé les capacités d'assemblage et de test. Les délais de livraison de produits courants passent de 4-8 semaines à 6 à 32 semaines. L'action a perdu 10 % vendredi.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "L'appétit de l'IA pour les puces peut créer des pénuries pour les autres secteurs, comme l'automobile ou l'industrie.",
+    "image": "https://247wallst.com/wp-content/uploads/2026/11/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out-featured-1794023270534-scaled.webp",
+    "links": [
+     {
+      "label": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Infrastructure",
+    "title": "En Asie du Sud-Est, la ruée vers les centres de données se heurte à des freins",
+    "summary": "Selon le Guardian, la région concentre environ la moitié des capacités de centres de données en construction en Asie-Pacifique. La Thaïlande a suspendu 49 projets et gelé l'approbation de 117 autres le temps d'écrire de nouvelles règles.",
+    "whyLabel": "Le contexte",
+    "why": "Après les États-Unis, l'Asie voit aussi monter les inquiétudes sur l'énergie et l'eau consommées par l'IA.",
+    "image": "",
+    "links": [
+     {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Politique",
+    "title": "Texas : la future gouverneure veut geler les terrains cédés à SpaceX près de Starbase",
+    "summary": "Gina Hinojosa demande de suspendre les accords fonciers avec SpaceX près de Starbase, où un centre de données d'IA pourrait voir le jour. Elle promet aussi de suspendre les nouvelles autorisations de centres de données dans l'État.",
+    "whyLabel": "À savoir",
+    "why": "La colère contre les centres de données devient un sujet politique, juste après les élections américaines.",
+    "image": "",
+    "links": [
+     {
+      "label": "Digitimes",
+      "url": "https://www.digitimes.com/news/a20261106PD223/texas-data-center-spacex-development-legal.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Science",
+    "title": "Une IA d'OpenAI réfute une conjecture d'informatique vieille de près de 30 ans",
+    "summary": "Selon le New York Times, une démonstration produite par l'IA d'OpenAI contre l'« hypothèse du temps exponentiel » (1998) a passé les vérifications automatiques et est examinée par des experts. L'un de ses co-auteurs, Russell Impagliazzo, parle d'une nouvelle « stupéfiante ».",
+    "whyLabel": "Le contexte",
+    "why": "Si elle est confirmée, ce serait un exemple marquant d'IA qui fait avancer les mathématiques de l'informatique.",
+    "image": "",
+    "links": [
+     {
+      "label": "The New York Times",
+      "url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Dans l'Ouest, l'IA fait peur : une question de salaires ?",
+    "summary": "Dans le Financial Times, la chroniqueuse Gillian Tett avance que la stagnation des salaires occidentaux explique pourquoi le public y voit l'IA comme une menace, alors qu'en Asie elle est perçue comme une opportunité.",
+    "whyLabel": "En bref",
+    "why": "Un point de vue (tribune) utile pour comprendre les écarts d'opinion sur l'IA entre pays.",
+    "image": "",
+    "links": [
+     {
+      "label": "Financial Times",
+      "url": "https://www.ft.com/content/af97585a-3381-42a9-838b-9a205ab81232",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Cybersécurité",
+    "title": "OpenAI s'associe à Hacktron pour traquer les failles de sécurité",
+    "summary": "Les chercheurs de Hacktron travailleront avec les ingénieurs d'OpenAI pour trouver des vulnérabilités, en particulier dans les services tiers, et auront un accès élargi aux modèles les plus avancés de l'entreprise.",
+    "whyLabel": "En bref",
+    "why": "Les IA servent de plus en plus à chercher des failles, pour les défenseurs comme pour les pirates.",
+    "image": "",
+    "links": [
+     {
+      "label": "OpenAI",
+      "url": "https://openai.com/index/partnering-with-hacktron/",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Ai2 publie ToyBlocks, un simulateur gratuit où des robots apprennent à manipuler des cubes ; les robots entraînés en simulation s'adaptent mal quand la position des cubes change.",
+    "url": "https://www.spokesman.com/stories/2026/nov/06/why-a-seattle-ai-lab-is-making-robots-play-with-to/",
+    "lang": "EN"
+   },
+   {
+    "text": "CesiumAstro lève 730 millions de dollars (valorisation supérieure à 4,5 milliards) pour construire une constellation de 737 satellites dotés d'IA embarquée.",
+    "url": "https://pulse2.com/cesiumastro-raises-730-million-in-series-d-funding-at-over-4-5-billion-valuation-to-build-737-satellite-ai-constellation/",
+    "lang": "EN"
+   },
+   {
+    "text": "Le dépistage autonome de la rétinopathie diabétique AEYE-DS, autorisé par la FDA, remporte le prix Galien USA du meilleur outil de santé numérique.",
+    "url": "https://www.jpost.com/health-and-wellness/article-914057",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 24579.43,
+     "changePct": 1.09,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 26989.99,
+     "changePct": 1.35,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7376.86,
+     "changePct": 0.31,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 51285.73,
+     "changePct": -0.46,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 25.64,
+     "changePct": -9.01,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8139.0,
+     "changePct": -0.81,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 25820.36,
+     "changePct": -1.92,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6170.49,
+     "changePct": -0.98,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 57434.77,
+     "changePct": -5.96,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 24481.86,
+     "changePct": -1.27,
+     "session": "2026-11-06"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 186.64,
+     "changePct": 2.78,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 342.37,
+     "changePct": -0.52,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 530.61,
+     "changePct": -0.99,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 284.78,
+     "changePct": 0.78,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 259.3,
+     "changePct": -0.35,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 610.15,
+     "changePct": 0.84,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 358.22,
+     "changePct": 4.23,
+     "session": "2026-11-06"
+    }
+   ],
+   "intro": "Les marchés sont fermés ce dimanche : les chiffres affichés sont ceux de la clôture de vendredi, après un rebond des valeurs technologiques au lendemain de la forte chute de jeudi. Cette édition de week-end se concentre donc sur les faits marquants non encore traités ; l'Europe et l'Asie n'ont pas d'actualité nouvelle vérifiée ce dimanche.",
+   "stories": [
+    {
+     "category": "Tech US",
+     "region": "Amérique",
+     "title": "Microchip chute à nouveau : l'IA absorbe les capacités de fabrication",
+     "summary": "Le fabricant de puces Microchip a perdu 10 % vendredi (58,35 $) après −13,9 % jeudi. Son patron explique que les clients de l'IA ont pris la place des autres dans les usines, avec des délais de livraison allant jusqu'à 32 semaines. L'entreprise vise 1,57 à 1,64 milliard de dollars de ventes en décembre.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Pour les investisseurs, la demande d'IA n'est pas qu'une bonne nouvelle : elle peut gêner d'autres industries.",
+     "image": "https://247wallst.com/wp-content/uploads/2026/11/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out-featured-1794023270534-scaled.webp",
+     "links": [
+      {
+       "label": "24/7 Wall St.",
+       "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "category": "Tech US",
+     "region": "Amérique",
+     "title": "Vendredi : Atlassian recule de 15 %, Quantinuum et Oklo s'envolent",
+     "summary": "Selon Benzinga, Atlassian a perdu 14,6 % : ses résultats ont battu les attentes, mais de peu. À l'inverse, Quantinuum a gagné 22,2 %, Oklo 21,7 % et IREN 19,5 %.",
+     "whyLabel": "En bref",
+     "why": "Dans un marché nerveux, les écarts sont très marqués entre les valeurs.",
+     "image": "",
+     "links": [
+      {
+       "label": "Benzinga (TradingView)",
+       "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "category": "Macro / Fed",
+     "region": "Amérique",
+     "title": "Vendredi : taux, or et pétrole après les chiffres de l'emploi",
+     "summary": "Selon Benzinga, le rendement des obligations américaines à 10 ans a fini à 4,85 % et celui à 2 ans à 4,51 %. L'or a reculé de 1 % vers 4 072 $ l'once, le pétrole WTI de 0,4 % vers 90 $ le baril. Le moral des consommateurs (Michigan) est monté à 51 contre 48.",
+     "whyLabel": "À savoir",
+     "why": "Des taux élevés pèsent sur les valeurs technologiques, très sensibles au coût de l'argent.",
+     "image": "",
+     "links": [
+      {
+       "label": "Benzinga (TradingView)",
+       "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "category": "Tech US",
+     "region": "Amérique",
+     "title": "Centres de données : les limites politiques pourraient freiner la bulle IA",
+     "summary": "Selon une note de Deutsche Bank relayée par FourWeekMBA, environ 45 % des capacités américaines prévues se trouvent dans des États qui ont de nouvelles limites de construction après les élections de mi-mandat.",
+     "whyLabel": "Le contexte",
+     "why": "Ces restrictions alimentent la crainte d'un ralentissement des investissements dans l'IA, déjà visible dans la chute des puces cette semaine.",
+     "image": "",
+     "links": [
+      {
+       "label": "FourWeekMBA",
+       "url": "https://fourweekmba.com/ai-deutsche-bank-data-center-limits-could-cap-an-ai-bubble/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "category": "Asie",
+     "region": "Asie",
+     "title": "Thaïlande : 49 projets de centres de données suspendus",
+     "summary": "La Thaïlande a suspendu 49 projets de centres de données et gelé l'examen de 117 autres le temps de préparer de nouvelles règles, selon le Guardian. La région concentre environ la moitié des capacités en construction en Asie-Pacifique.",
+     "whyLabel": "À savoir",
+     "why": "Un signe que les freins aux infrastructures d'IA gagnent l'Asie, un sujet suivi par les marchés.",
+     "image": "",
+     "links": [
+      {
+       "label": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia",
+       "lang": "EN"
+      }
+     ]
+    }
+   ],
+   "quick": [
+    {
+     "text": "Quelques données de la séance de vendredi : l'indice de volatilité VIX a reculé de 16 % à 23,67, selon Benzinga ; la Bourse est fermée ce week-end.",
+     "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+     "lang": "EN"
+    },
+    {
+     "text": "Le bitcoin est resté quasi stable vendredi, autour de 75 900 dollars, selon Benzinga.",
+     "url": "https://www.tradingview.com/news/benzinga:9bd57133b094b:0-nasdaq-100-rebounds-2-after-worst-day-since-2020-payrolls-smash-estimates-stock-market-today/",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-07",
   "intro": "Google promet 17 milliards de dollars au Wyoming pour un centre de données, la Banque d'Angleterre juge modeste l'effet de l'IA sur la productivité, et le ministère américain de la Justice crée une task force contre les abus de l'IA, tandis que des parents poursuivent Google après les échanges de leur fille avec son IA. Mise à jour du soir : des militants occupent un chantier de Microsoft à Amsterdam, Meta lance Spaces dans Muse et Claude efface par erreur les cours d'un professeur.",
   "stories": [
