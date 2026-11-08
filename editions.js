@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-08",
-  "intro": "Dimanche calme dans l'actualité de l'IA : procès musicaux contre Suno, enquête sur les puces Nvidia vendues à des sociétés chinoises, failles de sécurité chez Claude Code et débat politique croissant sur les centres de données.",
+  "intro": "Dimanche calme dans l'actualité de l'IA : procès musicaux contre Suno, enquête sur les puces Nvidia vendues à des sociétés chinoises, failles de sécurité chez Claude Code et débat politique croissant sur les centres de données. Mise à jour du soir : OpenAI aurait levé 11 milliards de dollars, les investisseurs revoient leurs attentes sur l'entrée en Bourse d'Anthropic et une université chinoise recule sur la surveillance par IA.",
   "stories": [
    {
     "category": "Droit d'auteur",
@@ -44,6 +44,51 @@ window.EDITIONS = [
      {
       "label": "Blog de John Langford",
       "url": "https://hunch.net/?p=13764006",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "OpenAI aurait levé 11 milliards de dollars, pour une valeur de 1 250 milliards",
+    "summary": "Selon TechCrunch, qui s'appuie sur Bloomberg, OpenAI a déjà réuni 11 milliards de dollars dans un nouveau tour de table qui valorise l'entreprise 1 250 milliards de dollars. Le tour n'est pas bouclé : il pourrait atteindre environ 20 milliards. En septembre, OpenAI visait pourtant 30 milliards pour 1 400 milliards de valorisation.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Le montant reste inférieur à l'objectif initial, signe que les investisseurs deviennent plus prudents. Une entrée en Bourse est désormais attendue en 2027.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Anthropic : les futurs acheteurs viseraient une valorisation d'environ 1 100 milliards",
+    "summary": "Selon Bloomberg, cité par TechCrunch, les investisseurs intéressés par l'entrée en Bourse d'Anthropic envisagent une valorisation pouvant descendre à 1 100 milliards de dollars. CNBC avait rapporté environ un mois plus tôt des attentes proches de 2 000 milliards.",
+    "whyLabel": "En bref",
+    "why": "Après la chute des valeurs technologiques de cette semaine, l'appétit des marchés pour les géants de l'IA semble se tempérer.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Chine : une université recule sur la surveillance de ses étudiants par IA",
+    "summary": "L'université de Nanjing a nié collecter des données biométriques et dit ne plus mesurer le « taux de têtes levées » de ses étudiants, après la diffusion d'une capture d'écran de son système de salles de classe intelligentes. Selon la presse, le projet a coûté plus de 31 millions de yuans pour 113 salles ; des étudiants disent ne pas avoir été consultés.",
+    "whyLabel": "Le contexte",
+    "why": "Un exemple de la défiance croissante envers la surveillance par IA, même quand elle se présente comme un simple contrôle de présence.",
+    "image": "https://www.chinadailyhk.com/upload/main/image/2026/11/04/41cb51865d41f5c3b539e7c0c5bd203b.png",
+    "links": [
+     {
+      "label": "China Daily Hong Kong",
+      "url": "https://www.chinadailyhk.com/article/642249",
       "lang": "EN"
      }
     ]
@@ -295,8 +340,40 @@ window.EDITIONS = [
      "session": "2026-11-06"
     }
    ],
-   "intro": "Les marchés sont fermés ce dimanche : les chiffres affichés sont ceux de la clôture de vendredi, après un rebond des valeurs technologiques au lendemain de la forte chute de jeudi. Cette édition de week-end se concentre donc sur les faits marquants non encore traités ; l'Europe et l'Asie n'ont pas d'actualité nouvelle vérifiée ce dimanche.",
+   "intro": "Les Bourses sont fermées ce dimanche : les chiffres affichés sont ceux de la clôture de vendredi (Nasdaq +1,09 %), après un rebond au lendemain de la forte chute de jeudi. Les investisseurs attendent mardi l'inflation américaine, avec environ 80 % de chances d'une hausse de taux de la Fed en décembre selon les contrats à terme. Pas de nouvelle séance en Europe ni en Asie à commenter ce dimanche.",
    "stories": [
+    {
+     "category": "Macro / Fed",
+     "title": "Dimanche : une semaine décisive avec l'inflation américaine et une possible hausse de taux",
+     "summary": "Après le rapport sur l'emploi bien supérieur aux attentes, les contrats à terme sur les taux donnaient environ 80 % de chances d'une hausse de taux de la Fed lors de sa réunion des 8 et 9 décembre. L'indice américain des prix d'octobre (CPI) sort mardi, et CoreWeave, Applied Materials et Cisco publient leurs résultats cette semaine.",
+     "whyLabel": "À savoir",
+     "why": "Une inflation élevée renforcerait la crainte de nouvelles hausses de taux, un frein pour les valeurs technologiques déjà secouées.",
+     "image": "",
+     "links": [
+      {
+       "label": "Rallies.ai",
+       "url": "https://rallies.ai/news/wall-st-week-ahead-as-tech-swoon-roils-market-us-inflation-data-on-tap-a550bcc331dde03a",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Nasdaq",
+     "title": "Dimanche : le Nasdaq finit la semaine en baisse, loin de son record",
+     "summary": "Malgré le rebond de vendredi, les grands indices américains ont terminé la semaine sur une perte. Le Nasdaq Composite était encore près de 12 % sous son record du 6 octobre à la clôture de jeudi, après la plus forte chute de la tech américaine en plus de six ans.",
+     "whyLabel": "En bref",
+     "why": "Les marchés sont fermés ce week-end : la réouverture lundi dira si le rebond de vendredi se confirme.",
+     "image": "",
+     "links": [
+      {
+       "label": "Rallies.ai",
+       "url": "https://rallies.ai/news/wall-st-week-ahead-as-tech-swoon-roils-market-us-inflation-data-on-tap-a550bcc331dde03a",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
     {
      "category": "Tech US",
      "region": "Amérique",
