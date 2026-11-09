@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-09",
-  "intro": "L'IA face à ses limites politiques et à ses scandales : Nvidia enquête sur les liens de son patron avec une présumée espionne chinoise, les électeurs américains contestent les centres de données, les publicités s'invitent dans les chatbots et Apple veut un Siri capable d'agir.",
+  "intro": "L'IA face à ses limites politiques et à ses scandales : Nvidia enquête sur les liens de son patron avec une présumée espionne chinoise, les électeurs américains contestent les centres de données, les publicités s'invitent dans les chatbots et Apple veut un Siri capable d'agir. Mise à jour du soir : Anthropic s'offre des turbines à gaz pour 3,4 milliards de dollars, un expert de Yale juge le sort du patron de Nvidia « 50-50 », et Medium comme WordPress lancent de nouveaux outils d'IA.",
   "stories": [
    {
     "category": "Entreprises",
@@ -59,6 +59,66 @@ window.EDITIONS = [
      {
       "label": "Wired",
       "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Anthropic achète pour 3,4 milliards de dollars de turbines à gaz pour alimenter son IA",
+    "summary": "Anthropic a acheté directement à Caterpillar des turbines à gaz pouvant produire jusqu'à 1,7 gigawatt d'électricité. Elles avaient été commandées par le fournisseur OnePWR, qui n'a pas trouvé de financement pour finaliser l'achat. TechCrunch note que l'opération pourrait donner des regrets à l'acheteur.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les géants de l'IA cherchent de l'électricité partout ; si le prix du gaz grimpe, la facture pourrait devenir lourde. L'article ne dit pas où les turbines seront installées.",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-155376474.jpeg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Entreprises",
+    "title": "Nvidia : un professeur de Yale estime à « 50-50 » les chances que Jensen Huang garde son poste",
+    "summary": "Jeffrey Sonnenfeld, de Yale, juge que le patron de Nvidia a fait preuve d'un « jugement remarquablement mauvais ». Il pense que sa réputation pourrait le sauver s'il montre qu'il a été trompé. Le conseil d'administration, lui, ne voit aucun signe que des secrets aient été compromis.",
+    "whyLabel": "Le contexte",
+    "why": "Jensen Huang n'a pas d'actions à droits de vote renforcés qui protégeraient sa place, et Nvidia n'a pas de successeur évident. Les résultats du groupe sont attendus le 17 novembre.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Medium lance TK, une appli d'écriture avec un assistant IA intégré",
+    "summary": "Lancée lundi, l'appli permet d'appeler l'IA en tapant « @TK » pour obtenir un avis sur un texte ou un titre, retrouver ses notes ou vérifier le style d'une publication. Les auteurs peuvent aussi publier une note expliquant comment l'IA a servi. L'appli est gratuite pour les titulaires d'un compte Medium, uniquement sur le web pour l'instant.",
+    "whyLabel": "À savoir",
+    "why": "Le lancement tombe alors que l'usage de l'IA dans l'édition fait polémique ; Medium affirme que l'IA « rend l'écriture plus importante, pas moins ».",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/tk-logo.webp?resize=1200,675",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Automattic (WordPress) lance Spacefast pour mettre en ligne des applis créées par IA",
+    "summary": "Spacefast fournit l'infrastructure nécessaire (bases de données, connexion des utilisateurs, e-mails, statistiques) aux sites et applis « vibe codés », c'est-à-dire créés en décrivant ce qu'on veut à une IA. On peut le relier à ChatGPT, Claude ou Cursor, ou à un dépôt Git. Il concurrence notamment Lovable.",
+    "whyLabel": "En bref",
+    "why": "Créer une appli avec l'IA devient facile ; le défi se déplace vers sa mise en ligne. L'article ne mentionne pas de prix.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Spacefast-feat.jpg?resize=1200,675",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
       "lang": "EN"
      }
     ]
@@ -189,6 +249,11 @@ window.EDITIONS = [
     "text": "Wired explique les « modèles du monde » : des IA qui simulent la physique en 3D pour entraîner robots et voitures autonomes.",
     "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
     "lang": "EN"
+   },
+   {
+    "text": "Nvidia a chuté d'environ 5 à 6 % à Wall Street lundi après l'ouverture de l'enquête sur son PDG, pendant que le reste des valeurs de l'IA rebondissait (voir l'onglet Bourse).",
+    "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+    "lang": "EN"
    }
   ],
   "markets": {
@@ -231,30 +296,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8139.0,
-     "changePct": -0.81,
-     "session": "2026-11-06"
+     "value": 8233.3,
+     "changePct": 1.16,
+     "session": "2026-11-09"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 25820.36,
-     "changePct": -1.92,
-     "session": "2026-11-06"
+     "value": 26267.19,
+     "changePct": 1.73,
+     "session": "2026-11-09"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6170.49,
-     "changePct": -0.98,
-     "session": "2026-11-06"
+     "value": 6290.45,
+     "changePct": 1.94,
+     "session": "2026-11-09"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 58775.5,
-     "changePct": 2.33,
-     "session": "2026-11-09"
+     "value": 57434.77,
+     "changePct": -5.96,
+     "session": "2026-11-06"
     },
     {
      "name": "Hang Seng",
@@ -315,8 +380,88 @@ window.EDITIONS = [
      "session": "2026-11-06"
     }
    ],
-   "intro": "Vendredi, Wall Street a rebondi après la chute de jeudi : le Nasdaq a gagné 1,09 % et le S&P 500 0,31 %, malgré un rapport sur l'emploi plus solide qu'attendu et les craintes liées aux élections américaines. Lundi, les contrats à terme annoncent un début de séance en hausse, mais l'enquête sur le patron de Nvidia ajoute de l'incertitude.",
+   "intro": "Lundi, vers 18 h, Wall Street rebondissait fortement en séance : le Nasdaq gagnait environ 2,5 % et le S&P 500 environ 2,2 %, malgré une chute de 5 à 6 % de Nvidia après l'enquête sur son PDG. L'Europe a clôturé en nette hausse (DAX +1,73 %) et Taïwan a bondi de près de 5 %. Vendredi, le Nasdaq avait déjà gagné 1,09 % et le S&P 500 0,31 %.",
    "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Lundi : Wall Street rebondit fortement en séance, le Nasdaq gagne environ 2,5 %",
+     "summary": "À la mi-journée à New York, le Dow Jones gagnait environ 2 %, le S&P 500 2,2 % et le Nasdaq 2,5 %, selon CNBC. Les indices restent légèrement sous leur niveau du jour des élections américaines. Le pétrole recule : le WTI perd 3 % vers 87 dollars le baril.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Après la forte baisse de la semaine dernière, les investisseurs reviennent sur la tech. Les chiffres sont ceux de la séance en cours, pas de la clôture.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Lundi : Nvidia chute de 5 à 6 %, alors que Broadcom, AMD et Amazon gagnent environ 5 %",
+     "summary": "Nvidia recule d'environ 5 à 6 % après l'ouverture d'une enquête de son conseil d'administration sur son PDG. À l'inverse, Broadcom, AMD et Amazon montent d'environ 5 %, et Tesla et Alphabet de plus de 3 %. Le secteur des semi-conducteurs (ETF SOXX), en baisse d'environ 13 % la semaine dernière, gagne plus de 6 %.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Le marché fait la différence entre le cas particulier de Nvidia et le reste de l'IA. Oppenheimer a relevé AMD à « surperformance », tandis que Citi a abaissé la tech à « neutre ».",
+     "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Lundi : l'attention se tourne vers l'inflation américaine de mardi",
+     "summary": "L'indice des prix à la consommation américain sort mardi et celui des prix à la production vendredi. CoreWeave, Cisco et Applied Materials publient leurs résultats cette semaine. Le bitcoin est brièvement passé sous 74 000 dollars ce week-end, son plus bas niveau depuis août.",
+     "whyLabel": "À savoir",
+     "why": "L'inflation influence les décisions de la Réserve fédérale sur les taux, donc la Bourse.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Lundi : l'Europe rebondit, le DAX gagne 1,73 % et l'Euro Stoxx 50 1,94 %",
+     "summary": "Le CAC 40 progresse de 1,16 %. UniCredit gagne 4,7 % après un bénéfice trimestriel record de 3,3 milliards d'euros (+24 % sur un an). Les mines montent avec l'or et le cuivre, et Hochtief perd 5,3 %. Crédit Agricole propose de fusionner son unité italienne avec Banco BPM.",
+     "whyLabel": "Le contexte",
+     "why": "Après la baisse de vendredi, les Bourses européennes effacent une partie des pertes. Citi a toutefois abaissé la tech européenne à « neutre ».",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Lundi : Taïwan gagne près de 5 %, le Nikkei progresse de 2,33 %",
+     "summary": "L'indice de Taïwan prend 4,94 % à 41 664,7 points, sa plus forte hausse en une séance depuis le 31 juillet. Le Nikkei gagne 2,33 % à 58 775,5 et le Topix 2,97 %. Le Kospi sud-coréen recule de 0,81 %, et le Hang Seng est stable.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "L'Asie, très liée aux puces de l'IA, rebondit après sa chute de vendredi.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
     {
      "category": "Tech US",
      "title": "Nvidia : l'enquête sur son PDG pèse sur le titre avant les résultats du 17 novembre",
@@ -446,6 +591,11 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Le pétrole recule lundi : le WTI perd environ 3 % vers 87 dollars et le Brent environ 4 % vers 94 dollars.",
+     "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+     "lang": "EN"
+    },
     {
      "text": "Le Hang Seng de Hong Kong avait reculé de 1,27 % vendredi ; lundi, il montait d'environ 0,12 %.",
      "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
