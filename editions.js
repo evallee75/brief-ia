@@ -1,5 +1,465 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-09",
+  "intro": "L'IA face à ses limites politiques et à ses scandales : Nvidia enquête sur les liens de son patron avec une présumée espionne chinoise, les électeurs américains contestent les centres de données, les publicités s'invitent dans les chatbots et Apple veut un Siri capable d'agir.",
+  "stories": [
+   {
+    "category": "Entreprises",
+    "title": "Nvidia enquête sur les liens de son patron Jensen Huang avec une présumée espionne chinoise",
+    "summary": "Le conseil d'administration de Nvidia a ouvert dimanche une enquête indépendante après des informations selon lesquelles Jensen Huang aurait été ciblé par une opération d'espionnage chinoise. Dans un message au personnel, le PDG reconnaît une liaison avec une ancienne dirigeante de Megaspeed, un client de Nvidia. Le conseil dit n'avoir aucune raison de penser que des secrets ont été compromis, et Nvidia affirme qu'il reste PDG.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Nvidia est le grand fabricant des puces de l'IA ; trois présidents de commissions de la Chambre des représentants demandent à son patron un briefing à huis clos le 18 novembre.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "lang": "EN"
+     },
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+      "lang": "EN"
+     },
+     {
+      "label": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Après les élections américaines, les centres de données de l'IA face au vote des électeurs",
+    "summary": "Selon TechCrunch, des électeurs ont rejeté des projets de centres de données dans des dizaines de scrutins locaux, et la future gouverneure du Texas, Gina Hinojosa, a fait campagne pour les restreindre. En réaction, OpenAI a publié un plan sur ses campus de calcul qui promet plus de transparence et abandonne les clauses de confidentialité.",
+    "whyLabel": "Le contexte",
+    "why": "Les centres de données sont le socle physique de l'IA : plus de contestation locale peut ralentir leur construction, et la Bourse s'en est déjà inquiétée cette semaine.",
+    "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2207245107-1.jpg?resize=1200,765",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "lang": "EN"
+     },
+     {
+      "label": "BBC",
+      "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Les publicités arrivent dans les chatbots, sauf dans Claude",
+    "summary": "Selon Wired, plus de 100 000 annonceurs font de la publicité dans ChatGPT depuis le lancement des pubs en février, et Google a étendu les annonces de son mode IA à 10 pays de plus. Anthropic maintient sa promesse de garder Claude sans publicité. Les annonceurs restent peu satisfaits de l'expérience, mais comptent sur des progrès.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Faire tourner un chatbot coûte cher : la publicité pourrait devenir un modèle économique central, avec le risque d'agacer les utilisateurs.",
+    "image": "https://media.wired.com/photos/6aeccd4b5e88c9a490858b81/191:100/w_1280,c_limit/Model-Behavior-11052026-option2.jpg",
+    "links": [
+     {
+      "label": "Wired",
+      "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Vie privée",
+    "title": "Les entreprises d'IA veulent acheter vos documents et e-mails de travail",
+    "summary": "Wired a enquêté sur un marché en plein essor : des courtiers en données proposent aux entreprises de racheter leurs anciens documents, e-mails et messages internes pour entraîner des modèles d'IA, pour des sommes allant de 350 000 dollars à plusieurs millions selon leurs démarcheurs. Tous les acteurs ne sont pas enthousiastes.",
+    "whyLabel": "À savoir",
+    "why": "Les données publiques sont jugées épuisées par ces courtiers ; les données internes des entreprises, donc le travail des salariés, deviennent une ressource convoitée.",
+    "image": "https://media.wired.com/photos/6aece5b7cb93131011507281/191:100/w_1280,c_limit/Backchannel-11062026_Option2.jpg",
+    "links": [
+     {
+      "label": "Wired",
+      "url": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Recherche & sécurité",
+    "title": "Un rapport montre l'IA accélérer fortement la recherche d'Anthropic",
+    "summary": "Un nouveau rapport du groupe METR, relayé par The Verge, fournit des éléments sur la vitesse à laquelle l'IA accélère son propre développement : elle accélère nettement les travaux de recherche d'Anthropic, alors même que l'entreprise réclame de ralentir le développement de l'IA. Le document inquiète des chercheurs.",
+    "whyLabel": "Le contexte",
+    "why": "Quand l'IA aide à construire la prochaine IA, le rythme du progrès peut s'emballer, ce qui alimente le débat sur la sécurité.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Cybersécurité",
+    "title": "Les IA chinoises gratuites deviennent très fortes en piratage informatique",
+    "summary": "Selon une expérience de la société Vals, relayée par Wired, les modèles ouverts chinois DeepSeek et GLM s'approchent des capacités de piratage du modèle de cybersécurité le plus avancé d'OpenAI, qui n'est pas public. Les modèles étaient testés sur des réseaux d'entreprise simulés.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les laboratoires américains limitent l'accès à leurs modèles les plus puissants ; si des modèles gratuits les égalent, cette précaution perd de son sens.",
+    "image": "https://media.wired.com/photos/6aebaf11899aefeeb0331a11/191:100/w_1280,c_limit/Security_Open-Weight%20AI%20Models%20Are%20About%20to%20Hit%20a%20Key%20Cyber%20Milestone_v1.jpg",
+    "links": [
+     {
+      "label": "Wired",
+      "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Apple veut rendre Siri plus « agentique »",
+    "summary": "Selon The Verge, les futures versions de Siri pourront piloter des applications tierces et accomplir des tâches plus complexes. Apple accélère pour rattraper ses concurrents dans les assistants capables d'agir à la place de l'utilisateur.",
+    "whyLabel": "En bref",
+    "why": "Un Siri capable d'enchaîner des actions dans vos applications changerait l'usage quotidien de l'iPhone.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Siri-AI-Being-invoked-3.jpg?quality=90&strip=all&crop=0%2C10.727837220746%2C100%2C78.544325558509&w=1200",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Robots",
+    "title": "Amazon relance son projet de robot domestique",
+    "summary": "Amazon a constitué une équipe dédiée aux robots pour la maison et recrute pour un produit « nouveau dans le monde », selon CNBC. L'Astro, lancé en 2021 à 1 450 dollars, n'est jamais sorti de sa phase sur invitation. En mars, Amazon a racheté Fauna Robotics, créateur du robot humanoïde Sprout.",
+    "whyLabel": "Le contexte",
+    "why": "Barclays estime que le marché des robots humanoïdes pourrait atteindre environ 40 milliards de dollars d'ici 2035.",
+    "image": "",
+    "links": [
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Travail",
+    "title": "L'IA accélère le recrutement et fait pression sur les cabinets",
+    "summary": "Selon une enquête citée par CNBC, 37 % des recruteurs britanniques et irlandais disent que l'IA accélère de 26 % à 50 % le tri des candidatures. Selon LinkedIn, les recruteurs qui utilisent l'IA générative gagnent en moyenne 18 % de leur semaine de travail. Les avis divergent sur l'effet sur les honoraires des cabinets.",
+    "whyLabel": "À savoir",
+    "why": "Chez Adecco, des agents IA économisent environ 15 % du temps de recrutement, mais ce sont encore des humains qui décident des embauches.",
+    "image": "",
+    "links": [
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/08/ai-recruitment-agency-fees.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Vie quotidienne",
+    "title": "L'assistant IA de NYT Cooking sauve un dîner… mais a failli rater un gâteau",
+    "summary": "The Verge et Wired ont testé les nouveaux outils d'IA du site de recettes NYT Cooking. Le journaliste du Verge raconte que l'assistant a sauvé son poulet du soir mais a presque gâché son gâteau ; Wired juge le modificateur de recettes « plutôt bon ».",
+    "whyLabel": "En bref",
+    "why": "Un exemple concret d'IA dans la cuisine : utile pour adapter une recette, mais pas infaillible.",
+    "image": "",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "lang": "EN"
+     },
+     {
+      "label": "Wired",
+      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Meta : son directeur de la stratégie Dave Wehner quitte le groupe pour devenir directeur financier de la start-up d'infrastructure IA Fireworks.",
+    "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+    "lang": "EN"
+   },
+   {
+    "text": "Des chatbots pourraient arriver dans l'app Maison d'Apple (HomeView), selon The Verge.",
+    "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
+    "lang": "EN"
+   },
+   {
+    "text": "Wired explique les « modèles du monde » : des IA qui simulent la physique en 3D pour entraîner robots et voitures autonomes.",
+    "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 24579.43,
+     "changePct": 1.09,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 26989.99,
+     "changePct": 1.35,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7376.86,
+     "changePct": 0.31,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 51285.73,
+     "changePct": -0.46,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 25.64,
+     "changePct": -9.01,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8139.0,
+     "changePct": -0.81,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 25820.36,
+     "changePct": -1.92,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6170.49,
+     "changePct": -0.98,
+     "session": "2026-11-06"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 58775.5,
+     "changePct": 2.33,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 24481.86,
+     "changePct": -1.27,
+     "session": "2026-11-06"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 186.64,
+     "changePct": 2.78,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 342.37,
+     "changePct": -0.52,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 530.61,
+     "changePct": -0.99,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 284.78,
+     "changePct": 0.78,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 259.3,
+     "changePct": -0.35,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 610.15,
+     "changePct": 0.84,
+     "session": "2026-11-06"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 358.22,
+     "changePct": 4.23,
+     "session": "2026-11-06"
+    }
+   ],
+   "intro": "Vendredi, Wall Street a rebondi après la chute de jeudi : le Nasdaq a gagné 1,09 % et le S&P 500 0,31 %, malgré un rapport sur l'emploi plus solide qu'attendu et les craintes liées aux élections américaines. Lundi, les contrats à terme annoncent un début de séance en hausse, mais l'enquête sur le patron de Nvidia ajoute de l'incertitude.",
+   "stories": [
+    {
+     "category": "Tech US",
+     "title": "Nvidia : l'enquête sur son PDG pèse sur le titre avant les résultats du 17 novembre",
+     "summary": "Un indicateur de cours d'Nvidia échangé sur Hyperliquid reculait d'environ 2 % en 24 heures après l'annonce de l'enquête, selon CNBC. Vendredi, l'action avait pourtant gagné 2,78 %. Nvidia publie ses résultats trimestriels le 17 novembre ; Jensen Huang doit aussi être entendu en briefing à huis clos le 18.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Nvidia est la valeur phare de l'IA : une crise à sa tête peut peser sur tout le Nasdaq.",
+     "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      },
+      {
+       "label": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Nasdaq",
+     "title": "Lundi : Wall Street attendue en hausse après la forte chute de la semaine",
+     "summary": "Lundi matin, les contrats à terme annonçaient l'ouverture : S&P 500 en hausse de 0,42 %, Nasdaq 100 de 0,18 % et Dow Jones de 0,73 %. Dimanche soir, ils étaient encore en baisse. Vendredi, le Nasdaq avait gagné 1,09 % après avoir chuté de 5,5 % jeudi.",
+     "whyLabel": "À savoir",
+     "why": "Liz Ann Sonders (Schwab) juge le Nasdaq survendu, mais les petits investisseurs, qui ont vendu massivement jeudi, n'ont pas racheté : la baisse n'est peut-être pas finie.",
+     "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fdde/live/9036f7e0-da01-11f1-93e1-3b657b665bcf.jpg",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      },
+      {
+       "label": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Cette semaine : inflation américaine mardi et résultats de CoreWeave, Cisco et Applied Materials",
+     "summary": "Les investisseurs attendent l'indice des prix à la consommation (CPI) mardi et celui des prix à la production vendredi, pour jauger la prochaine décision de la Fed. Côté entreprises, CoreWeave, Cisco et Applied Materials publient leurs résultats, signaux sur la demande en IA ; lundi, Take-Two, Occidental, KKR et Constellation Energy.",
+     "whyLabel": "Le contexte",
+     "why": "Des chiffres d'inflation élevés renforceraient la crainte de taux plus élevés, un frein pour les valeurs technologiques.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Vendredi : Tesla gagne 4,23 % alors que Cybertruck est en fin de course",
+     "summary": "Tesla a pris 4,23 % vendredi, la plus forte hausse de nos sept grandes valeurs. Le même jour, le Guardian rapportait que Tesla va mettre fin à la production du Cybertruck, Elon Musk se concentrant sur la robotique et l'IA.",
+     "whyLabel": "En bref",
+     "why": "Nvidia (+2,78 %), Meta (+0,84 %) et Alphabet (+0,78 %) ont aussi monté ; Microsoft (-0,99 %) et Apple (-0,52 %) ont reculé.",
+     "image": "",
+     "links": [
+      {
+       "label": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/06/tesla-to-wind-down-cybertruck-production-as-elon-musk-focuses-on-robotics-and-ai",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Vendredi : l'Europe finit en baisse, le DAX recule de 1,92 %",
+     "summary": "Les Bourses européennes ont fini la semaine dans le rouge, entraînées par la chute des valeurs technologiques née aux États-Unis : CAC 40 -0,81 %, DAX -1,92 %, Euro Stoxx 50 -0,98 %. Sur la semaine, le Stoxx 600 reste pourtant en hausse de 0,24 %. Lundi, CAC 40 et DAX étaient attendus en léger repli, le FTSE 100 en légère hausse.",
+     "whyLabel": "Le contexte",
+     "why": "Les craintes d'un ralentissement de l'IA, liées aux élections américaines, ont gagné l'Europe.",
+     "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b0d1/live/49c24750-d9d0-11f1-9e5a-c30c5e3d8c85.jpg",
+     "links": [
+      {
+       "label": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo",
+       "lang": "EN"
+      },
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Lundi : Taïwan bondit d'environ 6 %, porté par TSMC et Foxconn, le Nikkei progresse",
+     "summary": "En Asie, l'indice taïwanais gagnait près de 6 % lundi, tiré par TSMC et Foxconn, tandis que le Nikkei 225 progressait de plus de 2 % et le Topix de plus de 3 %. Le Kospi sud-coréen reculait légèrement (-0,15 %).",
+     "whyLabel": "À savoir",
+     "why": "Un rebond marqué après la chute de la fin de semaine dernière sur les valeurs liées à l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
+    {
+     "category": "Asie",
+     "title": "Chine : les prix à la production montent de 5,7 %, la consommation ralentit",
+     "summary": "En octobre, les prix à la production chinois ont augmenté de 5,7 % sur un an, plus que les 5,3 % attendus et au plus haut depuis juin 2022. Les prix à la consommation n'ont progressé que de 0,7 %, moins qu'attendu. L'indice CSI 300 gagnait 0,56 % après la publication.",
+     "whyLabel": "Le contexte",
+     "why": "Une demande extérieure forte soutient les prix industriels, alors que la demande intérieure, freinée par l'immobilier, reste faible.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    }
+   ],
+   "quick": [
+    {
+     "text": "Le Hang Seng de Hong Kong avait reculé de 1,27 % vendredi ; lundi, il montait d'environ 0,12 %.",
+     "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Aux États-Unis, 165 000 emplois ont été créés selon le dernier rapport, au-dessus des attentes, ce qui a nourri les craintes de taux élevés.",
+     "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-08",
   "intro": "Dimanche calme dans l'actualité de l'IA : procès musicaux contre Suno, enquête sur les puces Nvidia vendues à des sociétés chinoises, failles de sécurité chez Claude Code et débat politique croissant sur les centres de données. Mise à jour du soir : OpenAI aurait levé 11 milliards de dollars, les investisseurs revoient leurs attentes sur l'entrée en Bourse d'Anthropic et une université chinoise recule sur la surveillance par IA.",
   "stories": [
