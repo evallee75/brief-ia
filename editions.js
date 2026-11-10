@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-10",
-  "intro": "Anthropic lance de nouveaux modèles et voit son projet d'introduction en Bourse démenti, Fireworks AI subit des cyberattaques, Nvidia serre la vis sur la location de ses puces à la Chine, et Qantas supprime 850 postes en évoquant l'IA.",
+  "intro": "Anthropic lance de nouveaux modèles et voit son projet d'introduction en Bourse démenti, Fireworks AI subit des cyberattaques, Nvidia serre la vis sur la location de ses puces à la Chine, et Qantas supprime 850 postes en évoquant l'IA. Mise à jour du soir : Google lance Gemini 4 Carbon, Meta met son assistant Muse sur les montres, un agent IA attaque des entreprises télécom et DeepMind vérifie le code de Signal.",
   "stories": [
    {
     "category": "Produits",
@@ -44,6 +44,66 @@ window.EDITIONS = [
      {
       "label": "Forbes",
       "url": "https://www.forbes.com/sites/annatong/2026/11/09/fireworks-cyberattack-exposes-customer-data-and-ai-models-as-fallout-widens/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Google lance Gemini 4 Carbon pour les développeurs et les abonnés Ultra",
+    "summary": "Google rend disponible son nouveau modèle Gemini 4 Carbon via son API payante et pour les abonnés AI Ultra, à un tarif d'introduction de 2 dollars par million de mots-unités (tokens) en entrée. Google affirme qu'il arrive en tête de plusieurs classements de programmation et d'automatisation.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "La course entre Google, Anthropic et OpenAI se joue maintenant presque chaque semaine, avec des prix qui baissent pour les entreprises.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+    "links": [
+     {
+      "label": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Meta lance Muse Ember, un petit modèle économique, et met son assistant Muse sur les montres",
+    "summary": "Meta présente Muse Ember, son modèle le plus petit et le moins cher, conçu pour les tâches répétitives des agents IA. Son assistant Muse arrive aussi sur Apple Watch et sur les montres Wear OS, pour réserver des billets ou suivre ses dépenses.",
+    "whyLabel": "À savoir",
+    "why": "L'IA s'invite au poignet : on parle ou on écrit à l'assistant sans sortir son téléphone.",
+    "image": "",
+    "links": [
+     {
+      "label": "ETV Bharat",
+      "url": "https://www.etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "Un agent IA basé sur DeepSeek a attaqué pendant deux semaines un opérateur télécom européen",
+    "summary": "Des chercheurs ont découvert un dossier exposé montrant un outil d'intrusion autonome fonctionnant avec DeepSeek. Pendant deux semaines, il a attaqué un opérateur télécom européen et 13 autres organisations, surtout via une faille d'un équipement Cisco.",
+    "whyLabel": "Le contexte",
+    "why": "Les pirates commencent à confier des attaques entières à des agents IA, ce qui oblige les entreprises à se défendre plus vite.",
+    "image": "https://gbhackers.com/wp-content/uploads/2026/11/020ca482-bf49-4aee-bca1-22f7d5f5e35b.jpg",
+    "links": [
+     {
+      "label": "GBHackers",
+      "url": "https://gbhackers.com/operation-snowball-campaign/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Recherche",
+    "title": "DeepMind vérifie mathématiquement le code de la messagerie Signal avec son IA AlphaProof Code",
+    "summary": "Google DeepMind affirme que son système a produit plus de 6 millions de lignes de preuves pour vérifier des garanties de sécurité du protocole de Signal, en environ quatre semaines. Seuls environ 1 % des preuves ont nécessité l'avis d'experts humains.",
+    "whyLabel": "En bref",
+    "why": "Prouver qu'un logiciel de chiffrement est sûr prenait des années ; l'IA pourrait accélérer fortement ce travail.",
+    "image": "",
+    "links": [
+     {
+      "label": "DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
       "lang": "EN"
      }
     ]
@@ -169,6 +229,16 @@ window.EDITIONS = [
     "text": "ChatGPT Enterprise peut désormais s'acheter via la place de marché d'AWS.",
     "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
     "lang": "EN"
+   },
+   {
+    "text": "Meituan publie les poids ouverts de LongCat-2.5, un modèle de 1 600 milliards de paramètres, sous licence MIT.",
+    "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+    "lang": "EN"
+   },
+   {
+    "text": "Google permet de créer des applications utilisant Google Maps directement dans AI Studio.",
+    "url": "https://www.etvbharat.com/en/technology/major-ai-upgrades-meta-muse-openai-dot-multi-device-support-google-maps-platform-in-ai-studio-and-claude-fable-mythos-enn26111002884",
+    "lang": "EN"
    }
   ],
   "markets": {
@@ -211,30 +281,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8233.3,
-     "changePct": 1.16,
-     "session": "2026-11-09"
+     "value": 8278.59,
+     "changePct": 0.55,
+     "session": "2026-11-10"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 26267.19,
-     "changePct": 1.73,
-     "session": "2026-11-09"
+     "value": 26347.45,
+     "changePct": 0.31,
+     "session": "2026-11-10"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6290.45,
-     "changePct": 1.94,
-     "session": "2026-11-09"
+     "value": 6327.87,
+     "changePct": 0.59,
+     "session": "2026-11-10"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 60459.58,
-     "changePct": 2.87,
-     "session": "2026-11-10"
+     "value": 58775.5,
+     "changePct": 2.33,
+     "session": "2026-11-09"
     },
     {
      "name": "Hang Seng",
@@ -295,8 +365,72 @@ window.EDITIONS = [
      "session": "2026-11-09"
     }
    ],
-   "intro": "Wall Street a rebondi lundi : le Nasdaq a gagné environ 2,7 % et le S&P 500 environ 2,3 %, portés par les valeurs des puces malgré la baisse de Nvidia (-4 %), pendant que le pétrole reculait.",
+   "intro": "Mardi, la Bourse de Paris a terminé en hausse (CAC 40 : +0,55 %), portée par la baisse du pétrole, et le Nikkei a gagné près de 3 % à Tokyo ; les chiffres de Wall Street affichés restent ceux de lundi, avant l'inflation américaine d'octobre attendue dans l'après-midi. La veille, le Nasdaq avait rebondi d'environ 2,7 %.",
    "stories": [
+    {
+     "category": "Macro / Fed",
+     "title": "Mardi : l'inflation américaine d'octobre au centre de l'attention",
+     "summary": "L'indice des prix à la consommation américain était attendu mardi après-midi. Il devrait s'être modéré en octobre, mais probablement pas assez, selon Dow Jones/Agefi, pour dissuader la Réserve fédérale de relever ses taux à sa réunion de décembre.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Les taux d'intérêt de la Fed pèsent directement sur les valeurs technologiques.",
+     "image": "",
+     "links": [
+      {
+       "label": "Zonebourse",
+       "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-attendue-en-nette-hausse-avant-l-inflation-americaine-ce785edad880f32d",
+       "lang": "FR"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Mardi : le pétrole au plus bas depuis fin août, les marchés espèrent la paix au Moyen-Orient",
+     "summary": "Au lendemain d'un recul d'environ 5 %, le Brent de janvier cédait encore 1,5 % à 91,31 dollars le baril. Un analyste cité parle d'un marché qui agit comme s'il avait déjà signé un accord de paix ; Donald Trump a reçu le Premier ministre du Qatar pour évoquer la médiation.",
+     "whyLabel": "À savoir",
+     "why": "Un pétrole moins cher allège la pression sur l'inflation et soutient les actions.",
+     "image": "",
+     "links": [
+      {
+       "label": "Zonebourse",
+       "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-attendue-en-nette-hausse-avant-l-inflation-americaine-ce785edad880f32d",
+       "lang": "FR"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Mardi : le CAC 40 termine en hausse de 0,55 %, Stellantis et Alstom en repli",
+     "summary": "La Bourse de Paris a fini dans le vert à 8 279 points, soutenue par la baisse du pétrole. Stellantis a reculé d'environ 3 % malgré la vente de son usine canadienne de Brampton à Roshel, et Alstom a perdu environ 2 % après un abaissement de perspective de sa note par Moody's.",
+     "whyLabel": "En bref",
+     "why": "Une journée positive pour l'indice, mais avec des fortunes diverses selon les entreprises.",
+     "image": "",
+     "links": [
+      {
+       "label": "Zonebourse",
+       "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-attendue-en-nette-hausse-avant-l-inflation-americaine-ce785edad880f32d",
+       "lang": "FR"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Mardi : le Nikkei bondit d'environ 2,9 % à Tokyo",
+     "summary": "En fin de séance, le Nikkei gagnait environ 2,9 %, tandis que le Hang Seng progressait de 0,4 % et le Shanghai Composite de 0,1 %, dans le sillage du rebond de Wall Street lundi.",
+     "whyLabel": "À savoir",
+     "why": "La Bourse de Tokyo suit de près les valeurs technologiques américaines.",
+     "image": "",
+     "links": [
+      {
+       "label": "Zonebourse",
+       "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-attendue-en-nette-hausse-avant-l-inflation-americaine-ce785edad880f32d",
+       "lang": "FR"
+      }
+     ],
+     "region": "Asie"
+    },
     {
      "category": "Nasdaq",
      "title": "Wall Street rebondit fortement : le Nasdaq gagne 2,7 %",
@@ -400,6 +534,16 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Biomérieux obtient l'autorisation de la FDA et de l'Union européenne pour son test Vitek Pro.",
+     "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-attendue-en-nette-hausse-avant-l-inflation-americaine-ce785edad880f32d",
+     "lang": "FR"
+    },
+    {
+     "text": "Valneva publie des données positives sur son vaccin Ixchiq contre le chikungunya.",
+     "url": "https://www.zonebourse.com/actualite-bourse/cac-40-la-bourse-de-paris-attendue-en-nette-hausse-avant-l-inflation-americaine-ce785edad880f32d",
+     "lang": "FR"
+    },
     {
      "text": "La NASA a choisi huit entreprises pour des livraisons lunaires pouvant atteindre 10 milliards de dollars ; Rocket Lab s'est envolée.",
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
