@@ -303,7 +303,7 @@ window.EDITIONS = [
      "summary": "Après une semaine agitée, les actions américaines ont rebondi lundi. Le Nasdaq Composite a gagné environ 2,7 % pour finir à 25 253 points, le S&P 500 environ 2,3 % et le Dow Jones environ 2,2 %. Les valeurs des puces menaient la hausse.",
      "whyLabel": "Pourquoi c'est important",
      "why": "La tech américaine reste le moteur des marchés ; malgré ce rebond, le Nasdaq restait en baisse d'environ 7,7 % sur un mois.",
-     "image": "=\"https://s.yimg.com/lo/mysterio/api/b30e8f3ba755b23e85d92ffe715ae56c31294a8ef35597813879a629ab3686b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fda5accc7-a524-4aea-9dac-74fc743e92f7",
+     "image": "",
      "links": [
       {
        "label": "Yahoo Finance",
@@ -319,7 +319,7 @@ window.EDITIONS = [
      "summary": "Nvidia a perdu jusqu'à 8 % en séance avant de terminer en baisse d'environ 4 %, alors que son conseil d'administration enquête sur Jensen Huang. L'action pesait sur le Nasdaq mais n'a pas empêché l'indice de grimper.",
      "whyLabel": "En bref",
      "why": "Nvidia pèse lourd dans les indices : sa chute a freiné, sans l'arrêter, le rebond du Nasdaq.",
-     "image": "=\"https://s.yimg.com/lo/mysterio/api/b30e8f3ba755b23e85d92ffe715ae56c31294a8ef35597813879a629ab3686b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fda5accc7-a524-4aea-9dac-74fc743e92f7",
+     "image": "",
      "links": [
       {
        "label": "Yahoo Finance",
@@ -335,7 +335,7 @@ window.EDITIONS = [
      "summary": "AMD a gagné environ 12 % après une relève à « Achat » par Oppenheimer. Micron et ASML ont aussi fortement progressé, et Tesla a pris environ 5 %.",
      "whyLabel": "À savoir",
      "why": "Les fabricants de puces ont rebondi après plusieurs semaines difficiles.",
-     "image": "=\"https://s.yimg.com/lo/mysterio/api/b30e8f3ba755b23e85d92ffe715ae56c31294a8ef35597813879a629ab3686b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fda5accc7-a524-4aea-9dac-74fc743e92f7",
+     "image": "",
      "links": [
       {
        "label": "Yahoo Finance",
@@ -351,7 +351,7 @@ window.EDITIONS = [
      "summary": "Les investisseurs attendent l'indice des prix d'octobre, prévu mardi : les économistes tablent sur +0,3 % sur un mois, contre +0,6 % en septembre. Le Brent est retombé autour de 91 à 94 dollars et le taux à 10 ans américain tournait autour de 4,86 %.",
      "whyLabel": "Le contexte",
      "why": "L'inflation et les taux orientent les décisions de la Fed, donc le prix de l'argent et les valeurs technologiques.",
-     "image": "=\"https://s.yimg.com/lo/mysterio/api/b30e8f3ba755b23e85d92ffe715ae56c31294a8ef35597813879a629ab3686b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fda5accc7-a524-4aea-9dac-74fc743e92f7",
+     "image": "",
      "links": [
       {
        "label": "Yahoo Finance",
