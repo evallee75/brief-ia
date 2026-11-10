@@ -1,5 +1,419 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-10",
+  "intro": "Anthropic lance de nouveaux modèles et voit son projet d'introduction en Bourse démenti, Fireworks AI subit des cyberattaques, Nvidia serre la vis sur la location de ses puces à la Chine, et Qantas supprime 850 postes en évoquant l'IA.",
+  "stories": [
+   {
+    "category": "Produits",
+    "title": "Anthropic lance Claude Fable 5.2 et Mythos 5.2, ses nouveaux modèles pour le code et la science",
+    "summary": "Anthropic a publié deux modèles améliorés, destinés aux tâches complexes de programmation et de recherche scientifique. L'entreprise raconte aussi une expérience où plus de 1 000 agents IA ont aidé à construire un système d'exploitation capable de démarrer, en huit jours.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les assistants IA passent de simples réponses à de longs travaux menés en autonomie, ce qui change la façon dont on développe des logiciels.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
+    "links": [
+     {
+      "label": "Anthropic",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Anthropic : une introduction en Bourse à 69,3 milliards de dollars évoquée, puis démentie",
+    "summary": "Selon Reuters, Anthropic a fait circuler puis retiré des informations sur une possible introduction en Bourse pouvant lever jusqu'à 69,3 milliards de dollars, en disant que les chiffres de prix étaient inexacts.",
+    "whyLabel": "À savoir",
+    "why": "Ce serait l'une des plus grosses introductions en Bourse de l'histoire, dans un secteur très scruté par les investisseurs.",
+    "image": "",
+    "links": [
+     {
+      "label": "Reuters",
+      "url": "https://www.reuters.com/business/anthropic-aims-raise-up-693-billion-blockbuster-ipo-2026-11-10/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Cybersécurité",
+    "title": "Fireworks AI visée par plusieurs cyberattaques : des données clients exposées",
+    "summary": "Fireworks, une plateforme qui héberge des modèles d'IA, a reconnu plusieurs attaques ayant exposé des informations de clients et des parties de modèles en cours de développement. Certains clients ont déjà déplacé une partie de leur activité ailleurs.",
+    "whyLabel": "Le contexte",
+    "why": "Les entreprises confient de plus en plus de données sensibles à des plateformes d'IA : une faille peut vite coûter la confiance de ses clients.",
+    "image": "",
+    "links": [
+     {
+      "label": "Forbes",
+      "url": "https://www.forbes.com/sites/annatong/2026/11/09/fireworks-cyberattack-exposes-customer-data-and-ai-models-as-fallout-widens/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Entreprises",
+    "title": "Nvidia durcit la location de ses puces en ligne pour limiter l'accès de la Chine",
+    "summary": "D'après Tom's Hardware, Nvidia exigerait de ses partenaires cloud à l'étranger qu'ils réservent au moins 51 % de leurs services à des clients non chinois. Sur le marché noir en Chine, des serveurs B300 se vendraient jusqu'à 2,8 millions de dollars.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les puces de Nvidia sont au cœur de la rivalité technologique entre les États-Unis et la Chine, et les restrictions sont contournées de multiples façons.",
+    "image": "https://cdn.mos.cms.futurecdn.net/n3JSWEEYTE8ywDfC8rkMiS-1120-80.jpg",
+    "links": [
+     {
+      "label": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-cracks-down-on-overseas-cloud-ai-gpu-rentals-for-china-partners-face-51-percent-non-chinese-quota-as-black-market-b300-rack-prices-surge-to-usd2-8-million",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Meta étend à tous les pays sa détection d'âge par IA sur Instagram",
+    "summary": "Meta déploie dans le monde entier un système d'IA qui repère les utilisateurs soupçonnés d'avoir entre 13 et 17 ans pour les basculer vers des comptes adolescents plus restrictifs. L'extension à Facebook et Threads est prévue.",
+    "whyLabel": "À savoir",
+    "why": "La protection des mineurs en ligne est un sujet de pression majeur pour les réseaux sociaux.",
+    "image": "https://www.engadget.com/img/gallery/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/l-intro-1794251531.jpg",
+    "links": [
+     {
+      "label": "Engadget",
+      "url": "https://www.engadget.com/2310848/meta-is-expanding-ai-age-detection-for-instagram-teen-accounts/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Emploi",
+    "title": "Qantas supprime 850 postes en Australie en confiant des tâches informatiques à Accenture",
+    "summary": "La compagnie aérienne australienne va supprimer 850 emplois de bureau en externalisant des travaux technologiques à Accenture, surtout en Inde. Elle invoque la modernisation de ses systèmes informatiques et l'IA.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "C'est un exemple concret de l'effet de l'IA et de l'automatisation sur l'emploi de bureau.",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/47eb/live/926fac30-dca6-11f1-86c1-89409a3a3bd9.jpg",
+    "links": [
+     {
+      "label": "BBC",
+      "url": "https://www.bbc.com/news/articles/cry838v4qzvyo",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Culture",
+    "title": "Disney s'allie à Adobe pour créer des modèles d'IA sur mesure pour ses personnages",
+    "summary": "Disney travaille avec Adobe pour développer des modèles Firefly personnalisés destinés à ses personnages et à ses productions, avec l'objectif d'une IA « sûre pour la marque ».",
+    "whyLabel": "Le contexte",
+    "why": "Les grands studios cherchent à utiliser l'IA tout en protégeant leurs personnages et leurs droits.",
+    "image": "https://the-decoder.com/wp-content/uploads/2026/11/TWDC-MAX_Marquee_2000_1000.jpg",
+    "links": [
+     {
+      "label": "The Decoder",
+      "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Donald Trump dit avoir menacé un patron de l'IA de prison",
+    "summary": "Dans l'émission 60 Minutes, le président américain a affirmé que son administration avait menacé de prison un dirigeant d'une entreprise d'IA, non nommé. Il se dit ouvert à des garde-fous de sécurité, tout en refusant des restrictions excessives.",
+    "whyLabel": "En bref",
+    "why": "Ses déclarations montrent l'équilibre que la Maison-Blanche cherche entre sécurité de l'IA et soutien à l'industrie.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2296464785.jpg?quality=90&strip=all&crop=0%2C10.75214828329%2C100%2C78.49570343342&w=1200",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Apple vend des « packs d'usage » d'Apple Intelligence à 49,99 dollars",
+    "summary": "Apple propose des packs ponctuels à 49,99 dollars qui ajoutent de l'usage d'IA une fois les limites mensuelles atteintes, en commençant par Logic Pro.",
+    "whyLabel": "À savoir",
+    "why": "Les fonctions d'IA coûtent cher à fournir : après OpenAI et d'autres, Apple introduit à son tour des limites d'usage payantes.",
+    "image": "https://9to5mac.com/wp-content/uploads/sites/6/2024/09/apple-intelligence.jpg?quality=82&strip=all&resize=1200,628",
+    "links": [
+     {
+      "label": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Scott Wiener, nouvel élu américain, veut une régulation fédérale plus ferme de l'IA",
+    "summary": "Successeur de Nancy Pelosi au Congrès, Scott Wiener, déjà à l'origine de lois californiennes sur la sécurité de l'IA, défend des règles fédérales plus strictes, selon MIT Technology Review.",
+    "whyLabel": "Le contexte",
+    "why": "Le débat sur qui doit réguler l'IA, les États ou Washington, est au cœur de la politique américaine.",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303769670.jpg?resize=1200,600",
+    "links": [
+     {
+      "label": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Google dévoile deux nouveaux systèmes de puces d'IA, les TPU 8tx et 8i Max, pour concurrencer Nvidia.",
+    "url": "https://thenextweb.com/news/google-reportedly-adds-two-tpu-variants",
+    "lang": "EN"
+   },
+   {
+    "text": "Selon Semafor, des investisseurs revendent à prix cassé des prêts liés aux puces d'IA et aux centres de données, par crainte de dépréciation.",
+    "url": "https://www.semafor.com/article/11/09/2026/ai-chip-financing-hits-a-wall",
+    "lang": "EN"
+   },
+   {
+    "text": "ChatGPT Enterprise peut désormais s'acheter via la place de marché d'AWS.",
+    "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 25253.14,
+     "changePct": 2.74,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 27907.63,
+     "changePct": 3.4,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7549.94,
+     "changePct": 2.35,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 52389.75,
+     "changePct": 2.15,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 19.92,
+     "changePct": -22.31,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8233.3,
+     "changePct": 1.16,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 26267.19,
+     "changePct": 1.73,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6290.45,
+     "changePct": 1.94,
+     "session": "2026-11-09"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 60459.58,
+     "changePct": 2.87,
+     "session": "2026-11-10"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 24448.95,
+     "changePct": -0.13,
+     "session": "2026-11-09"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 178.67,
+     "changePct": -4.27,
+     "session": "2026-11-09"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 350.69,
+     "changePct": 2.43,
+     "session": "2026-11-09"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 545.18,
+     "changePct": 2.75,
+     "session": "2026-11-09"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 288.15,
+     "changePct": 1.18,
+     "session": "2026-11-09"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 266.93,
+     "changePct": 2.94,
+     "session": "2026-11-09"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 641.37,
+     "changePct": 5.12,
+     "session": "2026-11-09"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 378.05,
+     "changePct": 5.54,
+     "session": "2026-11-09"
+    }
+   ],
+   "intro": "Wall Street a rebondi lundi : le Nasdaq a gagné environ 2,7 % et le S&P 500 environ 2,3 %, portés par les valeurs des puces malgré la baisse de Nvidia (-4 %), pendant que le pétrole reculait.",
+   "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Wall Street rebondit fortement : le Nasdaq gagne 2,7 %",
+     "summary": "Après une semaine agitée, les actions américaines ont rebondi lundi. Le Nasdaq Composite a gagné environ 2,7 % pour finir à 25 253 points, le S&P 500 environ 2,3 % et le Dow Jones environ 2,2 %. Les valeurs des puces menaient la hausse.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "La tech américaine reste le moteur des marchés ; malgré ce rebond, le Nasdaq restait en baisse d'environ 7,7 % sur un mois.",
+     "image": "=\"https://s.yimg.com/lo/mysterio/api/b30e8f3ba755b23e85d92ffe715ae56c31294a8ef35597813879a629ab3686b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fda5accc7-a524-4aea-9dac-74fc743e92f7",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Nvidia recule d'environ 4 % après l'enquête visant son patron",
+     "summary": "Nvidia a perdu jusqu'à 8 % en séance avant de terminer en baisse d'environ 4 %, alors que son conseil d'administration enquête sur Jensen Huang. L'action pesait sur le Nasdaq mais n'a pas empêché l'indice de grimper.",
+     "whyLabel": "En bref",
+     "why": "Nvidia pèse lourd dans les indices : sa chute a freiné, sans l'arrêter, le rebond du Nasdaq.",
+     "image": "=\"https://s.yimg.com/lo/mysterio/api/b30e8f3ba755b23e85d92ffe715ae56c31294a8ef35597813879a629ab3686b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fda5accc7-a524-4aea-9dac-74fc743e92f7",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "AMD bondit d'environ 12 % après une hausse de recommandation",
+     "summary": "AMD a gagné environ 12 % après une relève à « Achat » par Oppenheimer. Micron et ASML ont aussi fortement progressé, et Tesla a pris environ 5 %.",
+     "whyLabel": "À savoir",
+     "why": "Les fabricants de puces ont rebondi après plusieurs semaines difficiles.",
+     "image": "=\"https://s.yimg.com/lo/mysterio/api/b30e8f3ba755b23e85d92ffe715ae56c31294a8ef35597813879a629ab3686b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fda5accc7-a524-4aea-9dac-74fc743e92f7",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Inflation américaine d'octobre attendue mardi, pétrole en baisse",
+     "summary": "Les investisseurs attendent l'indice des prix d'octobre, prévu mardi : les économistes tablent sur +0,3 % sur un mois, contre +0,6 % en septembre. Le Brent est retombé autour de 91 à 94 dollars et le taux à 10 ans américain tournait autour de 4,86 %.",
+     "whyLabel": "Le contexte",
+     "why": "L'inflation et les taux orientent les décisions de la Fed, donc le prix de l'argent et les valeurs technologiques.",
+     "image": "=\"https://s.yimg.com/lo/mysterio/api/b30e8f3ba755b23e85d92ffe715ae56c31294a8ef35597813879a629ab3686b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Fda5accc7-a524-4aea-9dac-74fc743e92f7",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Le CAC 40 gagne 1,16 % et termine au plus haut depuis septembre",
+     "summary": "La Bourse de Paris a clôturé à 8 233,30 points, portée par le recul du pétrole (Brent à 93,67 dollars, en baisse de 4,77 %) et par des espoirs de négociation entre Washington et Téhéran.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Le prix du pétrole pèse sur l'inflation et sur les résultats des entreprises européennes.",
+     "image": "",
+     "links": [
+      {
+       "label": "AFP via Quartz",
+       "url": "https://fr.qz.com/brent-recule-cac-40-progresse-espoirs-diplomatiques-iran-111026",
+       "lang": "FR"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Tokyo et Séoul rebondissent en suivant la tech américaine",
+     "summary": "Mardi, le Nikkei 225 a gagné 2,6 % et le Kospi sud-coréen 4 %, tirés par les fabricants de puces (Tokyo Electron +5,6 %, Samsung +4,6 %, SK Hynix +5,6 %). SoftBank a bondi de 15 % avant ses résultats. Hong Kong n'a pris que 0,4 %.",
+     "whyLabel": "À savoir",
+     "why": "Ces rebonds suivent une forte chute vendredi, où le Nikkei avait perdu environ 6 % et le Kospi environ 9 %.",
+     "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20260615__B73N9NQ__v1__MidRes__JapanEconomyStocks-1794187121_2f3992-1794191621.jpg?resize=1200%2C630&quality=80",
+     "links": [
+      {
+       "label": "Al Jazeera",
+       "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout",
+       "lang": "EN"
+      },
+      {
+       "label": "FXStreet",
+       "url": "https://fxstreet.com/news/asia-stocks-rally-sharply-amid-tech-surge-and-iran-jitters-ahead-of-us-cpi-202611100521",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    }
+   ],
+   "quick": [
+    {
+     "text": "La NASA a choisi huit entreprises pour des livraisons lunaires pouvant atteindre 10 milliards de dollars ; Rocket Lab s'est envolée.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Hims & Hers a reculé d'environ 10 % avant ses résultats.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-09",
   "intro": "L'IA face à ses limites politiques et à ses scandales : Nvidia enquête sur les liens de son patron avec une présumée espionne chinoise, les électeurs américains contestent les centres de données, les publicités s'invitent dans les chatbots et Apple veut un Siri capable d'agir. Mise à jour du soir : Anthropic s'offre des turbines à gaz pour 3,4 milliards de dollars, un expert de Yale juge le sort du patron de Nvidia « 50-50 », et Medium comme WordPress lancent de nouveaux outils d'IA.",
   "stories": [
