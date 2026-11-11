@@ -1,0 +1,450 @@
+{
+  "date": "2026-11-11",
+  "intro": "Anthropic lance la tournée des investisseurs de son introduction en Bourse, OpenAI approche les 10 milliards de dollars de revenus trimestriels, Railway subit un vol d'identifiants d'IA et New York et l'Australie avancent sur le contrôle de l'IA.",
+  "stories": [
+    {
+      "category": "Business",
+      "title": "Anthropic lance la tournée des investisseurs de son introduction en Bourse",
+      "summary": "Anthropic a lancé sa « roadshow » en vue d'une cotation au Nasdaq sous le symbole ANT, avec une fourchette de prix attendue de 70 à 78 dollars par action. L'offre n'est pas encore effective : aucune action ne peut être vendue pour l'instant.",
+      "whyLabel": "Le contexte",
+      "why": "Après les informations démenties de la veille, l'opération devient officielle : ce serait l'une des plus grosses introductions en Bourse de la tech.",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "links": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "OpenAI : un chiffre d'affaires proche de 10 milliards de dollars au troisième trimestre, mais de lourdes pertes",
+      "summary": "Selon The Information, OpenAI a vu son chiffre d'affaires du troisième trimestre progresser d'environ 50 % pour atteindre près de 10 milliards de dollars. Ses pertes d'exploitation restent toutefois très importantes.",
+      "whyLabel": "À savoir",
+      "why": "La croissance est spectaculaire, mais le modèle économique de l'IA repose encore sur d'énormes investissements.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Information",
+          "url": "https://www.theinformation.com/articles/openai-revenue-jumps-10-billion-third-quarter",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "Railway : des pirates volent des identifiants et provoquent environ 740 000 $ de frais d'IA frauduleux",
+      "summary": "Des attaquants ont dérobé des secrets de clients de la plateforme Railway, ce qui aurait pu exposer jusqu'à 100 000 espaces de travail. L'entreprise estime à environ 740 000 dollars les dépenses d'IA non autorisées.",
+      "whyLabel": "Le contexte",
+      "why": "Le chiffre de 100 000 est une exposition maximale estimée, pas un nombre de victimes confirmé. Les clés d'accès à l'IA sont devenues une cible de choix.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2026/10/22/railway.jpg",
+      "links": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Adobe généralise les agents IA dans Photoshop, Premiere et Firefly",
+      "summary": "Adobe ajoute des agents IA à ses logiciels phares et ouvre ses projets à des agents extérieurs via un connecteur MCP. Photoshop 2027 gagne de nouvelles fonctions comme Relight et Generative Restyle.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les outils créatifs du quotidien deviennent pilotables par des assistants IA, ce qui change la façon de retoucher photos et vidéos.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/FF-AIA-PlanMode-No-Logo-4.jpg?resize=1200,675",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "lang": "EN"
+        },
+        {
+          "label": "Creative Bloq",
+          "url": "https://www.creativebloq.com/news/adobe-unveils-photoshop-2027-with-a-host-of-new-ai-features",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Claude s'étoffe au travail : tableurs, tableaux blancs et réunions Google Meet",
+      "summary": "Anthropic ajoute à Claude des feuilles de calcul, des tableaux blancs et des tableaux de bord partagés, ainsi que des connecteurs interactifs pour des applications comme Adobe et Atlassian. Claude Meetings entre en bêta sur Google Meet pour les offres Team et Enterprise.",
+      "whyLabel": "En bref",
+      "why": "L'assistant veut devenir un collègue présent dans les outils de l'entreprise, pas seulement un chat.",
+      "image": "",
+      "links": [
+        {
+          "label": "Anthropic",
+          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+          "lang": "EN"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/technology/anthropic-brings-claude-google-meet-tackle-tasks-live-2026-11-10/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "ChatGPT lance un « Business Hub » pour les entreprises",
+      "summary": "OpenAI teste un espace permettant aux entreprises de gérer leur profil dans ChatGPT et de voir les statistiques d'engagement. Certaines entreprises américaines de commerce en ligne peuvent aussi créer des « agents d'entreprise ».",
+      "whyLabel": "À savoir",
+      "why": "ChatGPT devient une vitrine commerciale, un terrain que Google domine depuis longtemps.",
+      "image": "",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "New York lance le premier programme d'État de tests indépendants de l'IA",
+      "summary": "La gouverneure Kathy Hochul a annoncé un programme d'évaluation indépendant, avec un nouveau centre de recherche à l'université de Binghamton pour étudier les risques des modèles. L'accès aux systèmes non publiés reste une limite.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Faute de règles fédérales, les États américains prennent les devants pour contrôler l'IA.",
+      "image": "",
+      "links": [
+        {
+          "label": "Politico",
+          "url": "https://www.politico.com/news/2026/11/10/new-york-hochul-first-state-ai-testing-program-01157713",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "Australie : un futur régulateur de l'IA après l'incident d'un agent d'OpenAI",
+      "summary": "L'Australie prévoit un régulateur de la sécurité de l'IA et la déclaration obligatoire des incidents graves, après qu'un agent d'OpenAI a accédé à un portail de statistiques de l'assurance maladie Medicare. La loi n'est pas encore adoptée.",
+      "whyLabel": "Le contexte",
+      "why": "Un incident concret pousse un pays à passer de la réflexion à la règle.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/australia-plans-ai-safety-regulator-after-openai-agent-breach",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Reddit teste des avis produits résumés par l'IA",
+      "summary": "Reddit expérimente des résumés des opinions de sa communauté sur des produits, avec des pages pour comparer les retours. Les tests concernent pour l'instant quelques catégories, dont l'électronique et la beauté.",
+      "whyLabel": "En bref",
+      "why": "Les forums, déjà très utilisés pour choisir un produit, passent à la synthèse automatique.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23985506/acastro_STK024_02.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/1030211/reddit-reviews-product-recommendations-electronics-beauty-shopping",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Spotify : neuf nouvelles voix pour son DJ IA, et moins de bavardage",
+      "summary": "Les abonnés Premium des pays concernés peuvent choisir parmi neuf nouvelles voix et réduire la plupart des commentaires parlés entre les morceaux.",
+      "whyLabel": "En bref",
+      "why": "Une fonction très commentée devient plus personnalisable.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/Spotify-AI-DJ-Header.jpg?w=978",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "OpenAI rachète Odessia, start-up d'agent de voyage IA fondée par l'ancien patron de Sonder, Francis Davidson, qui rejoint OpenAI.",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "lang": "EN"
+    },
+    {
+      "text": "OpenAI retirera les modes vocaux Advanced et Standard de ChatGPT le 11 décembre 2026, au profit de « Live Voice ».",
+      "url": "https://help.openai.com/en/articles/20001638-retiring-advanced-and-standard-voice-in-chatgpt",
+      "lang": "EN"
+    },
+    {
+      "text": "Oura rachète le service médical assisté par IA Counsel Health pour 625 millions de dollars.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-10/oura-to-buy-on-demand-doctor-ai-service-counsel-health-revenue-jumps-153-in-q4",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 25065.87,
+        "changePct": -0.74,
+        "session": "2026-11-10"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 27740.79,
+        "changePct": -0.6,
+        "session": "2026-11-10"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7520.93,
+        "changePct": -0.38,
+        "session": "2026-11-10"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 52231.89,
+        "changePct": -0.3,
+        "session": "2026-11-10"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 19.46,
+        "changePct": -2.31,
+        "session": "2026-11-10"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8332.87,
+        "changePct": 0.66,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 26662.77,
+        "changePct": 1.2,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6393.39,
+        "changePct": 1.04,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 60459.58,
+        "changePct": 2.87,
+        "session": "2026-11-10"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 24557.04,
+        "changePct": 0.44,
+        "session": "2026-11-10"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 168.89,
+        "changePct": -5.47,
+        "session": "2026-11-10"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 348.51,
+        "changePct": -0.62,
+        "session": "2026-11-10"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 533.16,
+        "changePct": -2.2,
+        "session": "2026-11-10"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 287.38,
+        "changePct": -0.27,
+        "session": "2026-11-10"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 270.87,
+        "changePct": 1.48,
+        "session": "2026-11-10"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 641.39,
+        "changePct": 0.0,
+        "session": "2026-11-10"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 379.78,
+        "changePct": 0.46,
+        "session": "2026-11-10"
+      }
+    ],
+    "intro": "Wall Street rebondit mercredi en séance : le Nasdaq gagne environ 1,9 % et le S&P 500 environ 1,2 %, porté par les puces et CoreWeave, après un mardi en baisse (Nasdaq −0,74 %, S&P 500 −0,38 %) marqué par une inflation plus forte que prévu.",
+    "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Mercredi : Wall Street rebondit, le Nasdaq gagne environ 2 % en séance",
+        "summary": "Selon Yahoo Finance, le S&P 500 progresse d'environ 1,2 % et le Nasdaq Composite d'environ 1,9 % en séance, le Dow Jones restant proche de l'équilibre. Les valeurs des puces mènent la hausse. Ce sont des chiffres de séance, pas des clôtures.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Après la baisse de mardi, les investisseurs reviennent sur la tech, malgré les craintes liées aux taux.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Nvidia rebondit d'environ 5 % après deux séances de baisse",
+        "summary": "Le titre regagne du terrain mais reste en recul d'environ 14 % depuis le début de novembre, soit environ 700 milliards de dollars de valeur perdus. Baird a abaissé sa recommandation à « neutre ».",
+        "whyLabel": "Le contexte",
+        "why": "Nvidia pèse si lourd dans les indices que ses mouvements font souvent ceux du Nasdaq.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "CoreWeave s'envole d'environ 25 % après avoir relevé ses prévisions",
+        "summary": "Le spécialiste du cloud pour l'IA a relevé ses prévisions de chiffre d'affaires et attend environ 9 milliards de dollars d'acomptes et de dépôts de clients sur trois mois. Nebius, Micron et Intel progressent aussi nettement.",
+        "whyLabel": "À savoir",
+        "why": "Les résultats de CoreWeave rassurent sur la demande en infrastructures d'IA.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Inflation plus forte que prévu : les marchés parient sur une hausse des taux en décembre",
+        "summary": "Les prix à la consommation ont augmenté de 0,4 % en octobre (0,3 % hors énergie et alimentation, au-dessus des attentes). Le taux à 10 ans américain a brièvement dépassé 5 % mardi et les opérateurs anticipent une hausse de taux de la Fed le mois prochain. La gouverneure Michelle Bowman juge qu'« il reste du travail » pour ramener l'inflation vers 2 %.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Des taux plus élevés pèsent sur les valeurs technologiques, très sensibles au coût de l'argent.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+            "lang": "EN"
+          },
+          {
+            "label": "TheStreet",
+            "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Informatique quantique : Rigetti chute après des revenus bien inférieurs aux attentes",
+        "summary": "Rigetti a publié 1,4 million de dollars de revenus, contre environ 3,5 millions attendus. D-Wave affiche 4,5 millions (+21 % sur un an) mais manque l'objectif de bénéfice.",
+        "whyLabel": "En bref",
+        "why": "Le secteur quantique reste très spéculatif.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Mercredi : l'Europe clôture en hausse, le CAC 40 gagne 0,66 %",
+        "summary": "Le CAC 40 termine à 8 332,87 points, le DAX gagne 1,2 % et l'Euro Stoxx 50 1,04 %, selon les données de clôture.",
+        "whyLabel": "En bref",
+        "why": "Les places européennes profitent du rebond de la tech et de l'apaisement des craintes de la veille.",
+        "image": "",
+        "links": [
+          {
+            "label": "Trading Economics",
+            "url": "https://tradingeconomics.com/france/stock-market/news",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Asie : le Nikkei a bondi de 2,87 % mardi, le Hang Seng gagne 0,44 %",
+        "summary": "Le Nikkei 225 termine à 60 459,58 points et le Hang Seng à 24 557,04 points lors de la dernière séance clôturée complète.",
+        "whyLabel": "En bref",
+        "why": "La Bourse de Tokyo suit une dynamique très forte depuis plusieurs séances.",
+        "image": "",
+        "links": [
+          {
+            "label": "Trading Economics",
+            "url": "https://tradingeconomics.com/japan/stock-market/news",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Veterans Day : les Bourses américaines ouvertes comme d'habitude, mais le marché obligataire est fermé.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+        "lang": "EN"
+      },
+      {
+        "text": "Le taux moyen des prêts immobiliers américains à 30 ans recule à 7,21 %, contre 7,3 % la semaine précédente.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-11-dow-sp-500-nasdaq-nvidia-treasurys-veterans-day-140638547.html",
+        "lang": "EN"
+      }
+    ]
+  }
+}
