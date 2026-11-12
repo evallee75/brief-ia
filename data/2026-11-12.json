@@ -1,0 +1,464 @@
+{
+  "date": "2026-11-12",
+  "intro": "Une responsable de la Fed s'inquiète d'une bulle de l'IA, des élus américains veulent un permis pour entraîner les IA avancées, United bloque les agents de réservation et DeepMind dévoile AlphaGenome 2.",
+  "stories": [
+    {
+      "category": "Business",
+      "title": "Une responsable de la Fed met en garde contre une « forte correction » des marchés liée à l'IA",
+      "summary": "La gouverneure de la Fed Michelle Bowman a averti qu'une correction importante des cours pourrait survenir si les rendements de l'IA déçoivent. Elle cite environ 800 milliards de dollars de dettes liées à l'IA et des financements croisés entre entreprises, alors qu'Anthropic prépare son introduction en Bourse.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Quand la banque centrale s'inquiète publiquement, cela montre que la dépendance de l'économie aux paris sur l'IA devient un sujet de stabilité financière.",
+      "image": "https://img.semafor.com/5f8e21d159341495cc4cd84e56bdd4201bbf22da-4937x3291.jpg?rect=0,350,4937,2592&w=1200&h=630&q=75&auto=format",
+      "links": [
+        {
+          "label": "Semafor",
+          "url": "https://www.semafor.com/article/11/11/2026/anthropic-ipo-could-lead-to-large-correction-in-markets-fed-official-says",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "Aux États-Unis, des élus démocrates veulent imposer un permis pour entraîner les IA les plus avancées",
+      "summary": "Un projet de loi, le « Ban Superintelligence Act », créerait un Département de l'intelligence artificielle chargé de délivrer des autorisations aux laboratoires et d'accéder à leurs installations. Les sanctions iraient jusqu'à 20 ans de prison pour les cas les plus graves.",
+      "whyLabel": "À savoir",
+      "why": "On ignore encore si les démocrates modérés soutiendront le texte : il s'agit pour l'instant d'une proposition, pas d'une loi.",
+      "image": "https://futurism.com/wp-content/uploads/2026/11/democrats-federal-permit-train-ai-model.jpg?w=1200",
+      "links": [
+        {
+          "label": "Futurism",
+          "url": "https://futurism.com/artificial-intelligence/democrats-federal-permit-train-ai-model",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "United Airlines bloque les agents IA qui réservent des vols à votre place",
+      "summary": "United laisse les assistants IA afficher ses offres de vols, mais le client doit finaliser lui-même l'achat. La compagnie invoque la protection des données, les réservations accidentelles et la réglementation.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "La question de qui peut acheter en votre nom, vous ou votre assistant IA, va se poser pour beaucoup de secteurs.",
+      "image": "https://cdn.theneuron.ai/Personal AI Agent Stopped at an Airline Boarding Gate.png",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron",
+          "url": "https://www.theneuron.ai/news/united-wants-you-to-book-the-flight-your-ai-agent-isnt-invited/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Gemini Live arrive sur Apple CarPlay",
+      "summary": "Les utilisateurs d'iPhone peuvent désormais discuter avec Gemini en mains libres dans leur voiture. Les conversations se synchronisent avec l'application Gemini.",
+      "whyLabel": "En bref",
+      "why": "L'assistant IA de Google s'invite dans un usage très quotidien, y compris sur l'écosystème d'Apple.",
+      "image": "https://www.engadget.com/img/gallery/google-brings-the-gemini-app-to-apple-carplay/l-intro-1794426857.jpg",
+      "links": [
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Santé & science",
+      "title": "DeepMind dévoile AlphaGenome 2, une IA pour comprendre l'origine de maladies génétiques",
+      "summary": "Ce modèle prédit comment des variations de l'ADN affectent différents types de cellules, ce qui peut aider les chercheurs à repérer où une maladie commence. Il est disponible pour la recherche non commerciale uniquement.",
+      "whyLabel": "Le contexte",
+      "why": "L'IA appliquée à la biologie fait partie des usages les plus prometteurs pour la médecine.",
+      "image": "",
+      "links": [
+        {
+          "label": "Google DeepMind",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Les dépenses des entreprises américaines en IA atteignent un record en octobre, mais la croissance ralentit",
+      "summary": "L'indice Ramp montre une progression mensuelle de 1,65 %, plus lente qu'avant. Une petite minorité d'entreprises, le 1 % du haut, génère l'essentiel des revenus d'OpenAI et d'Anthropic.",
+      "whyLabel": "À savoir",
+      "why": "L'adoption de l'IA continue de grimper, mais elle reste très concentrée.",
+      "image": "https://the-decoder.com/wp-content/uploads/2026/02/openai_anthropic_logos-1.jpeg",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Plus de 20 000 vétérans ont demandé leur année gratuite de ChatGPT Plus",
+      "summary": "OpenAI indique que plus de 20 000 anciens combattants ont profité de l'offre et partage des exemples d'usage : préparation d'entretiens d'embauche et rédaction de CV.",
+      "whyLabel": "En bref",
+      "why": "Un exemple d'usage concret de l'IA pour la reconversion professionnelle.",
+      "image": "",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans/",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "ByteDance préparerait un assistant IA du type de Muse (Meta)",
+      "summary": "Selon Bloomberg, le propriétaire de TikTok pourrait lancer son assistant d'ici quelques semaines. Ses dirigeants jugeraient que rattraper les laboratoires américains pourrait prendre jusqu'en 2029 ou 2030.",
+      "whyLabel": "Le contexte",
+      "why": "La course à l'IA se joue aussi en Chine, où les grands groupes admettent encore un retard.",
+      "image": "",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-11/bytedance-prepares-muse-like-agent-in-push-to-close-ai-gap",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Éthique",
+      "title": "Helsing présente Clarity, une IA qui prépare des cibles pour des armes",
+      "summary": "Cette plateforme de renseignement militaire utilise de nombreux agents IA pour recommander des cibles. Un humain valide chaque transmission vers une arme, mais des critiques estiment que les opérateurs auront peu de temps pour vérifier.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "L'usage de l'IA dans les décisions militaires pose des questions éthiques majeures.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Google Labs lance Tabletop, qui crée des espaces collaboratifs à partir d'une simple demande",
+      "summary": "Cette expérience construit à la demande des espaces partagés, comme un itinéraire de voyage ou un sondage. Elle est limitée à une liste d'attente aux États-Unis.",
+      "whyLabel": "En bref",
+      "why": "Un aperçu de la façon dont l'IA pourrait générer des mini-applications sur mesure.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron (digest)",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-12-2026/",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "Google lance le Gemini Decisions API, pensé pour des décisions rapides (oui/non, choix multiples, notation), à partir de 0,10 $ le million de jetons en entrée.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "lang": "EN"
+    },
+    {
+      "text": "Databricks lance un agent Genie « toujours actif », capable de travailler en arrière-plan sur des tâches longues.",
+      "url": "https://fortune.com/2026/11/11/databricks/",
+      "lang": "EN"
+    },
+    {
+      "text": "OpenAI propose des ateliers gratuits d'IA aux aidants dans cinq villes américaines.",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life/",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 25466.19,
+        "changePct": 1.6,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 28374.25,
+        "changePct": 2.28,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7619.38,
+        "changePct": 1.31,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 52486.49,
+        "changePct": 0.49,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 17.49,
+        "changePct": -10.12,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8332.87,
+        "changePct": 0.66,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 26662.77,
+        "changePct": 1.2,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6393.39,
+        "changePct": 1.04,
+        "session": "2026-11-11"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 60819.36,
+        "changePct": -0.7,
+        "session": "2026-11-12"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 24315.92,
+        "changePct": -0.98,
+        "session": "2026-11-11"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 173.73,
+        "changePct": 2.87,
+        "session": "2026-11-11"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 355.63,
+        "changePct": 2.04,
+        "session": "2026-11-11"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 521.13,
+        "changePct": -2.26,
+        "session": "2026-11-11"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 293.45,
+        "changePct": 2.11,
+        "session": "2026-11-11"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 266.17,
+        "changePct": -1.74,
+        "session": "2026-11-11"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 628.77,
+        "changePct": -1.97,
+        "session": "2026-11-11"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 390.84,
+        "changePct": 2.91,
+        "session": "2026-11-11"
+      }
+    ],
+    "intro": "Mercredi, Wall Street a fortement rebondi : le Nasdaq Composite a gagné 1,6 % et le S&P 500 1,31 %, porté par les valeurs de l'IA et les résultats de CoreWeave.",
+    "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Le Nasdaq bondit de 1,6 % : les valeurs de l'IA rebondissent",
+        "summary": "Le Nasdaq Composite a gagné 1,6 % à 25 466 points et le Nasdaq 100 2,28 %. Les valeurs liées aux infrastructures et aux puces ont mené la hausse, après des semaines de faiblesse.",
+        "whyLabel": "Le contexte",
+        "why": "Le mouvement s'est élargi au-delà des plus gros noms de la tech : cloud, mémoire, optique et énergie ont aussi progressé.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/2026-11-11_14-09-48-featured-1794431401-featured-1794431432.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/us-stocks-rally-as-ai-shares-rebound/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "CoreWeave s'envole de près de 25 % après ses résultats",
+        "summary": "Le fournisseur de capacités de calcul pour l'IA a publié 3,66 milliards de dollars de chiffre d'affaires trimestriel (+168 % sur un an), mais aussi une perte nette de 709 millions. Il compte financer sa croissance par des prépaiements de clients et des contrats plus courts plutôt que par de la dette non garantie.",
+        "whyLabel": "À savoir",
+        "why": "Les inquiétudes sur le financement de l'IA restent vives : certaines obligations de l'entreprise rapportent plus de 15 %.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304376406.jpg?w=1024",
+        "links": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+            "lang": "EN"
+          },
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/us-stocks-rally-as-ai-shares-rebound/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Les puces et la mémoire en tête : Micron +11,9 %, Arm +12 %, Sandisk +13,7 %",
+        "summary": "Plusieurs valeurs de la chaîne de l'IA ont fortement monté mercredi, dont Nebius (+15,4 %) et Bloom Energy (+13 %). Côté grands noms, Tesla a gagné 2,9 %, Nvidia 2,9 %, tandis que Microsoft a reculé de 2,3 %.",
+        "whyLabel": "En bref",
+        "why": "Le rebond a été très marqué sur les valeurs plus petites et plus volatiles.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/2026-11-11_14-09-48-featured-1794431401-featured-1794431432.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/us-stocks-rally-as-ai-shares-rebound/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Fed : Michelle Bowman redoute une correction si l'IA déçoit",
+        "summary": "La gouverneure pointe 800 milliards de dollars de dettes liées à l'IA. Un analyste de Nomura estime que des turbulences autour de la fixation du prix d'Anthropic, le 18 novembre, pourraient provoquer une baisse des valeurs de l'IA.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Un avertissement de la banque centrale pèse sur un marché qui venait de rebondir.",
+        "image": "https://img.semafor.com/5f8e21d159341495cc4cd84e56bdd4201bbf22da-4937x3291.jpg?rect=0,350,4937,2592&w=1200&h=630&q=75&auto=format",
+        "links": [
+          {
+            "label": "Semafor",
+            "url": "https://www.semafor.com/article/11/11/2026/anthropic-ipo-could-lead-to-large-correction-in-markets-fed-official-says",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Les Bourses européennes finissent en hausse, portées par le rebond de l'IA",
+        "summary": "Le DAX a pris 1,12 % à 26 642 points, le FTSE 100 0,78 % et le CAC 40 0,66 % à 8 333 points. L'Euro Stoxx 50 a gagné 0,68 %.",
+        "whyLabel": "En bref",
+        "why": "Le rebond du Nasdaq a entraîné les places européennes.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/Europe%20close%20today-featured-1794416270.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/european-stocks-close-higher-ai-rebound-sends-nasdaq-indices-sharply-higher/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "SoftBank plonge dans le rouge : une perte de 7 milliards de dollars au deuxième trimestre",
+        "summary": "Le groupe japonais a affiché une perte nette d'environ 1 120 milliards de yens, contre un profit de 2 500 milliards un an plus tôt, avec notamment une dépréciation de 3,7 milliards de dollars sur des équipements électriques de centres de données américains. Son action a reculé.",
+        "whyLabel": "Le contexte",
+        "why": "Ce revirement pèse sur l'un des plus gros investisseurs dans l'IA. Les indices Nikkei (-0,7 %) et Hang Seng (-0,98 %) ont fini en baisse.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/softbank-group-q2-fy2026-net-loss-us-data-centre-power-equipment-writedown-featured-1794359006.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/softbank-shares-down-after-swings-to-7-billion-q2-loss-on-3-7-billion-us-data-centre-power-hit/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Le Dow Jones a gagné 0,49 % et le VIX, l'indice de la peur, a chuté de 10 % à 17,5 points.",
+        "url": "https://investinglive.com/stocks/us-stocks-rally-as-ai-shares-rebound/",
+        "lang": "EN"
+      },
+      {
+        "text": "Le CAC 40 a pris 0,66 % à 8 333 points, le DAX 1,12 %.",
+        "url": "https://investinglive.com/stocks/european-stocks-close-higher-ai-rebound-sends-nasdaq-indices-sharply-higher/",
+        "lang": "EN"
+      }
+    ]
+  }
+}
