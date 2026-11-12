@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "intro": "Une responsable de la Fed s'inquiète d'une bulle de l'IA, des élus américains veulent un permis pour entraîner les IA avancées, United bloque les agents de réservation et DeepMind dévoile AlphaGenome 2.",
+  "intro": "Une responsable de la Fed s'inquiète d'une bulle de l'IA, des élus américains veulent un permis pour entraîner les IA avancées, United bloque les agents de réservation et DeepMind dévoile AlphaGenome 2. Mise à jour du soir : Jensen Huang quitte la direction de Nvidia, l'introduction en Bourse d'Anthropic serait très demandée et CoreWeave demande à ses clients de payer d'avance.",
   "stories": [
     {
       "category": "Business",
@@ -58,6 +58,66 @@
         {
           "label": "The Neuron",
           "url": "https://www.theneuron.ai/news/united-wants-you-to-book-the-flight-your-ai-agent-isnt-invited/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Nvidia : Jensen Huang quitte la direction du géant des puces",
+      "summary": "Le conseil d'administration de Nvidia annonce le départ immédiat de Jensen Huang, qui quitte ses postes de PDG et d'administrateur. La directrice financière, Colette Kress, devient PDG par intérim pendant que le conseil cherche un successeur.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Nvidia fabrique les puces qui font tourner l'IA mondiale : un changement de patron à quelques jours de ses résultats du 17 novembre pèse sur toute la Bourse tech.",
+      "image": "https://investinglive.com/cms/media/Processed/Categories/featured/Jensen%20Huang_id_28eb7b54-a83d-45bf-9ed0-6b7773732557_original-featured-1794491429-featured-1794491683.jpg?width=960&format=webp",
+      "links": [
+        {
+          "label": "investingLive",
+          "url": "https://investinglive.com/stocks/jensen-huang-ousted-as-ceo-of-nvidia/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "L'introduction en Bourse d'Anthropic serait sursouscrite plusieurs fois",
+      "summary": "Selon Bloomberg, l'opération viserait environ 90 milliards de dollars, un record, avec des actions proposées entre 70 et 78 dollars, soit une valorisation d'environ 1 400 milliards. Les premiers échanges sont attendus la semaine prochaine.",
+      "whyLabel": "À savoir",
+      "why": "Ce serait la plus grosse entrée en Bourse de l'histoire, un test de l'appétit des investisseurs pour l'IA.",
+      "image": "https://investinglive.com/cms/media/Processed/Categories/featured/nqupdate%20chart%2012%20November%202026-featured-1794431418.jpg?width=960&format=webp",
+      "links": [
+        {
+          "label": "investingLive (d'après Bloomberg)",
+          "url": "https://investinglive.com/stocks/anthropic-ipo-oversubscribed-several-times-ahead-of-record-90-billion-listing/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "CoreWeave demande à ses clients de payer d'avance pour financer ses centres de calcul",
+      "summary": "Le loueur de puissance de calcul IA a vu son chiffre d'affaires bondir de 168 % à 3,66 milliards de dollars au troisième trimestre, mais affiche une perte nette de 709 millions. Il mise sur les paiements anticipés et des contrats plus courts pour se financer.",
+      "whyLabel": "Le contexte",
+      "why": "Le modèle reste coûteux et dépend d'une demande encore à prouver, au moment où une responsable de la Fed s'inquiète des dettes liées à l'IA.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304376406.jpg?w=1024",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Amazon publie un émulateur AWS gratuit, écrit par des agents IA",
+      "summary": "Cet outil local simule plus de 200 services d'AWS et permet aux développeurs de tester sans payer le cloud. Amazon indique que son code a été écrit et est maintenu par des agents IA, sans relecture manuelle par des ingénieurs.",
+      "whyLabel": "À savoir",
+      "why": "Un exemple concret de logiciel construit presque entièrement par des IA ; l'outil a encore des limites, comme la simulation des pannes.",
+      "image": "",
+      "links": [
+        {
+          "label": "GeekWire",
+          "url": "https://www.geekwire.com/2026/aws-gives-developers-a-free-local-stand-in-for-its-cloud-built-from-scratch-by-ai-agents/",
           "lang": "EN"
         }
       ]
@@ -218,6 +278,11 @@
       "text": "OpenAI propose des ateliers gratuits d'IA aux aidants dans cinq villes américaines.",
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life/",
       "lang": "EN"
+    },
+    {
+      "text": "Qwen (Alibaba) lance en préversion Qwen4-Max, son modèle phare qui comprend texte, images et vidéo, accessible jusqu'au 25 novembre.",
+      "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model",
+      "lang": "EN"
     }
   ],
   "markets": {
@@ -260,30 +325,30 @@
       {
         "name": "CAC 40",
         "region": "Europe",
-        "value": 8332.87,
-        "changePct": 0.66,
-        "session": "2026-11-11"
+        "value": 8361.36,
+        "changePct": 0.34,
+        "session": "2026-11-12"
       },
       {
         "name": "DAX",
         "region": "Europe",
-        "value": 26662.77,
-        "changePct": 1.2,
-        "session": "2026-11-11"
+        "value": 26771.88,
+        "changePct": 0.41,
+        "session": "2026-11-12"
       },
       {
         "name": "Euro Stoxx 50",
         "region": "Europe",
-        "value": 6393.39,
-        "changePct": 1.04,
-        "session": "2026-11-11"
+        "value": 6398.98,
+        "changePct": 0.09,
+        "session": "2026-11-12"
       },
       {
         "name": "Nikkei 225",
         "region": "Asie",
-        "value": 60819.36,
-        "changePct": -0.7,
-        "session": "2026-11-12"
+        "value": 61248.59,
+        "changePct": 1.31,
+        "session": "2026-11-11"
       },
       {
         "name": "Hang Seng",
@@ -344,8 +409,77 @@
         "session": "2026-11-11"
       }
     ],
-    "intro": "Mercredi, Wall Street a fortement rebondi : le Nasdaq Composite a gagné 1,6 % et le S&P 500 1,31 %, porté par les valeurs de l'IA et les résultats de CoreWeave.",
+    "intro": "Jeudi, vers 18 h, Wall Street était sous pression : le Nasdaq restait sous sa clôture de la veille, plombé par la chute de Nvidia après le départ de son PDG Jensen Huang, tandis que l'Europe tenait bon (DAX à un record à l'ouverture). Mercredi, le Nasdaq Composite avait pourtant bondi de 1,6 % et le S&P 500 de 1,31 %.",
     "stories": [
+      {
+        "region": "Amérique",
+        "category": "Tech US",
+        "title": "Jeudi : Nvidia décroche après le départ de Jensen Huang",
+        "summary": "L'action Nvidia a chuté d'environ 9 % avant l'annonce du départ de son PDG, puis d'environ 11 % après, selon investingLive. Le titre est tombé sous son plus bas sur 52 semaines (164,27 $).",
+        "whyLabel": "Le contexte",
+        "why": "Les marchés redoutent l'incertitude à la tête du leader des puces IA, avant ses résultats du 17 novembre.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/Jensen%20Huang_id_28eb7b54-a83d-45bf-9ed0-6b7773732557_original-featured-1794491429-featured-1794491683.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/jensen-huang-ousted-as-ceo-of-nvidia/",
+            "lang": "EN"
+          },
+          {
+            "label": "investingLive (séance de mercredi, après Bourse)",
+            "url": "https://investinglive.com/stocks/nvidia-stock-plunges-8-6-but-amd-and-broadcom-rally-which-chip-stocks-are-worth-buying/",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "category": "Nasdaq",
+        "title": "Jeudi : le Nasdaq reste sous pression en séance",
+        "summary": "Vers 18 h, le Nasdaq Composite évoluait sous sa clôture de mercredi (25 466 points), avec un plus bas du jour à 25 068 points avant un rebond jusqu'à 25 401. Le Nasdaq 100 a un temps passé sous sa moyenne mobile à 200 jours.",
+        "whyLabel": "En bref",
+        "why": "Après le fort rebond de mercredi, la chute de Nvidia pèse sur l'ensemble de la tech.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/nqupdate%20chart%2012%20November%202026-featured-1794431418.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/as-market-digest-the-nvidia-fallout-what-has-the-fallout-meant-for-the-nasdaq-composite-nasdaq-100-indices/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Jeudi : Bernstein et Baird dégradent Nvidia, AMD et Broadcom progressent",
+        "summary": "Bernstein a ramené sa note sur Nvidia à « performance de marché » et son objectif de 400 à 200 dollars, en citant l'incertitude sur la direction. Baird a aussi abaissé sa recommandation. Mercredi après Bourse, AMD gagnait environ 4 % et Broadcom 2 %.",
+        "whyLabel": "À savoir",
+        "why": "Les analystes ne remettent pas en cause les ventes de puces mais le flou sur le leadership.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/NVDA%20under%20more%20pressure%20%2012%20November%202026-featured-1794454814.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/bernstein-halves-nvidia-target-to-200-the-3rd-broker-in-2-days-to-step-back-over-huang/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "region": "Europe",
+        "category": "Europe",
+        "title": "Jeudi : le DAX franchit de nouveaux records à l'ouverture",
+        "summary": "À l'ouverture, le DAX allemand gagnait 1 % à un nouveau record, le CAC 40 0,6 % et le FTSE 100 0,3 %, malgré la nervosité de Wall Street. Pétrole en baisse et résultats d'entreprises solides soutenaient les Bourses.",
+        "whyLabel": "Le contexte",
+        "why": "L'Europe résiste à la tension sur la tech américaine, même si des risques budgétaires et de taux subsistent.",
+        "image": "https://investinglive.com/cms/media/images/EU%20STOCKS%20EUROPE%20v3.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/european-stock-market-open-dax-pushes-to-fresh-record-highs-as-europe-defies-wall-street-jitters/",
+            "lang": "EN"
+          }
+        ]
+      },
       {
         "category": "Nasdaq",
         "title": "Le Nasdaq bondit de 1,6 % : les valeurs de l'IA rebondissent",
@@ -449,6 +583,11 @@
       }
     ],
     "quick": [
+      {
+        "text": "Strategy (MSTR) sera retirée des indices MSCI Global Investable Market, après l'application d'une nouvelle règle sur les sociétés non opérationnelles.",
+        "url": "https://investinglive.com/stocks/strategy-mstr-is-to-be-removed-from-msci-global-investable-market-indexes-following-msci-s-implementation-of-a-new-non-operating-company-rule/",
+        "lang": "EN"
+      },
       {
         "text": "Le Dow Jones a gagné 0,49 % et le VIX, l'indice de la peur, a chuté de 10 % à 17,5 points.",
         "url": "https://investinglive.com/stocks/us-stocks-rally-as-ai-shares-rebound/",
