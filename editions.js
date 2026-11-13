@@ -1,5 +1,491 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-13",
+  "intro": "SpaceX prépare 74 milliards de dollars de campus IA, des associations attaquent cinq géants de l'IA en justice, Google lance Gemini 4 Hydrogen et Fireworks est piraté.",
+  "stories": [
+   {
+    "category": "Business",
+    "title": "SpaceX prévoit plus de 74 milliards de dollars pour de gigantesques campus de calcul IA",
+    "summary": "SpaceX annonce vouloir investir plus de 74 milliards de dollars dans des centres de calcul pour l'IA au Texas et en Arizona. Le site d'Arizona coûterait environ 50 milliards et attend encore l'accord du comté ; celui du Texas serait conçu pour produire sa propre électricité.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "La course à l'IA se joue désormais en béton et en électricité : même une entreprise spatiale s'y lance à coups de dizaines de milliards.",
+    "image": "",
+    "links": [
+     {
+      "label": "Reuters",
+      "url": "https://www.reuters.com/business/media-telecom/spacex-invest-over-74-billion-supercompute-facilities-texas-arizona-2026-11-12/",
+      "lang": "EN"
+     },
+     {
+      "label": "The Neuron (digest)",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Des associations attaquent en justice OpenAI, Anthropic, Google, Meta et SpaceX",
+    "summary": "Une coalition d'organisations à but non lucratif a porté plainte contre cinq développeurs d'IA. Elle demande à un tribunal d'arrêter le développement de modèles plus puissants que les systèmes actuels, en citant les avertissements des laboratoires eux-mêmes sur les risques extrêmes de l'IA.",
+    "whyLabel": "À savoir",
+    "why": "Il s'agit d'une plainte : rien n'indique pour l'instant qu'un juge ira dans ce sens.",
+    "image": "",
+    "links": [
+     {
+      "label": "Reuters",
+      "url": "https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/",
+      "lang": "EN"
+     },
+     {
+      "label": "The Neuron (digest)",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Tech",
+    "title": "Google lance Gemini 4 Hydrogen, un modèle plus rapide et moins cher",
+    "summary": "Google présente un modèle conçu pour être plus rapide et moins coûteux, destiné surtout au code et aux agents IA. Il est disponible dans Google AI Studio, l'API Gemini, la recherche Google et d'autres produits.",
+    "whyLabel": "En bref",
+    "why": "Des modèles moins chers permettent de glisser l'IA dans davantage d'applications du quotidien.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+    "links": [
+     {
+      "label": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "lang": "EN"
+     },
+     {
+      "label": "The Neuron (digest)",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "Fireworks piraté : des conversations de clients de Notion exposées",
+    "summary": "Notion confirme que des pirates ont eu accès à des transcriptions de conversations de clients via une attaque contre Fireworks, un fournisseur d'IA. Moins de 1 % des espaces de travail sont touchés, et la plupart des conversations exposées ne peuvent pas être rattachées à un utilisateur précis.",
+    "whyLabel": "Le contexte",
+    "why": "Quand une entreprise confie ses données à un prestataire d'IA, une faille chez ce dernier peut toucher tous ses clients.",
+    "image": "https://techcrunch.com/wp-content/uploads/2021/02/notion-glitch-hero.jpg?resize=1200,827",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "lang": "EN"
+     },
+     {
+      "label": "The Neuron (digest)",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Les assistants d'achat IA recommandent parfois des sites douteux",
+    "summary": "Selon des tests de la société de protection de marques Podqi, des boutiques en ligne risquées apparaissent dans 15 % des réponses de Perplexity, 8 % de celles de ChatGPT et 4 % de celles de Gemini. Ces chiffres viennent des tests d'une seule entreprise.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Si vous laissez une IA choisir où acheter, vérifiez le site avant de payer.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_E.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "lang": "EN"
+     },
+     {
+      "label": "The Neuron (digest)",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "SoftBank enregistre une charge de 3,7 milliards de dollars sur des équipements électriques pour l'IA",
+    "summary": "SoftBank a comptabilisé 3,7 milliards de dollars de pertes après avoir révisé des commandes d'équipements électriques destinés aux centres de données IA, suite à des paiements non remboursables et des changements de contrats.",
+    "whyLabel": "En bref",
+    "why": "L'épisode montre l'incertitude sur les besoins réels en électricité de l'IA.",
+    "image": "",
+    "links": [
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/11/12/2026/softbank-loses-billions-after-over-ordering-energy-equipment-for-ai-buildout/",
+      "lang": "EN"
+     },
+     {
+      "label": "The Neuron (digest)",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "« Housefishing » : la BBC enquête sur les photos immobilières retouchées par l'IA",
+    "summary": "Des annonces utilisent des photos améliorées par IA qui montrent des pièces ou des équipements différents de ce que voient les acheteurs en visite. Les autorités de la consommation estiment que modifier sans le dire des éléments importants peut être trompeur.",
+    "whyLabel": "À savoir",
+    "why": "Une belle photo d'annonce n'est plus forcément fidèle au logement.",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/8436/live/9852bb70-d6a6-11f1-b441-2b33b063138f.png",
+    "links": [
+     {
+      "label": "BBC",
+      "url": "https://www.bbc.com/news/articles/cm62y0wrnz9zo",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Google et Samsung ouvrent les précommandes de leurs lunettes Gemini",
+    "summary": "Les modèles Warby Parker et Gentle Monster démarrent à 395 dollars et seront livrés le 10 décembre. Un test relève la traduction en direct et des réglages pour protéger les personnes filmées autour.",
+    "whyLabel": "En bref",
+    "why": "Les lunettes connectées avec assistant IA arrivent dans les boutiques de lunetterie.",
+    "image": "",
+    "links": [
+     {
+      "label": "The Next Web",
+      "url": "https://thenextweb.com/news/google-samsung-smart-glasses-preorders-warby-parker-gentle-monster",
+      "lang": "EN"
+     },
+     {
+      "label": "The Verge (test)",
+      "url": "https://www.theverge.com/tech/1031647/google-android-xr-warby-parker-gentle-monster-hands-on",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "L'Apple TV 4K reçoit Siri IA",
+    "summary": "Le boîtier à 299 dollars gagne Siri IA et les commandes vocales mains libres ; il arrive le 13 novembre. Un premier test juge les questions de suivi encore peu fiables, et les anciens modèles recevront la fonction plus tard.",
+    "whyLabel": "En bref",
+    "why": "Apple étend son assistant IA à la télévision du salon.",
+    "image": "https://images.macrumors.com/t/Klp9x3R0niKAd-wJW65m-OsfTJk=/2500x/article-new/2026/11/Apple-TV-4K-Thumb-2.jpg",
+    "links": [
+     {
+      "label": "MacRumors",
+      "url": "https://www.macrumors.com/2026/11/12/apple-tv-4k-siri-hands-on/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "OpenAI lance Daybreak, des outils d'IA pour tester et corriger les failles de sécurité",
+    "summary": "Red Team teste des applications pour y trouver des faiblesses (accès anticipé) et Defense Factory propose des correctifs, que des ingénieurs relisent avant déploiement.",
+    "whyLabel": "À savoir",
+    "why": "Après les cyberattaques de la semaine, les éditeurs d'IA se positionnent aussi sur la défense.",
+    "image": "https://image.theregister.com/241526.jpg?imageId=241526&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "links": [
+     {
+      "label": "The Register",
+      "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Selon une enquête GDC, 40 % des développeurs de jeux vidéo interrogés utilisent l'IA générative au travail, contre 36 % l'an dernier.",
+    "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+    "lang": "EN"
+   },
+   {
+    "text": "J.Crew lance un conseiller de style propulsé par Claude : les clients américains décrivent une occasion et reçoivent des tenues du catalogue.",
+    "url": "https://thenextweb.com/news/jcrew-style-advisor-claude-ai-stylist",
+    "lang": "EN"
+   },
+   {
+    "text": "Après le départ de Jensen Huang, le patron de Hugging Face promet de continuer à défendre l'IA ouverte.",
+    "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 25366.09,
+     "changePct": -0.39,
+     "session": "2026-11-12"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 28289.19,
+     "changePct": -0.3,
+     "session": "2026-11-12"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7592.4,
+     "changePct": -0.35,
+     "session": "2026-11-12"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 52297.09,
+     "changePct": -0.36,
+     "session": "2026-11-12"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 18.7,
+     "changePct": 6.92,
+     "session": "2026-11-12"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8361.36,
+     "changePct": 0.34,
+     "session": "2026-11-12"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 26771.88,
+     "changePct": 0.41,
+     "session": "2026-11-12"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6398.98,
+     "changePct": 0.09,
+     "session": "2026-11-12"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 61142.35,
+     "changePct": 0.53,
+     "session": "2026-11-13"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 24008.55,
+     "changePct": -1.26,
+     "session": "2026-11-12"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 166.19,
+     "changePct": -4.34,
+     "session": "2026-11-12"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 354.88,
+     "changePct": -0.21,
+     "session": "2026-11-12"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 523.0,
+     "changePct": 0.36,
+     "session": "2026-11-12"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 298.7,
+     "changePct": 1.79,
+     "session": "2026-11-12"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 267.44,
+     "changePct": 0.48,
+     "session": "2026-11-12"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 623.61,
+     "changePct": -0.82,
+     "session": "2026-11-12"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 397.45,
+     "changePct": 1.69,
+     "session": "2026-11-12"
+    }
+   ],
+   "intro": "Jeudi, Wall Street a fini en légère baisse : le Nasdaq Composite a cédé 0,39 % et le S&P 500 0,35 %, pénalisés par un nouveau recul de Nvidia (-4,3 %) après le départ de son PDG. L'Europe, elle, a progressé.",
+   "stories": [
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Jeudi : Nvidia recule encore après le départ de Jensen Huang",
+     "summary": "Nvidia a perdu environ 4,3 % à la clôture jeudi (166,19 $), après une chute plus forte en séance. Bernstein a divisé son objectif de cours par deux, à 200 $ : c'est le troisième courtier en deux jours à prendre du recul.",
+     "whyLabel": "Le contexte",
+     "why": "Les investisseurs attendent les résultats du 17 novembre dans un climat d'incertitude sur la direction.",
+     "image": "",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/bernstein-halves-nvidia-target-to-200-the-3rd-broker-in-2-days-to-step-back-over-huang/",
+       "lang": "EN"
+      },
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/jensen-huang-ousted-as-ceo-of-nvidia/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Après Bourse : Cisco et Applied Materials battent les attentes",
+     "summary": "Cisco publie un bénéfice ajusté de 1,40 $ par action (1,33 $ attendu) et relève sa prévision annuelle. Applied Materials fait 4,16 $ par action contre 4,06 $ attendus.",
+     "whyLabel": "En bref",
+     "why": "Les résultats de ces fournisseurs de l'IA montrent une demande toujours solide.",
+     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/cicso%20earnings%20share%20price%2013%20November%202026-featured-1794518329.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "investingLive (Cisco)",
+       "url": "https://investinglive.com/stocks/cisco-beats-and-lifts-fy27-view-as-ai-revenue-from-hyperscalers-set-to-more-than-double/",
+       "lang": "EN"
+      },
+      {
+       "label": "investingLive (Applied Materials)",
+       "url": "https://investinglive.com/stocks/applied-materials-beats-on-q4-and-guides-above-forecasts-as-chip-equipment-demand-holds/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Cerebras relève ses objectifs 2026",
+     "summary": "La société de puces IA annonce un chiffre d'affaires du troisième trimestre en hausse de 55 %, à environ 211 millions de dollars, et un carnet de commandes d'environ 26 milliards.",
+     "whyLabel": "En bref",
+     "why": "Un petit rival de Nvidia profite de la demande en calcul IA.",
+     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/cerebras%20share%20price%20earnings%2013%20November%202026-featured-1794519494.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/cerebras-raises-2026-outlook-sees-revenue-tripling-in-2027-as-26bn-backlog-builds/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Macro / Fed",
+     "title": "Goldman Sachs : les dépenses d'IA pourraient atteindre 1 400 milliards de dollars fin 2027",
+     "summary": "Goldman estime que ces dépenses pèseraient près de 4 % du PIB américain, contre plus de 900 milliards attendus fin 2026.",
+     "whyLabel": "Le contexte",
+     "why": "Ces montants nourrissent le débat sur une possible bulle de l'IA.",
+     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/goldman-sachs-ai-spending-1-4-trillion-2027-1200x900-featured-1794521455.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/goldman-sees-ai-spending-hitting-1-4-trillion-by-end-2027-nearly-4-of-the-us-economy/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Nasdaq",
+     "title": "L'introduction en Bourse d'Anthropic serait sursouscrite six fois",
+     "summary": "Selon investingLive, les ordres représenteraient environ six fois les actions disponibles, jusqu'à 20 % étant réservées aux particuliers. Le prix sera fixé le 18 novembre, avec une cotation au Nasdaq sous le sigle ANT le 19.",
+     "whyLabel": "À savoir",
+     "why": "L'opération n'est pas encore finalisée.",
+     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/anthropic-ipo-retail-investors-oversubscribed-1200x900-featured-1794537525.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/anthropic-ipo-six-times-oversubscribed-what-retail-investors-can-realistically-expect/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "Jeudi : le DAX grimpe à de nouveaux records malgré la faiblesse de la tech américaine",
+     "summary": "L'Allemagne mène une ouverture positive en Europe. À la clôture, le DAX gagne 0,41 % et le CAC 40 0,34 %.",
+     "whyLabel": "En bref",
+     "why": "L'Europe résiste au repli de Wall Street.",
+     "image": "",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/european-stock-market-open-dax-pushes-to-fresh-record-highs-as-europe-defies-wall-street-jitters/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Vendredi : SMIC vise plus de 12 milliards de dollars de revenus en 2026",
+     "summary": "Le fabricant chinois de puces annonce un chiffre d'affaires record de 3,19 milliards au troisième trimestre et un bénéfice net d'environ 428 millions ; il vise plus de 12 milliards sur l'année (près de +30 %).",
+     "whyLabel": "Le contexte",
+     "why": "La demande liée à l'IA soutient l'industrie des puces en Chine.",
+     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/smic%20shar%20price%20chart%2013%20November%202026-featured-1794533986.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/smic-co-ceo-sees-2026-revenue-topping-12-billion-as-ai-demand-stretches-chip-upcycle/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Vendredi : ByteDance prévoit un rachat d'actions de 6 milliards de dollars",
+     "summary": "Le rachat valoriserait la maison mère de TikTok à environ 400 milliards de dollars, soit 20 % de plus qu'il y a un an, mais sous un niveau de 480 milliards évoqué.",
+     "whyLabel": "En bref",
+     "why": "Le géant chinois reste valorisé très haut malgré les tensions.",
+     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/bytedance-6bn-buyback-400-billion-valuation-featured-1794532190.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/bytedance-plans-6bn-share-buyback-at-about-400-billion-valuation-up-20-in-a-year/",
+       "lang": "EN"
+      }
+     ]
+    }
+   ],
+   "quick": [
+    {
+     "text": "Selon Bloomberg Intelligence, les puces TPU de Google pourraient gagner des parts face à Nvidia, avec des ventes dépassant 50 milliards de dollars en 2027.",
+     "url": "https://investinglive.com/stocks/google-tpus-could-gain-share-from-nvidia-turmoil-bloomberg-intelligence-says-eyeing-50b/",
+     "lang": "EN"
+    },
+    {
+     "text": "Le Brent recule à 95,87 $ le baril, sur fond de tensions au Moyen-Orient.",
+     "url": "https://investinglive.com/stocks/",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-12",
   "intro": "Une responsable de la Fed s'inquiète d'une bulle de l'IA, des élus américains veulent un permis pour entraîner les IA avancées, United bloque les agents de réservation et DeepMind dévoile AlphaGenome 2. Mise à jour du soir : Jensen Huang quitte la direction de Nvidia, l'introduction en Bourse d'Anthropic serait très demandée et CoreWeave demande à ses clients de payer d'avance.",
   "stories": [
