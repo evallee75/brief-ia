@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-13",
-  "intro": "SpaceX prépare 74 milliards de dollars de campus IA, des associations attaquent cinq géants de l'IA en justice, Google lance Gemini 4 Hydrogen et Fireworks est piraté.",
+  "intro": "SpaceX prépare 74 milliards de dollars de campus IA, des associations attaquent cinq géants de l'IA en justice, Google lance Gemini 4 Hydrogen et Fireworks est piraté. Mise à jour du soir : le départ de Jensen Huang pourrait peser sur l'IA chinoise, Anthropic teste des agents auto-hébergés, World Labs ouvre Atlas à tous et Norwest lève 4 milliards de dollars.",
   "stories": [
    {
     "category": "Business",
@@ -54,6 +54,76 @@ window.EDITIONS = [
      {
       "label": "Google",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "lang": "EN"
+     },
+     {
+      "label": "The Neuron (digest)",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Géopolitique",
+    "title": "Le départ de Jensen Huang pourrait rebattre les cartes de l'IA chinoise",
+    "summary": "Selon Semafor, le départ du patron de Nvidia accroît la pression de Washington pour durcir les contrôles à l'exportation. The Information affirme que ses liens personnels avec une dirigeante de Megaspeed auraient pu aider à envoyer au moins 7,5 milliards de dollars de puces Nvidia en Chine, ce qui reste à confirmer.",
+    "whyLabel": "Le contexte",
+    "why": "Moins de puces américaines pour la Chine pourrait profiter aux fabricants chinois, que Pékin pousse déjà à devenir autonomes.",
+    "image": "https://img.semafor.com/d614bcd73650c5b5c531412bf6d2ed2de20da0dd-5000x3335.jpg?rect=0,356,5000,2625&w=1200&h=630&q=75&auto=format",
+    "links": [
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/11/12/2026/nvidia-turmoil-could-shake-up-chinese-ai-landscape",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Norwest lève 4 milliards de dollars, son plus gros fonds, avec l'IA parmi ses priorités",
+    "summary": "Le fonds de capital-risque Norwest a bouclé un fonds record de 4 milliards de dollars pour investir dans la tech, la santé et la consommation. L'IA fait partie de ses axes prioritaires.",
+    "whyLabel": "À savoir",
+    "why": "Les investisseurs continuent d'injecter des sommes énormes dans l'écosystème de l'IA.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/norwest_team-partner-offsite-2026-1-copy.jpg?resize=1200,805",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Anthropic teste des agents Claude hébergés par les entreprises elles-mêmes",
+    "summary": "Anthropic ouvre une bêta privée de « Claude Managed Agents » auto-hébergés : les entreprises peuvent faire tourner leurs agents IA et conserver l'historique des sessions sur leurs propres serveurs, tout en choisissant où partent les requêtes à Claude.",
+    "whyLabel": "En bref",
+    "why": "Un argument de poids pour les sociétés soucieuses de garder leurs données chez elles.",
+    "image": "",
+    "links": [
+     {
+      "label": "Anthropic (ClaudeDevs sur X)",
+      "url": "https://x.com/ClaudeDevs/status/2120938988165091693",
+      "lang": "EN"
+     },
+     {
+      "label": "The Neuron (digest)",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "World Labs ouvre Atlas à tous pour créer des scènes 3D à partir d'images",
+    "summary": "World Labs rend Atlas accessible au grand public, avec des applications et des outils pour développeurs. L'outil reconstruit des scènes en 3D à partir d'images et peut produire des vidéos ou des éléments 3D pour des projets créatifs.",
+    "whyLabel": "En bref",
+    "why": "La création 3D, longtemps réservée aux spécialistes, se rapproche du grand public.",
+    "image": "",
+    "links": [
+     {
+      "label": "World Labs (sur X)",
+      "url": "https://x.com/theworldlabs/status/2120942033401717108",
       "lang": "EN"
      },
      {
@@ -204,6 +274,16 @@ window.EDITIONS = [
     "text": "Après le départ de Jensen Huang, le patron de Hugging Face promet de continuer à défendre l'IA ouverte.",
     "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
     "lang": "EN"
+   },
+   {
+    "text": "ElevenLabs lance une place de marché d'agents vocaux et d'applications, visant la santé, la finance et le commerce.",
+    "url": "https://x.com/ElevenLabs/status/2120886297820819938",
+    "lang": "EN"
+   },
+   {
+    "text": "Nectar lance un agent IA qui aide les marques à trouver des influenceurs et à gérer leurs campagnes ; il balaie plus de 300 millions de profils.",
+    "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+    "lang": "EN"
    }
   ],
   "markets": {
@@ -246,30 +326,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8361.36,
-     "changePct": 0.34,
-     "session": "2026-11-12"
+     "value": 8368.91,
+     "changePct": 0.09,
+     "session": "2026-11-13"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 26771.88,
-     "changePct": 0.41,
-     "session": "2026-11-12"
+     "value": 26749.95,
+     "changePct": -0.08,
+     "session": "2026-11-13"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6398.98,
-     "changePct": 0.09,
-     "session": "2026-11-12"
+     "value": 6386.86,
+     "changePct": -0.19,
+     "session": "2026-11-13"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 61142.35,
-     "changePct": 0.53,
-     "session": "2026-11-13"
+     "value": 60819.36,
+     "changePct": -0.7,
+     "session": "2026-11-12"
     },
     {
      "name": "Hang Seng",
@@ -330,8 +410,77 @@ window.EDITIONS = [
      "session": "2026-11-12"
     }
    ],
-   "intro": "Jeudi, Wall Street a fini en légère baisse : le Nasdaq Composite a cédé 0,39 % et le S&P 500 0,35 %, pénalisés par un nouveau recul de Nvidia (-4,3 %) après le départ de son PDG. L'Europe, elle, a progressé.",
+   "intro": "Vendredi, vers 18 h, Wall Street s'apprêtait à rebondir après la baisse de jeudi : les contrats à terme du S&P 500 et du Nasdaq étaient légèrement positifs et Nvidia reprenait environ 3 % avant l'ouverture, malgré le départ de son PDG ; les chiffres de Wall Street dans le tableau restent ceux de jeudi. L'Europe a peu bougé et le Nikkei a progressé. Jeudi, le Nasdaq avait cédé 0,39 % et le S&P 500 0,35 %.",
    "stories": [
+    {
+     "region": "Amérique",
+     "category": "Macro / Fed",
+     "title": "Vendredi : l'inflation à la production un peu plus douce, mais la Fed reste sur la défensive",
+     "summary": "Aux États-Unis, les prix à la production d'octobre ont progressé de 6,5 % sur un an, contre 6,6 % attendu. Avant ce chiffre, les marchés anticipaient environ 28,5 points de base de hausse des taux en décembre ; des responsables de la Fed (Williams, Collins) ont répété que le travail n'est pas terminé.",
+     "whyLabel": "Le contexte",
+     "why": "Un chiffre légèrement meilleur que prévu a apporté un peu de soulagement, mais des taux plus élevés pèsent surtout sur les valeurs technologiques.",
+     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/USD-featured-1794576599.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/news/us-october-ppi-6-5-vs-6-6-expected/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Nasdaq",
+     "title": "Vendredi : Wall Street cherche à rebondir malgré le feuilleton Nvidia",
+     "summary": "Avant l'ouverture, les contrats à terme sur le S&P 500 gagnaient 0,2 % et ceux du Nasdaq 0,1 %, tandis que Nvidia reprenait environ 3 % en pré-séance malgré le départ de son PDG. Les analystes jugent la chute moins dramatique que les titres, mais restent prudents.",
+     "whyLabel": "Le contexte",
+     "why": "Les taux longs américains (10 ans autour de 5,1 %) et les doutes sur les dépenses d'IA limitent l'appétit pour le risque.",
+     "image": "https://investinglive.com/cms/media/Processed/Categories/featured/nasdaq-2-featured-1792499381.jpg?width=960&format=webp",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/wall-street-steadies-despite-nvidia-drama-but-dip-buyers-are-still-walking-a-tight-rope/",
+       "lang": "EN"
+      },
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/stocks/nasdaq-s-suckers-rally-is-approaching-a-key-resistance-amid-hawkish-fed-bets-us-iran-tensions/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "Vendredi : les Bourses européennes stagnent en fin de semaine",
+     "summary": "Les indices européens évoluent peu : CAC 40 +0,09 %, DAX -0,08 % et Euro Stoxx 50 -0,19 % lors de notre relevé. La hausse des taux américains et les craintes d'inflation, y compris en France et en Espagne, maintiennent les investisseurs sur leurs gardes.",
+     "whyLabel": "À savoir",
+     "why": "L'Europe a nettement mieux résisté que Wall Street cette semaine face à la tempête autour de la tech américaine.",
+     "image": "",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/news/investinglive-european-session-wrap-wall-street-eyes-a-rebound-but-rising-treasury-yields-keep-traders-on-edge/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Vendredi : le Nikkei progresse, Hong Kong recule",
+     "summary": "À Tokyo, le Nikkei gagnait environ 0,8 % vers 61 300 points en séance, après un pic à +1,4 %. À Hong Kong, le Hang Seng perdait environ 1 % ; en Corée, le Kospi s'est retourné après un fort rebond matinal. Le rendement japonais à 10 ans a grimpé vers 2,87 % et le yen reste proche de 160 pour un dollar.",
+     "whyLabel": "En bref",
+     "why": "La remontée des taux américains se propage à toute l'Asie, et Tokyo surveille de près la faiblesse du yen.",
+     "image": "",
+     "links": [
+      {
+       "label": "investingLive",
+       "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-fed-hike-bets-ripple-through-asia/",
+       "lang": "EN"
+      }
+     ]
+    },
     {
      "region": "Amérique",
      "category": "Tech US",
@@ -472,6 +621,16 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Le bitcoin est repassé sous 69 000 dollars (plus de 6 % de baisse), sur fond de sorties continues des fonds cotés américains.",
+     "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-fed-hike-bets-ripple-through-asia/",
+     "lang": "EN"
+    },
+    {
+     "text": "L'or progresse d'environ 0,7 % vers 3 914 dollars l'once, alors que le pétrole WTI reste proche de 88 dollars.",
+     "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-fed-hike-bets-ripple-through-asia/",
+     "lang": "EN"
+    },
     {
      "text": "Selon Bloomberg Intelligence, les puces TPU de Google pourraient gagner des parts face à Nvidia, avec des ventes dépassant 50 milliards de dollars en 2027.",
      "url": "https://investinglive.com/stocks/google-tpus-could-gain-share-from-nvidia-turmoil-bloomberg-intelligence-says-eyeing-50b/",
