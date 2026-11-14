@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "intro": "ChatGPT Wallet laisse l'IA acheter pour vous, Anthropic loue un site géant à 28 milliards de dollars et fixe sa Bourse au 19 novembre, Tesla ouvre les commandes de son Cybercab et un arrêt des vols aux États-Unis relance le débat sur l'IA dans le contrôle aérien.",
+  "intro": "ChatGPT Wallet laisse l'IA acheter pour vous, Anthropic loue un site géant à 28 milliards de dollars et fixe sa Bourse au 19 novembre, Tesla ouvre les commandes de son Cybercab et un arrêt des vols aux États-Unis relance le débat sur l'IA dans le contrôle aérien. Mise à jour du soir : LangChain lève 300 millions de dollars, OpenAI dissout son équipe de robotique et le FBI alerte sur un outil d'IA détourné par des pirates.",
   "stories": [
     {
       "category": "Produit",
@@ -43,6 +43,66 @@
         {
           "label": "Futurism",
           "url": "https://futurism.com/artificial-intelligence/us-airspace-shuts-down-faa-rolled-out-ai",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "LangChain lève 300 millions de dollars et vaut 3 milliards",
+      "summary": "L'entreprise américaine LangChain, qui fournit des outils pour construire des assistants IA capables d'agir seuls, boucle un tour de table de 300 millions de dollars qui la valorise 3 milliards. Son service LangSmith compterait 7 000 clients.",
+      "whyLabel": "Le contexte",
+      "why": "Les « agents » IA attirent les investisseurs : même les fabricants d'outils autour des grands modèles lèvent des sommes énormes.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Robotique",
+      "title": "OpenAI dissout son équipe de robotique",
+      "summary": "Selon Fortune, OpenAI met fin à son équipe dédiée à la robotique : l'entreprise estime que ses modèles généraux savent désormais piloter des robots. Les équipes sont réintégrées à la recherche et aux produits.",
+      "whyLabel": "À savoir",
+      "why": "OpenAI ne mise plus sur une équipe spécialisée mais sur un même cerveau IA pour tout faire, robots compris.",
+      "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2304572308-e1794587995495.jpg?resize=1200,600",
+      "links": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Sécurité",
+      "title": "Le FBI alerte sur ARTEX, un outil d'IA utilisé pour des cyberattaques",
+      "summary": "Le FBI avertit que des pirates détournent un cadre logiciel d'IA baptisé ARTEX pour mener des attaques automatisées. Des intrusions réussies en moins de trois heures auraient été observées à grande échelle.",
+      "whyLabel": "En bref",
+      "why": "L'IA permet aux pirates d'aller plus vite : les entreprises ont moins de temps pour réagir.",
+      "image": "https://gbhackers.com/wp-content/uploads/2026/11/fbi-warns-hackers-are-weaponizing-artex-ai-framework-to-launch-autonomous-cyberattacks-worldwide23r-6af80880c2a54.webp",
+      "links": [
+        {
+          "label": "GBHackers",
+          "url": "https://gbhackers.com/fbi-warns-artex-ai-framework/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Puces",
+      "title": "En Chine, la start-up Xilect lève 500 millions de yuans pour rivaliser avec Nvidia",
+      "summary": "Soutenue par MetaX et UBTech, Xilect développe des puces pour robots et vise le Thor de Nvidia. Elle vient de lever 500 millions de yuans.",
+      "whyLabel": "Le contexte",
+      "why": "La Chine cherche à se doter de ses propres puces pour robots, alors que Nvidia traverse un changement de direction.",
+      "image": "https://i0.wp.com/technode.com/wp-content/uploads/2026/11/xilect.png?fit=2350%2C1000&ssl=1",
+      "links": [
+        {
+          "label": "TechNode",
+          "url": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/",
           "lang": "EN"
         }
       ]
@@ -177,6 +237,11 @@
     {
       "text": "Nvidia confirme le départ de Jensen Huang : Colette Kress devient directrice générale par intérim et Harvey Jones présidente du conseil, une première.",
       "url": "https://aiweekly.co/alerts/nvidia-formalizes-jensen-huangs-resignation-names-kress-interim-ceo-and-harvey",
+      "lang": "EN"
+    },
+    {
+      "text": "Les agents de Google formalisent trois conjectures mathématiques dans le langage Lean grâce à la fonction « Teamwork » d'Antigravity.",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
       "lang": "EN"
     }
   ],
