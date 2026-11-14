@@ -1,0 +1,434 @@
+{
+  "date": "2026-11-14",
+  "intro": "ChatGPT Wallet laisse l'IA acheter pour vous, Anthropic loue un site géant à 28 milliards de dollars et fixe sa Bourse au 19 novembre, Tesla ouvre les commandes de son Cybercab et un arrêt des vols aux États-Unis relance le débat sur l'IA dans le contrôle aérien.",
+  "stories": [
+    {
+      "category": "Produit",
+      "title": "OpenAI lance ChatGPT Wallet : l'IA peut acheter à votre place",
+      "summary": "OpenAI permet aux abonnés Pro américains de laisser ses agents « Dots » faire des achats après une saisie unique de la carte bancaire. Chaque paiement doit être validé par l'utilisateur, les agents ne voient jamais les données brutes de la carte et OpenAI ne prélève aucune commission au lancement.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Faire ses courses par IA interposée devient une vraie fonction grand public, avec un garde-fou : votre accord à chaque achat.",
+      "image": "",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Anthropic loue un site de 910 mégawatts à Riot Platforms, pour environ 28 milliards de dollars",
+      "summary": "Riot Platforms annonce qu'Anthropic sera le locataire de son site de Corsicana : un bail de 15 ans pour 910 mégawatts de capacité électrique, d'une valeur initiale d'environ 28 milliards de dollars et jusqu'à 54 milliards avec les extensions.",
+      "whyLabel": "Le contexte",
+      "why": "Les labos d'IA signent des contrats colossaux pour s'assurer de l'électricité et des terrains avant leur entrée en Bourse.",
+      "image": "",
+      "links": [
+        {
+          "label": "AI Weekly (synthèse)",
+          "url": "https://aiweekly.co/alerts/riot-platforms-names-anthropic-as-28b-corsicana-tenant",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Un arrêt général des vols aux États-Unis relance le débat sur l'IA dans le contrôle aérien",
+      "summary": "La FAA a stoppé les vols dans tout le pays vendredi, quelques jours après avoir étendu son outil d'IA SMART. Le ministre des Transports Sean Duffy parle d'un « problème de communication » et le fabricant de l'outil assure que l'arrêt n'est pas dû à SMART ; le ministère de la Sécurité intérieure examine malgré tout le dossier.",
+      "whyLabel": "À savoir",
+      "why": "Aucun lien n'est établi à ce stade : la cause officielle reste un problème de communication.",
+      "image": "https://futurism.com/wp-content/uploads/2026/11/air-traffic-control-ai-ground.jpg?w=1200",
+      "links": [
+        {
+          "label": "Futurism",
+          "url": "https://futurism.com/artificial-intelligence/us-airspace-shuts-down-faa-rolled-out-ai",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Nvidia aurait approché le patron d'Arm pour succéder à Jensen Huang",
+      "summary": "Selon le Financial Times, le conseil d'administration de Nvidia a sondé Rene Haas, patron d'Arm et ancien de Nvidia, parmi plusieurs candidats pour remplacer Jensen Huang. Colette Kress dirige l'entreprise par intérim et rien ne garantit qu'une offre soit faite ou acceptée.",
+      "whyLabel": "En bref",
+      "why": "Le choix du prochain patron de Nvidia pèse sur toute l'industrie de l'IA.",
+      "image": "https://www.rte.ie/images/00255661-1600.jpg",
+      "links": [
+        {
+          "label": "RTÉ (d'après le FT)",
+          "url": "https://www.rte.ie/news/business/2026/1113/1599163-nvidia-approached-arm-ceo-haas-to-succeed-huang-ft/",
+          "lang": "EN"
+        },
+        {
+          "label": "AI Weekly (synthèse)",
+          "url": "https://aiweekly.co/alerts/nvidia-formalizes-jensen-huangs-resignation-names-kress-interim-ceo-and-harvey",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Tech",
+      "title": "Tesla ouvre les commandes du Cybercab à 29 990 $, avec un abonnement obligatoire",
+      "summary": "Certains clients peuvent commander le robotaxi à deux places, sans volant ni pédales, pour 29 990 dollars. Un abonnement « Autonomy » de 299 dollars par mois est obligatoire, et les premières livraisons sont prévues à Austin le mois prochain.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Une voiture entièrement autonome devient achetable par des particuliers, même si l'abonnement alourdit la facture.",
+      "image": "",
+      "links": [
+        {
+          "label": "InsideEVs",
+          "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Anthropic fixe son entrée en Bourse : prix le 18 novembre, cotation le 19 sous le code ANT",
+      "summary": "Le prospectus d'Anthropic indique une fixation du prix attendue le 18 novembre et des premiers échanges au Nasdaq le 19 novembre sous le symbole ANT.",
+      "whyLabel": "En bref",
+      "why": "Le calendrier précis de l'une des plus grosses introductions en Bourse de l'histoire est maintenant connu.",
+      "image": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
+      "links": [
+        {
+          "label": "Anthropic (prospectus)",
+          "url": "https://ipo.anthropic.com/us",
+          "lang": "EN"
+        },
+        {
+          "label": "AI Weekly (synthèse)",
+          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-13",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Le pari de Sam Bankman-Fried sur Anthropic vaudrait 37 milliards de dollars à l'introduction en Bourse",
+      "summary": "Selon le Financial Times, la participation de 500 millions de dollars prise en 2021 par Alameda Research, revendue en 2024 pour environ 1,3 milliard, vaudrait environ 37 milliards au prix d'introduction attendu.",
+      "whyLabel": "Le contexte",
+      "why": "Un symbole de la valeur prise par les laboratoires d'IA en quelques années.",
+      "image": "",
+      "links": [
+        {
+          "label": "Financial Times",
+          "url": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Tech",
+      "title": "Gemini Robotics 2.5 atteint 96 % de réussite sur une chaîne de montage Mercedes-Benz",
+      "summary": "DeepMind affirme que son modèle de robotique a atteint 96 % de performance sur une ligne de production de Mercedes-Benz.",
+      "whyLabel": "À savoir",
+      "why": "Chiffre annoncé par DeepMind, dont nous n'avons pas vu de vérification indépendante.",
+      "image": "",
+      "links": [
+        {
+          "label": "AI Weekly (synthèse)",
+          "url": "https://aiweekly.co/alerts/deepminds-gemini-robotics-25-hits-96-on-mercedes-benz-line",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produit",
+      "title": "Sierra lance « Poppy », un standard pour que les assistants IA personnels parlent aux entreprises",
+      "summary": "Sierra publie la version 1.0 de son protocole Poppy, qui décrit comment un agent personnel découvre une entreprise et négocie ce qu'il peut faire. Chaque boutique Shopify publie automatiquement un fichier Poppy.",
+      "whyLabel": "En bref",
+      "why": "Si le standard s'impose, votre assistant IA pourrait gérer commandes et démarches directement avec les sites.",
+      "image": "",
+      "links": [
+        {
+          "label": "Sierra",
+          "url": "https://sierra.ai/blog",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Le départ de Huang menace un projet de financement de 500 milliards de dollars autour de l'IA",
+      "summary": "Le plan de Nvidia avec six grandes sociétés de Wall Street, qui vise à transformer des puces d'IA en dette négociable, n'a donné aucun contrat jusqu'ici, et le départ de Jensen Huang le complique.",
+      "whyLabel": "À savoir",
+      "why": "Selon une synthèse d'AI Weekly : le projet est encore à l'état d'idée.",
+      "image": "",
+      "links": [
+        {
+          "label": "AI Weekly (synthèse)",
+          "url": "https://aiweekly.co/alerts/huangs-exit-blows-hole-in-500b-nvidia-backed-ai-financing-push-with-six-wall",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "Nscale, société londonienne de calcul IA, affiche 307,5 millions de dollars de revenus au troisième trimestre et une perte nette de 1,69 milliard, dans son prospectus d'introduction en Bourse aux États-Unis.",
+      "url": "https://aiweekly.co/alerts/nscale-posts-169b-q3-loss-as-revenue-jumps-1344-in-ipo-update",
+      "lang": "EN"
+    },
+    {
+      "text": "Runway publie gratuitement Praxis-1, un modèle de 27 milliards de paramètres pour piloter des robots.",
+      "url": "https://aiweekly.co/alerts/runway-open-sources-praxis-1-a-27b-robot-model-apache-20",
+      "lang": "EN"
+    },
+    {
+      "text": "Nvidia confirme le départ de Jensen Huang : Colette Kress devient directrice générale par intérim et Harvey Jones présidente du conseil, une première.",
+      "url": "https://aiweekly.co/alerts/nvidia-formalizes-jensen-huangs-resignation-names-kress-interim-ceo-and-harvey",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 25136.27,
+        "changePct": -0.91,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 27943.74,
+        "changePct": -1.22,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7561.67,
+        "changePct": -0.4,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 52347.55,
+        "changePct": 0.1,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 19.3,
+        "changePct": 3.21,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8368.91,
+        "changePct": 0.09,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 26749.95,
+        "changePct": -0.08,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6386.86,
+        "changePct": -0.19,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 61142.35,
+        "changePct": 0.53,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 23637.6,
+        "changePct": -1.55,
+        "session": "2026-11-13"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 162.85,
+        "changePct": -2.01,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 356.27,
+        "changePct": 0.39,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 523.88,
+        "changePct": 0.17,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 295.77,
+        "changePct": -0.98,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 266.66,
+        "changePct": -0.29,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 641.69,
+        "changePct": 2.9,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 390.22,
+        "changePct": -1.82,
+        "session": "2026-11-13"
+      }
+    ],
+    "intro": "Vendredi, Wall Street a fini en baisse : le Nasdaq a perdu 0,91 % et le S&P 500 0,40 %, tirés par la chute des puces après la démission du patron de Nvidia et une inflation des prix à la production restée élevée ; sur la semaine, les deux indices progressent pourtant.",
+    "stories": [
+      {
+        "category": "Tech US",
+        "title": "Nvidia sous les 4 000 milliards de dollars, les puces entraînent le Nasdaq",
+        "summary": "Nvidia a fini en baisse d'environ 2 % vendredi et sous 4 000 milliards de dollars de capitalisation pour la première fois depuis juillet 2025, après la démission de Jensen Huang. Sur la semaine, l'action perd 12,75 %, sixième baisse hebdomadaire de suite. AMD, Broadcom et d'autres fabricants de puces ont aussi reculé.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Nvidia est le symbole de l'IA en Bourse : son recul pèse sur tout le Nasdaq.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+            "lang": "EN"
+          },
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Nasdaq",
+        "title": "Le Nasdaq recule de 0,9 % et le S&P 500 de 0,4 %, mais la semaine reste positive",
+        "summary": "Wall Street a fini en ordre dispersé : le Dow Jones gagne 0,1 %, quand le S&P 500 et le Nasdaq reculent, tirés vers le bas par les puces. Sur la semaine, les trois indices progressent, et le Nasdaq et le S&P 500 mettent fin à quatre semaines de baisse.",
+        "whyLabel": "En bref",
+        "why": "Une journée morose, mais une semaine globalement de rebond.",
+        "image": "https://s.yimg.com/lo/mysterio/api/f719997dc6e6e5c636efcd9368a04dd55d0e11e78825910158af51cd9e0c15c0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fe74e7888-1e27-4daa-bb4f-9e73f0add69b",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+            "lang": "EN"
+          },
+          {
+            "label": "Forbes",
+            "url": "https://www.forbes.com/sites/fionariley/2026/11/13/ai-and-chip-stocks-finish-down-on-friday-as-markets-digest-nvidia-turmoil/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Inflation à 6,5 % sur un an côté producteurs : les marchés misent sur une hausse des taux",
+        "summary": "L'indice des prix à la production d'octobre progresse de 0,3 % sur un mois, moins que prévu, mais de 6,5 % sur un an, au plus haut depuis novembre 2022. Les opérateurs anticipent une hausse des taux de la Fed en décembre et le rendement à 10 ans atteint 5,17 %.",
+        "whyLabel": "Le contexte",
+        "why": "Des taux élevés pèsent surtout sur les valeurs technologiques.",
+        "image": "https://s.yimg.com/lo/mysterio/api/f719997dc6e6e5c636efcd9368a04dd55d0e11e78825910158af51cd9e0c15c0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fe74e7888-1e27-4daa-bb4f-9e73f0add69b",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Cerebras s'envole après des revenus record, AMD recule d'environ 9 %",
+        "summary": "Cerebras bondit après un chiffre d'affaires record au troisième trimestre et un objectif relevé. À l'inverse, AMD perd environ 9 % et Broadcom environ 6 %, dans le sillage de Nvidia.",
+        "whyLabel": "À savoir",
+        "why": "Dans la tech, les écarts sont forts entre gagnants et perdants du jour.",
+        "image": "https://s.yimg.com/lo/mysterio/api/f719997dc6e6e5c636efcd9368a04dd55d0e11e78825910158af51cd9e0c15c0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fe74e7888-1e27-4daa-bb4f-9e73f0add69b",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Les Bourses européennes touchent un record, portées par assureurs et pétrole",
+        "summary": "L'indice STOXX 600 finit quasi stable à un niveau record, son troisième d'affilée, et gagne 2,4 % sur la semaine, la meilleure depuis juin. Les assureurs, les services aux collectivités et les pétroliers compensent la chute des fabricants de puces. Le FTSE 100 gagne 0,36 %.",
+        "whyLabel": "En bref",
+        "why": "L'Europe, moins exposée à l'IA, a bien résisté à la secousse venue de Nvidia.",
+        "image": "https://mlq.ai/media/news_images/european-stocks-close-at-another-record-as-insurers-and-oil-majors-offset-a-chip.jpg",
+        "links": [
+          {
+            "label": "MLQ",
+            "url": "https://mlq.ai/news/european-stocks-close-at-another-record-as-insurers-and-oil-majors-offset-a-chip-selloff-capping-the-stoxx-600s-best-week-since-june/",
+            "lang": "EN"
+          },
+          {
+            "label": "Yahoo Finance UK",
+            "url": "https://uk.finance.yahoo.com/news/european-shares-retreat-record-highs-092454998.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Séance contrastée en Asie : Tokyo gagne 0,5 %, Hong Kong perd 1,5 %",
+        "summary": "Vendredi, le Nikkei 225 progresse de 0,53 % tandis que le Hang Seng recule de 1,55 %. Des fournisseurs asiatiques de puces comme SK Hynix figurent parmi les plus fortes baisses de la séance.",
+        "whyLabel": "À savoir",
+        "why": "Les marchés asiatiques de la tech suivent de près les mouvements autour de Nvidia.",
+        "image": "https://s.yimg.com/lo/mysterio/api/f719997dc6e6e5c636efcd9368a04dd55d0e11e78825910158af51cd9e0c15c0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Fe74e7888-1e27-4daa-bb4f-9e73f0add69b",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Le bitcoin passe sous 70 000 dollars pour la première fois en près de trois mois.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+        "lang": "EN"
+      },
+      {
+        "text": "Goldman Sachs voit le S&P 500 à 8 700 points en 2027, soit environ 14 % au-dessus du niveau actuel.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
+        "lang": "EN"
+      }
+    ]
+  }
+}
