@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "intro": "Dimanche calme sur les annonces de produits, mais la crise chez Nvidia domine encore : investisseurs, puces passées en contrebande vers la Chine, et une Fed qui voit dans l'IA le premier risque pour la finance.",
+  "intro": "Dimanche calme sur les annonces de produits, mais la crise chez Nvidia domine encore : investisseurs, puces passées en contrebande vers la Chine, et une Fed qui voit dans l'IA le premier risque pour la finance. Mise à jour du soir : DeepMind vérifie mathématiquement le protocole de Signal, Nvidia aurait admis en privé pouvoir suivre ses puces, et eBay bloque les agents IA.",
   "stories": [
     {
       "category": "Business",
@@ -43,6 +43,51 @@
         {
           "label": "CNBC",
           "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Sécurité",
+      "title": "Google DeepMind prouve mathématiquement que le protocole de Signal est sûr",
+      "summary": "Des chercheurs de Google DeepMind ont utilisé un outil d'IA, AlphaProof Code, pour vérifier de façon formelle que le protocole de chiffrement de la messagerie Signal fonctionne comme prévu. Aucune nouvelle faille n'a été trouvée, et l'outil a bien retrouvé des failles anciennes dans de vieilles versions. L'analyse ne couvre pas toute l'application.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Si cette méthode se généralise, l'IA pourrait aider à garantir la fiabilité de logiciels critiques, comme ceux des banques.",
+      "image": "https://media.wired.com/photos/6af23a5e398c3a1348a23455/191:100/w_1280,c_limit/Security_A%20New%20AI%20Tool%20From%20Google%20DeepMind%20Formally%20Verified%20the%20Signal%20Protocol_v1.jpg",
+      "links": [
+        {
+          "label": "Wired",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "Nvidia aurait admis en privé pouvoir localiser ses puces, malgré ses déclarations publiques",
+      "summary": "Selon MIT Technology Review, le député américain Bill Foster affirme que des représentants de Nvidia lui ont dit en privé que l'entreprise pouvait suivre l'emplacement de ses puces, alors que son association professionnelle juge ces règles « potentiellement irréalisables ». Rien n'a été mis par écrit et Nvidia n'a pas répondu aux sollicitations du média.",
+      "whyLabel": "Le contexte",
+      "why": "Le débat sur la loi « Chip Security Act » revient après la démission de Jensen Huang et les affaires de contrebande de puces vers la Chine.",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/foster-huang2a.jpg?resize=1200,600",
+      "links": [
+        {
+          "label": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "eBay ferme la porte aux agents IA tiers, dont Muse de Meta",
+      "summary": "Depuis le week-end du 7 au 8 novembre, l'agent Muse de Meta n'arrivait plus à consulter les annonces d'eBay, selon The Verge. eBay interdit déjà dans ses conditions d'utilisation les robots qui passent des commandes sans validation humaine ; ce que Muse peut encore faire reste difficile à cerner.",
+      "whyLabel": "À savoir",
+      "why": "Après United, un nouveau site bloque les assistants IA : leur utilité pour faire des achats à votre place reste incertaine.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
           "lang": "EN"
         }
       ]
@@ -162,6 +207,11 @@
     {
       "text": "Une pétition « Stand with Jensen » en faveur du retour de Jensen Huang dépasse 108 000 signatures, avec le soutien d'Elon Musk.",
       "url": "https://uk.finance.yahoo.com/news/petition-reinstate-jensen-huang-nvidia-172805507.html",
+      "lang": "EN"
+    },
+    {
+      "text": "La start-up britannique Fractile, spécialisée dans les puces pour l'IA, lève 720 millions de dollars.",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
       "lang": "EN"
     }
   ],
