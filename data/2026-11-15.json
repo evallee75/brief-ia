@@ -1,0 +1,409 @@
+{
+  "date": "2026-11-15",
+  "intro": "Dimanche calme sur les annonces de produits, mais la crise chez Nvidia domine encore : investisseurs, puces passées en contrebande vers la Chine, et une Fed qui voit dans l'IA le premier risque pour la finance.",
+  "stories": [
+    {
+      "category": "Business",
+      "title": "Nvidia : des investisseurs demandent à la direction de ne pas se presser pour remplacer Jensen Huang",
+      "summary": "Deux gros actionnaires, Altimeter Capital (Brad Gerstner) et Atreides Management (Gavin Baker), détenant ensemble environ 2,13 milliards de dollars d'actions Nvidia, ont écrit au conseil d'administration. Ils lui demandent d'étudier toutes les options, y compris un possible retour de Jensen Huang, via une recherche de successeur lente et réfléchie. Huang a démissionné le 12 novembre ; Colette Kress assure l'intérim.",
+      "whyLabel": "Le contexte",
+      "why": "Nvidia est le grand symbole de l'IA : le choix de son prochain patron compte pour toute l'industrie.",
+      "image": "",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Géopolitique",
+      "title": "Puces d'IA : des analystes estiment à 1,5 gigawatt les puces interdites arrivées en Chine",
+      "summary": "La société d'analyse SemiAnalysis affirme avoir suivi l'équivalent de 1,5 gigawatt de puces d'IA interdites à l'exportation qui auraient fini en Chine malgré les restrictions américaines. Selon ces analystes, ce trafic pourrait être l'une des causes du départ de Jensen Huang, ce que Nvidia n'a pas confirmé.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Le contrôle des puces d'IA est devenu un enjeu majeur entre Washington et Pékin, et il alimente la crise chez Nvidia.",
+      "image": "https://cdn.mos.cms.futurecdn.net/HVkaHhmB8KxE77YzmL6FR9-2560-80.jpg",
+      "links": [
+        {
+          "label": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "La Fed place l'IA en tête des risques pour le système financier",
+      "summary": "Selon une enquête publiée le 13 novembre par la Réserve fédérale américaine, 87 % des professionnels interrogés citent l'IA comme un risque marquant, contre 50 % au printemps. Ils craignent des actions trop chères, des cyberattaques et des financements complexes autour de l'IA. La Fed juge le système « assez stable » mais note un endettement des hedge funds au plus haut depuis 2013.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Même la banque centrale américaine s'inquiète d'une bulle liée à l'IA.",
+      "image": "",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Transport",
+      "title": "Tesla Cybercab : un abonnement obligatoire que Tesla peut modifier à tout moment",
+      "summary": "Selon le contrat que décrit Electrek, le Cybercab à 29 990 $ ne roule qu'avec un abonnement « Autonomie » de 299 $ par mois. Tesla peut changer le prix avec un mois de préavis, modifier la zone où la voiture peut circuler à tout moment, suspendre l'abonnement ou prendre la main à distance sur le véhicule.",
+      "whyLabel": "À savoir",
+      "why": "Acheter un robotaxi ne veut pas dire en être pleinement propriétaire : Tesla garde la main sur l'usage.",
+      "image": "https://electrek.co/wp-content/uploads/sites/3/2026/02/Tesla-Cybercab-hero.jpg?quality=82&strip=all&resize=1200,628",
+      "links": [
+        {
+          "label": "Electrek",
+          "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Un agent Claude efface le programme de cours et un an de notes d'un enseignant",
+      "summary": "Un enseignant de l'Université de Chicago raconte qu'un agent Claude, chargé de renuméroter des pages, a supprimé par erreur tout son programme de cours et une année de notes. L'agent s'est excusé et a reconnu avoir agi par « négligence ». L'article ne précise pas si les fichiers ont pu être récupérés.",
+      "whyLabel": "En bref",
+      "why": "Quand on confie ses fichiers à un agent IA, mieux vaut garder des sauvegardes.",
+      "image": "https://cdn.mos.cms.futurecdn.net/ee2RHsQxMkag3gfYBWeoA5-2000-80.jpg",
+      "links": [
+        {
+          "label": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "Cursor confirme une attaque : une fausse extension Claude Code a été diffusée",
+      "summary": "Des pirates ont volé une clé d'accès du fournisseur Fireworks AI, puis publié le 29 octobre de fausses versions de l'extension Claude Code sur la boutique d'extensions de Cursor. Jusqu'à 5 000 utilisateurs ont pu les télécharger en 11 heures. Cursor a révoqué les accès, changé les identifiants exposés et reconstruit sa boutique.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Même les outils des développeurs d'IA peuvent être piégés par la chaîne de fournisseurs.",
+      "image": "https://www.bleepstatic.com/content/hl-images/2025/07/13/cursor-header.jpg",
+      "links": [
+        {
+          "label": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Les laboratoires d'IA recrutent à tour de bras des spécialistes du contre-espionnage",
+      "summary": "Selon Fortune, Anthropic a embauché 33 personnes pour des fonctions de contre-espionnage cette année, contre 14 en 2025 et 9 en 2024. OpenAI en est à 22 (contre 9) et Nvidia à 16. La plupart des postes sont payés entre 200 000 et 500 000 dollars.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les secrets de l'IA sont devenus un enjeu de sécurité nationale, au point que les entreprises se protègent comme des agences de renseignement.",
+      "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-523007178-e1794682181208.jpg?resize=1200,600",
+      "links": [
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/11/14/ai-industrial-espionage-counterintelligence-jobs-china-spying-nvidia-jensen-huang-pentagon-economic-warfare",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Alibaba : le géant chinois de l'IA gratuite bousculé par la crise Nvidia",
+      "summary": "Selon les calculs de Yahoo Finance, les modèles gratuits Qwen d'Alibaba représentent environ la moitié des téléchargements traçables sur Hugging Face, plus que Google, OpenAI, Meta, Microsoft et Nvidia réunis. L'action Alibaba a pourtant perdu 7 % jeudi, sur fond de projet américain de limiter l'accès des IA chinoises aux puces avancées hors de Chine.",
+      "whyLabel": "Le contexte",
+      "why": "Les IA chinoises gratuites sont très utilisées dans le monde, mais dépendent de puces que Washington veut leur refuser.",
+      "image": "https://s.yimg.com/lo/mysterio/api/4c20cabf504a1276e1ff6a5208aab9c249fcf60d635726307a7f15a288e75561/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F45faf105-ae61-4ad3-8663-43ac38b855e8",
+      "links": [
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/jensen-huang-scandal-trail-leads-to-alibaba-the-king-of-free-chinese-ai-chart-of-the-day-110000329.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Santé",
+      "title": "À l'hôpital, l'IA de Dyania et Nvidia analyse les dossiers patients sans les sortir de l'établissement",
+      "summary": "La start-up Dyania s'associe à Nvidia pour sa plateforme Synapsis AI, qui lit le dossier d'un patient et répond à des questions médicales en citant ce qu'il contient. Déployée à la Cleveland Clinic depuis novembre 2025, elle aurait permis d'inclure 40 % de patients en plus, 47 % plus vite, dans des études. Premier projet commun : une étude sur le remplacement de valve aortique.",
+      "whyLabel": "En bref",
+      "why": "Un usage concret de l'IA en médecine : accélérer la recherche tout en gardant les données dans l'hôpital.",
+      "image": "",
+      "links": [
+        {
+          "label": "Healthcare Innovation",
+          "url": "https://www.hcinnovationgroup.com/analytics-ai/generative-ai/article/55418992/dyania-partners-with-nvidia-expands-clinical-ai-use-cases",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produit",
+      "title": "DeepSeek transforme son application en API : recherche web, lecture de fichiers et voix",
+      "summary": "DeepSeek ajoute à son API des outils de recherche web, de lecture de pages et de fichiers (PDF, documents Office, images), de reconnaissance de texte et de voix. Les développeurs peuvent les activer dans leurs requêtes, et DeepSeek publie aussi une démo de chat open source à modifier.",
+      "whyLabel": "À savoir",
+      "why": "L'IA chinoise à bas prix devient plus facile à intégrer dans des applications du quotidien.",
+      "image": "https://mzwrodgsdjfdyvnraeya.supabase.co/storage/v1/object/public/article-media/articles/3ba353792e7258ea3843e741ab2f71f11c4b477f52024feb2be136c4085e8131.webp",
+      "links": [
+        {
+          "label": "TokenPost",
+          "url": "https://www.tokenpost.com/news/technology/56779",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "Forbes rappelle que Jensen Huang ne détenait pas d'actions à droits de vote renforcés, contrairement à Mark Zuckerberg et à de nombreux fondateurs de la tech : c'est ce qui rend son départ possible.",
+      "url": "https://www.forbes.com/sites/aliciapark/2026/11/13/why-jensen-huangs-firing-couldnt-happen-to-mark-zuckerberg-or-many-other-tech-titans/",
+      "lang": "EN"
+    },
+    {
+      "text": "Une pétition « Stand with Jensen » en faveur du retour de Jensen Huang dépasse 108 000 signatures, avec le soutien d'Elon Musk.",
+      "url": "https://uk.finance.yahoo.com/news/petition-reinstate-jensen-huang-nvidia-172805507.html",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 25136.27,
+        "changePct": -0.91,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 27943.74,
+        "changePct": -1.22,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7561.67,
+        "changePct": -0.4,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 52347.55,
+        "changePct": 0.1,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 19.3,
+        "changePct": 3.21,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8368.91,
+        "changePct": 0.09,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 26749.95,
+        "changePct": -0.08,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6386.86,
+        "changePct": -0.19,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 61142.35,
+        "changePct": 0.53,
+        "session": "2026-11-13"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 23637.6,
+        "changePct": -1.55,
+        "session": "2026-11-13"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 162.85,
+        "changePct": -2.01,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 356.27,
+        "changePct": 0.39,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 523.88,
+        "changePct": 0.17,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 295.77,
+        "changePct": -0.98,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 266.66,
+        "changePct": -0.29,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 641.69,
+        "changePct": 2.9,
+        "session": "2026-11-13"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 390.22,
+        "changePct": -1.82,
+        "session": "2026-11-13"
+      }
+    ],
+    "intro": "Les Bourses sont fermées ce dimanche ; vendredi, Wall Street a fini en baisse : le Nasdaq a perdu 0,91 % et le S&P 500 0,40 %, entraînés par un décrochage des valeurs de puces après le départ du patron de Nvidia.",
+    "stories": [
+      {
+        "category": "Tech US",
+        "title": "Les puces dévissent : l'indice des semi-conducteurs perd environ 5 % vendredi",
+        "summary": "L'indice Philadelphia des semi-conducteurs a reculé d'environ 5 % vendredi, avec AMD en baisse de près de 11 %, Broadcom également en recul et Nvidia en baisse après le départ de Jensen Huang. Le Nasdaq a perdu 0,91 % et le S&P 500 0,40 %.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les fabricants de puces portent la hausse de l'IA en Bourse : quand ils reculent, tout le Nasdaq en pâtit.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/arm-shares-slide-nvidia-succession-173756134.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Arm chute de 6,5 % après des informations sur la succession chez Nvidia",
+        "summary": "Selon le Financial Times, le conseil de Nvidia a approché Rene Haas, patron d'Arm, comme possible successeur de Jensen Huang. Haas n'a pas reçu d'offre et pourrait refuser, selon des sources citées. Arm, dont l'architecture sert de base à de nombreux processeurs, a perdu 6,5 % vendredi.",
+        "whyLabel": "Le contexte",
+        "why": "Un changement de patron chez Nvidia peut secouer d'autres entreprises très liées à lui.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/arm-shares-slide-nvidia-succession-173756134.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "La Fed juge l'IA comme premier risque pour la finance, les hedge funds très endettés",
+        "summary": "Dans son enquête du 13 novembre, 87 % des sondés citent l'IA comme risque marquant (50 % au printemps), devant un recul des actifs risqués (52 %) et la hausse des taux longs (48 %). La Fed note aussi un endettement des hedge funds au plus haut depuis 2013.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les inquiétudes sur des valorisations trop élevées de l'IA pèsent sur le moral des marchés.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "L'Europe termine presque stable vendredi",
+        "summary": "Le CAC 40 a gagné 0,09 % à 8 368,91 points, le DAX a cédé 0,08 % à 26 749,95 et l'Euro Stoxx 50 a perdu 0,19 % à 6 386,86. Les places européennes ont peu bougé malgré la chute des valeurs de puces à Wall Street.",
+        "whyLabel": "En bref",
+        "why": "Contrairement au Nasdaq, les indices européens ont peu varié, moins exposés à l'IA.",
+        "image": "https://pinhole.finance.yahoo.com/chart/%5EFCHI/__screenshot",
+        "links": [
+          {
+            "label": "Yahoo Finance (CAC 40)",
+            "url": "https://finance.yahoo.com/quote/%5EFCHI/",
+            "lang": "EN"
+          },
+          {
+            "label": "Yahoo Finance (DAX)",
+            "url": "https://finance.yahoo.com/quote/%5EGDAXI/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Hong Kong recule de 1,55 %, Tokyo gagne 0,53 %",
+        "summary": "Le Hang Seng a perdu 1,55 % à 23 637,60 points vendredi, plombé par les valeurs technologiques : l'indice Hang Seng Tech a cédé 3,02 %. Le Nikkei 225 de Tokyo a, lui, gagné 0,53 % à 61 142,35 points.",
+        "whyLabel": "En bref",
+        "why": "Les craintes sur l'accès des Chinois aux puces américaines ont pesé sur la tech de Hong Kong.",
+        "image": "https://mdb.ad-hoc-news.de/bild/bild-2405048_1200_675.webp",
+        "links": [
+          {
+            "label": "Ad-hoc-news",
+            "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/hang-seng-falls-1-55-prozent-to-23-637-60-as-tech-stocks-slide/70506330",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
+      {
+        "category": "Asie",
+        "title": "Alibaba sous pression avant ses résultats du 19 novembre",
+        "summary": "L'action Alibaba a chuté de 7 % jeudi, à son plus bas depuis janvier 2025, après des informations selon lesquelles Washington finalise une règle interdisant aux entreprises chinoises d'IA d'utiliser des puces avancées dans des centres de données hors de Chine. Le groupe publie ses résultats le 19 novembre.",
+        "whyLabel": "Le contexte",
+        "why": "Alibaba est le premier client de Megaspeed, société visée par une enquête américaine ; Alibaba n'est pas visé directement.",
+        "image": "https://s.yimg.com/lo/mysterio/api/4c20cabf504a1276e1ff6a5208aab9c249fcf60d635726307a7f15a288e75561/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F45faf105-ae61-4ad3-8663-43ac38b855e8",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/article/jensen-huang-scandal-trail-leads-to-alibaba-the-king-of-free-chinese-ai-chart-of-the-day-110000329.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Alibaba, 7 % de baisse jeudi, publie ses résultats le 19 novembre.",
+        "url": "https://finance.yahoo.com/markets/article/jensen-huang-scandal-trail-leads-to-alibaba-the-king-of-free-chinese-ai-chart-of-the-day-110000329.html",
+        "lang": "EN"
+      },
+      {
+        "text": "Le levier des hedge funds américains est à son plus haut depuis 2013, selon la Fed.",
+        "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+        "lang": "EN"
+      }
+    ]
+  }
+}
