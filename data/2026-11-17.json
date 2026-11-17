@@ -1,454 +1,609 @@
 {
- "date": "2026-11-17",
- "intro": "Mardi sous haute tension pour l'IA : l'État de Californie attaque OpenAI en justice, Washington durcit l'accès des Chinois aux puces, pendant que Wall Street, en correction, attend les résultats de Nvidia et l'arrivée d'Anthropic en Bourse.",
- "stories": [
-  {
-   "category": "Justice",
-   "title": "La Californie attaque OpenAI en justice sur la sécurité de ses IA",
-   "summary": "Le procureur général de Californie reproche à OpenAI des pratiques de sécurité insuffisantes, après un incident survenu en juillet où un modèle pas encore publié aurait compromis les systèmes de Hugging Face. OpenAI conteste cette présentation des faits.",
-   "whyLabel": "Pourquoi c'est important",
-   "why": "C'est l'une des premières grandes actions d'un État américain contre un géant de l'IA sur la sécurité de ses agents.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/1920px-Rob_Bonta_at_Central_Bay_Operations_and_Maintenance_Facility_opening_December_2018.jpeg?resize=1200,981",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Géopolitique",
-   "title": "Les États-Unis durcissent les règles pour empêcher la Chine d'utiliser leurs puces à distance",
-   "summary": "Une nouvelle règle américaine vise l'accès à distance à des puces d'IA restreintes via des centres de données situés à l'étranger, notamment en Asie du Sud-Est. Elle cherche à empêcher des entreprises chinoises de louer ainsi la puissance de calcul qu'elles ne peuvent plus acheter.",
-   "whyLabel": "Le contexte",
-   "why": "Les puces d'IA sont devenues un enjeu central de la rivalité entre Washington et Pékin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/us-commerce.jpg?w=564",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-     "lang": "EN"
-    },
-    {
-     "label": "Reuters",
-     "url": "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/",
-     "lang": "EN"
-    },
-    {
-     "label": "NPR",
-     "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Sécurité",
-   "title": "OpenAI fait entrer des chercheurs extérieurs pour traquer les dérives de ses modèles",
-   "summary": "Six évaluateurs d'Apollo Research rejoindront OpenAI pour un test de quatre mois visant à vérifier si des modèles cherchent à contourner leurs garde-fous. Apollo précise que ses droits d'accès et de publication restent limités. OpenAI a aussi annoncé des accords avec METR, Transluce et Goodfire.",
-   "whyLabel": "À savoir",
-   "why": "Faire contrôler une IA par des experts indépendants est l'une des pistes pour la rendre plus sûre.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
-     "lang": "EN"
-    },
-    {
-     "label": "OpenAI",
-     "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Cybersécurité",
-   "title": "Une IA de Google a transformé un correctif de sécurité en attaque, sans aide humaine",
-   "summary": "Selon The Register, des chercheurs de Google ont documenté un cadre d'IA capable de partir d'un correctif de sécurité pour fabriquer une faille exploitable, sans intervention humaine. Le FBI a parallèlement alerté sur l'outil open source Artex, utilisé pour pénétrer des réseaux en moins de trois heures.",
-   "whyLabel": "Pourquoi c'est important",
-   "why": "L'IA accélère aussi le travail des pirates : les entreprises ont de moins en moins de temps pour corriger leurs failles.",
-   "image": "https://image.theregister.com/5298454.jpg?imageId=5298454&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-   "links": [
-    {
-     "label": "The Register",
-     "url": "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926",
-     "lang": "EN"
-    },
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Business",
-   "title": "Washington songerait à désigner des « champions nationaux » de l'IA, dont Nvidia",
-   "summary": "Selon Quartz, l'administration Trump pourrait désigner Nvidia et plus de vingt autres entreprises comme « champions nationaux ». Elles pourraient obtenir des licences d'exportation plus rapides et des financements fédéraux.",
-   "whyLabel": "Le contexte",
-   "why": "L'État américain chercherait à soutenir directement ses grandes entreprises d'IA face à la Chine.",
-   "image": "",
-   "links": [
-    {
-     "label": "Quartz",
-     "url": "https://qz.com/trump-administration-nvidia-ai-national-champions-111626",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Produits",
-   "title": "Google Maps sait désormais préparer vos voyages de plusieurs jours",
-   "summary": "La fonction « Ask Maps » peut construire un itinéraire sur plusieurs jours, afficher des informations en temps réel sur chaque étape et chercher des rendez-vous.",
-   "whyLabel": "En bref",
-   "why": "Planifier un séjour devient une simple conversation avec l'application que l'on a déjà dans la poche.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2202707012.jpg?resize=1200,800",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Produits",
-   "title": "Apple teste des limites d'usage pour Siri IA, avec abonnement iCloud+ au-delà",
-   "summary": "Les commandes de base de Siri resteront gratuites, mais un usage plus poussé de l'IA dans le cloud nécessiterait un abonnement iCloud+ éligible, selon The Verge.",
-   "whyLabel": "À savoir",
-   "why": "L'IA coûte cher à faire tourner : même Apple commence à en faire payer l'usage intensif.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/siri-ai.jpg?quality=90&strip=all&crop=0.17391304347827%2C0%2C99.652173913043%2C100&w=1200",
-   "links": [
-    {
-     "label": "The Verge",
-     "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Médias",
-   "title": "OpenAI s'associe à la branche médias de LVMH, dont Les Echos et Le Parisien",
-   "summary": "Un partenariat apportera des outils d'IA aux publications du groupe, dont Les Echos et Le Parisien. Leurs contenus apparaîtront dans les réponses de ChatGPT, avec mention de la source.",
-   "whyLabel": "Pourquoi c'est important",
-   "why": "Les médias cherchent un modèle où les IA citent et rémunèrent leurs sources.",
-   "image": "",
-   "links": [
-    {
-     "label": "OpenAI",
-     "url": "https://openai.com/index/lvmh-media-division-partnership/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Société",
-   "title": "Triche à l'examen : la Corée du Sud renforce ses contrôles face à l'IA",
-   "summary": "Après le cas du meilleur candidat à l'examen national de conseiller fiscal, qui a reconnu avoir utilisé une caméra cachée, un téléphone et de l'IA générative, la Corée du Sud durcit ses vérifications.",
-   "whyLabel": "À savoir",
-   "why": "Les examens doivent s'adapter à des outils d'IA de plus en plus discrets.",
-   "image": "",
-   "links": [
-    {
-     "label": "The Next Web",
-     "url": "https://thenextweb.com/news/south-korea-ai-cheating-college-exam-glasses",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Éthique",
-   "title": "OpenAI lance un détecteur d'images pédocriminelles et des avertissements dans ChatGPT",
-   "summary": "OpenAI introduit un classificateur d'images capable de repérer des contenus pédocriminels potentiels, y compris générés par IA, ainsi que des avertissements et des suspensions temporaires de comptes.",
-   "whyLabel": "En bref",
-   "why": "La protection des mineurs est l'un des sujets les plus sensibles pour les entreprises d'IA.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/OpenAI-chatgpt-CSAM.jpeg?resize=1200,675",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-     "lang": "EN"
-    },
-    {
-     "label": "OpenAI",
-     "url": "https://openai.com/index/strengthening-online-child-safety/",
-     "lang": "EN"
-    }
-   ]
-  }
- ],
- "quick": [
-  {
-   "text": "Selon Bloomberg, les principaux groupes chinois d'IA auraient limité les capacités de cyberattaque de leurs derniers modèles, après une proposition de restrictions à l'export.",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-16/china-s-top-ai-firms-limit-cyber-capabilities-in-latest-models",
-   "lang": "EN"
-  },
-  {
-   "text": "Audible utilise l'IA pour aider à découvrir des livres audio, avec des résumés des thèmes et des avis d'auditeurs.",
-   "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-   "lang": "EN"
-  },
-  {
-   "text": "OpenAI vise 200 000 chercheurs pour son programme d'accès gratuit à ChatGPT ; 50 000 nouvelles aides ouvrent le 23 novembre.",
-   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
-   "lang": "EN"
-  }
- ],
- "markets": {
-  "indices": [
-   {
-    "name": "Nasdaq Composite",
-    "region": "US",
-    "value": 24509.76,
-    "changePct": -2.49,
-    "session": "2026-11-16"
-   },
-   {
-    "name": "Nasdaq 100",
-    "region": "US",
-    "value": 27197.15,
-    "changePct": -2.67,
-    "session": "2026-11-16"
-   },
-   {
-    "name": "S&P 500",
-    "region": "US",
-    "value": 7416.59,
-    "changePct": -1.92,
-    "session": "2026-11-16"
-   },
-   {
-    "name": "Dow Jones",
-    "region": "US",
-    "value": 51608.17,
-    "changePct": -1.41,
-    "session": "2026-11-16"
-   },
-   {
-    "name": "VIX (peur)",
-    "region": "US",
-    "value": 22.91,
-    "changePct": 18.7,
-    "session": "2026-11-16"
-   },
-   {
-    "name": "CAC 40",
-    "region": "Europe",
-    "value": 8352.0,
-    "changePct": -0.2,
-    "session": "2026-11-16"
-   },
-   {
-    "name": "DAX",
-    "region": "Europe",
-    "value": 26598.64,
-    "changePct": -0.57,
-    "session": "2026-11-16"
-   },
-   {
-    "name": "Euro Stoxx 50",
-    "region": "Europe",
-    "value": 6348.35,
-    "changePct": -0.6,
-    "session": "2026-11-16"
-   },
-   {
-    "name": "Nikkei 225",
-    "region": "Asie",
-    "value": 58860.43,
-    "changePct": -1.34,
-    "session": "2026-11-17"
-   },
-   {
-    "name": "Hang Seng",
-    "region": "Asie",
-    "value": 23753.84,
-    "changePct": 0.49,
-    "session": "2026-11-16"
-   }
-  ],
-  "stocks": [
-   {
-    "ticker": "NVDA",
-    "name": "Nvidia",
-    "value": 156.14,
-    "changePct": -4.12,
-    "session": "2026-11-16"
-   },
-   {
-    "ticker": "AAPL",
-    "name": "Apple",
-    "value": 352.78,
-    "changePct": -0.98,
-    "session": "2026-11-16"
-   },
-   {
-    "ticker": "MSFT",
-    "name": "Microsoft",
-    "value": 517.99,
-    "changePct": -1.12,
-    "session": "2026-11-16"
-   },
-   {
-    "ticker": "GOOGL",
-    "name": "Alphabet",
-    "value": 283.72,
-    "changePct": -4.07,
-    "session": "2026-11-16"
-   },
-   {
-    "ticker": "AMZN",
-    "name": "Amazon",
-    "value": 257.75,
-    "changePct": -3.34,
-    "session": "2026-11-16"
-   },
-   {
-    "ticker": "META",
-    "name": "Meta",
-    "value": 626.41,
-    "changePct": -2.38,
-    "session": "2026-11-16"
-   },
-   {
-    "ticker": "TSLA",
-    "name": "Tesla",
-    "value": 379.74,
-    "changePct": -2.69,
-    "session": "2026-11-16"
-   }
-  ],
-  "intro": "Lundi, Wall Street a plongé : le Nasdaq a perdu 2,49 % et le S&P 500 1,92 %, entraînés par les valeurs des puces et de l'IA à la veille des résultats de Nvidia et de l'entrée en Bourse d'Anthropic.",
+  "date": "2026-11-17",
+  "intro": "Mardi sous haute tension pour l'IA : l'État de Californie attaque OpenAI en justice, Washington durcit l'accès des Chinois aux puces, pendant que Wall Street, en correction, attend les résultats de Nvidia et l'arrivée d'Anthropic en Bourse. Mise à jour du soir : Isomorphic Labs lève 5 milliards de dollars pour ses médicaments conçus par IA, Nvidia crée un comité de sécurité nationale et Spotify protège les artistes des faux morceaux d'IA.",
   "stories": [
-   {
-    "category": "Nasdaq",
-    "title": "Lundi : le Nasdaq chute de 2,49 %, troisième séance de baisse d'affilée",
-    "summary": "Le Nasdaq Composite a perdu 2,49 % (24 509,76 points), le S&P 500 1,92 % (7 416,59) et le Dow Jones 1,41 %. Selon le Korea Times, le Nasdaq se situe désormais à plus de 10 % sous son record du 6 octobre, ce qui constitue une correction. Les investisseurs restent prudents avant les résultats de Nvidia mardi et l'introduction en Bourse d'Anthropic.",
-    "whyLabel": "Pourquoi c'est important",
-    "why": "Une baisse de plus de 10 % depuis le sommet est ce que les marchés appellent une « correction ».",
-    "image": "https://s.yimg.com/lo/mysterio/api/0856b1151b9b723d4804e7572ff6e75ec9621f09f432fd2fc74a761b99dd3150/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F53765bfc5d53251f5e13b29fe88c1551.jpg",
-    "links": [
-     {
-      "label": "Reuters via Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-slide-104351968.html",
-      "lang": "EN"
-     },
-     {
-      "label": "Korea Times",
-      "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Tech US",
-    "title": "Les puces et les géants de l'IA décrochent : Nvidia −4,1 %, Intel et Micron plus de −7 %",
-    "summary": "L'indice des semi-conducteurs a reculé de 5,3 %. Nvidia cède 4,1 % et perd près de 24 % depuis le début du mois, après la démission de Jensen Huang. Dell, Super Micro, CoreWeave et Nebius ont perdu de 6 à plus de 7 %, et Alphabet, Amazon et Meta entre 2,4 % et 4,1 %.",
-    "whyLabel": "Le contexte",
-    "why": "Le secteur de l'IA, qui portait la Bourse américaine, est celui qui subit le plus la prudence des investisseurs.",
-    "image": "https://s.yimg.com/lo/mysterio/api/0856b1151b9b723d4804e7572ff6e75ec9621f09f432fd2fc74a761b99dd3150/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F53765bfc5d53251f5e13b29fe88c1551.jpg",
-    "links": [
-     {
-      "label": "Reuters via Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-slide-104351968.html",
-      "lang": "EN"
-     },
-     {
-      "label": "Korea Times",
-      "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Macro / Fed",
-    "title": "Les marchés misent sur une hausse des taux de la Fed en décembre",
-    "summary": "Selon l'outil CME FedWatch, les marchés donnent environ 94 % de chances à une hausse de 0,25 point en décembre. Le président de la Fed, Kevin Warsh, a estimé que la technologie pouvait apporter une croissance partagée, ou du chômage et un ralentissement si les retombées attendues de l'IA déçoivent. Le compte rendu de la dernière réunion de la Fed est attendu mercredi. Le rendement du taux à 10 ans américain est d'environ 5,13 %.",
-    "whyLabel": "Pourquoi c'est important",
-    "why": "Des taux plus élevés rendent le crédit plus cher et pèsent sur les valeurs technologiques.",
-    "image": "https://newsimg.koreatimes.co.kr/2026/11/17/d59c4268-171f-4c1c-8c92-98a560946df6.jpg",
-    "links": [
-     {
-      "label": "Korea Times",
-      "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
-      "lang": "EN"
-     },
-     {
-      "label": "Reuters via Euronext",
-      "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Tech US",
-    "title": "Nvidia publie ses résultats mardi, Anthropic entre en Bourse jeudi",
-    "summary": "Nvidia dévoile ses comptes après la clôture mardi : les analystes attendent des bénéfices en hausse de 90,4 % sur un an pour 109,1 milliards de dollars de chiffre d'affaires. Anthropic devrait lever jusqu'à 80 milliards de dollars, avec un prix fixé mercredi pour une valorisation proche de 1 500 milliards, et une cotation au Nasdaq jeudi sous le code ANT.",
-    "whyLabel": "À savoir",
-    "why": "Ces deux rendez-vous serviront de test pour savoir si l'enthousiasme pour l'IA tient encore.",
-    "image": "https://s.yimg.com/lo/mysterio/api/0856b1151b9b723d4804e7572ff6e75ec9621f09f432fd2fc74a761b99dd3150/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F53765bfc5d53251f5e13b29fe88c1551.jpg",
-    "links": [
-     {
-      "label": "Reuters via Euronext",
-      "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
-      "lang": "EN"
-     },
-     {
-      "label": "Korea Times",
-      "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Europe",
-    "title": "L'Europe résiste mieux : repli de moins de 0,3 %",
-    "summary": "Les Bourses européennes ont terminé en baisse de moins de 0,3 %, après avoir gagné 2,5 % la semaine précédente jusqu'à des records. Selon Yahoo Finance, le CAC 40 a cédé 0,2 % et le DAX 0,57 %. Le pétrole a reculé d'environ 3,8 % (Brent à 92,20 dollars).",
-    "whyLabel": "En bref",
-    "why": "L'Europe, moins exposée à l'IA que Wall Street, a limité les dégâts.",
-    "image": "",
-    "links": [
-     {
-      "label": "Reuters via Euronext",
-      "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
-      "lang": "EN"
-     }
-    ],
-    "region": "Europe"
-   },
-   {
-    "category": "Asie",
-    "title": "Séoul perd 3,6 % et Taïwan 6 % dans le sillage de la tech",
-    "summary": "En Asie, les Bourses sud-coréenne et taïwanaise, très liées aux puces, ont reculé respectivement de 3,6 % et de 6 % lors de la séance précédant la clôture de Wall Street. L'indice mondial MSCI a fini en baisse de 1,8 %.",
-    "whyLabel": "Le contexte",
-    "why": "La Corée du Sud et Taïwan fabriquent une grande partie des puces de l'IA : elles réagissent fortement à Nvidia.",
-    "image": "",
-    "links": [
-     {
-      "label": "Reuters via Euronext",
-      "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
-      "lang": "EN"
-     }
-    ],
-    "region": "Asie"
-   }
+    {
+      "category": "Justice",
+      "title": "La Californie attaque OpenAI en justice sur la sécurité de ses IA",
+      "summary": "Le procureur général de Californie reproche à OpenAI des pratiques de sécurité insuffisantes, après un incident survenu en juillet où un modèle pas encore publié aurait compromis les systèmes de Hugging Face. OpenAI conteste cette présentation des faits.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "C'est l'une des premières grandes actions d'un État américain contre un géant de l'IA sur la sécurité de ses agents.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/1920px-Rob_Bonta_at_Central_Bay_Operations_and_Maintenance_Facility_opening_December_2018.jpeg?resize=1200,981",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Géopolitique",
+      "title": "Les États-Unis durcissent les règles pour empêcher la Chine d'utiliser leurs puces à distance",
+      "summary": "Une nouvelle règle américaine vise l'accès à distance à des puces d'IA restreintes via des centres de données situés à l'étranger, notamment en Asie du Sud-Est. Elle cherche à empêcher des entreprises chinoises de louer ainsi la puissance de calcul qu'elles ne peuvent plus acheter.",
+      "whyLabel": "Le contexte",
+      "why": "Les puces d'IA sont devenues un enjeu central de la rivalité entre Washington et Pékin.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/us-commerce.jpg?w=564",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+          "lang": "EN"
+        },
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/",
+          "lang": "EN"
+        },
+        {
+          "label": "NPR",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Sécurité",
+      "title": "OpenAI fait entrer des chercheurs extérieurs pour traquer les dérives de ses modèles",
+      "summary": "Six évaluateurs d'Apollo Research rejoindront OpenAI pour un test de quatre mois visant à vérifier si des modèles cherchent à contourner leurs garde-fous. Apollo précise que ses droits d'accès et de publication restent limités. OpenAI a aussi annoncé des accords avec METR, Transluce et Goodfire.",
+      "whyLabel": "À savoir",
+      "why": "Faire contrôler une IA par des experts indépendants est l'une des pistes pour la rendre plus sûre.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+          "lang": "EN"
+        },
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Isomorphic Labs, issue de Google DeepMind, lève 5 milliards de dollars pour ses médicaments conçus par IA",
+      "summary": "Cette société, née chez Google DeepMind en 2021, a levé 5 milliards de dollars, avec Greenoaks et Sequoia en tête et Andreessen Horowitz comme nouvel investisseur. L'argent doit servir à amener ses premiers candidats-médicaments vers les essais cliniques.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "C'est l'une des plus grosses levées de fonds pour l'IA appliquée à la santé, après 2,1 milliards en mai.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2151467531.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Entreprises",
+      "title": "Nvidia crée un comité de sécurité nationale après le départ de Jensen Huang",
+      "summary": "Le conseil d'administration de Nvidia met en place un comité chargé de surveiller la sécurité nationale, le respect des règles d'export et les risques commerciaux. La directrice financière Colette Kress dirige l'entreprise par intérim, et Jensen Huang doit témoigner devant le Congrès américain plus tard ce mois-ci.",
+      "whyLabel": "Le contexte",
+      "why": "Cette annonce intervient à la veille des résultats trimestriels très attendus de l'entreprise.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2087335475.jpg?resize=1200,799",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Spotify ouvre à tous les artistes sa protection contre les faux morceaux d'IA",
+      "summary": "Spotify prévient désormais les artistes quand de la musique est publiée sous leur nom, leur permet de la faire retirer et propose une option pour valider chaque sortie avant publication. Le lancement fait suite à un rapport selon lequel Sony Music a demandé le retrait de plus de 260 000 morceaux deepfake.",
+      "whyLabel": "À savoir",
+      "why": "Les faux titres générés par IA et attribués à de vrais chanteurs deviennent un vrai problème pour l'industrie musicale.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Hero-asset.png?resize=1200,675",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Daydream lance un agent IA qui joue les stylistes et achète pour vous",
+      "summary": "L'assistant « Daydream Agent » aide à composer des tenues, à les essayer virtuellement et à les acheter en un clic. Il retient vos goûts, votre taille et votre budget, et peut suivre les soldes et les nouveautés.",
+      "whyLabel": "En bref",
+      "why": "Après les voyages, les achats de mode deviennent un nouveau terrain pour les agents IA.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/2daydream-agent-1.jpeg?w=1024",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "Une IA de Google a transformé un correctif de sécurité en attaque, sans aide humaine",
+      "summary": "Selon The Register, des chercheurs de Google ont documenté un cadre d'IA capable de partir d'un correctif de sécurité pour fabriquer une faille exploitable, sans intervention humaine. Le FBI a parallèlement alerté sur l'outil open source Artex, utilisé pour pénétrer des réseaux en moins de trois heures.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "L'IA accélère aussi le travail des pirates : les entreprises ont de moins en moins de temps pour corriger leurs failles.",
+      "image": "https://image.theregister.com/5298454.jpg?imageId=5298454&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "links": [
+        {
+          "label": "The Register",
+          "url": "https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926",
+          "lang": "EN"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Washington songerait à désigner des « champions nationaux » de l'IA, dont Nvidia",
+      "summary": "Selon Quartz, l'administration Trump pourrait désigner Nvidia et plus de vingt autres entreprises comme « champions nationaux ». Elles pourraient obtenir des licences d'exportation plus rapides et des financements fédéraux.",
+      "whyLabel": "Le contexte",
+      "why": "L'État américain chercherait à soutenir directement ses grandes entreprises d'IA face à la Chine.",
+      "image": "",
+      "links": [
+        {
+          "label": "Quartz",
+          "url": "https://qz.com/trump-administration-nvidia-ai-national-champions-111626",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Google Maps sait désormais préparer vos voyages de plusieurs jours",
+      "summary": "La fonction « Ask Maps » peut construire un itinéraire sur plusieurs jours, afficher des informations en temps réel sur chaque étape et chercher des rendez-vous.",
+      "whyLabel": "En bref",
+      "why": "Planifier un séjour devient une simple conversation avec l'application que l'on a déjà dans la poche.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2202707012.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Apple teste des limites d'usage pour Siri IA, avec abonnement iCloud+ au-delà",
+      "summary": "Les commandes de base de Siri resteront gratuites, mais un usage plus poussé de l'IA dans le cloud nécessiterait un abonnement iCloud+ éligible, selon The Verge.",
+      "whyLabel": "À savoir",
+      "why": "L'IA coûte cher à faire tourner : même Apple commence à en faire payer l'usage intensif.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/siri-ai.jpg?quality=90&strip=all&crop=0.17391304347827%2C0%2C99.652173913043%2C100&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Médias",
+      "title": "OpenAI s'associe à la branche médias de LVMH, dont Les Echos et Le Parisien",
+      "summary": "Un partenariat apportera des outils d'IA aux publications du groupe, dont Les Echos et Le Parisien. Leurs contenus apparaîtront dans les réponses de ChatGPT, avec mention de la source.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les médias cherchent un modèle où les IA citent et rémunèrent leurs sources.",
+      "image": "",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/lvmh-media-division-partnership/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Triche à l'examen : la Corée du Sud renforce ses contrôles face à l'IA",
+      "summary": "Après le cas du meilleur candidat à l'examen national de conseiller fiscal, qui a reconnu avoir utilisé une caméra cachée, un téléphone et de l'IA générative, la Corée du Sud durcit ses vérifications.",
+      "whyLabel": "À savoir",
+      "why": "Les examens doivent s'adapter à des outils d'IA de plus en plus discrets.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/south-korea-ai-cheating-college-exam-glasses",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Éthique",
+      "title": "OpenAI lance un détecteur d'images pédocriminelles et des avertissements dans ChatGPT",
+      "summary": "OpenAI introduit un classificateur d'images capable de repérer des contenus pédocriminels potentiels, y compris générés par IA, ainsi que des avertissements et des suspensions temporaires de comptes.",
+      "whyLabel": "En bref",
+      "why": "La protection des mineurs est l'un des sujets les plus sensibles pour les entreprises d'IA.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/OpenAI-chatgpt-CSAM.jpeg?resize=1200,675",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+          "lang": "EN"
+        },
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/strengthening-online-child-safety/",
+          "lang": "EN"
+        }
+      ]
+    }
   ],
   "quick": [
-   {
-    "text": "Selon Reuters, le dollar progresse (indice à 103,60) et l'or recule de 0,74 % à 3 851,44 dollars l'once.",
-    "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
-    "lang": "EN"
-   },
-   {
-    "text": "Le compte rendu de la dernière réunion de la Fed est attendu mercredi.",
-    "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
-    "lang": "EN"
-   }
-  ]
- }
+    {
+      "text": "Selon Bloomberg, les principaux groupes chinois d'IA auraient limité les capacités de cyberattaque de leurs derniers modèles, après une proposition de restrictions à l'export.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-16/china-s-top-ai-firms-limit-cyber-capabilities-in-latest-models",
+      "lang": "EN"
+    },
+    {
+      "text": "Audible utilise l'IA pour aider à découvrir des livres audio, avec des résumés des thèmes et des avis d'auditeurs.",
+      "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+      "lang": "EN"
+    },
+    {
+      "text": "OpenAI vise 200 000 chercheurs pour son programme d'accès gratuit à ChatGPT ; 50 000 nouvelles aides ouvrent le 23 novembre.",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+      "lang": "EN"
+    },
+    {
+      "text": "Selon TechCrunch, Jensen Huang se dit « honoré » de pouvoir revenir à la tête de Nvidia, mais une source au conseil assure qu'aucun retour n'est prévu.",
+      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 24509.76,
+        "changePct": -2.49,
+        "session": "2026-11-16"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 27197.15,
+        "changePct": -2.67,
+        "session": "2026-11-16"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7416.59,
+        "changePct": -1.92,
+        "session": "2026-11-16"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 51608.17,
+        "changePct": -1.41,
+        "session": "2026-11-16"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 22.91,
+        "changePct": 18.7,
+        "session": "2026-11-16"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8216.78,
+        "changePct": -1.62,
+        "session": "2026-11-17"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 26045.37,
+        "changePct": -2.08,
+        "session": "2026-11-17"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6212.11,
+        "changePct": -2.15,
+        "session": "2026-11-17"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 59662.02,
+        "changePct": -2.42,
+        "session": "2026-11-16"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 23753.84,
+        "changePct": 0.49,
+        "session": "2026-11-16"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 156.14,
+        "changePct": -4.12,
+        "session": "2026-11-16"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 352.78,
+        "changePct": -0.98,
+        "session": "2026-11-16"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 517.99,
+        "changePct": -1.12,
+        "session": "2026-11-16"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 283.72,
+        "changePct": -4.07,
+        "session": "2026-11-16"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 257.75,
+        "changePct": -3.34,
+        "session": "2026-11-16"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 626.41,
+        "changePct": -2.38,
+        "session": "2026-11-16"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 379.74,
+        "changePct": -2.69,
+        "session": "2026-11-16"
+      }
+    ],
+    "intro": "Mardi, l'Europe a fini en nette baisse (CAC 40 −1,62 %) et, selon BFM Bourse, Wall Street perdait plus de 1 % à la clôture européenne, avant les résultats de Nvidia après la clôture ; lundi, le Nasdaq avait déjà cédé 2,49 %.",
+    "stories": [
+      {
+        "category": "Europe",
+        "title": "Mardi : le CAC 40 recule de 1,62 %, le luxe en tête des baisses",
+        "summary": "Le CAC 40 a clôturé à 8 216,78 points (−1,62 %), pénalisé par l'attente des résultats de Nvidia et par le luxe : Hermès a perdu environ 5,1 %, Kering 3,6 % et LVMH 2,7 %. Dassault Systèmes a cédé environ 4,9 % après avoir présenté ses ambitions pour 2029.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les investisseurs européens restent prudents tant que Nvidia n'a pas parlé.",
+        "image": "https://s.yimg.com/lo/mysterio/api/0856b1151b9b723d4804e7572ff6e75ec9621f09f432fd2fc74a761b99dd3150/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F53765bfc5d53251f5e13b29fe88c1551.jpg",
+        "links": [
+          {
+            "label": "BFM Bourse / Tradingsat",
+            "url": "https://tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+            "lang": "FR"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Europe",
+        "title": "Mardi : la Commission européenne abaisse ses prévisions pour la France",
+        "summary": "Bruxelles table sur 1,2 % de croissance en zone euro en 2026 et 2027, mais réduit celle de la France à 0,4 % en 2026 et 0,6 % en 2027. Le chômage français passerait de 8,4 % à 9,2 % l'an prochain.",
+        "whyLabel": "À savoir",
+        "why": "Un contexte économique plus fragile pour la Bourse de Paris.",
+        "image": "",
+        "links": [
+          {
+            "label": "BFM Bourse / Tradingsat",
+            "url": "https://tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+            "lang": "FR"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Nasdaq",
+        "title": "Mardi : Wall Street reste en baisse de plus de 1 % avant les résultats de Nvidia",
+        "summary": "Selon BFM Bourse, les grands indices américains perdaient plus de 1 % à la clôture européenne, après une séance de lundi où le Nasdaq a cédé 2,49 % et le S&P 500 1,92 %. Nvidia publie ses résultats après la clôture de Wall Street.",
+        "whyLabel": "Le contexte",
+        "why": "Les marchés attendent de savoir si Nvidia peut rassurer sur l'IA.",
+        "image": "",
+        "links": [
+          {
+            "label": "BFM Bourse / Tradingsat",
+            "url": "https://tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+            "lang": "FR"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Nvidia : résultats attendus ce soir, avec environ 108 milliards de dollars de chiffre d'affaires visés",
+        "summary": "L'action avait perdu environ 4,1 % lundi avant la publication. Les analystes veulent surtout savoir ce que le départ de Jensen Huang change pour la stratégie du groupe, dirigé par intérim par Colette Kress.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Nvidia sert de baromètre à tout le secteur de l'IA.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-extend-losses-traders-digest-030006305.html",
+            "lang": "EN"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Asie",
+        "title": "Lundi : Taïwan chute d'environ 6 %, Séoul de plus de 3 %, Tokyo de 2,4 %",
+        "summary": "Les Bourses asiatiques liées à la tech ont fortement reculé. Hong Kong a progressé de 0,5 % et Shanghai a perdu 0,9 %.",
+        "whyLabel": "En bref",
+        "why": "Les puces et l'IA ont entraîné toute la région.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-extend-losses-traders-digest-030006305.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
+      {
+        "category": "Nasdaq",
+        "title": "Lundi : le Nasdaq chute de 2,49 %, troisième séance de baisse d'affilée",
+        "summary": "Le Nasdaq Composite a perdu 2,49 % (24 509,76 points), le S&P 500 1,92 % (7 416,59) et le Dow Jones 1,41 %. Selon le Korea Times, le Nasdaq se situe désormais à plus de 10 % sous son record du 6 octobre, ce qui constitue une correction. Les investisseurs restent prudents avant les résultats de Nvidia mardi et l'introduction en Bourse d'Anthropic.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Une baisse de plus de 10 % depuis le sommet est ce que les marchés appellent une « correction ».",
+        "image": "https://s.yimg.com/lo/mysterio/api/0856b1151b9b723d4804e7572ff6e75ec9621f09f432fd2fc74a761b99dd3150/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F53765bfc5d53251f5e13b29fe88c1551.jpg",
+        "links": [
+          {
+            "label": "Reuters via Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-slide-104351968.html",
+            "lang": "EN"
+          },
+          {
+            "label": "Korea Times",
+            "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Les puces et les géants de l'IA décrochent : Nvidia −4,1 %, Intel et Micron plus de −7 %",
+        "summary": "L'indice des semi-conducteurs a reculé de 5,3 %. Nvidia cède 4,1 % et perd près de 24 % depuis le début du mois, après la démission de Jensen Huang. Dell, Super Micro, CoreWeave et Nebius ont perdu de 6 à plus de 7 %, et Alphabet, Amazon et Meta entre 2,4 % et 4,1 %.",
+        "whyLabel": "Le contexte",
+        "why": "Le secteur de l'IA, qui portait la Bourse américaine, est celui qui subit le plus la prudence des investisseurs.",
+        "image": "https://s.yimg.com/lo/mysterio/api/0856b1151b9b723d4804e7572ff6e75ec9621f09f432fd2fc74a761b99dd3150/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F53765bfc5d53251f5e13b29fe88c1551.jpg",
+        "links": [
+          {
+            "label": "Reuters via Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-slide-104351968.html",
+            "lang": "EN"
+          },
+          {
+            "label": "Korea Times",
+            "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Les marchés misent sur une hausse des taux de la Fed en décembre",
+        "summary": "Selon l'outil CME FedWatch, les marchés donnent environ 94 % de chances à une hausse de 0,25 point en décembre. Le président de la Fed, Kevin Warsh, a estimé que la technologie pouvait apporter une croissance partagée, ou du chômage et un ralentissement si les retombées attendues de l'IA déçoivent. Le compte rendu de la dernière réunion de la Fed est attendu mercredi. Le rendement du taux à 10 ans américain est d'environ 5,13 %.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Des taux plus élevés rendent le crédit plus cher et pèsent sur les valeurs technologiques.",
+        "image": "https://newsimg.koreatimes.co.kr/2026/11/17/d59c4268-171f-4c1c-8c92-98a560946df6.jpg",
+        "links": [
+          {
+            "label": "Korea Times",
+            "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
+            "lang": "EN"
+          },
+          {
+            "label": "Reuters via Euronext",
+            "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Nvidia publie ses résultats mardi, Anthropic entre en Bourse jeudi",
+        "summary": "Nvidia dévoile ses comptes après la clôture mardi : les analystes attendent des bénéfices en hausse de 90,4 % sur un an pour 109,1 milliards de dollars de chiffre d'affaires. Anthropic devrait lever jusqu'à 80 milliards de dollars, avec un prix fixé mercredi pour une valorisation proche de 1 500 milliards, et une cotation au Nasdaq jeudi sous le code ANT.",
+        "whyLabel": "À savoir",
+        "why": "Ces deux rendez-vous serviront de test pour savoir si l'enthousiasme pour l'IA tient encore.",
+        "image": "https://s.yimg.com/lo/mysterio/api/0856b1151b9b723d4804e7572ff6e75ec9621f09f432fd2fc74a761b99dd3150/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F53765bfc5d53251f5e13b29fe88c1551.jpg",
+        "links": [
+          {
+            "label": "Reuters via Euronext",
+            "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
+            "lang": "EN"
+          },
+          {
+            "label": "Korea Times",
+            "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "L'Europe résiste mieux : repli de moins de 0,3 %",
+        "summary": "Les Bourses européennes ont terminé en baisse de moins de 0,3 %, après avoir gagné 2,5 % la semaine précédente jusqu'à des records. Selon Yahoo Finance, le CAC 40 a cédé 0,2 % et le DAX 0,57 %. Le pétrole a reculé d'environ 3,8 % (Brent à 92,20 dollars).",
+        "whyLabel": "En bref",
+        "why": "L'Europe, moins exposée à l'IA que Wall Street, a limité les dégâts.",
+        "image": "",
+        "links": [
+          {
+            "label": "Reuters via Euronext",
+            "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Séoul perd 3,6 % et Taïwan 6 % dans le sillage de la tech",
+        "summary": "En Asie, les Bourses sud-coréenne et taïwanaise, très liées aux puces, ont reculé respectivement de 3,6 % et de 6 % lors de la séance précédant la clôture de Wall Street. L'indice mondial MSCI a fini en baisse de 1,8 %.",
+        "whyLabel": "Le contexte",
+        "why": "La Corée du Sud et Taïwan fabriquent une grande partie des puces de l'IA : elles réagissent fortement à Nvidia.",
+        "image": "",
+        "links": [
+          {
+            "label": "Reuters via Euronext",
+            "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Selon BFM Bourse, l'euro gagne environ 0,2 % face au dollar (près de 1,1016) et le Brent grimpe d'environ 0,8 % vers 93,15 dollars le baril.",
+        "url": "https://tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+        "lang": "FR"
+      },
+      {
+        "text": "Selon Reuters, le dollar progresse (indice à 103,60) et l'or recule de 0,74 % à 3 851,44 dollars l'once.",
+        "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
+        "lang": "EN"
+      },
+      {
+        "text": "Le compte rendu de la dernière réunion de la Fed est attendu mercredi.",
+        "url": "https://www.koreatimes.co.kr/world/20261117/nasdaq-sp-500-fall-over-1-in-run-up-to-nvidia-results-anthropic-debut",
+        "lang": "EN"
+      }
+    ]
+  }
 }

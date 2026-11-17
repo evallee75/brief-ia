@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-17",
-  "intro": "Mardi sous haute tension pour l'IA : l'État de Californie attaque OpenAI en justice, Washington durcit l'accès des Chinois aux puces, pendant que Wall Street, en correction, attend les résultats de Nvidia et l'arrivée d'Anthropic en Bourse.",
+  "intro": "Mardi sous haute tension pour l'IA : l'État de Californie attaque OpenAI en justice, Washington durcit l'accès des Chinois aux puces, pendant que Wall Street, en correction, attend les résultats de Nvidia et l'arrivée d'Anthropic en Bourse. Mise à jour du soir : Isomorphic Labs lève 5 milliards de dollars pour ses médicaments conçus par IA, Nvidia crée un comité de sécurité nationale et Spotify protège les artistes des faux morceaux d'IA.",
   "stories": [
    {
     "category": "Justice",
@@ -59,6 +59,66 @@ window.EDITIONS = [
      {
       "label": "OpenAI",
       "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Isomorphic Labs, issue de Google DeepMind, lève 5 milliards de dollars pour ses médicaments conçus par IA",
+    "summary": "Cette société, née chez Google DeepMind en 2021, a levé 5 milliards de dollars, avec Greenoaks et Sequoia en tête et Andreessen Horowitz comme nouvel investisseur. L'argent doit servir à amener ses premiers candidats-médicaments vers les essais cliniques.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "C'est l'une des plus grosses levées de fonds pour l'IA appliquée à la santé, après 2,1 milliards en mai.",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2151467531.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Entreprises",
+    "title": "Nvidia crée un comité de sécurité nationale après le départ de Jensen Huang",
+    "summary": "Le conseil d'administration de Nvidia met en place un comité chargé de surveiller la sécurité nationale, le respect des règles d'export et les risques commerciaux. La directrice financière Colette Kress dirige l'entreprise par intérim, et Jensen Huang doit témoigner devant le Congrès américain plus tard ce mois-ci.",
+    "whyLabel": "Le contexte",
+    "why": "Cette annonce intervient à la veille des résultats trimestriels très attendus de l'entreprise.",
+    "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2087335475.jpg?resize=1200,799",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Spotify ouvre à tous les artistes sa protection contre les faux morceaux d'IA",
+    "summary": "Spotify prévient désormais les artistes quand de la musique est publiée sous leur nom, leur permet de la faire retirer et propose une option pour valider chaque sortie avant publication. Le lancement fait suite à un rapport selon lequel Sony Music a demandé le retrait de plus de 260 000 morceaux deepfake.",
+    "whyLabel": "À savoir",
+    "why": "Les faux titres générés par IA et attribués à de vrais chanteurs deviennent un vrai problème pour l'industrie musicale.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Hero-asset.png?resize=1200,675",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Daydream lance un agent IA qui joue les stylistes et achète pour vous",
+    "summary": "L'assistant « Daydream Agent » aide à composer des tenues, à les essayer virtuellement et à les acheter en un clic. Il retient vos goûts, votre taille et votre budget, et peut suivre les soldes et les nouveautés.",
+    "whyLabel": "En bref",
+    "why": "Après les voyages, les achats de mode deviennent un nouveau terrain pour les agents IA.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/2daydream-agent-1.jpeg?w=1024",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
       "lang": "EN"
      }
     ]
@@ -194,6 +254,11 @@ window.EDITIONS = [
     "text": "OpenAI vise 200 000 chercheurs pour son programme d'accès gratuit à ChatGPT ; 50 000 nouvelles aides ouvrent le 23 novembre.",
     "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
     "lang": "EN"
+   },
+   {
+    "text": "Selon TechCrunch, Jensen Huang se dit « honoré » de pouvoir revenir à la tête de Nvidia, mais une source au conseil assure qu'aucun retour n'est prévu.",
+    "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+    "lang": "EN"
    }
   ],
   "markets": {
@@ -236,30 +301,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8352.0,
-     "changePct": -0.2,
-     "session": "2026-11-16"
+     "value": 8216.78,
+     "changePct": -1.62,
+     "session": "2026-11-17"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 26598.64,
-     "changePct": -0.57,
-     "session": "2026-11-16"
+     "value": 26045.37,
+     "changePct": -2.08,
+     "session": "2026-11-17"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6348.35,
-     "changePct": -0.6,
-     "session": "2026-11-16"
+     "value": 6212.11,
+     "changePct": -2.15,
+     "session": "2026-11-17"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 58860.43,
-     "changePct": -1.34,
-     "session": "2026-11-17"
+     "value": 59662.02,
+     "changePct": -2.42,
+     "session": "2026-11-16"
     },
     {
      "name": "Hang Seng",
@@ -320,8 +385,93 @@ window.EDITIONS = [
      "session": "2026-11-16"
     }
    ],
-   "intro": "Lundi, Wall Street a plongé : le Nasdaq a perdu 2,49 % et le S&P 500 1,92 %, entraînés par les valeurs des puces et de l'IA à la veille des résultats de Nvidia et de l'entrée en Bourse d'Anthropic.",
+   "intro": "Mardi, l'Europe a fini en nette baisse (CAC 40 −1,62 %) et, selon BFM Bourse, Wall Street perdait plus de 1 % à la clôture européenne, avant les résultats de Nvidia après la clôture ; lundi, le Nasdaq avait déjà cédé 2,49 %.",
    "stories": [
+    {
+     "category": "Europe",
+     "title": "Mardi : le CAC 40 recule de 1,62 %, le luxe en tête des baisses",
+     "summary": "Le CAC 40 a clôturé à 8 216,78 points (−1,62 %), pénalisé par l'attente des résultats de Nvidia et par le luxe : Hermès a perdu environ 5,1 %, Kering 3,6 % et LVMH 2,7 %. Dassault Systèmes a cédé environ 4,9 % après avoir présenté ses ambitions pour 2029.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Les investisseurs européens restent prudents tant que Nvidia n'a pas parlé.",
+     "image": "https://s.yimg.com/lo/mysterio/api/0856b1151b9b723d4804e7572ff6e75ec9621f09f432fd2fc74a761b99dd3150/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F53765bfc5d53251f5e13b29fe88c1551.jpg",
+     "links": [
+      {
+       "label": "BFM Bourse / Tradingsat",
+       "url": "https://tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+       "lang": "FR"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Europe",
+     "title": "Mardi : la Commission européenne abaisse ses prévisions pour la France",
+     "summary": "Bruxelles table sur 1,2 % de croissance en zone euro en 2026 et 2027, mais réduit celle de la France à 0,4 % en 2026 et 0,6 % en 2027. Le chômage français passerait de 8,4 % à 9,2 % l'an prochain.",
+     "whyLabel": "À savoir",
+     "why": "Un contexte économique plus fragile pour la Bourse de Paris.",
+     "image": "",
+     "links": [
+      {
+       "label": "BFM Bourse / Tradingsat",
+       "url": "https://tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+       "lang": "FR"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Nasdaq",
+     "title": "Mardi : Wall Street reste en baisse de plus de 1 % avant les résultats de Nvidia",
+     "summary": "Selon BFM Bourse, les grands indices américains perdaient plus de 1 % à la clôture européenne, après une séance de lundi où le Nasdaq a cédé 2,49 % et le S&P 500 1,92 %. Nvidia publie ses résultats après la clôture de Wall Street.",
+     "whyLabel": "Le contexte",
+     "why": "Les marchés attendent de savoir si Nvidia peut rassurer sur l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "BFM Bourse / Tradingsat",
+       "url": "https://tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+       "lang": "FR"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Nvidia : résultats attendus ce soir, avec environ 108 milliards de dollars de chiffre d'affaires visés",
+     "summary": "L'action avait perdu environ 4,1 % lundi avant la publication. Les analystes veulent surtout savoir ce que le départ de Jensen Huang change pour la stratégie du groupe, dirigé par intérim par Colette Kress.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Nvidia sert de baromètre à tout le secteur de l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-extend-losses-traders-digest-030006305.html",
+       "lang": "EN"
+      },
+      {
+       "label": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Asie",
+     "title": "Lundi : Taïwan chute d'environ 6 %, Séoul de plus de 3 %, Tokyo de 2,4 %",
+     "summary": "Les Bourses asiatiques liées à la tech ont fortement reculé. Hong Kong a progressé de 0,5 % et Shanghai a perdu 0,9 %.",
+     "whyLabel": "En bref",
+     "why": "Les puces et l'IA ont entraîné toute la région.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-extend-losses-traders-digest-030006305.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
     {
      "category": "Nasdaq",
      "title": "Lundi : le Nasdaq chute de 2,49 %, troisième séance de baisse d'affilée",
@@ -440,6 +590,11 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Selon BFM Bourse, l'euro gagne environ 0,2 % face au dollar (près de 1,1016) et le Brent grimpe d'environ 0,8 % vers 93,15 dollars le baril.",
+     "url": "https://tradingsat.com/cac-40-FR0003500008/actualites/cac-40-plombe-par-les-inquietudes-autour-de-nvidia-et-le-recul-du-luxe-le-cac-40-cloture-en-forte-baisse-1173960.html",
+     "lang": "FR"
+    },
     {
      "text": "Selon Reuters, le dollar progresse (indice à 103,60) et l'or recule de 0,74 % à 3 851,44 dollars l'once.",
      "url": "https://live.euronext.com/en/financial-news/stocks-end-lower-ahead-nvidia-earnings-and-anthropic-ipo-oil-drops",
