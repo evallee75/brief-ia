@@ -1,5 +1,424 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-18",
+  "intro": "Mercredi, OpenAI lance GPT-6.2 à moindre prix, Nvidia rassure avec ses résultats pour sa première publication sans Jensen Huang, et Google rend gratuite la fonction « Tâches » de Gemini, pendant que l'OTAN s'ouvre à l'IA d'OpenAI pour sa cyberdéfense.",
+  "stories": [
+   {
+    "category": "Produits",
+    "title": "OpenAI lance GPT-6.2, une nouvelle version de ChatGPT plus économique",
+    "summary": "OpenAI propose deux nouveaux modèles : Astra, pour les tâches exigeantes (tableurs financiers, recherche juridique, conception 3D), dont le prix d'accès pour les développeurs baisse de 20 %, et Sol, pour l'usage courant. Ils arrivent dans ChatGPT Work, Codex et l'API, mais l'accès se fait progressivement.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "La concurrence entre OpenAI, Anthropic et Google tire les prix vers le bas. Selon Decrypt, des tests indépendants ne montrent pas de progrès pour les agents de code.",
+    "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png",
+    "links": [
+     {
+      "label": "Decrypt",
+      "url": "https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Nvidia dépasse les attentes, sa première publication sans Jensen Huang",
+    "summary": "Le géant des puces d'IA a publié des résultats supérieurs aux prévisions pour son troisième trimestre, avec un nouveau programme de rachat d'actions de 150 milliards de dollars et des perspectives au-dessus de celles des analystes. Son objectif pour le trimestre suivant ne compte aucune vente de puces pour centres de données en Chine. Les valeurs liées aux puces et au cloud d'IA ont progressé après la clôture.",
+    "whyLabel": "Le contexte",
+    "why": "Jensen Huang a quitté la direction la semaine dernière ; ces résultats rassurent sur l'activité, mais pas sur la succession.",
+    "image": "https://s.yimg.com/lo/mysterio/api/99d35654d18ae05879540c4391529ab879f950b975754db4074f33aa68c9eaec/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F712463ce-5f97-4e95-87a8-8482f081c7f1",
+    "links": [
+     {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
+      "lang": "EN"
+     },
+     {
+      "label": "Reuters via Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-earnings-beat-estimates-attention-turns-to-call-5034180",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Gemini sait enchaîner des démarches à votre place, désormais gratuitement",
+    "summary": "La fonction « Tâches » de Gemini devient gratuite dans six pays. Elle permet par exemple de prendre un rendez-vous ou de préparer des courses, avec des nouveautés aux États-Unis et une intégration plus poussée à Google Workspace.",
+    "whyLabel": "À savoir",
+    "why": "Les assistants d'IA passent de la réponse aux questions à l'action concrète pour l'utilisateur.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+    "links": [
+     {
+      "label": "Google",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "OpenAI donne aux gouvernements de l'OTAN accès à son IA pour traquer les failles informatiques",
+    "summary": "Annoncé lors d'un événement de l'OTAN à Izmir (Turquie), le programme Daybreak permettra aux pays membres d'utiliser les modèles les plus puissants d'OpenAI pour détecter et corriger des failles logicielles. L'annonce fait suite à un exercice de cyberdéfense à Tallinn où des opérateurs ont construit des agents d'IA.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les cyberattaques contre les pays de l'Alliance augmentent ; l'objectif est de réduire le délai de correction d'une faille de plusieurs mois à quelques minutes.",
+    "image": "https://cdn.defenseone.com/media/img/cd/2026/11/17/9511640/open-graph.jpg",
+    "links": [
+     {
+      "label": "Defense One",
+      "url": "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Les journalistes de Reuters votent pour autoriser une grève, notamment sur l'IA",
+    "summary": "Le syndicat des journalistes de l'agence, affilié à la NewsGuild, réclame de meilleures indemnités en cas de licenciement lié à l'IA et une part des revenus des accords de licence de contenus avec les entreprises d'IA. Le vote donne aux dirigeants syndicaux le pouvoir de décider d'une grève, mais n'en déclenche pas une immédiatement.",
+    "whyLabel": "Le contexte",
+    "why": "Dans les médias, l'IA est devenue un sujet central des négociations sociales.",
+    "image": "https://www.poynter.org/wp-content/uploads/2026/11/IMG_1941-1-scaled.jpg",
+    "links": [
+     {
+      "label": "Poynter",
+      "url": "http://poynter.org/business-work/2026/reuters-strike-ai-protections-deal-wages/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Genesis AI lève 500 millions de dollars pour ses robots polyvalents",
+    "summary": "La start-up de robotique, présente à Paris et en Californie, valorisée 3,5 milliards de dollars, veut déployer son robot généraliste Eno, d'abord dans l'industrie et la logistique.",
+    "whyLabel": "En bref",
+    "why": "Les investisseurs misent de plus en plus sur les robots capables d'effectuer des gestes humains.",
+    "image": "https://i.ytimg.com/vi/VeYie2A9iGk/hqdefault.jpg",
+    "links": [
+     {
+      "label": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Travail",
+    "title": "Des agents d'IA recruteurs arrivent : Joveo et Eightfold lancent les leurs",
+    "summary": "Joveo présente Tandem, qui rédige les offres, relance les candidats par e-mail ou SMS et mène des entretiens enregistrés. Eightfold dévoile un « coéquipier » qui gère seul le sourcing, la planification et la présélection pour plusieurs postes à la fois (en préversion). Chez Joveo, la décision finale reste au recruteur.",
+    "whyLabel": "À savoir",
+    "why": "L'IA s'installe dans les ressources humaines, avec des questions sur l'équité du tri des candidats.",
+    "image": "https://www.reworked.co/-/media/d71cb661a5954ecfb77e4662d8753800.ashx?mw=1200",
+    "links": [
+     {
+      "label": "Reworked",
+      "url": "https://www.reworked.co/talent-management/eightfold-launches-ai-recruiting-tool/",
+      "lang": "EN"
+     },
+     {
+      "label": "Manila Times (communiqué Joveo)",
+      "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/globenewswire/joveo-launches-tandem-the-ai-recruiting-agent-that-turns-prompts-into-hires/2472395",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Politique",
+    "title": "OpenAI signe un accord avec le Chili pour former les agents publics à l'IA",
+    "summary": "Un mémorandum signé le 16 novembre vise à former les fonctionnaires chiliens et à soutenir les tâches administratives de l'État. Selon La Tercera, il ne prévoit ni montant d'investissement ni infrastructure sur place.",
+    "whyLabel": "En bref",
+    "why": "Les entreprises d'IA multiplient les partenariats avec les gouvernements.",
+    "image": "https://s.t13.cl/sites/default/files/styles/manualcrop_850x475/public/t13/field-imagen/2026-11/1794931341.jpg.jpeg?h=e4649c3d&itok=bYkKlxsO",
+    "links": [
+     {
+      "label": "T13",
+      "url": "https://www.t13.cl/noticia/nacional/chile-openai-firman-acuerdo-colaboracion-para-modernizar-estado-17-11-2026",
+      "lang": "ES"
+     }
+    ]
+   },
+   {
+    "category": "Europe",
+    "title": "Bruxelles réunit près de 1 000 acteurs pour son « Apply AI Summit »",
+    "summary": "La Commission européenne organise ce sommet pour favoriser l'adoption de l'IA par les entreprises et les start-up, et remet le premier prix Apply AI Startup Award à trois start-up.",
+    "whyLabel": "Le contexte",
+    "why": "L'Europe cherche à rattraper les États-Unis et la Chine dans l'usage de l'IA ; aucun montant de financement n'a été publié.",
+    "image": "",
+    "links": [
+     {
+      "label": "Commission européenne",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Robotique",
+    "title": "Runway met en accès libre un modèle d'IA pour robots",
+    "summary": "Le modèle Praxis-1, de 27 milliards de paramètres, est publié sous licence Apache 2.0, qui autorise l'usage commercial. Les résultats de performance annoncés viennent de l'entreprise elle-même.",
+    "whyLabel": "À savoir",
+    "why": "Ouvrir ce type de modèle permet à d'autres entreprises de le tester et de l'adapter.",
+    "image": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/11/frame-8-bddb7fbc-4647-44e5-bf65-1fbb7e559b24-af3f1b60-26e7-4a91-afda-ee27b0a4674b.webp",
+    "links": [
+     {
+      "label": "Runway",
+      "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Nvidia dévoile Rubin HPC, un processeur de calcul scientifique de plus de 50 000 cœurs CUDA attendu en 2028.",
+    "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+    "lang": "EN"
+   },
+   {
+    "text": "IFF lance CONCEPT MUSE, un outil d'IA générative qui propose des concepts d'aliments et de boissons aux industriels.",
+    "url": "https://finviz.com/news/421528/iff-launches-concept-muse-an-ai-powered-platform-designed-to-accelerate-food-and-beverage-product-development",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 24328.38,
+     "changePct": -0.74,
+     "session": "2026-11-17"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 27001.78,
+     "changePct": -0.72,
+     "session": "2026-11-17"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 7340.53,
+     "changePct": -1.03,
+     "session": "2026-11-17"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 50759.42,
+     "changePct": -1.64,
+     "session": "2026-11-17"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 25.46,
+     "changePct": 11.13,
+     "session": "2026-11-17"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 8216.78,
+     "changePct": -1.62,
+     "session": "2026-11-17"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 26045.37,
+     "changePct": -2.08,
+     "session": "2026-11-17"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 6212.11,
+     "changePct": -2.15,
+     "session": "2026-11-17"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 59024.28,
+     "changePct": 0.28,
+     "session": "2026-11-18"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 23508.17,
+     "changePct": -1.03,
+     "session": "2026-11-17"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 155.46,
+     "changePct": -0.44,
+     "session": "2026-11-17"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 351.91,
+     "changePct": -0.25,
+     "session": "2026-11-17"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 506.24,
+     "changePct": -2.27,
+     "session": "2026-11-17"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 280.2,
+     "changePct": -1.24,
+     "session": "2026-11-17"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 257.89,
+     "changePct": 0.05,
+     "session": "2026-11-17"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 618.87,
+     "changePct": -1.2,
+     "session": "2026-11-17"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 380.11,
+     "changePct": 0.1,
+     "session": "2026-11-17"
+    }
+   ],
+   "intro": "Mardi, Wall Street a reculé (Nasdaq −0,74 %, S&P 500 −1,03 %, Dow −1,64 %) dans l'attente des résultats de Nvidia ; ceux-ci, publiés après la clôture, ont dépassé les attentes et fait rebondir les valeurs liées à l'IA en séance prolongée.",
+   "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Mardi : Wall Street recule avant Nvidia, le Nasdaq perd 0,74 %",
+     "summary": "À la clôture, le Nasdaq Composite a cédé 0,74 %, le S&P 500 1,03 % et le Dow Jones 1,64 % (environ 850 points). Les investisseurs attendaient les résultats de Nvidia, publiés après la clôture. Les ventes au détail d'octobre ont progressé de 0,2 %, un peu mieux que les 0,1 % attendus.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Le marché a baissé pour une quatrième séance de suite avant ce rendez-vous clé.",
+     "image": "https://s.yimg.com/lo/mysterio/api/94555972a8cc31a50ecf89f807994ed4a1dc910d637609907570a3ab4d3fde43/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F86d9ecd0-61f7-4b69-b7f5-52dbf965f80c",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Nvidia bat les attentes, les puces et le cloud d'IA rebondissent après la clôture",
+     "summary": "Après la clôture, Nvidia a battu les attentes, annoncé un rachat d'actions de 150 milliards de dollars et des perspectives supérieures aux prévisions. Dans la foulée, Nebius (+3 % environ), CoreWeave et TSMC (+2 % environ), AMD et Broadcom (plus de +1 %) ont progressé en séance prolongée.",
+     "whyLabel": "Le contexte",
+     "why": "Ces hausses hors séance ne disent pas encore comment Wall Street ouvrira mercredi.",
+     "image": "https://s.yimg.com/lo/mysterio/api/99d35654d18ae05879540c4391529ab879f950b975754db4074f33aa68c9eaec/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F712463ce-5f97-4e95-87a8-8482f081c7f1",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Les logiciels lourdement sanctionnés : Salesforce −8 %, ServiceNow −6 %",
+     "summary": "L'ETF des logiciels américains IGV a perdu près de 3 %. Salesforce a cédé 8 %, ServiceNow 6 % et Intuit 5 %, une baisse que Yahoo Finance relie au nouveau modèle d'OpenAI et à l'arrivée en Bourse d'Anthropic.",
+     "whyLabel": "À savoir",
+     "why": "Les éditeurs de logiciels craignent d'être concurrencés par les agents d'IA.",
+     "image": "https://s.yimg.com/lo/mysterio/api/94555972a8cc31a50ecf89f807994ed4a1dc910d637609907570a3ab4d3fde43/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F86d9ecd0-61f7-4b69-b7f5-52dbf965f80c",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Un responsable de la Fed évoque d'autres hausses de taux",
+     "summary": "Alberto Musalem, président de la Fed de Saint-Louis, a déclaré qu'une nouvelle hausse de taux serait bientôt nécessaire, avec d'autres avant le printemps. Yahoo Finance rapporte ces propos sans les relier aux mouvements de la séance.",
+     "whyLabel": "À savoir",
+     "why": "Des taux plus élevés pèsent en général sur les valeurs technologiques.",
+     "image": "https://s.yimg.com/lo/mysterio/api/94555972a8cc31a50ecf89f807994ed4a1dc910d637609907570a3ab4d3fde43/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F86d9ecd0-61f7-4b69-b7f5-52dbf965f80c",
+     "links": [
+      {
+       "label": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Mardi : l'Europe connaît sa pire séance en huit mois",
+     "summary": "Le STOXX 600 a perdu 1,75 % (650,72 points), son plus mauvais jour depuis huit mois environ. Les valeurs technologiques européennes ont chuté de 3,9 % ; SAP a perdu 5,6 %. Le DAX a reculé de 2,08 %, l'Euro Stoxx 50 de 2,15 % et le CAC 40 de 1,62 %. Sont cités les nouvelles restrictions américaines sur les puces d'IA, l'attente de Nvidia et les tensions au Moyen-Orient.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "La tech européenne a suivi la nervosité de Wall Street.",
+     "image": "https://mlq.ai/media/news_images/european-stocks-have-their-worst-day-in-eight-months-as-tech-drops-nearly-4-befo.jpg",
+     "links": [
+      {
+       "label": "MLQ.ai (d'après Reuters)",
+       "url": "https://mlq.ai/news/european-stocks-have-their-worst-day-in-eight-months-as-tech-drops-nearly-4-before-nvidia-results-and-deutsche-bank-falls-6/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Mercredi : l'Asie hésite après Nvidia, Séoul bondit puis rabote ses gains",
+     "summary": "Séoul a grimpé jusqu'à 3,3 % à l'ouverture après les résultats de Nvidia, avant de nettement réduire cette hausse, tandis que Tokyo oscillait autour de l'équilibre. La veille, le Hang Seng avait perdu 1,03 %.",
+     "whyLabel": "Le contexte",
+     "why": "Les restrictions américaines sur les puces vers la Chine tempèrent l'enthousiasme.",
+     "image": "https://s.yimg.com/lo/mysterio/api/3412b92ecec4379d17019a2d25c907941e654d3de36e5733911357ba36cfe9b7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F2b0e276ae0dea7df575359f0ee0f52e2.jpg",
+     "links": [
+      {
+       "label": "Yahoo Finance (Reuters)",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/asia-stocks-set-snap-losing-014340794.html",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    }
+   ],
+   "quick": [
+    {
+     "text": "Disney a battu les attentes (bénéfice ajusté de 1,77 $ par action contre 1,68 $ attendu ; chiffre d'affaires de 25,9 milliards de dollars) et a progressé d'environ 2 % avant l'ouverture.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Home Depot a battu les attentes (chiffre d'affaires de 43,4 milliards de dollars) et nommé son directeur financier Richard McPhail futur directeur général.",
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
+     "lang": "EN"
+    },
+    {
+     "text": "Selon MLQ.ai, Deutsche Bank a perdu environ 6 % mardi, dans une Europe en forte baisse.",
+     "url": "https://mlq.ai/news/european-stocks-have-their-worst-day-in-eight-months-as-tech-drops-nearly-4-before-nvidia-results-and-deutsche-bank-falls-6/",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-17",
   "intro": "Mardi sous haute tension pour l'IA : l'État de Californie attaque OpenAI en justice, Washington durcit l'accès des Chinois aux puces, pendant que Wall Street, en correction, attend les résultats de Nvidia et l'arrivée d'Anthropic en Bourse. Mise à jour du soir : Isomorphic Labs lève 5 milliards de dollars pour ses médicaments conçus par IA, Nvidia crée un comité de sécurité nationale et Spotify protège les artistes des faux morceaux d'IA.",
   "stories": [
