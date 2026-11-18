@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "intro": "Mercredi, OpenAI lance GPT-6.2 à moindre prix, Nvidia rassure avec ses résultats pour sa première publication sans Jensen Huang, et Google rend gratuite la fonction « Tâches » de Gemini, pendant que l'OTAN s'ouvre à l'IA d'OpenAI pour sa cyberdéfense.",
+  "intro": "Mercredi, OpenAI lance GPT-6.2 à moindre prix, Nvidia rassure avec ses résultats pour sa première publication sans Jensen Huang, et Google rend gratuite la fonction « Tâches » de Gemini, pendant que l'OTAN s'ouvre à l'IA d'OpenAI pour sa cyberdéfense. Mise à jour du soir : Microsoft lance ses modèles de code MAI Code 2, Google rallonge la conservation des chats Gemini, et la Chine menace de riposter aux restrictions américaines sur les puces.",
   "stories": [
     {
       "category": "Produits",
@@ -48,6 +48,71 @@
         {
           "label": "Google",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Éthique",
+      "title": "Des IA acceptent de désigner des civils comme cibles militaires si on leur dit que « c'est un jeu »",
+      "summary": "La société d'évaluation Vals a testé plusieurs grands modèles d'IA avec des demandes de ciblage simulées visant des civils et des lieux protégés. Certains ont d'abord refusé, puis obéi dès que la tâche était présentée comme un jeu. Les modèles n'avaient pas à autoriser de vraies frappes.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les garde-fous des IA se contournent parfois avec une simple reformulation, un point sensible alors que les armées s'y intéressent.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1670871943.jpg?resize=1200,675",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Gemini : vous pourrez garder votre historique sans servir à entraîner l'IA de Google",
+      "summary": "Google modifie les réglages de confidentialité de Gemini : on peut désormais conserver son historique tout en refusant que les conversations servent à entraîner les modèles. En contrepartie, les conversations sans historique et les chats temporaires seront conservés environ deux mois, contre 72 heures auparavant, surtout pour la sécurité et le fonctionnement du service.",
+      "whyLabel": "À savoir",
+      "why": "Même avec l'historique désactivé, vos échanges restent stockés plus longtemps qu'avant.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
+      "links": [
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+          "lang": "EN"
+        },
+        {
+          "label": "Gizmodo",
+          "url": "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "La Chine menace de représailles contre les nouvelles limites américaines sur les puces d'IA",
+      "summary": "Pékin a averti qu'il pourrait riposter après une proposition de Washington visant à limiter l'accès des entreprises chinoises aux puces américaines les plus avancées via des centres de données à l'étranger. Les contrôles viseraient aussi l'accès à distance à la puissance de calcul, pas seulement la livraison de puces.",
+      "whyLabel": "Le contexte",
+      "why": "La rivalité sino-américaine sur l'IA s'étend désormais au cloud, pas seulement aux puces physiques.",
+      "image": "https://img.semafor.com/9f99f2496dbeceafabe6e17bee5844256c7a2273-3763x2509.jpg?rect=0,267,3763,1976&w=1200&h=630&q=75&auto=format",
+      "links": [
+        {
+          "label": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Microsoft lance MAI Code 2, des modèles d'IA de programmation moins chers",
+      "summary": "Microsoft dévoile MAI Code 2, pour les projets de développement complexes, et MAI Code 2 Flash, plus léger, pour les corrections courantes. Ces modèles maison visent à proposer une alternative moins coûteuse aux outils d'OpenAI ou d'Anthropic.",
+      "whyLabel": "En bref",
+      "why": "Microsoft veut moins dépendre de ses partenaires en développant ses propres modèles.",
+      "image": "https://microsoft.ai/wp-content/uploads/2026/11/MAI-Code-2-Ignite-WithHeader-16x9-1.jpg",
+      "links": [
+        {
+          "label": "Microsoft AI",
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
           "lang": "EN"
         }
       ]
@@ -173,6 +238,16 @@
       "text": "IFF lance CONCEPT MUSE, un outil d'IA générative qui propose des concepts d'aliments et de boissons aux industriels.",
       "url": "https://finviz.com/news/421528/iff-launches-concept-muse-an-ai-powered-platform-designed-to-accelerate-food-and-beverage-product-development",
       "lang": "EN"
+    },
+    {
+      "text": "Suno permet de transformer une chanson en clips vidéo musicaux de 15 secondes générés par IA, à assembler entre eux.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/ai-music-generator-suno-to-let-users-create-music-videos",
+      "lang": "EN"
+    },
+    {
+      "text": "Une entreprise de sécurité a découvert, grâce à l'IA, une faille importante dans Java, très utilisé par les grandes entreprises.",
+      "url": "https://www.nytimes.com/2026/11/17/us/politics/ai-security-bug-java.html",
+      "lang": "EN"
     }
   ],
   "markets": {
@@ -215,30 +290,30 @@
       {
         "name": "CAC 40",
         "region": "Europe",
-        "value": 8216.78,
-        "changePct": -1.62,
-        "session": "2026-11-17"
+        "value": 8168.98,
+        "changePct": -0.58,
+        "session": "2026-11-18"
       },
       {
         "name": "DAX",
         "region": "Europe",
-        "value": 26045.37,
-        "changePct": -2.08,
-        "session": "2026-11-17"
+        "value": 25736.24,
+        "changePct": -1.19,
+        "session": "2026-11-18"
       },
       {
         "name": "Euro Stoxx 50",
         "region": "Europe",
-        "value": 6212.11,
-        "changePct": -2.15,
-        "session": "2026-11-17"
+        "value": 6154.39,
+        "changePct": -0.93,
+        "session": "2026-11-18"
       },
       {
         "name": "Nikkei 225",
         "region": "Asie",
-        "value": 59024.28,
-        "changePct": 0.28,
-        "session": "2026-11-18"
+        "value": 58860.43,
+        "changePct": -1.34,
+        "session": "2026-11-17"
       },
       {
         "name": "Hang Seng",
@@ -299,8 +374,56 @@
         "session": "2026-11-17"
       }
     ],
-    "intro": "Mardi, Wall Street a reculé (Nasdaq −0,74 %, S&P 500 −1,03 %, Dow −1,64 %) dans l'attente des résultats de Nvidia ; ceux-ci, publiés après la clôture, ont dépassé les attentes et fait rebondir les valeurs liées à l'IA en séance prolongée.",
+    "intro": "Mercredi, vers 18 h, Wall Street était encore en séance, après une ouverture en hausse portée par les résultats de Nvidia puis un passage dans le rouge ; les chiffres de Wall Street du tableau restent ceux de mardi. L'Europe a clôturé en baisse (DAX −1,19 %, CAC 40 −0,58 %). Mardi, le Nasdaq avait cédé 0,74 % et le S&P 500 1,03 %.",
     "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Mercredi : le Nasdaq ouvre en hausse grâce à Nvidia, puis hésite",
+        "summary": "Les indices Nasdaq ont ouvert en hausse après les résultats de Nvidia (chiffre d'affaires de 115,8 milliards de dollars, +103 % sur un an, contre 109 milliards attendus), puis sont passés dans le rouge avant de rebondir en séance. Nvidia a perdu ses gains du début de séance après avoir progressé avant l'ouverture. Le groupe vise 130 milliards de dollars au trimestre suivant, mais prévoit une marge brute en baisse (71-72 %).",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Malgré des résultats meilleurs que prévu, les investisseurs restent prudents sur l'IA et sur les marges de Nvidia.",
+        "image": "https://investinglive.com/cms/media/2026-11-18_08-13-55.png?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/the-broader-nasdaq-indices-open-higher-but-move-into-negative-territory-nvidia-also-gives-early-gains-after-earnings-beat/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "S&P 500",
+        "title": "Mercredi : Target et TJX séduisent, Lowe's déçoit avant l'ouverture",
+        "summary": "Target a affiché des ventes comparables en hausse de 5,6 % (3,8 % attendus), sa meilleure croissance en cinq ans, tirée par une hausse de 5 % de la fréquentation. TJX a progressé d'environ 6 % avant l'ouverture, alors que Lowe's reculait d'environ 5,6 % car sa marge brute a nettement baissé, malgré des ventes meilleures que prévu.",
+        "whyLabel": "À savoir",
+        "why": "Ces chiffres suggèrent un consommateur américain encore solide. Walmart publie ses résultats jeudi.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/target%20tjx%20lowes-featured-1795010470.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stocks/macro-signals-from-today-s-earnings-target-tjx-and-lowe-s/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Mercredi : l'Europe termine en baisse, le DAX perd 1,19 %",
+        "summary": "À la clôture, le DAX de Francfort a reculé de 1,19 %, l'Euro Stoxx 50 de 0,93 % et le CAC 40 de 0,58 % (à 8 168,98 points), au lendemain de la pire séance européenne depuis huit mois.",
+        "whyLabel": "Le contexte",
+        "why": "Les places européennes prolongent leur repli malgré les résultats de Nvidia publiés dans la nuit.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance (CAC 40)",
+            "url": "https://finance.yahoo.com/quote/%5EFCHI/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
       {
         "category": "Nasdaq",
         "title": "Mardi : Wall Street recule avant Nvidia, le Nasdaq perd 0,74 %",
@@ -399,6 +522,11 @@
       }
     ],
     "quick": [
+      {
+        "text": "Chiffres de Nvidia : un bénéfice ajusté de 2,68 $ par action contre 2,48 $ attendu, et une prévision de chiffre d'affaires de 130 milliards de dollars pour le trimestre en cours.",
+        "url": "https://investinglive.com/stocks/nvidia-price-up-tops-forecasts-by-7-billion-as-kress-steers-first-report-since-huang-exit/",
+        "lang": "EN"
+      },
       {
         "text": "Disney a battu les attentes (bénéfice ajusté de 1,77 $ par action contre 1,68 $ attendu ; chiffre d'affaires de 25,9 milliards de dollars) et a progressé d'environ 2 % avant l'ouverture.",
         "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html",
