@@ -1,0 +1,424 @@
+{
+  "date": "2026-11-19",
+  "intro": "Jeudi, Anthropic fixe le prix de son entrée en Bourse à 83 dollars l'action, Nvidia cesse de livrer ses puces avancées à la Chine, et Google lance Gemini 4 Neon, pendant que des banques font peser sur leurs clients la responsabilité des agents d'IA.",
+  "stories": [
+    {
+      "category": "Business",
+      "title": "Anthropic fixe le prix de son entrée en Bourse à 83 dollars l'action",
+      "summary": "Anthropic, l'entreprise derrière Claude, a fixé le prix de son introduction en Bourse à 83 dollars par action, au-dessus de la fourchette prévue (70 à 78 dollars). Elle lève environ 81 milliards de dollars et doit être cotée au Nasdaq sous le sigle ANT, avec une valorisation d'environ 1 380 milliards de dollars.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "C'est l'une des plus grosses introductions en Bourse jamais réalisées, et la première d'un grand développeur de modèles d'IA.",
+      "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+      "links": [
+        {
+          "label": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "lang": "EN"
+        },
+        {
+          "label": "Renaissance Capital",
+          "url": "https://www.renaissancecapital.com/IPO-Center/News/122776/anthropic-prices-upsized-ipo-at-83-above-the-range%3B-raises-81b",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Nvidia arrête de livrer ses puces d'IA avancées à la Chine",
+      "summary": "Nvidia ne prévoit plus de nouvelles livraisons de puces Hopper en Chine, malgré l'autorisation américaine pour certaines ventes, après 2,4 milliards de dollars de ventes sur le trimestre. Le groupe prévient aussi ses clients des risques juridiques à louer de la puissance de calcul à des entreprises chinoises.",
+      "whyLabel": "Le contexte",
+      "why": "Une commission du Congrès américain s'inquiète de l'intérêt de l'armée chinoise pour ces puces.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+          "lang": "EN"
+        },
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Google lance Gemini 4 Neon, un modèle pour le code et les analyses complexes",
+      "summary": "Google dévoile Gemini 4 Neon, capable de traiter un million de « tokens » (de très longs documents) d'un coup. Il est proposé aux développeurs via l'API de Google et aux abonnés Gemini éligibles, à 3 dollars par million de tokens en entrée et 15 dollars en sortie.",
+      "whyLabel": "En bref",
+      "why": "Google riposte à OpenAI, qui vient de lancer GPT-6.2.",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-1300.png",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Les banques préviennent : si vous utilisez un agent d'IA, c'est à vos risques",
+      "summary": "Citi a modifié ses conditions : le client est responsable des opérations faites via des outils d'IA tiers ayant accès à son compte, même en cas de problème ou de piratage. D'autres banques adoptent la même position.",
+      "whyLabel": "À savoir",
+      "why": "Plus les assistants d'IA gèrent notre argent, plus la question de la responsabilité devient concrète.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-1497343848.jpeg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Des écoles américaines remettent en question Google Search à cause de l'IA",
+      "summary": "Des districts scolaires de New York, Los Angeles et Chicago étudient des alternatives à Google Search. Google a refusé de séparer ses fonctions d'IA de la recherche classique pour les élèves.",
+      "whyLabel": "Le contexte",
+      "why": "Les écoles s'inquiètent de voir des réponses générées par l'IA remplacer le travail de recherche des élèves.",
+      "image": "",
+      "links": [
+        {
+          "label": "The New York Times",
+          "url": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "Paris Hilton et Alexandria Ocasio-Cortez réclament une loi contre les deepfakes sexuels",
+      "summary": "Elles appellent la Chambre des représentants à voter le DEFIANCE Act, déjà adopté par le Sénat. Il permettrait aux victimes d'images sexuelles truquées par IA, créées sans leur accord, de poursuivre leurs auteurs.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les deepfakes sexuels touchent de plus en plus de personnes, et la loi américaine reste lacunaire.",
+      "image": "",
+      "links": [
+        {
+          "label": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/paris-hilton-aoc-defiance-act-ai-porn-deep-fake-congress.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "OpenAI utilise l'IA pour concevoir ses propres puces",
+      "summary": "OpenAI affirme que ses modèles ont aidé à améliorer ses puces. Un circuit de multiplication redessiné par l'IA aurait réduit la surface estimée de la puce d'environ 15 %. L'entreprise travaille aussi avec Synopsys pour intégrer l'IA aux logiciels de conception de puces.",
+      "whyLabel": "En bref",
+      "why": "L'IA commence à servir à fabriquer le matériel qui la fait tourner.",
+      "image": "",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "ChatGPT pour la comptabilité : factures et rapports financiers",
+      "summary": "OpenAI lance ChatGPT for Accounting, qui aide à préparer des factures, rapprocher des écritures et rédiger des rapports financiers via des logiciels de comptabilité connectés. Une relecture humaine reste requise.",
+      "whyLabel": "À savoir",
+      "why": "L'IA vise désormais des métiers de bureau précis, pas seulement le grand public.",
+      "image": "",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/business/solutions/accounting/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Google ouvre Genie 4 : créer des mondes interactifs à partir de texte",
+      "summary": "Les abonnés AI Ultra éligibles peuvent générer des mondes interactifs, en changer l'environnement avec des instructions écrites et entendre un son réactif. Un agent de création de mondes et une galerie communautaire sont ajoutés.",
+      "whyLabel": "En bref",
+      "why": "Les « mondes virtuels » générés par l'IA sortent des laboratoires.",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "OpenAI s'associe au Groupe Figaro",
+      "summary": "ChatGPT affichera des résumés et extraits du Figaro, avec des liens vers les articles d'origine. Le groupe prévoit aussi de déployer ChatGPT Enterprise en interne.",
+      "whyLabel": "Le contexte",
+      "why": "Les médias négocient un à un leurs accords avec les entreprises d'IA.",
+      "image": "",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "Selon Gizmodo, les premiers testeurs de GPT-6.2 critiquent « Astra », qui demande trop souvent la permission et peine sur les tâches autonomes.",
+      "url": "https://gizmodo.com/anthropic-could-be-the-real-winner-in-openais-latest-model-release-2000841822",
+      "lang": "EN"
+    },
+    {
+      "text": "Nvidia pourrait garantir jusqu'à 105 milliards de dollars pour le projet de centre de données d'OpenAI dans l'Ohio : un plafond de garantie, pas une dépense immédiate.",
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63403457/nvidia-openai-105-billion-bet",
+      "lang": "EN"
+    },
+    {
+      "text": "Le philosophe Thomas Nagel juge « ridicule » l'idée que les IA actuelles soient conscientes.",
+      "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 24429.88,
+        "changePct": 0.42,
+        "session": "2026-11-18"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 27116.26,
+        "changePct": 0.42,
+        "session": "2026-11-18"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7323.63,
+        "changePct": -0.23,
+        "session": "2026-11-18"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 50198.17,
+        "changePct": -1.11,
+        "session": "2026-11-18"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 24.56,
+        "changePct": -3.53,
+        "session": "2026-11-18"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8146.83,
+        "changePct": -0.85,
+        "session": "2026-11-18"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 25736.24,
+        "changePct": -1.19,
+        "session": "2026-11-18"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6154.39,
+        "changePct": -0.93,
+        "session": "2026-11-18"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 59444.21,
+        "changePct": 0.71,
+        "session": "2026-11-19"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 23294.75,
+        "changePct": -0.91,
+        "session": "2026-11-18"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 150.96,
+        "changePct": -2.89,
+        "session": "2026-11-18"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 352.45,
+        "changePct": 0.15,
+        "session": "2026-11-18"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 508.29,
+        "changePct": 0.4,
+        "session": "2026-11-18"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 282.44,
+        "changePct": 0.8,
+        "session": "2026-11-18"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 267.74,
+        "changePct": 3.82,
+        "session": "2026-11-18"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 616.38,
+        "changePct": -0.4,
+        "session": "2026-11-18"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 383.72,
+        "changePct": 0.95,
+        "session": "2026-11-18"
+      }
+    ],
+    "intro": "Mercredi, Wall Street a fini en ordre dispersé : le Nasdaq a gagné 0,42 %, mais le S&P 500 a perdu 0,23 % et le Dow Jones 1,11 %, pénalisés par le compte rendu de la Fed, qui laisse entrevoir une hausse des taux en décembre ; Nvidia a reculé malgré de bons résultats.",
+    "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Mercredi : le Nasdaq progresse de 0,42 %, le S&P 500 et le Dow reculent",
+        "summary": "Wall Street a fini en ordre dispersé : le Nasdaq a gagné 0,42 % (24 429,89 points), tandis que le S&P 500 a perdu 0,23 % (7 323,64) et le Dow Jones 1,11 % (50 198,17). Le S&P 500 a effacé ses gains du début de séance après la publication du compte rendu de la Fed.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Le S&P 500 enchaîne une cinquième séance de baisse, sa plus longue série depuis juin.",
+        "image": "https://bloximages.chicago2.vip.townnews.com/lufkindailynews.com/content/tncms/assets/v3/editorial/6/6e/66ea4bd4-7ff1-59fa-be30-a3645ebb6e9d/6afd7fb8bf883.image.jpg?crop=800%2C420%2C0%2C56",
+        "links": [
+          {
+            "label": "Reuters (Lufkin Daily News)",
+            "url": "https://lufkindailynews.com/news_reuters/business/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes/article_757d7e1e-451b-5fc3-914c-44086229e225.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Nvidia recule de 2,9 % malgré de bons résultats, AMD bondit de 5,3 %",
+        "summary": "Nvidia a cédé 2,9 % malgré des résultats et des prévisions supérieurs aux attentes, les investisseurs s'inquiétant du départ soudain de Jensen Huang. L'indice des semi-conducteurs a gagné 0,1 %, AMD 5,3 %, Amazon 3,8 % et Take-Two (avant la sortie de GTA VI) 6,2 %.",
+        "whyLabel": "Le contexte",
+        "why": "Les bons chiffres ne suffisent plus à faire monter les valeurs de l'IA.",
+        "image": "",
+        "links": [
+          {
+            "label": "Reuters (Lufkin Daily News)",
+            "url": "https://lufkindailynews.com/news_reuters/business/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes/article_757d7e1e-451b-5fc3-914c-44086229e225.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "La Fed reste focalisée sur l'inflation, une hausse de taux en décembre quasi certaine",
+        "summary": "Le compte rendu de la réunion d'octobre montre que quelques responsables auraient voulu une hausse de 0,50 point si l'inflation s'aggravait. Les marchés tablent presque à coup sûr sur une hausse de 0,25 point en décembre, selon CME FedWatch.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Des taux plus élevés pèsent sur les valeurs technologiques.",
+        "image": "",
+        "links": [
+          {
+            "label": "Reuters (Lufkin Daily News)",
+            "url": "https://lufkindailynews.com/news_reuters/business/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes/article_757d7e1e-451b-5fc3-914c-44086229e225.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Anthropic fixe son introduction en Bourse à 83 dollars, cotation attendue jeudi",
+        "summary": "Anthropic a fixé le prix à 83 dollars par action, au-dessus de la fourchette de 70 à 78 dollars. Reuters en parle comme de l'une des plus grosses introductions en Bourse de l'histoire et la première d'un grand développeur d'IA ; les titres doivent être cotés au Nasdaq sous le sigle ANT.",
+        "whyLabel": "À savoir",
+        "why": "Ce sera un test de l'appétit des investisseurs pour l'IA.",
+        "image": "https://www.renaissancecapital.com/logos/ANT_logo_fb.jpg",
+        "links": [
+          {
+            "label": "Renaissance Capital",
+            "url": "https://www.renaissancecapital.com/IPO-Center/News/122776/anthropic-prices-upsized-ipo-at-83-above-the-range%3B-raises-81b",
+            "lang": "EN"
+          },
+          {
+            "label": "Reuters (Lufkin Daily News)",
+            "url": "https://lufkindailynews.com/news_reuters/business/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes/article_757d7e1e-451b-5fc3-914c-44086229e225.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Mercredi : l'Europe chute pour la troisième séance, le STOXX 600 perd 1,03 %",
+        "summary": "Le STOXX 600 a fini à 644,05 points (-1,03 %), son plus bas depuis le 6 novembre. Le DAX a perdu 1,19 %, le FTSE 100 1,3 % et le CAC 40 0,85 %, entraînés par les mines et l'énergie, avant l'entrée en Bourse d'Anthropic.",
+        "whyLabel": "Le contexte",
+        "why": "L'indice européen est désormais à plus de 3 % sous son record de la semaine dernière.",
+        "image": "https://s.yimg.com/lo/mysterio/api/e58dcc57feadc75e9d54d739922de52f690c941df4e7a45a98ef0b660079f84c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdpa_international_526%2Fc08194ba6f6383b8a24f404354129dfb.jpg",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-weak-cautious-190339591.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Jeudi : l'Asie s'annonce prudente après Wall Street et le recul de Nvidia",
+        "summary": "Les marchés d'Asie-Pacifique s'orientaient vers une ouverture peu animée jeudi, après une séance mitigée à Wall Street où Nvidia a reculé.",
+        "whyLabel": "En bref",
+        "why": "Les investisseurs attendent la cotation d'Anthropic.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Walmart publie ses résultats jeudi, après les bons chiffres de Target (+4 %) et TJX (+8 %) mercredi.",
+        "url": "https://lufkindailynews.com/news_reuters/business/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes/article_757d7e1e-451b-5fc3-914c-44086229e225.html",
+        "lang": "EN"
+      },
+      {
+        "text": "Selon Reuters, le Dow a perdu 561 points mercredi ; les mines européennes ont plongé de 4,7 %, leur pire séance depuis mai.",
+        "url": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-close-weak-cautious-190339591.html",
+        "lang": "EN"
+      }
+    ]
+  }
+}
