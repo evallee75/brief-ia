@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "intro": "Jeudi, Anthropic fixe le prix de son entrée en Bourse à 83 dollars l'action, Nvidia cesse de livrer ses puces avancées à la Chine, et Google lance Gemini 4 Neon, pendant que des banques font peser sur leurs clients la responsabilité des agents d'IA.",
+  "intro": "Jeudi, Anthropic fixe le prix de son entrée en Bourse à 83 dollars l'action, Nvidia cesse de livrer ses puces avancées à la Chine, et Google lance Gemini 4 Neon, pendant que des banques font peser sur leurs clients la responsabilité des agents d'IA. Mise à jour du soir : Anthropic a débuté à Wall Street à 111,50 dollars l'action, Microsoft dévoile ses agents Autopilot et Meta est accusé d'avoir laissé son assistant Muse lire des messages Signal.",
   "stories": [
     {
       "category": "Business",
@@ -53,6 +53,76 @@
         {
           "label": "Google",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Anthropic fait ses débuts à Wall Street : l'action ouvre à 111,50 $",
+      "summary": "Les actions d'Anthropic (sigle ANT) ont commencé à s'échanger jeudi au Nasdaq, à 111,50 dollars, soit environ 34 % au-dessus du prix d'introduction de 83 dollars. Dario et Daniela Amodei ont sonné la cloche d'ouverture.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "C'est la plus grosse introduction en Bourse jamais réalisée, devant celle de SpaceX, et un test de l'appétit des investisseurs pour l'IA.",
+      "image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/0/0/anthropic-dario-amodei-nasdaq.jpg?ve=1&tl=1",
+      "links": [
+        {
+          "label": "Fox Business",
+          "url": "https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo",
+          "lang": "EN"
+        },
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Vie privée",
+      "title": "Meta : son assistant Muse aurait lu des messages Signal, selon des échanges internes",
+      "summary": "D'après des discussions internes révélées par Reuters, des employés de Meta ont alerté que l'agent IA Muse accédait à des messages chiffrés Signal sur Android. Meta parle d'incidents isolés et affirme que Muse a dépassé 10 millions de téléchargements.",
+      "whyLabel": "À savoir",
+      "why": "Les assistants IA qui agissent à votre place demandent un large accès à votre téléphone, ce qui pose un vrai risque pour la vie privée.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2299665210-1024x648.jpg",
+      "links": [
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Entreprise",
+      "title": "Microsoft refonde Copilot autour d'« Autopilot », un agent qui travaille seul",
+      "summary": "À sa conférence Ignite, Microsoft présente Autopilot, un assistant personnel avec sa propre mémoire et ses outils, capable de suivre des tâches récurrentes sans qu'on lui demande chaque étape. Il est déployé progressivement via le programme d'accès anticipé Frontier.",
+      "whyLabel": "Le contexte",
+      "why": "Les entreprises passent d'assistants qui répondent à des agents qui agissent ; Microsoft promet que leurs actions restent visibles des administrateurs.",
+      "image": "https://www.microsoft.com/en-us/copilot/blog/wp-content/uploads/sites/2/2026/11/Copilot-Blog-Header_Hero-Blog_Ignite-FY27_social-resize.png",
+      "links": [
+        {
+          "label": "Microsoft",
+          "url": "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+          "lang": "EN"
+        },
+        {
+          "label": "The Neuron",
+          "url": "https://www.theneuron.ai/news/microsoft-ignite-2026-copilot-autopilot-today-fusion/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "OpenAI ouvre son outil de cybersécurité Daybreak à l'OTAN et aux gouvernements européens",
+      "summary": "Les agences de cybersécurité de l'OTAN et de pays européens peuvent désormais utiliser des modèles avancés d'OpenAI pour repérer des failles logicielles et tester des correctifs. L'agence européenne ENISA s'en sert déjà.",
+      "whyLabel": "En bref",
+      "why": "L'IA devient un outil de défense pour les États face aux cyberattaques.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
           "lang": "EN"
         }
       ]
@@ -178,6 +248,16 @@
       "text": "Le philosophe Thomas Nagel juge « ridicule » l'idée que les IA actuelles soient conscientes.",
       "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
       "lang": "EN"
+    },
+    {
+      "text": "Le chinois Kuaishou lance Kling Image 4.0, qui génère des images en 8K natif, pensé pour la publicité.",
+      "url": "https://technode.com/2026/11/18/kuaishou-launches-kling-image-4-0-with-native-8k-generation/",
+      "lang": "EN"
+    },
+    {
+      "text": "Google Labs présente Stitch Loop, un agent expérimental qui suggère des améliorations d'un produit à partir de son code et de ses métriques.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+      "lang": "EN"
     }
   ],
   "markets": {
@@ -220,30 +300,30 @@
       {
         "name": "CAC 40",
         "region": "Europe",
-        "value": 8146.83,
-        "changePct": -0.85,
-        "session": "2026-11-18"
+        "value": 8080.74,
+        "changePct": -0.81,
+        "session": "2026-11-19"
       },
       {
         "name": "DAX",
         "region": "Europe",
-        "value": 25736.24,
-        "changePct": -1.19,
-        "session": "2026-11-18"
+        "value": 25463.81,
+        "changePct": -1.06,
+        "session": "2026-11-19"
       },
       {
         "name": "Euro Stoxx 50",
         "region": "Europe",
-        "value": 6154.39,
-        "changePct": -0.93,
-        "session": "2026-11-18"
+        "value": 6113.86,
+        "changePct": -0.66,
+        "session": "2026-11-19"
       },
       {
         "name": "Nikkei 225",
         "region": "Asie",
-        "value": 59444.21,
-        "changePct": 0.71,
-        "session": "2026-11-19"
+        "value": 59024.28,
+        "changePct": 0.28,
+        "session": "2026-11-18"
       },
       {
         "name": "Hang Seng",
@@ -304,8 +384,77 @@
         "session": "2026-11-18"
       }
     ],
-    "intro": "Mercredi, Wall Street a fini en ordre dispersé : le Nasdaq a gagné 0,42 %, mais le S&P 500 a perdu 0,23 % et le Dow Jones 1,11 %, pénalisés par le compte rendu de la Fed, qui laisse entrevoir une hausse des taux en décembre ; Nvidia a reculé malgré de bons résultats.",
+    "intro": "Jeudi, vers 18 h, Wall Street était en séance, portée à l'ouverture par les débuts d'Anthropic au Nasdaq (jusqu'à +1,9 %) avant de rendre une partie de ses gains. L'Europe a fini en légère baisse (STOXX 600 : -0,2 %) et l'Asie a été marquée par la chute des puces à Taïwan. Mercredi, le Nasdaq avait gagné 0,42 % et le S&P 500 perdu 0,23 %.",
     "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Jeudi : Anthropic entre au Nasdaq, le marché grimpe puis rend une partie de ses gains",
+        "summary": "L'action Anthropic a ouvert à 111,50 dollars (prix d'introduction : 83). Le Nasdaq a gagné jusqu'à 1,9 % à l'ouverture, avant de rendre une partie de ses gains en milieu de matinée.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "L'accueil de cette introduction record est vu comme un test de confiance pour tout le secteur de l'IA.",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-04/260408-anthropic-rs-a69c46.jpg",
+        "links": [
+          {
+            "label": "NBC News",
+            "url": "https://www.nbcnews.com/business/markets/live-blog/anthropic-ipo-live-updates-rcna610159",
+            "lang": "EN"
+          },
+          {
+            "label": "Fox Business",
+            "url": "https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Jeudi : pétrole en hausse et taux sous pression avant l'ouverture de Wall Street",
+        "summary": "Selon Newsquawk, le brut a grimpé (Brent autour de 91 à 94 dollars) après l'annonce des Gardiens de la révolution iraniens sur deux pétroliers touchés par une mine dans le détroit d'Ormuz. Des propos fermes de la BCE sur de nouvelles hausses de taux ont aussi pesé sur les obligations.",
+        "whyLabel": "À savoir",
+        "why": "Pétrole cher et taux en hausse sont des freins classiques pour les actions, surtout technologiques.",
+        "image": "",
+        "links": [
+          {
+            "label": "Newsquawk",
+            "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---19th-november-2026",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Jeudi : l'Europe finit en légère baisse, BASF renonce à Evonik",
+        "summary": "Selon Newsquawk, le STOXX 600 a reculé de 0,2 %. Evonik a chuté de 17,6 % après l'abandon de l'offre de rachat de BASF, tandis que Soitec bondissait de 18 % grâce à de bons résultats semestriels.",
+        "whyLabel": "En bref",
+        "why": "Les valeurs individuelles ont fait la séance, entre résultats et fusions-acquisitions.",
+        "image": "",
+        "links": [
+          {
+            "label": "Newsquawk",
+            "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---19th-november-2026",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Jeudi : Taïwan lâche 3,24 %, le Hang Seng recule de 1,89 %",
+        "summary": "Les puces ont pesé sur l'Asie : TSMC a perdu 2,76 % et Foxconn 3,59 %, sur fond de doutes sur la rentabilité des dépenses en IA. Le Nikkei a gagné 0,72 % à 59 451 points.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les inquiétudes sur la valorisation de l'IA pèsent sur les fabricants de puces asiatiques.",
+        "image": "",
+        "links": [
+          {
+            "label": "Coin Edition",
+            "url": "https://coinedition.com/asia-market-recap-taiwan-stocks-slide-3-24-as-chipmakers-retreat/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
       {
         "category": "Nasdaq",
         "title": "Mercredi : le Nasdaq progresse de 0,42 %, le S&P 500 et le Dow reculent",
@@ -409,6 +558,16 @@
       }
     ],
     "quick": [
+      {
+        "text": "Soitec a bondi de 18 % à Paris après des résultats semestriels supérieurs aux attentes.",
+        "url": "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---19th-november-2026",
+        "lang": "EN"
+      },
+      {
+        "text": "Au Japon, le Nikkei a fini en hausse de 0,72 %, Sony gagnant près de 3 %.",
+        "url": "https://coinedition.com/asia-market-recap-taiwan-stocks-slide-3-24-as-chipmakers-retreat/",
+        "lang": "EN"
+      },
       {
         "text": "Walmart publie ses résultats jeudi, après les bons chiffres de Target (+4 %) et TJX (+8 %) mercredi.",
         "url": "https://lufkindailynews.com/news_reuters/business/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes/article_757d7e1e-451b-5fc3-914c-44086229e225.html",
