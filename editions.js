@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-20",
-  "intro": "Vendredi, l'entrée en Bourse d'Anthropic se solde par un gain de 17 % malgré une chute de Wall Street, Gemini apprend à piloter votre Mac, Apple prépare son propre agent IA et une cyberattaque assistée par IA frappe la Commission européenne.",
+  "intro": "Vendredi, l'entrée en Bourse d'Anthropic se solde par un gain de 17 % malgré une chute de Wall Street, Gemini apprend à piloter votre Mac, Apple prépare son propre agent IA et une cyberattaque assistée par IA frappe la Commission européenne. Mise à jour du soir : Anthropic recule d'environ 11 % pour sa deuxième séance, Google montre vos discussions avec son IA sur sa page d'accueil, des salariés de Google réclament une recherche sans IA pour les écoles et des pannes géantes relancent le débat sur les correctifs précipités.",
   "stories": [
    {
     "category": "Business",
@@ -49,6 +49,71 @@ window.EDITIONS = [
      {
       "label": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Anthropic recule d'environ 11 % pour sa deuxième séance en Bourse",
+    "summary": "Après un premier jour à 97,17 dollars (+17 % par rapport au prix d'introduction de 83 dollars), l'action Anthropic a reculé d'environ 11 % vendredi, vers 86 dollars. Elle reste donc légèrement au-dessus de son prix d'introduction, mais le titre pâtit de la chute générale des valeurs liées à l'IA.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "L'entrée en Bourse la plus grosse de l'histoire n'a pas suffi à rassurer les investisseurs sur l'IA.",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2305321358-e1795159337996.jpg?resize=1200,600",
+    "links": [
+     {
+      "label": "Fortune",
+      "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
+      "lang": "EN"
+     },
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Google affiche vos discussions avec son IA sur la page d'accueil de la recherche",
+    "summary": "Sur ordinateur, une barre latérale repliable liste désormais vos recherches récentes en « mode IA » sur la page d'accueil de Google. Un responsable de Google explique que les questions des gens « ne s'arrêtent pas à une seule réponse ». Le revers : toute personne qui regarde votre écran peut les voir.",
+    "whyLabel": "À savoir",
+    "why": "Vos échanges avec l'IA deviennent plus visibles : pensez à la confidentialité sur un ordinateur partagé.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "links": [
+     {
+      "label": "The Verge",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Des salariés de Google demandent une recherche sans IA pour les écoles",
+    "summary": "Plus de 500 employés de Google demandent à leur direction de permettre aux écoles d'utiliser la recherche classique, séparée des fonctions d'IA, selon Bloomberg.",
+    "whyLabel": "En bref",
+    "why": "L'IA dans l'éducation divise, y compris au sein des entreprises qui la construisent.",
+    "image": "",
+    "links": [
+     {
+      "label": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/google-workers-urge-bosses-to-let-schools-have-search-without-ai",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Sécurité",
+    "title": "Pannes géantes : des mises à jour de sécurité précipitées en cause ?",
+    "summary": "Une panne de messagerie Microsoft aurait touché 450 millions d'utilisateurs, et une panne de routeur a provoqué plus de 12 000 annulations de vols aux États-Unis. Aucune des deux n'est une attaque : les responsables soupçonnent des correctifs de sécurité appliqués trop vite, dans un contexte de détection de failles accélérée par l'IA.",
+    "whyLabel": "Le contexte",
+    "why": "L'IA découvre des failles plus vite, ce qui pousse les entreprises à corriger dans la précipitation.",
+    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/FAA-1.png",
+    "links": [
+     {
+      "label": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/18/recent-spate-of-outages-attributed-to-technical-issues-amid-accelerated-ai-bug-discovery/",
       "lang": "EN"
      }
     ]
@@ -179,10 +244,20 @@ window.EDITIONS = [
     "text": "Microsoft présente sept modèles d'IA maison (code, cybersécurité, image, voix en temps réel), qu'il dit bien moins chers que ceux des grands rivaux.",
     "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
     "lang": "EN"
+   },
+   {
+    "text": "L'OCDE note que 20 % des entreprises de 10 salariés ou plus utilisent l'IA, contre 52 % de celles de 250 salariés ou plus, et que l'écart devrait se creuser d'ici 2030.",
+    "url": "https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html",
+    "lang": "EN"
+   },
+   {
+    "text": "Plus de 100 chercheurs et fondateurs signent un texte, « MisAnthropic », qui juge la course d'Anthropic vers une IA qui s'accélère elle-même contradictoire avec son discours sur la sécurité.",
+    "url": "https://misanthropicstatement.com/",
+    "lang": "EN"
    }
   ],
   "markets": {
-   "intro": "Jeudi, Wall Street a basculé dans le rouge malgré les débuts d'Anthropic : le Nasdaq a perdu 2,25 % et le S&P 500 2,02 %, sur fond de craintes sur les dépenses d'IA et d'indicateurs américains décevants. L'Asie a plongé vendredi (Nikkei −5,06 %).",
+   "intro": "Vendredi, la déroute des valeurs liées à l'IA se poursuit : vers 18 h, en séance, le Nasdaq perdait environ 1,55 % et le S&P 500 se dirigeait vers sa septième baisse d'affilée, tandis que l'Europe a clôturé en net recul (CAC 40 −1,89 %, DAX −2,6 %) et que l'Asie a connu sa pire semaine depuis 2020. Jeudi, le Nasdaq avait déjà perdu 2,25 % et le S&P 500 2,02 %.",
    "indices": [
     {
      "name": "Nasdaq Composite",
@@ -222,30 +297,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8080.74,
-     "changePct": -0.81,
-     "session": "2026-11-19"
+     "value": 7927.75,
+     "changePct": -1.89,
+     "session": "2026-11-20"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 25463.81,
-     "changePct": -1.06,
-     "session": "2026-11-19"
+     "value": 24802.78,
+     "changePct": -2.6,
+     "session": "2026-11-20"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6113.86,
-     "changePct": -0.66,
-     "session": "2026-11-19"
+     "value": 5941.95,
+     "changePct": -2.81,
+     "session": "2026-11-20"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 56436.65,
-     "changePct": -5.06,
-     "session": "2026-11-20"
+     "value": 59444.21,
+     "changePct": 0.71,
+     "session": "2026-11-19"
     },
     {
      "name": "Hang Seng",
@@ -307,6 +382,106 @@ window.EDITIONS = [
     }
    ],
    "stories": [
+    {
+     "region": "Amérique",
+     "category": "Nasdaq",
+     "title": "Vendredi : Wall Street recule encore, septième séance de baisse pour le S&P 500",
+     "summary": "En séance vendredi, le Nasdaq perdait environ 1,55 % et le S&P 500 entre 0,5 % et 1,4 % selon les sources et l'heure. L'indice américain se dirigeait vers sa septième baisse d'affilée, sa plus longue série depuis 2020. Jeudi, 92 % des valeurs du S&P 500 avaient reculé et l'indice était passé sous sa moyenne des 200 derniers jours.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Les craintes sur les dépenses d'IA et la hausse possible des taux continuent de peser sur la tech.",
+     "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2305321358-e1795159337996.jpg?resize=1200,600",
+     "links": [
+      {
+       "label": "Fortune",
+       "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
+       "lang": "EN"
+      },
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Vendredi : Anthropic perd environ 11 %, Nvidia et AMD reculent aussi",
+     "summary": "Anthropic a cédé environ 11 % vers 86 dollars pour sa deuxième séance, tout en restant au-dessus de son prix d'introduction de 83 dollars. Nvidia, AMD, Amazon et Microsoft étaient également en baisse. Selon Fortune, Nvidia a perdu 39 % et Intel 50 % depuis le record du S&P 500 du 6 octobre.",
+     "whyLabel": "À savoir",
+     "why": "Les ventes d'actions par des salariés après l'introduction et la méfiance envers l'IA pèsent sur les valeurs du secteur.",
+     "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2305321358-e1795159337996.jpg?resize=1200,600",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+       "lang": "EN"
+      },
+      {
+       "label": "Fortune",
+       "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Macro / Fed",
+     "title": "Vendredi : UBS devient prudent sur les actions, Goldman attend deux hausses de taux",
+     "summary": "UBS a abaissé sa recommandation sur les actions mondiales d'« attractive » à « neutre », en citant des attentes élevées et la concentration de l'indice sur quelques géants. Les économistes de Goldman Sachs s'attendent à ce que la Réserve fédérale relève ses taux en décembre et en mars, jusqu'à 4,25-4,5 %.",
+     "whyLabel": "Le contexte",
+     "why": "Des taux plus hauts rendent les valeurs technologiques, très chères, moins attractives.",
+     "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2305321358-e1795159337996.jpg?resize=1200,600",
+     "links": [
+      {
+       "label": "Fortune",
+       "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "Vendredi : l'Europe termine en forte baisse, l'Euro Stoxx 50 perd 2,81 %",
+     "summary": "À la clôture, le CAC 40 a perdu 1,89 % à 7 927,75 points, le DAX allemand 2,6 % à 24 802,78 points et l'Euro Stoxx 50 2,81 % à 5 941,95 points. Les Bourses européennes ont suivi la chute de Wall Street et de l'Asie.",
+     "whyLabel": "En bref",
+     "why": "La baisse des valeurs liées à l'IA et des craintes sur les taux touchent désormais l'ensemble des marchés.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance (CAC 40)",
+       "url": "https://finance.yahoo.com/quote/%5EFCHI/",
+       "lang": "EN"
+      },
+      {
+       "label": "Yahoo Finance (DAX)",
+       "url": "https://finance.yahoo.com/quote/%5EGDAXI/",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Vendredi : l'Asie signe sa pire semaine depuis 2020, le Kospi passe sous 5 000 points",
+     "summary": "Le Kospi sud-coréen a reculé de 5,2 % à 4 869,96 points, sous les 5 000 pour la première fois depuis janvier. Samsung Electronics et SK Hynix ont perdu environ 6 à 7 %. L'indice MSCI Asie-Pacifique hors Japon a cédé environ 8,5 % sur la semaine, son pire résultat depuis 2020.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Les fabricants de puces asiatiques, très liés à l'IA, subissent de plein fouet le retournement.",
+     "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F8%2F0%2F6%2F13466086-1-eng-GB%2F4bcb753fdc73-2026-06-30T090346Z_1514873755_RC254MACUOS2_RTRMADP_3_SOUTHKOREA-CHIPS.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+     "links": [
+      {
+       "label": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/markets/asian-tech-stocks-fall-sharply-after-anthropic-s-blockbuster-ipo",
+       "lang": "EN"
+      },
+      {
+       "label": "MarketScreener",
+       "url": "https://www.marketscreener.com/news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-ce785ed2de8ef627",
+       "lang": "EN"
+      }
+     ]
+    },
     {
      "category": "Nasdaq",
      "title": "Jeudi : le Nasdaq perd 2,25 % après avoir gagné jusqu'à 2 % le matin",
@@ -415,6 +590,11 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Selon Fortune, l'IA aurait généré environ la moitié de la hausse des bénéfices du S&P 500 cette année (Goldman Sachs), ce qui explique la sensibilité de l'indice aux craintes sur le secteur.",
+     "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
+     "lang": "EN"
+    },
     {
      "text": "Sur la semaine, le Dow Jones perd 6,2 %, le S&P 500 et le Nasdaq environ 5 % : leurs plus fortes baisses hebdomadaires depuis plus d'un an.",
      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
