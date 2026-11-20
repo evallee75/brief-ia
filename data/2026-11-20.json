@@ -1,0 +1,429 @@
+{
+ "date": "2026-11-20",
+ "intro": "Vendredi, l'entrée en Bourse d'Anthropic se solde par un gain de 17 % malgré une chute de Wall Street, Gemini apprend à piloter votre Mac, Apple prépare son propre agent IA et une cyberattaque assistée par IA frappe la Commission européenne.",
+ "stories": [
+  {
+   "category": "Business",
+   "title": "Anthropic termine sa première séance en Bourse en hausse de 17 %, malgré un marché en chute",
+   "summary": "Anthropic (sigle ANT) a ouvert à 111,50 dollars jeudi au Nasdaq, soit 34 % au-dessus de son prix d'introduction de 83 dollars, avant de reculer d'environ 13 % depuis cette ouverture. Le titre a finalement clôturé en hausse de 17 % sur la séance. L'introduction a levé 81,3 milliards de dollars, un record.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "Même une introduction réussie n'a pas suffi à calmer les inquiétudes des investisseurs sur les dépenses colossales dans l'IA.",
+   "image": "https://img.semafor.com/90928802e531ab71525beec3f1ef3ee8fc1a1a27-5500x3667.jpg?rect=0,390,5500,2888&w=1200&h=630&q=75&auto=format",
+   "links": [
+    {
+     "label": "Semafor",
+     "url": "https://www.semafor.com/article/11/19/2026/anthropic-makes-record-market-debut",
+     "lang": "EN"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Sécurité",
+   "title": "Une cyberattaque assistée par IA perturbe la Commission européenne",
+   "summary": "L'attaque a temporairement perturbé les systèmes de paie et de remboursement des frais médicaux de la Commission européenne. Les enquêteurs auraient identifié ARTEX, un outil de test de sécurité assisté par IA, et les autorités vérifient si des données personnelles ont été compromises.",
+   "whyLabel": "À savoir",
+   "why": "Les outils d'IA permettent désormais de mener des attaques informatiques plus vite et à moindre coût.",
+   "image": "https://image.theregister.com/5311112.jpg?imageId=5311112&x=0&y=0&cropw=100&croph=84.87&panox=0&panoy=0&panow=100&panoh=84.87&width=1200&height=683",
+   "links": [
+    {
+     "label": "The Register",
+     "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "Gemini peut désormais utiliser votre Mac à votre place",
+   "summary": "Google donne à Gemini la capacité d'organiser vos fichiers, de remplir des formulaires et de manier des applications sur Mac pendant que vous travaillez à autre chose. Le service est d'abord disponible en anglais, pour les abonnés américains aux offres Google AI Plus, Pro et Ultra.",
+   "whyLabel": "En bref",
+   "why": "Les assistants IA passent du simple chat à l'action directe sur votre ordinateur.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/hero_header_CU_copy.width-2200.format-webp.jpeg?resize=1200,675",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "Apple plancherait sur un agent IA capable de piloter votre Mac",
+   "summary": "Selon Bloomberg, Apple développe un agent IA capable de manipuler des applications, de naviguer sur le web et d'écrire du code. Le projet en est encore à un stade précoce, et Apple préparerait aussi des avertissements de permission supplémentaires pour les agents concurrents.",
+   "whyLabel": "Le contexte",
+   "why": "Apple, jusqu'ici prudent sur l'IA, semble vouloir suivre Google et OpenAI sur les agents.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+     "lang": "EN"
+    },
+    {
+     "label": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/apple-is-working-on-ai-agent-for-device-control-apps-browsing-and-coding",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Régulation",
+   "title": "Quatre sénateurs veulent obliger les entreprises cotées à plus de transparence sur l'IA",
+   "summary": "Quatre sénateurs américains, issus des deux partis, ont déposé un projet de loi qui obligerait les sociétés cotées en Bourse à publier davantage d'informations sur leur usage de l'IA. L'initiative fait suite à l'examen attentif de l'introduction en Bourse d'Anthropic.",
+   "whyLabel": "À savoir",
+   "why": "Avec l'IA qui pèse de plus en plus en Bourse, Washington veut que les investisseurs sachent ce qu'ils achètent.",
+   "image": "https://img.semafor.com/02244ec7a8b7f592fcde192b19a45c44e9a9275e-4738x3159.jpg?rect=0,337,4738,2487&w=1200&h=630&q=75&auto=format",
+   "links": [
+    {
+     "label": "Semafor",
+     "url": "https://www.semafor.com/article/11/19/2026/anthropic-ipo-heightens-washingtons-tech-scrutiny",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "ChatGPT transcrit désormais votre voix en direct",
+   "summary": "La dictée en direct de ChatGPT affiche le texte au fur et à mesure que vous parlez, modifiable avant l'envoi, et supprime l'ancienne limite d'enregistrement de 10 minutes. Elle est déployée dans le monde entier, sur toutes les offres.",
+   "whyLabel": "En bref",
+   "why": "Dicter un long message à ChatGPT devient plus simple.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chatgpt-live-dictation-promo-screenshot.jpeg?quality=90&strip=all&crop=8.4734375%2C20.737347294939%2C85.1578125%2C79.262652705061&w=1200",
+   "links": [
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Société",
+   "title": "Canva ajoute un bouton pour désactiver ses outils d'IA",
+   "summary": "Les utilisateurs de Canva peuvent désormais couper de nombreux outils d'IA générative, comme Magic Write et Magic Expand, et réduire les contenus générés par IA dans les résultats de recherche. Certains outils d'édition assistés par IA restent disponibles.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "Une partie du public veut pouvoir choisir de ne pas utiliser l'IA, même dans les logiciels du quotidien.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25355957/STK263_CANVA_D.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "links": [
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Environnement",
+   "title": "Les centres de données américains consomment près de 2 % de l'électricité du pays",
+   "summary": "403 centres de données américains ont consommé près de 2 % de l'électricité du pays, en grande partie issue d'énergies fossiles. Ce chiffre alimente le débat sur les émissions liées à l'infrastructure de l'IA.",
+   "whyLabel": "Le contexte",
+   "why": "Plus l'IA grandit, plus la question de son empreinte énergétique devient pressante.",
+   "image": "https://img.semafor.com/55985f7d8e51ef97fe622f42b9b44419c330c045-6500x4333.jpg?rect=0,461,6500,3413&w=1200&h=630&q=75&auto=format",
+   "links": [
+    {
+     "label": "Semafor",
+     "url": "https://www.semafor.com/article/11/17/2026/us-data-center-emissions-rival-entire-countries",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Espace",
+   "title": "Google a choisi Blue Origin pour lancer des satellites de calcul IA en 2029",
+   "summary": "Google a retenu Blue Origin pour lancer ses satellites du projet Suncatcher au premier trimestre 2029. Le but est de tester le calcul par IA alimenté à l'énergie solaire en orbite, chaque satellite offrant une capacité comparable à celle d'une baie de serveurs.",
+   "whyLabel": "En bref",
+   "why": "Des géants de la tech imaginent déjà des centres de données dans l'espace.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/project-suncatcher-logo.png?quality=90&strip=all&crop=0%2C19.088098918083%2C100%2C61.823802163833&w=1200",
+   "links": [
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Sécurité",
+   "title": "Google a construit un faux internet pour entraîner ses agents IA de Chrome",
+   "summary": "Google a créé une copie simulée d'internet, avec des sites réalistes, pour entraîner ses agents de navigation dans Chrome. Les actions d'essai restent ainsi séparées des vrais comptes et des vrais services.",
+   "whyLabel": "À savoir",
+   "why": "Cela permet de tester des agents qui agissent seuls sans risque pour les internautes.",
+   "image": "https://media.wired.com/photos/6aff303dd91b5ce0f67d7c99/191:100/w_1280,c_limit/security_chrome_mirror_browser_ai_agent.jpg",
+   "links": [
+    {
+     "label": "Wired",
+     "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+     "lang": "EN"
+    }
+   ]
+  }
+ ],
+ "quick": [
+  {
+   "text": "Le chinois Moonshot AI aurait annulé un contrat de 150 millions de dollars pour accéder à des puces Nvidia en Indonésie, après les nouvelles règles américaines sur l'accès à distance.",
+   "url": "https://www.theinformation.com/articles/chinas-moonshot-ai-scraps-150-million-deal-access-nvidia-chips-indonesia",
+   "lang": "EN"
+  },
+  {
+   "text": "Le futur appareil IA portable de Meta, Muse Charm, coûterait environ 300 dollars, avec jusqu'à un an de 5G Verizon offerte, pour les fêtes de fin d'année.",
+   "url": "https://gizmodo.com/muse-charm-price-2000842608",
+   "lang": "EN"
+  },
+  {
+   "text": "Microsoft présente sept modèles d'IA maison (code, cybersécurité, image, voix en temps réel), qu'il dit bien moins chers que ceux des grands rivaux.",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "lang": "EN"
+  }
+ ],
+ "markets": {
+  "intro": "Jeudi, Wall Street a basculé dans le rouge malgré les débuts d'Anthropic : le Nasdaq a perdu 2,25 % et le S&P 500 2,02 %, sur fond de craintes sur les dépenses d'IA et d'indicateurs américains décevants. L'Asie a plongé vendredi (Nikkei −5,06 %).",
+  "indices": [
+   {
+    "name": "Nasdaq Composite",
+    "region": "US",
+    "value": 23879.2,
+    "changePct": -2.25,
+    "session": "2026-11-19"
+   },
+   {
+    "name": "Nasdaq 100",
+    "region": "US",
+    "value": 26517.05,
+    "changePct": -2.21,
+    "session": "2026-11-19"
+   },
+   {
+    "name": "S&P 500",
+    "region": "US",
+    "value": 7175.83,
+    "changePct": -2.02,
+    "session": "2026-11-19"
+   },
+   {
+    "name": "Dow Jones",
+    "region": "US",
+    "value": 49097.06,
+    "changePct": -2.19,
+    "session": "2026-11-19"
+   },
+   {
+    "name": "VIX (peur)",
+    "region": "US",
+    "value": 28.44,
+    "changePct": 15.8,
+    "session": "2026-11-19"
+   },
+   {
+    "name": "CAC 40",
+    "region": "Europe",
+    "value": 8080.74,
+    "changePct": -0.81,
+    "session": "2026-11-19"
+   },
+   {
+    "name": "DAX",
+    "region": "Europe",
+    "value": 25463.81,
+    "changePct": -1.06,
+    "session": "2026-11-19"
+   },
+   {
+    "name": "Euro Stoxx 50",
+    "region": "Europe",
+    "value": 6113.86,
+    "changePct": -0.66,
+    "session": "2026-11-19"
+   },
+   {
+    "name": "Nikkei 225",
+    "region": "Asie",
+    "value": 56436.65,
+    "changePct": -5.06,
+    "session": "2026-11-20"
+   },
+   {
+    "name": "Hang Seng",
+    "region": "Asie",
+    "value": 22841.62,
+    "changePct": -1.95,
+    "session": "2026-11-19"
+   }
+  ],
+  "stocks": [
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "value": 145.98,
+    "changePct": -3.3,
+    "session": "2026-11-19"
+   },
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "value": 349.21,
+    "changePct": -0.92,
+    "session": "2026-11-19"
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "value": 498.3,
+    "changePct": -1.97,
+    "session": "2026-11-19"
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "value": 272.66,
+    "changePct": -3.46,
+    "session": "2026-11-19"
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "value": 257.37,
+    "changePct": -3.87,
+    "session": "2026-11-19"
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "value": 596.22,
+    "changePct": -3.27,
+    "session": "2026-11-19"
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "value": 374.41,
+    "changePct": -2.43,
+    "session": "2026-11-19"
+   }
+  ],
+  "stories": [
+   {
+    "category": "Nasdaq",
+    "title": "Jeudi : le Nasdaq perd 2,25 % après avoir gagné jusqu'à 2 % le matin",
+    "summary": "Le Nasdaq Composite a fini à 23 879,20 points (−2,25 %) et le S&P 500 à 7 175,83 (−2,02 %), après une hausse matinale. Le Dow Jones a perdu 1 101 points et clôturé sous 50 000 points pour la première fois depuis juin. L'indice de la peur (VIX) a atteint environ 29 en séance. Les analystes parlent d'une séance où les investisseurs en profitent pour vendre après un rebond.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Malgré l'entrée en Bourse d'Anthropic, les craintes sur les dépenses d'IA ont repris le dessus.",
+    "image": "",
+    "links": [
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "lang": "EN"
+     },
+     {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+      "lang": "EN"
+     }
+    ],
+    "region": "Amérique"
+   },
+   {
+    "category": "Tech US",
+    "title": "AMD chute de près de 8 % après l'annonce d'une vente à découvert",
+    "summary": "AMD a perdu près de 8 % après que le fonds Hunterbrook Capital a révélé une position vendeuse liée à de présumées violations des règles américaines d'exportation vers la Chine. Nvidia, Micron, Microsoft et Meta ont aussi abandonné leurs gains du matin ; Nvidia a reculé de 28 % depuis le début du mois.",
+    "whyLabel": "En bref",
+    "why": "Les valeurs des puces sont particulièrement touchées par les inquiétudes sur la Chine et sur l'IA.",
+    "image": "",
+    "links": [
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "lang": "EN"
+     }
+    ],
+    "region": "Amérique"
+   },
+   {
+    "category": "Macro / Fed",
+    "title": "Des indicateurs américains plus faibles que prévu pèsent sur Wall Street",
+    "summary": "L'indice manufacturier de la Fed de Philadelphie est tombé à 6,3 contre 18 attendu, et les inscriptions hebdomadaires au chômage ont atteint 203 000 contre 197 000 prévues. Le pétrole (Brent) a légèrement monté, à 92,43 dollars, après des informations sur des frappes dans le Golfe.",
+    "whyLabel": "Le contexte",
+    "why": "Ces chiffres alimentent les craintes d'un ralentissement de l'économie américaine.",
+    "image": "",
+    "links": [
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+      "lang": "EN"
+     }
+    ],
+    "region": "Amérique"
+   },
+   {
+    "category": "Europe",
+    "title": "Jeudi : l'Europe termine en baisse malgré l'enthousiasme autour d'Anthropic",
+    "summary": "Le DAX a cédé 1,06 % (25 464 points), le CAC 40 0,81 % (8 080,74) et l'Euro Stoxx 50 0,66 % (6 113,86). Les Bourses européennes ont reculé malgré l'enthousiasme initial pour l'introduction d'Anthropic, avec en toile de fond des propos jugés fermes d'un responsable de la Fed.",
+    "whyLabel": "En bref",
+    "why": "L'Europe n'a pas profité de l'effet Anthropic.",
+    "image": "https://investinglive.com/cms/media/Processed/Categories/featured/2026-11-19_10-00-52-featured-1795107672.jpg?width=960&format=webp",
+    "links": [
+     {
+      "label": "investingLive",
+      "url": "https://investinglive.com/stocks/european-stocks-close-lower-anthropic-opens-34-above-its-ipo-price/",
+      "lang": "EN"
+     }
+    ],
+    "region": "Europe"
+   },
+   {
+    "category": "Asie",
+    "title": "Vendredi : le Nikkei plonge de près de 5 %, SoftBank perd 16 %",
+    "summary": "À Tokyo, le Nikkei 225 a lourdement chuté en suivant Wall Street, entraîné par Advantest, SoftBank et Kioxia. SoftBank a perdu 16,16 %, sa pire séance en plus de deux ans, les investisseurs s'inquiétant de sa participation de 64,6 milliards de dollars dans OpenAI. Les marchés asiatiques se dirigent vers leur pire semaine depuis 2020.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Le malaise sur les valeurs de l'IA se propage maintenant à toute l'Asie.",
+    "image": "https://investinglive.com/cms/media/Processed/Categories/featured/Japan%20plunge%20%2020%20November%202026-featured-1795135921.jpg?width=960&format=webp",
+    "links": [
+     {
+      "label": "investingLive",
+      "url": "https://investinglive.com/stock-market-update/nikkei-slides-4-5-and-kospi-tumbles-as-wall-street-s-ai-reversal-hits-asian-chipmakers/",
+      "lang": "EN"
+     },
+     {
+      "label": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/19/nikkei-225-falls-4-5-and-softbank-plunges-15-as-wall-streets-ai-selloff-puts-asian-stocks-on-track-for-their-worst-week-since-2020/",
+      "lang": "EN"
+     }
+    ],
+    "region": "Asie"
+   },
+   {
+    "category": "Asie",
+    "title": "Vendredi : en Corée, SK Hynix et Samsung reculent, le Kospi s'effondre",
+    "summary": "Le Kospi sud-coréen a perdu plus de 3,5 % selon les sources, SK Hynix reculant d'environ 6 % et Samsung Electronics d'environ 4,7 %. Le Hang Seng de Hong Kong a lâché près de 2 %.",
+    "whyLabel": "En bref",
+    "why": "Les fabricants de puces mémoire asiatiques sont en première ligne.",
+    "image": "https://247wallst.com/wp-content/uploads/2024/02/GettyImages-2029878828-scaled.jpg",
+    "links": [
+     {
+      "label": "investingLive",
+      "url": "https://investinglive.com/stock-market-update/nikkei-slides-4-5-and-kospi-tumbles-as-wall-street-s-ai-reversal-hits-asian-chipmakers/",
+      "lang": "EN"
+     }
+    ],
+    "region": "Asie"
+   }
+  ],
+  "quick": [
+   {
+    "text": "Sur la semaine, le Dow Jones perd 6,2 %, le S&P 500 et le Nasdaq environ 5 % : leurs plus fortes baisses hebdomadaires depuis plus d'un an.",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html",
+    "lang": "EN"
+   },
+   {
+    "text": "L'or est tombé à 3 694,5 dollars l'once, son plus bas niveau depuis septembre 2025.",
+    "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
+    "lang": "EN"
+   }
+  ]
+ }
+}
