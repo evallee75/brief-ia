@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-21",
-  "intro": "Samedi calme côté annonces, mais la justice, les tests de sécurité et le monde du travail rappellent que l'IA suscite autant de doutes que d'usages.",
+  "intro": "Samedi calme côté annonces, mais la justice, les tests de sécurité et le monde du travail rappellent que l'IA suscite autant de doutes que d'usages. Mise à jour du soir : l'IA se retrouve au cœur de tensions politiques, avec la menace de Trump sur les centres de données, les pressions sur les modèles chinois et les nouvelles restrictions sur les puces.",
   "stories": [
    {
     "category": "Société",
@@ -44,6 +44,51 @@ window.EDITIONS = [
      {
       "label": "BigGo Finance",
       "url": "https://finance.biggo.com/news/043478e7-bc61-4b24-9ca3-1d86519ea63c",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Trump menace d'une « taxe énorme » sur les centres de données américains installés à l'étranger",
+    "summary": "Lors d'une conférence de presse à la Maison-Blanche, Donald Trump a affirmé que les entreprises américaines ne pourraient plus construire de centres de données hors du pays, en citant la concurrence de la Chine et un projet de Google en Finlande. Il n'a donné ni taux, ni calendrier, ni liste d'entreprises concernées.",
+    "whyLabel": "Le contexte",
+    "why": "Des juristes doutent que le président puisse créer seul une telle taxe, car ce pouvoir appartient au Congrès.",
+    "image": "",
+    "links": [
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Cursor envisage d'abandonner les modèles d'IA chinois ouverts",
+    "summary": "L'éditeur d'outils de programmation Cursor a indiqué à deux commissions de la Chambre des représentants qu'il pourrait cesser d'utiliser des modèles chinois, par risque géopolitique. Son modèle Composer 2 repose sur Kimi K2.5, de la société chinoise Moonshot AI. Cursor n'a annoncé ni modèle de remplacement ni calendrier.",
+    "whyLabel": "À savoir",
+    "why": "Les modèles chinois sont très prisés des entreprises américaines pour leur faible coût ; le rapport parlementaire regrette l'absence d'équivalent américain.",
+    "image": "",
+    "links": [
+     {
+      "label": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Industrie",
+    "title": "TSMC suspend des livraisons à cause des nouvelles règles américaines sur les puces",
+    "summary": "Entrées en vigueur le 19 novembre, les nouvelles règles américaines d'exportation touchent aussi des puces du quotidien. Selon Nikkei Asia, TSMC a mis en pause des livraisons à plusieurs concepteurs de puces, chinois ou non, le temps de vérifier la conformité.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les restrictions ne visent plus seulement les puces d'IA : toute la chaîne d'approvisionnement électronique peut être perturbée.",
+    "image": "",
+    "links": [
+     {
+      "label": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls",
       "lang": "EN"
      }
     ]
@@ -169,10 +214,20 @@ window.EDITIONS = [
     "text": "Selon Fast Company, 44 % des organisations exigent une intervention humaine quand l'IA corrige des systèmes destinés aux clients (rapport PagerDuty).",
     "url": "https://www.fastcompany.com/91642024/ai-is-making-software-easier-to-build-keeping-it-running-is-another-story",
     "lang": "EN"
+   },
+   {
+    "text": "Amazon affirme que des pirates liés à la Chine ont utilisé des agents d'IA nommés Cairn pour trouver une faille inconnue dans un logiciel d'imagerie médicale en 11 minutes.",
+    "url": "https://aiweekly.co/alerts/amazon-says-china-linked-attackers-used-cairn-ai-agents-to-find-a-monai-zero",
+    "lang": "EN"
+   },
+   {
+    "text": "OpenAI ouvre son modèle vocal GPT-Live-1.1 aux développeurs via son API, avec une facturation de 0,02 $ par minute d'attente.",
+    "url": "https://aiweekly.co/alerts/openai-opens-gpt-live-11-to-api-with-002min-standby",
+    "lang": "EN"
    }
   ],
   "markets": {
-   "intro": "Vendredi, Wall Street a connu une séance noire : le Nasdaq a perdu 5,28 % et le S&P 500 3,7 %, entraînés par Nvidia (-14 %) et les doutes sur la rentabilité de l'IA, avec la peur de nouvelles hausses de taux en toile de fond.",
+   "intro": "Samedi, les Bourses sont fermées : les chiffres ci-dessous sont ceux de la clôture de vendredi. Wall Street a connu une séance noire (Nasdaq -5,28 %, S&P 500 -3,7 %), avec Nvidia en chute de 14 % et la peur de nouvelles hausses de taux. Côté actualité, la menace de Trump sur les centres de données et les nouvelles règles américaines sur les puces restent à suivre pour lundi.",
    "indices": [
     {
      "name": "Nasdaq Composite",
@@ -299,6 +354,38 @@ window.EDITIONS = [
    "stories": [
     {
      "region": "Amérique",
+     "category": "Tech US",
+     "title": "Vendredi : la menace de Trump sur les centres de données a pesé sur la tech",
+     "summary": "Selon CNBC, Donald Trump a menacé d'une « taxe énorme » les centres de données américains installés à l'étranger, sans préciser les détails. D'après le récapitulatif d'AI Weekly, le Nasdaq 100 a reculé de 4 % ce jour-là, à un plus bas de sept mois.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Cette annonce floue a ajouté de l'incertitude à une séance déjà très chahutée pour les valeurs de l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Samedi : TSMC suspend des livraisons de puces, un sujet à suivre pour les Bourses asiatiques",
+     "summary": "Selon Nikkei Asia, le fondeur taïwanais TSMC a mis en pause des livraisons à plusieurs concepteurs de puces après l'entrée en vigueur de nouvelles règles américaines. Les Bourses asiatiques sont fermées ce week-end.",
+     "whyLabel": "À savoir",
+     "why": "Le sujet pourrait peser sur le secteur des puces à la réouverture lundi.",
+     "image": "",
+     "links": [
+      {
+       "label": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
      "category": "Nasdaq",
      "title": "Vendredi : le Nasdaq s'effondre de 5,28 % et efface ses gains de l'année",
      "summary": "Le Nasdaq Composite a clôturé à 22 617,73 points, en baisse de 5,28 %, ce qui efface ses gains de 2026. Le S&P 500 a perdu 3,7 % et le Dow Jones 1,93 %. Les indices S&P 500 et Dow sont entrés en zone de correction (baisse d'au moins 10 % depuis le sommet).",
@@ -421,6 +508,11 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Marchés fermés ce samedi : prochaine séance lundi 23 novembre.",
+     "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+     "lang": "EN"
+    },
     {
      "text": "Selon BigGo Finance, l'or a perdu 3,98 % et l'argent 7,39 % vendredi, tandis que le pétrole WTI et le Brent progressaient légèrement.",
      "url": "https://finance.biggo.com/news/043478e7-bc61-4b24-9ca3-1d86519ea63c",
