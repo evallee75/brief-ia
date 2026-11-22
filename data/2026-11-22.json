@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-22",
+  "intro": "Dimanche calme côté annonces, mais l'actualité reste dense : une démonstration de l'hypothèse de Riemann obtenue avec Claude est certifiée par les communautés Lean et Mathlib, tandis que Signal, la panne d'OpenAI et la fuite de données chez des prestataires d'IA rappellent les enjeux de confiance.",
+  "stories": [
+    {
+      "category": "Science",
+      "title": "Une démonstration de l'hypothèse de Riemann, obtenue avec Claude, est certifiée correcte par les communautés Lean et Mathlib",
+      "summary": "Levent Alpöge, mathématicien chez Anthropic, affirme avoir démontré avec l'aide de Claude l'hypothèse de Riemann, un problème posé en 1859 sur la répartition des nombres premiers. Il a écrit la preuve dans Lean, un langage qui permet de la faire vérifier par ordinateur. Des mathématiciens indépendants, dont Andrew Sutherland (MIT), l'ont compilée sans problème, et les communautés Lean et Mathlib ont publié une déclaration commune la certifiant.",
+      "whyLabel": "Le contexte",
+      "why": "L'article reste un « développement en cours » : il n'évoque pas de publication dans une revue scientifique, et le mathématicien Kevin Buzzard a posé la question de la fidélité de l'énoncé écrit en Lean.",
+      "image": "https://static.scientificamerican.com/dam/asset/64e45f50-d1c5-4a9f-ad48-60b52541abcc/riemann-proven.jpg?m=1795211310.647&w=1200",
+      "links": [
+        {
+          "label": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Vie privée",
+      "title": "Signal bloque par défaut les assistants IA des téléphones qui voudraient lire vos conversations",
+      "summary": "Signal active une protection contre Siri AI d'Apple (sur iOS 27) et Gemini Intelligence de Google (sur Android), capables de lire le contenu de l'écran. La messagerie parle d'une « menace existentielle » pour la confidentialité. L'utilisateur peut désactiver la protection, et les Mac restent sans protection.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Signal demande à Apple et Google un moyen standard, intégré au système, pour qu'une application interdise aux agents IA de lire son contenu.",
+      "image": "https://www.engadget.com/img/gallery/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/l-intro-1795205811.jpg",
+      "links": [
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Sécurité",
+      "title": "Un chercheur envoie près de deux millions de faux identifiants à des services d'IA et en retrouve la trace chez plusieurs prestataires",
+      "summary": "Selon Ars Technica, le chercheur en sécurité HD Moore a envoyé près de deux millions de requêtes contenant de faux mots de passe traçables, puis a suivi où ils réapparaissaient. Ses résultats pointent au moins trois fournisseurs compromis, ainsi que des revendeurs qui conservaient les requêtes de leurs clients.",
+      "whyLabel": "À savoir",
+      "why": "Ce que vous écrivez à un service d'IA peut passer par des intermédiaires qui le gardent, même quand une option de « non-conservation » est annoncée.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-privacy-leakage-1152x648.jpg",
+      "links": [
+        {
+          "label": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "OpenAI détaille la panne qui a fait échouer jusqu'à 75 % des requêtes ChatGPT",
+      "summary": "Le 21 novembre, entre 1 h 48 et 5 h 21 (heure du Pacifique), jusqu'à 75 % des requêtes ont échoué, y compris chez les utilisateurs gratuits. Une maintenance sur une base de données a fait tomber ses deux copies de secours en même temps. OpenAI promet notamment un moratoire sur ces maintenances et un contrôle préalable.",
+      "whyLabel": "En bref",
+      "why": "Même les services d'IA les plus utilisés dépendent d'une infrastructure qui peut tomber en panne d'un coup.",
+      "image": "https://status.openai.com/og-image.png",
+      "links": [
+        {
+          "label": "OpenAI (page d'état)",
+          "url": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Google ouvre Genie 4, son générateur de mondes interactifs, aux développeurs",
+      "summary": "Genie 4 est disponible via l'API Gemini et Google AI Studio, un jour après son lancement pour les abonnés AI Ultra. Il crée des mondes en 720p, à 24 images par seconde, avec du son. Les sessions sont limitées à 120 secondes, il n'y a pas d'offre gratuite et le service tourne seulement depuis des centres de données américains.",
+      "whyLabel": "En bref",
+      "why": "Les mondes de jeu générés par IA passent du démonstrateur à un service payant utilisable par les développeurs.",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Genie_4_Social_Share.max-1440x810.png",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Nothing dévoilera le 8 décembre son premier appareil « natif IA », sans nouvel écran",
+      "summary": "L'entreprise promet « une expérience qui n'aurait pas pu être conçue comme une application ». Une photo publiée le 19 novembre par Sebastian Ingrosso, du groupe Swedish House Mafia, laisse voir l'objet, qui semble avoir au moins une caméra. Engadget rappelle que les gadgets d'IA ont jusqu'ici mal marché (Humane a fermé début 2025) et se demande si la fuite est une opération marketing.",
+      "whyLabel": "Le contexte",
+      "why": "Après les échecs de Humane et Rabbit, Nothing tente à son tour de trouver un appareil dédié à l'IA.",
+      "image": "https://www.engadget.com/img/gallery/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/l-intro-1795195811.jpg",
+      "links": [
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Un organisme néerlandais de protection de la vie privée déconseille l'achat de lunettes connectées dotées d'IA",
+      "summary": "Selon TechRadar, des lunettes d'IA ont affirmé à tort qu'une ambulance était en route lors d'une urgence médicale. Cet exemple n'est que l'une des raisons avancées par le régulateur pour déconseiller ces lunettes.",
+      "whyLabel": "À savoir",
+      "why": "Les lunettes à IA se vendent comme un assistant du quotidien, mais les autorités commencent à en pointer les risques.",
+      "image": "https://cdn.mos.cms.futurecdn.net/iiFqQCft9VRW7S5n7MH75R-2560-80.jpg",
+      "links": [
+        {
+          "label": "TechRadar",
+          "url": "https://www.techradar.com/ai-platforms-assistants/ai-smart-glasses-falsely-claimed-an-ambulance-was-on-its-way-during-a-medical-emergency-and-thats-just-one-reason-a-privacy-watchdog-says-you-shouldnt-buy-them",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Sécurité",
+      "title": "Amazon : des agents IA d'attaquants ont atteint un serveur d'imagerie médicale en une dizaine de minutes",
+      "summary": "Selon The Hacker News, Amazon indique que des agents IA utilisés par des attaquants ont cartographié une application d'imagerie médicale et atteint le point de pouvoir écrire des fichiers sur le serveur en environ 11 minutes. L'activité s'étalait sur environ 48 heures en septembre. Amazon ne l'attribue à aucun groupe précis.",
+      "whyLabel": "Le contexte",
+      "why": "Les attaquants utilisent l'IA pour aller plus vite, ce qui oblige les défenseurs à réagir plus vite aussi.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "Thinking Machines publie Inkling 2 Mini, un modèle à poids ouverts.",
+      "url": "https://artificialanalysis.ai/articles/inkling-2-mini",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "intro": "Wall Street est fermée ce dimanche : vendredi, le Nasdaq a chuté de 5,28 % et le S&P 500 de 3,7 %, bouclant la pire semaine du Nasdaq depuis mars 2020 ; les marchés rouvrent lundi, avec l'inflation (PCE) au programme.",
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 22617.73,
+        "changePct": -5.28,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 25028.98,
+        "changePct": -5.61,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 6910.39,
+        "changePct": -3.7,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 48147.33,
+        "changePct": -1.93,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 35.89,
+        "changePct": 26.2,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 7927.75,
+        "changePct": -1.89,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 24802.78,
+        "changePct": -2.6,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 5941.95,
+        "changePct": -2.81,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 56436.65,
+        "changePct": -5.06,
+        "session": "2026-11-20"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 22410.8,
+        "changePct": -1.89,
+        "session": "2026-11-20"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 125.53,
+        "changePct": -14.01,
+        "session": "2026-11-20"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 342.56,
+        "changePct": -1.9,
+        "session": "2026-11-20"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 484.52,
+        "changePct": -2.77,
+        "session": "2026-11-20"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 265.29,
+        "changePct": -2.7,
+        "session": "2026-11-20"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 246.82,
+        "changePct": -4.1,
+        "session": "2026-11-20"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 560.84,
+        "changePct": -5.93,
+        "session": "2026-11-20"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 345.82,
+        "changePct": -7.64,
+        "session": "2026-11-20"
+      }
+    ],
+    "stories": [
+      {
+        "region": "Amérique",
+        "category": "Nasdaq",
+        "title": "Semaine noire pour Wall Street : le Nasdaq cède 10 %, son pire bilan hebdomadaire depuis mars 2020",
+        "summary": "Sur la semaine close le 20 novembre, le Nasdaq a perdu environ 10 %, le S&P 500 8,6 % et le Dow Jones 8 %. Le S&P 500 et le Dow sont entrés en zone de correction, c'est-à-dire plus de 10 % sous leurs records. Selon Yahoo Finance, le S&P 500 avait enchaîné six séances de baisse avant vendredi.",
+        "whyLabel": "Le contexte",
+        "why": "Les marchés ouvrent lundi 23 novembre après cette semaine très chahutée : le dimanche, les Bourses sont fermées.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+            "lang": "EN"
+          },
+          {
+            "label": "Journal Arta",
+            "url": "https://journalarta.com/en/2026/11/21/stock-market-week-ahead-inflation-earnings-nasdaq/",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Macro / Fed",
+        "title": "Cap sur l'inflation : le PCE, indicateur préféré de la Fed, est attendu cette semaine",
+        "summary": "Wall Street attend l'indice PCE des prix, la jauge d'inflation de la Réserve fédérale : la hausse de l'indice « core » est attendue à 0,29 %. Au programme aussi : revenu des ménages, commandes de biens durables et révision du PIB du troisième trimestre, d'abord estimé à +3,4 %. Selon Yahoo Finance, les marchés anticipent une hausse de taux de 25 points de base en décembre.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Des chiffres d'inflation élevés renforceraient la crainte de nouvelles hausses de taux, qui pèsent sur les valeurs technologiques.",
+        "image": "",
+        "links": [
+          {
+            "label": "Journal Arta",
+            "url": "https://journalarta.com/en/2026/11/21/stock-market-week-ahead-inflation-earnings-nasdaq/",
+            "lang": "EN"
+          },
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Tech US",
+        "title": "Les « néoclouds » de l'IA lourdement sanctionnés vendredi",
+        "summary": "Selon Yahoo Finance, Applied Digital a perdu 16 %, Nebius environ 12,5 %, IREN 12 % et CoreWeave plus de 9 %. AMD, Broadcom et Micron ont chacun chuté de plus de 10 %. À l'inverse, Gap a gagné environ 12 % malgré une baisse de ses objectifs annuels.",
+        "whyLabel": "En bref",
+        "why": "Ces entreprises, qui louent de la puissance de calcul pour l'IA, sont les plus sensibles à la peur d'un retournement de l'engouement.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Macro / Fed",
+        "title": "Obligations, or, bitcoin : les valeurs refuges aussi sous pression",
+        "summary": "Vendredi, le rendement du bon du Trésor américain à 10 ans a reculé d'environ 13 points de base, à 4,92 %, les investisseurs cherchant des placements plus sûrs. L'or a perdu près de 4 % et le bitcoin est passé sous 60 000 dollars, son plus bas depuis juillet. L'indice de la peur VIX a approché 40 en séance, son plus haut de 2026, avant de clôturer en hausse de plus de 20 %.",
+        "whyLabel": "À savoir",
+        "why": "Quand tous les actifs baissent en même temps, c'est le signe d'un mouvement de vente forcée, selon les analystes cités.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html",
+            "lang": "EN"
+          }
+        ]
+      }
+    ],
+    "quick": []
+  }
+}
