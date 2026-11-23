@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "intro": "Lundi sous haute tension : après la chute de Wall Street vendredi, l'IA reste au cœur des débats, entre inquiétudes climatiques (Meta), garde-fous militaires évoqués par Trump et Xi, et nouveaux agents d'OpenAI.",
+  "intro": "Lundi sous haute tension : après la chute de Wall Street vendredi, l'IA reste au cœur des débats, entre inquiétudes climatiques (Meta), garde-fous militaires évoqués par Trump et Xi, et nouveaux agents d'OpenAI. Mise à jour du soir : Nvidia rappelle Jensen Huang à sa tête, ce qui fait rebondir Wall Street, CrowdStrike rachète Zscaler et OpenAI propose une mesure commune du progrès de l'IA.",
   "stories": [
     {
       "category": "Climat",
@@ -48,6 +48,86 @@
         {
           "label": "Semafor",
           "url": "https://www.semafor.com/article/11/22/2026/bessent-warns-on-fed-hike-as-ai-bubble-fears-mount",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Entreprises",
+      "title": "Nvidia rappelle Jensen Huang à la tête du groupe, onze jours après sa démission",
+      "summary": "Le conseil d'administration de Nvidia a réintégré Jensen Huang comme président-directeur général, avec effet immédiat. Il avait démissionné le 12 novembre après avoir reconnu une infidélité, une de ses relations présumées étant soupçonnée de liens avec la Chine. L'enquête du conseil se poursuit et un comité dédié à la sécurité nationale et aux exportations a été créé.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Nvidia est le grand fournisseur de puces de l'IA : son patron est au cœur de la confiance des marchés dans tout le secteur, et son retour a fait rebondir toute la Bourse.",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261123-nyse-rs-5aa299.jpg",
+      "links": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
+          "lang": "EN"
+        },
+        {
+          "label": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "CrowdStrike rachète Zscaler pour 43,9 milliards de dollars, en actions",
+      "summary": "Les deux spécialistes de la cybersécurité ont annoncé un accord : CrowdStrike rachètera Zscaler, valorisé environ 43,9 milliards de dollars, contre 1,135 action CrowdStrike par action Zscaler. CrowdStrike veut ainsi entrer sur le marché de la sécurité des réseaux, qu'il juge le plus vaste de la cybersécurité.",
+      "whyLabel": "À savoir",
+      "why": "L'annonce accompagne les résultats trimestriels de CrowdStrike, dans un contexte où l'IA multiplie les besoins de protection des entreprises.",
+      "image": "",
+      "links": [
+        {
+          "label": "CrowdStrike (document déposé auprès de la SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Recherche",
+      "title": "OpenAI propose de comparer tous les laboratoires avec une même mesure de progrès",
+      "summary": "Jakub Pachocki, directeur scientifique d'OpenAI, estime que la « perplexité » (la capacité d'un modèle à prédire le mot suivant) devrait servir de repère commun entre développeurs. OpenAI publie ses propres chiffres internes et suggère de fixer des limites communes liées à cette mesure.",
+      "whyLabel": "Le contexte",
+      "why": "Il s'agit d'une proposition : l'auteur reconnaît que cette mesure dépend des jeux de données utilisés et ne dit pas tout du comportement réel d'un modèle.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/perplexity-and-intelligence/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Sécurité",
+      "title": "METR avertit : l'IA progresse peut-être plus vite que notre capacité à la tester",
+      "summary": "L'organisme METR juge que les données publiques ne permettent pas d'exclure une forte accélération de la recherche en IA dans les prochaines années. La durée des tâches que les modèles savent mener à bien double environ tous les 3,6 mois, mais ils peinent encore sur le travail ouvert sans retour immédiat.",
+      "whyLabel": "À savoir",
+      "why": "Les tests habituels peuvent surestimer ce que l'IA fait en conditions réelles : c'est une mise en garde sur la difficulté de mesurer les risques.",
+      "image": "https://the-decoder.com/wp-content/uploads/2026/06/metr_logo.png",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Apple",
+      "title": "iOS 27.3 en bêta : plus d'actions pour Siri et une app Santé repensée",
+      "summary": "La première bêta pour développeurs d'iOS 27.3 ajoute des actions Siri dans les applications d'Apple, une nouvelle interface pour l'app Santé et des options pour Safari. Une version publique est attendue en décembre ; la prise en charge par les applications tierces n'est annoncée que pour le printemps 2027.",
+      "whyLabel": "En bref",
+      "why": "Siri ne pourra donc agir dans vos applications préférées qu'avec retard.",
+      "image": "https://www.engadget.com/img/gallery/5-ios-27-3-changes-coming-to-your-apple-devices-by-2027/l-intro-1794567265.jpg",
+      "links": [
+        {
+          "label": "Engadget",
+          "url": "https://www.engadget.com/2319400/apple-ios-27-3-changes-by-2027/",
           "lang": "EN"
         }
       ]
@@ -173,10 +253,15 @@
       "text": "Gemini sait désormais créer de courts GIF animés à partir d'un texte, d'une photo ou d'une vidéo.",
       "url": "https://support.google.com/gemini/answer/16126339",
       "lang": "EN"
+    },
+    {
+      "text": "Google décrit Agent Compute Engine, un service qui fait tourner des agents IA dans de petites machines virtuelles, avec identifiants isolés et sessions reprises après suspension.",
+      "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/",
+      "lang": "EN"
     }
   ],
   "markets": {
-    "intro": "Vendredi, le Nasdaq a perdu 5,28 % et le S&P 500 3,7 %, entraînés par la chute de Nvidia et les doutes sur la rentabilité de l'IA ; lundi, l'Asie a encore reculé, Séoul perdant plus de 4 %.",
+    "intro": "Lundi, vers 18 h, Wall Street rebondissait très fort en séance : le Nasdaq Composite gagnait environ 6,6 % et le S&P 500 environ 4,8 %, après l'annonce du retour de Jensen Huang à la tête de Nvidia, qui s'envolait de plus de 30 %. L'Europe a clôturé en nette hausse. Vendredi, le Nasdaq avait pourtant perdu 5,28 % et le S&P 500 3,7 %.",
     "indices": [
       {
         "name": "Nasdaq Composite",
@@ -216,23 +301,23 @@
       {
         "name": "CAC 40",
         "region": "Europe",
-        "value": 7927.75,
-        "changePct": -1.89,
-        "session": "2026-11-20"
+        "value": 8044.84,
+        "changePct": 1.48,
+        "session": "2026-11-23"
       },
       {
         "name": "DAX",
         "region": "Europe",
-        "value": 24802.78,
-        "changePct": -2.6,
-        "session": "2026-11-20"
+        "value": 25337.27,
+        "changePct": 2.15,
+        "session": "2026-11-23"
       },
       {
         "name": "Euro Stoxx 50",
         "region": "Europe",
-        "value": 5941.95,
-        "changePct": -2.81,
-        "session": "2026-11-20"
+        "value": 6074.47,
+        "changePct": 2.23,
+        "session": "2026-11-23"
       },
       {
         "name": "Nikkei 225",
@@ -301,6 +386,117 @@
       }
     ],
     "stories": [
+      {
+        "region": "Amérique",
+        "category": "Tech US",
+        "title": "Lundi : Nvidia s'envole de plus de 30 % après le retour de Jensen Huang",
+        "summary": "Nvidia a bondi de plus de 30 % en séance après le retour de Jensen Huang à sa direction, ce qui ajoute plus de 1 000 milliards de dollars à sa valeur boursière. Le titre reste environ 30 % sous son record, après une chute de près de 23 % la semaine précédente.",
+        "whyLabel": "Le contexte",
+        "why": "Le départ de Jensen Huang le 12 novembre avait pesé sur toute la Bourse tech ; son retour a inversé le mouvement.",
+        "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261123-nyse-rs-5aa299.jpg",
+        "links": [
+          {
+            "label": "NBC News",
+            "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
+            "lang": "EN"
+          },
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Nasdaq",
+        "title": "Lundi : Wall Street rebondit très fort, le Nasdaq gagne plus de 6 % en séance",
+        "summary": "En séance, le S&P 500 progressait d'environ 4,8 %, le Dow Jones de 3 % et le Nasdaq Composite de 6,6 %, après sept séances de baisse pour le S&P 500. Le S&P 500 est sorti de la zone de correction, et l'indice de la peur (VIX) reculait d'environ 21 %.",
+        "whyLabel": "Le contexte",
+        "why": "Ces chiffres sont ceux de la séance en cours et peuvent encore changer d'ici la clôture. Le Nasdaq 100 reste environ 15 % sous son dernier record.",
+        "image": "https://s.yimg.com/lo/mysterio/api/0e526a68da29ec5f8ecb6f5033889016c943db95de75baa345d75ca7e6f1296c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2Ff5008169-0f03-4389-8541-648e58a7fb47",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+            "lang": "EN"
+          },
+          {
+            "label": "NBC News",
+            "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Tech US",
+        "title": "Lundi : les puces, la mémoire et Dell entraînent le rebond",
+        "summary": "L'indice des semi-conducteurs de Philadelphie gagnait environ 15 %, les valeurs de mémoire plus de 20 % et Dell environ 25 %. Arm montait d'environ 20 % après la signature de son directeur général jusqu'en 2033, et CoreWeave, Nebius ou Oracle progressaient aussi nettement.",
+        "whyLabel": "À savoir",
+        "why": "Le secteur de l'IA reste très sensible aux nouvelles sur ses dirigeants et sur la rentabilité de ses dépenses.",
+        "image": "",
+        "links": [
+          {
+            "label": "NBC News",
+            "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Tech US",
+        "title": "Lundi : CrowdStrike recule de près de 10 %, Zscaler gagne 13 % après l'annonce du rachat",
+        "summary": "CrowdStrike a perdu environ 9,6 % en séance après avoir annoncé le rachat de Zscaler pour 43,9 milliards de dollars en actions, tandis que l'action Zscaler montait d'environ 13 %.",
+        "whyLabel": "En bref",
+        "why": "Souvent, l'acheteur recule et la cible monte : les investisseurs jugent le prix élevé.",
+        "image": "",
+        "links": [
+          {
+            "label": "Yahoo Finance",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+            "lang": "EN"
+          },
+          {
+            "label": "CrowdStrike (SEC)",
+            "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Europe",
+        "category": "Europe",
+        "title": "Lundi : l'Europe rebondit, les valeurs des puces gagnent plus de 10 %",
+        "summary": "À la clôture, le CAC 40 gagnait 1,48 %, le DAX 2,15 % et l'Euro Stoxx 50 2,23 %. ASML, ASM International, BE Semiconductor et STMicroelectronics ont progressé de plus de 10 % en séance. Les Bourses européennes sortent d'une semaine très difficile.",
+        "whyLabel": "Le contexte",
+        "why": "Le STOXX 600 avait perdu 5,8 % la semaine précédente, sa pire semaine depuis mars 2025.",
+        "image": "https://s.yimg.com/lo/mysterio/api/67460568ae5d1bf975238755c828397cf4afb37ecae2819f1d7f9bedb850326b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fadvfn_uk_848%2F9769e842f8a87a52dbb0e511d40a3cec.jpg",
+        "links": [
+          {
+            "label": "Yahoo Finance UK",
+            "url": "https://uk.finance.yahoo.com/news/european-stocks-rally-nvidia-reinstates-144744580.html",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Asie",
+        "category": "Asie",
+        "title": "Lundi : l'Asie a surtout fini en baisse, avant le rebond de Nvidia",
+        "summary": "Les grands indices asiatiques ont majoritairement clôturé en repli lundi, la séance s'étant terminée avant l'annonce du retour de Jensen Huang chez Nvidia.",
+        "whyLabel": "En bref",
+        "why": "L'Asie devrait réagir à la nouvelle à l'ouverture de mardi.",
+        "image": "",
+        "links": [
+          {
+            "label": "NBC News",
+            "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
+            "lang": "EN"
+          }
+        ]
+      },
       {
         "region": "Amérique",
         "category": "Nasdaq",
@@ -424,6 +620,16 @@
       }
     ],
     "quick": [
+      {
+        "text": "Les marchés misent à environ 91 % sur une hausse des taux de la Fed le 9 décembre, contre 98 % le 12 novembre (Polymarket, selon Yahoo Finance).",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+        "lang": "EN"
+      },
+      {
+        "text": "Anthropic reculait d'environ 1,7 % lundi, sous 88 dollars, pour un prix d'introduction de 83 dollars (Yahoo Finance).",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+        "lang": "EN"
+      },
       {
         "text": "Lundi matin, les contrats à terme sur le Nasdaq 100 rebondissaient d'environ 2 %, mais ceux sur le Japon et Hong Kong pointaient vers de nouvelles baisses (BiGGo Finance).",
         "url": "https://finance.biggo.com/news/a3ad456f-8c53-4332-b6a3-93020b2aeee2",
