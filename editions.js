@@ -1,5 +1,439 @@
 window.EDITIONS = [
  {
+  "date": "2026-11-23",
+  "intro": "Lundi sous haute tension : après la chute de Wall Street vendredi, l'IA reste au cœur des débats, entre inquiétudes climatiques (Meta), garde-fous militaires évoqués par Trump et Xi, et nouveaux agents d'OpenAI.",
+  "stories": [
+   {
+    "category": "Climat",
+    "title": "Meta réexamine son objectif de neutralité carbone pour 2030, alors que ses émissions explosent avec l'IA",
+    "summary": "Meta indique qu'elle réévalue ses étapes vers la neutralité carbone à mesure que ses infrastructures d'IA se développent. Selon Ars Technica, ses émissions totales sont passées de 15,6 millions de tonnes d'équivalent CO2 en 2024 à plus de 21,7 millions en 2025, soit environ 40 % de plus.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Les centres de données qui font tourner l'IA pèsent de plus en plus sur le climat, et même les géants qui affichaient des objectifs ambitieux hésitent à les tenir.",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-2560x1440.jpg",
+    "links": [
+     {
+      "label": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Géopolitique",
+    "title": "Trump et Xi s'accordent pour garder un humain dans les grandes décisions militaires utilisant l'IA",
+    "summary": "Le secrétaire au Trésor américain Scott Bessent affirme que les deux dirigeants ont convenu que les décisions militaires importantes assistées par l'IA doivent impliquer des humains. Semafor rapporte un intérêt croissant pour des garde-fous communs entre les États-Unis et la Chine, alors même que Washington restreint les exportations de puces avancées.",
+    "whyLabel": "Le contexte",
+    "why": "Il s'agit d'engagements politiques : aucune règle précise de mise en œuvre n'a été annoncée à ce stade.",
+    "image": "",
+    "links": [
+     {
+      "label": "Reuters",
+      "url": "https://www.reuters.com/world/china/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-2026-11-20/",
+      "lang": "EN"
+     },
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/11/22/2026/us-china-eye-joint-guardrails-on-ai",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Économie",
+    "title": "Bessent met en garde contre de nouvelles hausses de taux de la Fed alors que les craintes d'une bulle de l'IA montent",
+    "summary": "Le secrétaire au Trésor américain Scott Bessent a prévenu contre un resserrement excessif de la politique monétaire après le recul des valeurs technologiques, malgré l'introduction en Bourse d'Anthropic. Les investisseurs se demandent si les dépenses d'infrastructure et les attentes de bénéfices ont atteint un sommet.",
+    "whyLabel": "À savoir",
+    "why": "Les taux d'intérêt de la banque centrale américaine font partie des raisons avancées pour la chute des valeurs technologiques.",
+    "image": "https://img.semafor.com/58c90749993f306f97351fb1ed8c91f856905a5b-4280x2853.jpg?rect=0,304,4280,2247&w=1200&h=630&q=75&auto=format",
+    "links": [
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/11/22/2026/bessent-warns-on-fed-hike-as-ai-bubble-fears-mount",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Matériel",
+    "title": "Une start-up affirme que des agents IA ont conçu de A à Z un nouveau processeur, « Frostbite »",
+    "summary": "Architect Labs dit que des agents d'IA ont conçu un processeur généraliste avec un nouveau jeu d'instructions. Dans des simulations sur 25 tâches, il atteindrait 4,59 fois la performance par watt d'un processeur classique de taille comparable.",
+    "whyLabel": "En bref",
+    "why": "Il s'agit d'une simulation : aucune puce physique n'a été fabriquée et le processeur de comparaison n'est pas nommé.",
+    "image": "https://cdn.mos.cms.futurecdn.net/E6ZGdHQ5GTZE5a3yPzPScR-2560-80.jpg",
+    "links": [
+     {
+      "label": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "OpenAI teste « Dots », des agents personnels qui continuent leurs tâches entre deux conversations",
+    "summary": "OpenAI a lancé des tests limités de Dots sur l'abonnement ChatGPT Plus à 20 dollars par mois et étend la fonction d'agent proactif à l'offre Business Standard. Dots peut poursuivre des tâches confiées entre deux discussions.",
+    "whyLabel": "En bref",
+    "why": "L'accès sur l'offre Plus reste limité pour l'instant.",
+    "image": "https://www.engadget.com/img/gallery/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/l-intro-1795158872.jpg",
+    "links": [
+     {
+      "label": "Engadget",
+      "url": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Entreprises",
+    "title": "Nvidia cherche son prochain patron après le départ de Jensen Huang",
+    "summary": "Fortune examine les priorités du futur directeur général de Nvidia : contrôles à l'exportation, surveillance des régulateurs et examen des grands accords d'infrastructure en IA.",
+    "whyLabel": "Le contexte",
+    "why": "Nvidia, l'une des entreprises les plus importantes de l'IA, change de dirigeant dans un moment de forte pression politique et boursière.",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2305083085-e1795207841774.jpg?resize=1200,600",
+    "links": [
+     {
+      "label": "Fortune",
+      "url": "https://fortune.com/2026/11/22/nvidia-next-ceo-international-business-reorganization-ai-equilibrium/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Énergie",
+    "title": "Les projets de centres de données de SpaceX (74 milliards de dollars) inquiètent sur la facture d'électricité",
+    "summary": "Selon Fortune, les installations d'IA proposées par SpaceX représentent 74 milliards de dollars au Texas et en Arizona. Le site de l'Arizona demanderait environ 6 gigawatts à pleine capacité. Habitants et élus veulent la garantie que l'extension du réseau sera payée par l'entreprise.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "La question de qui paie l'électricité des centres de données devient un sujet politique local.",
+    "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2216843063-1.jpg?resize=1200,600",
+    "links": [
+     {
+      "label": "Fortune",
+      "url": "https://fortune.com/2026/11/22/spacex-74-billion-ai-data-centers-texas-arizona-who-pays/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "YouTube permet de créer des fils d'actualité personnalisés en les décrivant avec des mots",
+    "summary": "Les utilisateurs éligibles décrivent en langage naturel le fil qu'ils veulent et l'enregistrent sur leur page d'accueil. La fonction demande l'anglais américain et l'historique de recherche activé. Les comptes gratuits peuvent enregistrer trois fils, les abonnés Premium huit.",
+    "whyLabel": "À savoir",
+    "why": "C'est un exemple d'usage quotidien de l'IA : décrire ce qu'on veut voir plutôt que régler des filtres.",
+    "image": "https://www.engadget.com/img/gallery/want-more-control-over-your-youtube-homepage-try-using-custom-feeds/l-intro-1794432277.jpg",
+    "links": [
+     {
+      "label": "Engadget",
+      "url": "https://www.engadget.com/2319492/try-using-youtube-custom-feeds-control-homepage/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "OpenAI exige son accord pour les services qui revendent l'accès à ses modèles",
+    "summary": "Depuis le 20 novembre, les routeurs et passerelles qui revendent l'accès aux modèles d'OpenAI doivent obtenir l'approbation de l'entreprise, selon Semafor.",
+    "whyLabel": "Le contexte",
+    "why": "OpenAI renforce son contrôle sur la distribution de ses modèles, quelques jours après la révélation de fuites chez des prestataires d'hébergement d'IA.",
+    "image": "https://img.semafor.com/6aedf5b2c3253fe4934f1cc6c4302eb0b6eb9d1a-4744x3183.jpg?rect=0,347,4744,2491&w=1200&h=630&q=75&auto=format",
+    "links": [
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/11/20/2026/openai-tightens-grip-on-model-resellers",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Enquêtes",
+    "title": "Chainalysis lance un espace de travail IA pour suivre les transferts de cryptomonnaies",
+    "summary": "En préversion limitée, l'outil permet aux enquêteurs de demander à des agents IA de tracer des transferts à travers plusieurs blockchains, au lieu de consulter à la main plusieurs explorateurs.",
+    "whyLabel": "En bref",
+    "why": "L'IA entre dans le travail des enquêteurs financiers.",
+    "image": "",
+    "links": [
+     {
+      "label": "Gizmodo",
+      "url": "https://gizmodo.com/ai-cops-are-now-tracking-crypto-transactions-through-the-dystopian-blockchain-panopticon-2000843186",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Tiny 2.1 : un développeur a fait tenir sur une disquette un petit modèle de 367 000 paramètres pour d'anciens PC de type 486 ou Pentium.",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dev-squeezes-an-ai-language-model-onto-a-floppy-for-486dx-and-pentium-pc-stalwarts-tiny-2-1-needs-540kb-of-memory-and-speaks-via-pc-speaker-is-a-question-answering-transformer-with-367k-parameters",
+    "lang": "EN"
+   },
+   {
+    "text": "Europa Fusion : la start-up fondée par un ancien chercheur en IA, soutenue par Daniel Ek (Spotify), veut viser la fusion nucléaire par simulation.",
+    "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+    "lang": "EN"
+   },
+   {
+    "text": "Gemini sait désormais créer de courts GIF animés à partir d'un texte, d'une photo ou d'une vidéo.",
+    "url": "https://support.google.com/gemini/answer/16126339",
+    "lang": "EN"
+   }
+  ],
+  "markets": {
+   "intro": "Vendredi, le Nasdaq a perdu 5,28 % et le S&P 500 3,7 %, entraînés par la chute de Nvidia et les doutes sur la rentabilité de l'IA ; lundi, l'Asie a encore reculé, Séoul perdant plus de 4 %.",
+   "indices": [
+    {
+     "name": "Nasdaq Composite",
+     "region": "US",
+     "value": 22617.73,
+     "changePct": -5.28,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "Nasdaq 100",
+     "region": "US",
+     "value": 25028.98,
+     "changePct": -5.61,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "S&P 500",
+     "region": "US",
+     "value": 6910.39,
+     "changePct": -3.7,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "Dow Jones",
+     "region": "US",
+     "value": 48147.33,
+     "changePct": -1.93,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "VIX (peur)",
+     "region": "US",
+     "value": 35.89,
+     "changePct": 26.2,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "CAC 40",
+     "region": "Europe",
+     "value": 7927.75,
+     "changePct": -1.89,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "DAX",
+     "region": "Europe",
+     "value": 24802.78,
+     "changePct": -2.6,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "Euro Stoxx 50",
+     "region": "Europe",
+     "value": 5941.95,
+     "changePct": -2.81,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "Nikkei 225",
+     "region": "Asie",
+     "value": 56436.65,
+     "changePct": -5.06,
+     "session": "2026-11-20"
+    },
+    {
+     "name": "Hang Seng",
+     "region": "Asie",
+     "value": 22410.8,
+     "changePct": -1.89,
+     "session": "2026-11-20"
+    }
+   ],
+   "stocks": [
+    {
+     "ticker": "NVDA",
+     "name": "Nvidia",
+     "value": 125.53,
+     "changePct": -14.01,
+     "session": "2026-11-20"
+    },
+    {
+     "ticker": "AAPL",
+     "name": "Apple",
+     "value": 342.56,
+     "changePct": -1.9,
+     "session": "2026-11-20"
+    },
+    {
+     "ticker": "MSFT",
+     "name": "Microsoft",
+     "value": 484.52,
+     "changePct": -2.77,
+     "session": "2026-11-20"
+    },
+    {
+     "ticker": "GOOGL",
+     "name": "Alphabet",
+     "value": 265.29,
+     "changePct": -2.7,
+     "session": "2026-11-20"
+    },
+    {
+     "ticker": "AMZN",
+     "name": "Amazon",
+     "value": 246.82,
+     "changePct": -4.1,
+     "session": "2026-11-20"
+    },
+    {
+     "ticker": "META",
+     "name": "Meta",
+     "value": 560.84,
+     "changePct": -5.93,
+     "session": "2026-11-20"
+    },
+    {
+     "ticker": "TSLA",
+     "name": "Tesla",
+     "value": 345.82,
+     "changePct": -7.64,
+     "session": "2026-11-20"
+    }
+   ],
+   "stories": [
+    {
+     "region": "Amérique",
+     "category": "Nasdaq",
+     "title": "Vendredi : le Nasdaq s'effondre de 5,28 % et efface tous ses gains de l'année",
+     "summary": "Le Nasdaq Composite a perdu 5,28 % vendredi, le S&P 500 3,7 % et le Dow Jones près de 950 points. Le S&P 500 et le Dow sont entrés en zone de correction (plus de 10 % sous leurs records). Le S&P 500 a enchaîné sept séances de baisse, sa plus longue série depuis février 2020, et le Nasdaq signe sa pire semaine depuis mars 2020.",
+     "whyLabel": "Le contexte",
+     "why": "Les investisseurs s'inquiètent de la taille des dépenses dans l'IA et de leur rentabilité. L'indice de la peur (VIX) a atteint son plus haut niveau depuis avril 2025.",
+     "image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/0/0/wall-street-historic-stock-market-selloff-1.jpg?ve=1&tl=1",
+     "links": [
+      {
+       "label": "Fox Business",
+       "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+       "lang": "EN"
+      },
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/23/tech-back-in-the-firing-line-as-traders-track-wall-street-rout",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Vendredi : Nvidia chute de 14 %, Anthropic recule de 8,5 %",
+     "summary": "Nvidia a clôturé à 125,53 dollars (environ -14 %), malgré de bons résultats. Anthropic, cotée depuis quelques jours, a reculé d'environ 8,5 % à 88,91 dollars. L'indice des semi-conducteurs de Philadelphie a perdu 10 %. Le départ de Jensen Huang de la direction de Nvidia et la décision américaine de fermer une faille d'accès à distance aux puces par des entreprises chinoises figurent parmi les facteurs cités.",
+     "whyLabel": "À savoir",
+     "why": "Les grands noms de l'IA ont pesé lourd dans la chute de l'indice. Ce n'est pas un conseil d'investissement.",
+     "image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/0/0/wall-street-historic-stock-market-selloff-1.jpg?ve=1&tl=1",
+     "links": [
+      {
+       "label": "Fox Business",
+       "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+       "lang": "EN"
+      },
+      {
+       "label": "BiGGo Finance",
+       "url": "https://finance.biggo.com/news/a3ad456f-8c53-4332-b6a3-93020b2aeee2",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Macro / Fed",
+     "title": "Fed : la crainte de nouvelles hausses de taux alimente la prudence des marchés",
+     "summary": "Le secrétaire au Trésor Scott Bessent a mis en garde contre un resserrement excessif de la politique monétaire, alors que les valeurs technologiques reculent. Les marchés s'attendent à des taux élevés plus longtemps.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Des taux plus élevés rendent les paris sur la croissance future de la tech moins attrayants.",
+     "image": "https://img.semafor.com/58c90749993f306f97351fb1ed8c91f856905a5b-4280x2853.jpg?rect=0,304,4280,2247&w=1200&h=630&q=75&auto=format",
+     "links": [
+      {
+       "label": "Semafor",
+       "url": "https://www.semafor.com/article/11/22/2026/bessent-warns-on-fed-hike-as-ai-bubble-fears-mount",
+       "lang": "EN"
+      },
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/23/tech-back-in-the-firing-line-as-traders-track-wall-street-rout",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "Vendredi : l'Europe termine en forte baisse, l'Euro Stoxx 50 perd 2,81 %",
+     "summary": "À Paris, le CAC 40 a reculé de 1,89 %, à Francfort le DAX de 2,6 % et l'Euro Stoxx 50 de 2,81 %, dans le sillage de la débâcle de Wall Street et des doutes sur l'IA.",
+     "whyLabel": "En bref",
+     "why": "L'Europe a suivi Wall Street, même si les valeurs technologiques y pèsent moins.",
+     "image": "",
+     "links": [
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/23/tech-back-in-the-firing-line-as-traders-track-wall-street-rout",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Lundi : Séoul chute de plus de 4 %, Hong Kong et Shanghai reculent aussi",
+     "summary": "Le Kospi a clôturé en baisse de 4,4 % à 4 658,16, avec SK hynix et Samsung autour de -4 %. Hong Kong cède 1,3 % et Shanghai 1,4 %. Tokyo était fermée pour un jour férié.",
+     "whyLabel": "Le contexte",
+     "why": "Ces fabricants de puces sont des fournisseurs clés du boom de l'IA, d'où la forte sensibilité de la région.",
+     "image": "https://images.euronews.com/articles/stories/10/00/37/31/1200x675_cmsv2_dc6b898c-fbf9-5157-ac80-648c7cced8c8-10003731.jpg",
+     "links": [
+      {
+       "label": "BiGGo Finance",
+       "url": "https://finance.biggo.com/news/a3ad456f-8c53-4332-b6a3-93020b2aeee2",
+       "lang": "EN"
+      },
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/23/tech-back-in-the-firing-line-as-traders-track-wall-street-rout",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Asie",
+     "category": "Asie",
+     "title": "Les autorités asiatiques agissent pour calmer les marchés",
+     "summary": "Taïwan a durci les règles de vente à découvert, la Chine a facilité l'achat d'actions à crédit et la Corée du Sud envisage un fonds de stabilisation, inutilisé depuis la crise financière mondiale.",
+     "whyLabel": "À savoir",
+     "why": "Taipei a perdu 17 % sur la semaine, son pire résultat hebdomadaire depuis 1990.",
+     "image": "https://images.euronews.com/articles/stories/10/00/37/31/1200x675_cmsv2_dc6b898c-fbf9-5157-ac80-648c7cced8c8-10003731.jpg",
+     "links": [
+      {
+       "label": "Euronews",
+       "url": "https://www.euronews.com/2026/11/23/tech-back-in-the-firing-line-as-traders-track-wall-street-rout",
+       "lang": "EN"
+      },
+      {
+       "label": "BiGGo Finance",
+       "url": "https://finance.biggo.com/news/a3ad456f-8c53-4332-b6a3-93020b2aeee2",
+       "lang": "EN"
+      }
+     ]
+    }
+   ],
+   "quick": [
+    {
+     "text": "Lundi matin, les contrats à terme sur le Nasdaq 100 rebondissaient d'environ 2 %, mais ceux sur le Japon et Hong Kong pointaient vers de nouvelles baisses (BiGGo Finance).",
+     "url": "https://finance.biggo.com/news/a3ad456f-8c53-4332-b6a3-93020b2aeee2",
+     "lang": "EN"
+    }
+   ]
+  }
+ },
+ {
   "date": "2026-11-22",
   "intro": "Dimanche calme côté annonces, mais l'actualité reste dense : une démonstration de l'hypothèse de Riemann obtenue avec Claude est certifiée par les communautés Lean et Mathlib, tandis que Signal, la panne d'OpenAI et la fuite de données chez des prestataires d'IA rappellent les enjeux de confiance.",
   "stories": [
