@@ -1,0 +1,429 @@
+{
+ "date": "2026-11-24",
+ "intro": "Mardi sous le signe du rebond : après le retour de Jensen Huang chez Nvidia, l'IA reste au cœur de l'actualité, entre procès contre SpaceX pour les images générées par Grok, essai britannique de dépistage du cancer du sein par IA et nouveaux produits d'OpenAI, Google et Anthropic.",
+ "stories": [
+  {
+   "category": "Société",
+   "title": "L'Oregon et la Virginie attaquent SpaceX en justice à cause des images sexualisées générées par Grok",
+   "summary": "Les deux États américains poursuivent SpaceX et des sociétés liées après la diffusion d'images sexualisées sans consentement créées par Grok, dont certaines montrant des enfants. Ils reprochent à l'entreprise des protections insuffisantes et des promesses de sécurité trompeuses, et réclament des sanctions civiles et des mesures de la justice.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "Ce sont des États, et non plus seulement des associations, qui demandent des comptes à une entreprise d'IA sur ce que ses outils peuvent produire.",
+   "image": "",
+   "links": [
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Santé",
+   "title": "Royaume-Uni : un grand essai pour dépister plus tôt le cancer du sein grâce à l'IA",
+   "summary": "Le système de santé britannique (NHS) a commencé à recruter pour un essai de trois ans qui concernera près de 700 000 femmes. Les chercheurs veulent savoir si l'IA peut aider les spécialistes à repérer plus tôt les cancers du sein et à accélérer la lecture des mammographies.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "C'est l'un des usages de l'IA les plus concrets pour le grand public : un dépistage potentiellement plus rapide.",
+   "image": "https://img.semafor.com/82a5815c9974b62be2cb185249498854b6a7cb35-6000x4000.jpg?rect=0,425,6000,3150&w=1200&h=630&q=75&auto=format",
+   "links": [
+    {
+     "label": "Semafor",
+     "url": "https://www.semafor.com/article/11/23/2026/uk-starts-major-ai-breast-cancer-trial",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Business",
+   "title": "Amazon rachète la technologie de Decart pour 7,5 milliards de dollars, selon la presse",
+   "summary": "Amazon a accepté d'acquérir la technologie d'optimisation d'IA de Decart et son équipe de recherche, pour un montant rapporté de 7,5 milliards de dollars. Ces logiciels pourraient aider à faire tourner les modèles d'IA plus efficacement sur les puces Trainium d'Amazon, concurrentes de celles de Nvidia.",
+   "whyLabel": "À savoir",
+   "why": "Amazon cherche à vendre ses propres puces d'IA et à réduire sa dépendance à Nvidia.",
+   "image": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg?resize=1200,800",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "OpenAI déploie GPT-6.2 Sol dans ChatGPT",
+   "summary": "Le nouveau modèle arrive chez les abonnés Plus, Pro, Business et Enterprise. Il suit mieux les consignes complexes, lit les petits détails des images et propose des recommandations de produits en ligne.",
+   "whyLabel": "En bref",
+   "why": "Les abonnés de ChatGPT peuvent déjà l'essayer.",
+   "image": "https://images.macrumors.com/t/8rbK_2ZqvjNlfGbDF36a37SAKSk=/1600x/article-new/2026/11/gpt-6-2-openai.jpg",
+   "links": [
+    {
+     "label": "MacRumors",
+     "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "Le mode IA de Google Search peut désormais puiser dans votre Drive et votre Wallet",
+   "summary": "Si vous le choisissez, le mode IA de la recherche Google peut se connecter à Google Drive et à Google Wallet pour personnaliser ses réponses. Le contexte peut passer de Gemini au mode IA, et l'accès à Wallet est en lecture seule.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "La recherche devient plus personnelle, au prix de donner à l'IA accès à davantage de vos données.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/01/ai-mode-google.jpg?resize=1200,800",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Entreprises",
+   "title": "SpaceX loue sa puissance de calcul à ses rivaux Anthropic et Google, selon le New York Times",
+   "summary": "Selon le New York Times, SpaceX vend de la capacité de calcul à des concurrents de l'IA, dont Anthropic et Google. Des médias relayant l'information avancent environ 3,1 milliards de dollars par mois pour Anthropic seule, un chiffre non confirmé de notre côté.",
+   "whyLabel": "Le contexte",
+   "why": "Même les acteurs qui construisent beaucoup de centres de données trouvent un intérêt à en louer l'usage.",
+   "image": "",
+   "links": [
+    {
+     "label": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html",
+     "lang": "EN"
+    },
+    {
+     "label": "Quartz",
+     "url": "https://qz.com/spacex-leases-computing-power-anthropic-google-ai-112326",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Emploi",
+   "title": "OpenAI recrute des partenaires locaux pour aider les petites entreprises américaines à adopter l'IA",
+   "summary": "Le programme OpenWorks propose jusqu'à 8 000 dollars par mois aux partenaires qui animent des ateliers et accompagnent en personne. Les entreprises éligibles reçoivent du conseil gratuit et trois mois de ChatGPT Business.",
+   "whyLabel": "En bref",
+   "why": "OpenAI cherche à toucher les petits commerces, au-delà des grandes entreprises.",
+   "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/openai-decrypt-style-02-gID_7.jpg",
+   "links": [
+    {
+     "label": "Decrypt",
+     "url": "https://decrypt.co/383848/openai-will-pay-8k-preach-ai-gospel-small-businesses",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Justice",
+   "title": "Un ancien ingénieur d'OpenAI inculpé pour avoir enregistré des conversations dans les bureaux",
+   "summary": "Selon la justice fédérale américaine, Abdulrahman Alfozan aurait utilisé Codex pour gérer des enregistrements captés par un appareil dissimulé dans les locaux de l'entreprise. Il a plaidé non coupable d'interception illégale ; son avocat conteste les accusations d'espionnage ou de vol de secrets, qui ne font pas partie des chefs d'inculpation.",
+   "whyLabel": "À savoir",
+   "why": "L'affaire est en cours : il s'agit d'accusations, pas d'une condamnation.",
+   "image": "",
+   "links": [
+    {
+     "label": "Business Insider",
+     "url": "https://www.businessinsider.com/openai-engineer-alfozan-codex-manage-recordings-feds-2026-11",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Produits",
+   "title": "Anthropic lance Claude Ship, un assistant qui relit et valide le code des équipes",
+   "summary": "Cette version bêta examine les modifications de code proposées, corrige les problèmes et approuve celles qui respectent les règles de l'équipe. Elle fonctionne avec les flux de travail GitHub et ajoute une commande /ship dans Claude Code.",
+   "whyLabel": "En bref",
+   "why": "Les outils d'IA ne se contentent plus d'écrire du code : ils commencent à le contrôler.",
+   "image": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2271847888.jpg",
+   "links": [
+    {
+     "label": "ZDNet",
+     "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Technologie",
+   "title": "Google dépose un brevet pour des émissions de télévision générées par IA et mettant en scène le spectateur",
+   "summary": "La demande décrit des programmes créés par IA selon les goûts de chacun, avec éventuellement une version numérique du spectateur et sa propre voix, et des publicités insérées. La demande a déjà été rejetée une fois et Google n'a annoncé aucun produit.",
+   "whyLabel": "Le contexte",
+   "why": "Un brevet n'est pas un produit : il montre une piste explorée, rien de plus.",
+   "image": "",
+   "links": [
+    {
+     "label": "Gizmodo",
+     "url": "https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299",
+     "lang": "EN"
+    }
+   ]
+  }
+ ],
+ "quick": [
+  {
+   "text": "Les États-Unis ont ajouté la société singapourienne Megaspeed à leur liste noire commerciale, pour des exportations présumées de puces Nvidia vers la Chine ; elle dément.",
+   "url": "https://www.bbc.com/news/articles/cv98xpg5dg5zo",
+   "lang": "EN"
+  },
+  {
+   "text": "En Asie-Pacifique, 58 % des entreprises utilisant l'IA disent que les retours dépassent les coûts, mais seules 12 % sont très sûres de pouvoir les mesurer (enquête AWS).",
+   "url": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html",
+   "lang": "EN"
+  },
+  {
+   "text": "Canva rend son MCP disponible pour tous : des agents IA peuvent créer des designs modifiables.",
+   "url": "https://www.canva.com/newsroom/news/canva-mcp-update/",
+   "lang": "EN"
+  }
+ ],
+ "markets": {
+  "intro": "Lundi, Wall Street a rebondi très fort après le retour de Jensen Huang chez Nvidia : le Nasdaq Composite a gagné 6,51 % et le S&P 500 4,73 %, après la chute de la semaine passée. L'Europe a suivi en hausse et le Nikkei progresse mardi.",
+  "indices": [
+   {
+    "name": "Nasdaq Composite",
+    "region": "US",
+    "value": 24089.56,
+    "changePct": 6.51,
+    "session": "2026-11-23"
+   },
+   {
+    "name": "Nasdaq 100",
+    "region": "US",
+    "value": 26746.1,
+    "changePct": 6.86,
+    "session": "2026-11-23"
+   },
+   {
+    "name": "S&P 500",
+    "region": "US",
+    "value": 7237.17,
+    "changePct": 4.73,
+    "session": "2026-11-23"
+   },
+   {
+    "name": "Dow Jones",
+    "region": "US",
+    "value": 49595.31,
+    "changePct": 3.01,
+    "session": "2026-11-23"
+   },
+   {
+    "name": "VIX (peur)",
+    "region": "US",
+    "value": 26.62,
+    "changePct": -25.83,
+    "session": "2026-11-23"
+   },
+   {
+    "name": "CAC 40",
+    "region": "Europe",
+    "value": 8044.84,
+    "changePct": 1.48,
+    "session": "2026-11-23"
+   },
+   {
+    "name": "DAX",
+    "region": "Europe",
+    "value": 25337.27,
+    "changePct": 2.15,
+    "session": "2026-11-23"
+   },
+   {
+    "name": "Euro Stoxx 50",
+    "region": "Europe",
+    "value": 6074.47,
+    "changePct": 2.23,
+    "session": "2026-11-23"
+   },
+   {
+    "name": "Nikkei 225",
+    "region": "Asie",
+    "value": 58644.63,
+    "changePct": 3.91,
+    "session": "2026-11-24"
+   },
+   {
+    "name": "Hang Seng",
+    "region": "Asie",
+    "value": 22383.74,
+    "changePct": -0.12,
+    "session": "2026-11-23"
+   }
+  ],
+  "stocks": [
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "value": 165.05,
+    "changePct": 31.48,
+    "session": "2026-11-23"
+   },
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "value": 349.08,
+    "changePct": 1.9,
+    "session": "2026-11-23"
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "value": 492.5,
+    "changePct": 1.65,
+    "session": "2026-11-23"
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "value": 282.1,
+    "changePct": 6.34,
+    "session": "2026-11-23"
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "value": 255.39,
+    "changePct": 3.47,
+    "session": "2026-11-23"
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "value": 597.6,
+    "changePct": 6.55,
+    "session": "2026-11-23"
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "value": 385.46,
+    "changePct": 11.46,
+    "session": "2026-11-23"
+   }
+  ],
+  "stories": [
+   {
+    "category": "Tech US",
+    "title": "Lundi : Nvidia gagne plus de 31 % et efface une partie de sa chute",
+    "summary": "L'action Nvidia a terminé à 165,05 dollars, en hausse de 31,48 %, après le retour de Jensen Huang à la tête du groupe. Selon Reuters, le président Trump et le vice-président Vance seraient intervenus. Une enquête indépendante se poursuit.",
+    "whyLabel": "Le contexte",
+    "why": "Le sort d'un seul dirigeant a pesé sur toute la Bourse tech : la confiance dans Nvidia est au cœur du marché de l'IA.",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261123-nyse-rs-5aa299.jpg",
+    "links": [
+     {
+      "label": "Reuters",
+      "url": "https://www.reuters.com/world/us/trump-saw-nvidias-huang-protector-open-weight-ai-models-sources-say-2026-11-23/",
+      "lang": "EN"
+     },
+     {
+      "label": "Nvidia",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "lang": "EN"
+     }
+    ],
+    "region": "Amérique"
+   },
+   {
+    "category": "Nasdaq",
+    "title": "Lundi : le Nasdaq Composite gagne 6,51 % à la clôture",
+    "summary": "Le Nasdaq Composite a fini à 24 089,56 points (+6,51 %) et le Nasdaq 100 à 26 746,10 (+6,86 %). Le S&P 500 a gagné 4,73 % à 7 237,17 et le Dow Jones 3,01 %. L'indice de la peur (VIX) a reculé de 25,83 %, à 26,62.",
+    "whyLabel": "En bref",
+    "why": "Après la chute de la semaine passée, c'est un rebond d'une ampleur rare.",
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261123-nyse-rs-5aa299.jpg",
+    "links": [
+     {
+      "label": "NBC News",
+      "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
+      "lang": "EN"
+     },
+     {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+      "lang": "EN"
+     }
+    ],
+    "region": "Amérique"
+   },
+   {
+    "category": "Tech US",
+    "title": "Lundi : Tesla, Meta et Google en tête des géants de la tech",
+    "summary": "Tesla a gagné 11,46 %, Meta 6,55 % et Alphabet (Google) 6,34 %. Amazon progresse de 3,47 %, Apple de 1,90 % et Microsoft de 1,65 %.",
+    "whyLabel": "En bref",
+    "why": "Le rebond a touché tous les grands noms de la tech, à des degrés très différents.",
+    "image": "",
+    "links": [
+     {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+      "lang": "EN"
+     }
+    ],
+    "region": "Amérique"
+   },
+   {
+    "category": "Tech US",
+    "title": "Amazon, Sierra, Marlowe : l'argent continue d'affluer vers l'infrastructure de l'IA",
+    "summary": "Amazon achète la technologie de Decart (7,5 milliards de dollars rapportés), Sierra lève 1,75 milliard à une valorisation de 30 milliards, et Marlowe, 277 millions pour des centres de calcul multi-puces.",
+    "whyLabel": "Le contexte",
+    "why": "Malgré les craintes d'une bulle, les investissements dans l'IA ne ralentissent pas.",
+    "image": "",
+    "links": [
+     {
+      "label": "TechCrunch (Amazon)",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "lang": "EN"
+     },
+     {
+      "label": "TechCrunch (Sierra)",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "lang": "EN"
+     }
+    ],
+    "region": "Amérique"
+   },
+   {
+    "category": "Europe",
+    "title": "Lundi : l'Europe termine en hausse, le DAX gagne 2,15 %",
+    "summary": "À la clôture, le CAC 40 gagne 1,48 % à 8 044,84 points, le DAX 2,15 % à 25 337,27 et l'Euro Stoxx 50 2,23 % à 6 074,47.",
+    "whyLabel": "En bref",
+    "why": "Les Bourses européennes ont suivi le rebond de la tech américaine.",
+    "image": "",
+    "links": [
+     {
+      "label": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html",
+      "lang": "EN"
+     }
+    ],
+    "region": "Europe"
+   },
+   {
+    "category": "Asie",
+    "title": "Mardi : le Nikkei bondit de 3,91 %, Hong Kong stable",
+    "summary": "Le Nikkei 225 progresse de 3,91 % à 58 644,63 points lors de la séance du 24 novembre, tandis que le Hang Seng recule de 0,12 % à 22 383,74 (séance du 23).",
+    "whyLabel": "À savoir",
+    "why": "Tokyo réagit au rebond de Wall Street de la veille ; Hong Kong, qui avait clôturé avant, est resté à l'écart.",
+    "image": "",
+    "links": [
+     {
+      "label": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
+      "lang": "EN"
+     }
+    ],
+    "region": "Asie"
+   }
+  ],
+  "quick": [
+   {
+    "text": "SpaceX louerait de la puissance de calcul à Anthropic et Google, selon le New York Times.",
+    "url": "https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html",
+    "lang": "EN"
+   },
+   {
+    "text": "Le Trésor américain évoquait déjà vendredi un risque de nouvelles hausses de taux de la Fed, qui pèse sur les valeurs technologiques.",
+    "url": "https://www.semafor.com/article/11/22/2026/bessent-warns-on-fed-hike-as-ai-bubble-fears-mount",
+    "lang": "EN"
+   }
+  ]
+ }
+}
