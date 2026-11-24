@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-24",
-  "intro": "Mardi sous le signe du rebond : après le retour de Jensen Huang chez Nvidia, l'IA reste au cœur de l'actualité, entre procès contre SpaceX pour les images générées par Grok, essai britannique de dépistage du cancer du sein par IA et nouveaux produits d'OpenAI, Google et Anthropic.",
+  "intro": "Mardi sous le signe du rebond : après le retour de Jensen Huang chez Nvidia, l'IA reste au cœur de l'actualité, entre procès contre SpaceX pour les images générées par Grok, essai britannique de dépistage du cancer du sein par IA et nouveaux produits d'OpenAI, Google et Anthropic. Mise à jour du soir : des employés d'Anthropic et d'OpenAI s'inquiètent de la sécurité de modèles non publiés, Meta lance son assistant Muse au Royaume-Uni et Washington blacklist une filiale d'Alibaba.",
   "stories": [
    {
     "category": "Société",
@@ -44,6 +44,66 @@ window.EDITIONS = [
      {
       "label": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Éthique",
+    "title": "Des employés d'Anthropic et d'OpenAI craignent que leurs modèles non publiés soient trop risqués",
+    "summary": "Selon Axios, plus de deux douzaines de salariés des deux entreprises s'inquiètent de la sécurité de leurs modèles internes les plus avancés. Les deux groupes envisagent de retarder leur sortie ou de les réserver à un usage interne.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Ce sont les équipes elles-mêmes qui s'interrogent sur ce qu'il est raisonnable de mettre entre les mains du public.",
+    "image": "",
+    "links": [
+     {
+      "label": "Axios",
+      "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Produits",
+    "title": "Meta lance en Grande-Bretagne Muse, un assistant IA qui agit à votre place dans vos applications",
+    "summary": "Muse planifie et exécute des tâches dans plusieurs applications. Chaque achat doit être approuvé explicitement par l'utilisateur. Meta reconnaît que les « injections de prompt », des instructions cachées pouvant détourner un assistant, restent un problème non résolu.",
+    "whyLabel": "À savoir",
+    "why": "L'assistant qui agit seul arrive dans le quotidien, avec un garde-fou : rien n'est acheté sans votre accord.",
+    "image": "https://about.fb.com/wp-content/uploads/2021/10/meta-social-16x9-1.jpg?w=1200",
+    "links": [
+     {
+      "label": "Meta",
+      "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "SpaceX et Tesla désignent cinq administrateurs pour négocier une fusion géante",
+    "summary": "D'après le Financial Times repris par Investing.com, un comité de cinq administrateurs négocie une fusion en actions évaluée à 3 500 milliards de dollars, avec un objectif de conclusion d'ici la fin de l'année. Les parties ne seraient pas encore proches d'un accord.",
+    "whyLabel": "En bref",
+    "why": "Rien n'est signé : il s'agit de discussions, et l'issue reste incertaine.",
+    "image": "",
+    "links": [
+     {
+      "label": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-tesla-directors-negotiate-potential-35-trillion-merger-ft-reports-5047091",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Washington place une filiale singapourienne d'Alibaba sur sa liste noire des exportations de puces",
+    "summary": "Selon Bloomberg, le département du Commerce a ajouté Apex et Megaspeed à sa « Entity List » : ces sociétés ne peuvent plus acheter de puces d'IA américaines sans licence, en raison d'un risque de détournement. Alibaba juge cette désignation erronée.",
+    "whyLabel": "Le contexte",
+    "why": "Les États-Unis resserrent le contrôle sur le trajet des puces d'IA vers la Chine.",
+    "image": "",
+    "links": [
+     {
+      "label": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-blacklists-alibaba-owned-company-in-setback-to-ai-ambitions",
       "lang": "EN"
      }
     ]
@@ -174,10 +234,20 @@ window.EDITIONS = [
     "text": "Canva rend son MCP disponible pour tous : des agents IA peuvent créer des designs modifiables.",
     "url": "https://www.canva.com/newsroom/news/canva-mcp-update/",
     "lang": "EN"
+   },
+   {
+    "text": "Les laboratoires d'IA recrutent d'anciens agents de la CIA et durcissent les accès internes pour contrer l'espionnage d'État, selon le Financial Times.",
+    "url": "https://www.ft.com/content/c96c40c5-6b07-4433-b65f-19105e9ccb44",
+    "lang": "EN"
+   },
+   {
+    "text": "Anthropic ouvre en bêta publique Enterprise Frontier Safeguards : les entreprises gardent les échanges chiffrés dans leur propre cloud AWS ou Google Cloud.",
+    "url": "https://thenextweb.com/news/anthropic-enterprise-frontier-safeguards-zero-data-retention-beta",
+    "lang": "EN"
    }
   ],
   "markets": {
-   "intro": "Lundi, Wall Street a rebondi très fort après le retour de Jensen Huang chez Nvidia : le Nasdaq Composite a gagné 6,51 % et le S&P 500 4,73 %, après la chute de la semaine passée. L'Europe a suivi en hausse et le Nikkei progresse mardi.",
+   "intro": "Mise à jour du soir : mardi, la séance est plus hésitante. Selon Investing.com, Nvidia cédait plus de 6 % en début de séance à New York et les contrats à terme du Nasdaq 100 reculaient d'environ 2,4 % ; en Asie, les valeurs des puces rebondissaient fortement et le FTSE 100 baissait en Europe. Les chiffres des indices ci-dessous sont ceux de lundi, jour du rebond de 6,51 % du Nasdaq Composite et de 4,73 % du S&P 500 après le retour de Jensen Huang chez Nvidia.",
    "indices": [
     {
      "name": "Nasdaq Composite",
@@ -217,30 +287,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8044.84,
-     "changePct": 1.48,
-     "session": "2026-11-23"
+     "value": 8040.49,
+     "changePct": -0.05,
+     "session": "2026-11-24"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 25337.27,
-     "changePct": 2.15,
-     "session": "2026-11-23"
+     "value": 25017.81,
+     "changePct": -1.26,
+     "session": "2026-11-24"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6074.47,
-     "changePct": 2.23,
-     "session": "2026-11-23"
+     "value": 6003.76,
+     "changePct": -1.16,
+     "session": "2026-11-24"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 58644.63,
-     "changePct": 3.91,
-     "session": "2026-11-24"
+     "value": 56436.65,
+     "changePct": -5.06,
+     "session": "2026-11-20"
     },
     {
      "name": "Hang Seng",
@@ -302,6 +372,70 @@ window.EDITIONS = [
     }
    ],
    "stories": [
+    {
+     "category": "Tech US",
+     "title": "Mardi : Nvidia recule de plus de 6 % en début de séance après son bond de lundi",
+     "summary": "Selon Investing.com, l'action Nvidia perdait plus de 6 % vers 9 h 39 (heure de New York), rendant une partie du gain record de lundi (+31,5 %). Goldman Sachs estime que les investisseurs peinent à distinguer « un retournement durable d'un rebond brutal ».",
+     "whyLabel": "Le contexte",
+     "why": "Après la forte hausse de lundi, le marché hésite sur la suite.",
+     "image": "",
+     "links": [
+      {
+       "label": "Investing.com",
+       "url": "https://za.investing.com/news/stock-market-news/nvidia-shares-fall-by-6-following-huang-return-rally-4594919",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Nasdaq",
+     "title": "Mardi : les contrats à terme sur le Nasdaq 100 reculent après le rebond de lundi",
+     "summary": "Un instantané publié par Investing.com montre les contrats à terme sur le Nasdaq 100 en baisse d'environ 2,4 %, ceux du S&P 500 d'environ 0,8 % et ceux du Dow Jones en légère hausse d'environ 0,4 %. Le site précise que ces chiffres ne sont pas forcément en temps réel.",
+     "whyLabel": "En bref",
+     "why": "Les contrats à terme anticipent l'ouverture ; ils ne garantissent pas la clôture.",
+     "image": "",
+     "links": [
+      {
+       "label": "Investing.com",
+       "url": "https://za.investing.com/news/stock-market-news/nvidia-shares-fall-by-6-following-huang-return-rally-4594919",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Mardi : le FTSE 100 prolonge sa baisse, tiré vers le bas par les mines",
+     "summary": "Selon un titre relevé sur Investing.com, l'indice britannique a continué de reculer, les valeurs minières glissant avec la baisse des prix des métaux. Les contrats à terme sur le DAX allemand indiquaient environ 1 % de baisse dans le même instantané.",
+     "whyLabel": "À savoir",
+     "why": "Hors tech, la Bourse européenne subit aussi la chute des métaux.",
+     "image": "",
+     "links": [
+      {
+       "label": "Investing.com",
+       "url": "https://za.investing.com/news/stock-market-news/nvidia-shares-fall-by-6-following-huang-return-rally-4594919",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Mardi : TSMC, Advantest, Samsung et SK Hynix rebondissent avec Nvidia",
+     "summary": "Les puces ont rebondi en Asie dans le sillage de Nvidia : TSMC gagnait plus de 9 % à Taïwan, Advantest plus de 12 % au Japon, Samsung Electronics et SK Hynix plus de 6 % en Corée du Sud, selon Investing.com.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Le sort de Nvidia entraîne toute la chaîne mondiale des semi-conducteurs.",
+     "image": "",
+     "links": [
+      {
+       "label": "Investing.com",
+       "url": "https://za.investing.com/news/stock-market-news/nvidia-shares-fall-by-6-following-huang-return-rally-4594919",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
     {
      "category": "Tech US",
      "title": "Lundi : Nvidia gagne plus de 31 % et efface une partie de sa chute",
@@ -415,6 +549,16 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "SpaceX et Tesla négocieraient une fusion en actions de 3 500 milliards de dollars, selon le Financial Times, mais les parties ne seraient pas encore proches d'un accord.",
+     "url": "https://www.investing.com/news/stock-market-news/spacex-tesla-directors-negotiate-potential-35-trillion-merger-ft-reports-5047091",
+     "lang": "EN"
+    },
+    {
+     "text": "L'or, l'argent et le cuivre reculaient mardi (respectivement d'environ 2 %, 5,5 % et 5 % dans un instantané d'Investing.com).",
+     "url": "https://za.investing.com/news/stock-market-news/nvidia-shares-fall-by-6-following-huang-return-rally-4594919",
+     "lang": "EN"
+    },
     {
      "text": "SpaceX louerait de la puissance de calcul à Anthropic et Google, selon le New York Times.",
      "url": "https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html",
