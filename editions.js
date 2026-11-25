@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-25",
-  "intro": "Mercredi : l'IA passe par les usages du quotidien, avec Tidal qui bannit la musique entièrement générée par IA, Walmart et Meta qui testent l'achat par agent IA et Pinterest qui donne plus de contrôle aux parents, tandis qu'OpenAI présente des résultats en biologie et en astronomie.",
+  "intro": "Mercredi : l'IA passe par les usages du quotidien, avec Tidal qui bannit la musique entièrement générée par IA, Walmart et Meta qui testent l'achat par agent IA et Pinterest qui donne plus de contrôle aux parents, tandis qu'OpenAI présente des résultats en biologie et en astronomie. Mise à jour du soir : Amazon et Meta discuteraient pour ouvrir la boutique d'Amazon à l'agent Muse, un test montre que les agents IA échouent encore souvent au quotidien, et les enquêtes sur Nvidia et Megaspeed continuent.",
   "stories": [
    {
     "category": "Culture",
@@ -44,6 +44,51 @@ window.EDITIONS = [
      {
       "label": "TechCrunch",
       "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "Amazon et Meta discuteraient pour que l'agent IA Muse puisse acheter sur Amazon",
+    "summary": "Selon Fortune, repris par TechCrunch, Amazon et Meta ont tenu plusieurs séries de discussions pour que Muse, l'agent IA de Meta, se connecte directement à la boutique d'Amazon. Il y a deux mois, les utilisateurs de Muse recevaient un message d'erreur au moment de payer sur Amazon.",
+    "whyLabel": "Le contexte",
+    "why": "Deux points restent à régler : la présentation des résultats de recherche et la publicité. Amazon craint que des agents d'achat tiers affaiblissent son lien direct avec ses clients.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "Même les meilleurs agents IA échouent plus d'une fois sur trois dans la vie courante",
+    "summary": "Un nouveau test nommé ShellBench, bâti à partir de plus de 10 millions d'interactions réelles anonymisées, montre que même les modèles les plus avancés d'OpenAI, d'Anthropic et de Meta échouent plus d'un tiers du temps sur des tâches du quotidien. Sur l'ensemble des modèles, 15,7 % des essais ont enfreint au moins une règle de sécurité.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Des millions de personnes confient déjà leurs achats ou leurs voyages à ces assistants : leur fiabilité reste mal connue.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296543552.jpg?w=1024",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Entreprises",
+    "title": "Nvidia : le retour de Jensen Huang n'efface pas les enquêtes sur Megaspeed",
+    "summary": "Malgré le retour de Jensen Huang à la tête de Nvidia, plusieurs enquêtes se poursuivent sur des puces qui auraient été détournées vers la Chine par son client Megaspeed. Le procureur général des États-Unis a laissé entendre que Nvidia n'était pas visée, mais la Californie et le Congrès continuent, et la SEC enquêterait aussi.",
+    "whyLabel": "À savoir",
+    "why": "Megaspeed nie toute faute. La question centrale est ce que Nvidia savait de la destination finale de ses puces.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2249127237.jpg?resize=1200,800",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
       "lang": "EN"
      }
     ]
@@ -169,10 +214,15 @@ window.EDITIONS = [
     "text": "Au Royaume-Uni, le régulateur financier FCA détaille ses attentes pour les entreprises qui déploient des produits d'IA autonomes.",
     "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
     "lang": "EN"
+   },
+   {
+    "text": "Les centres de données IA deviennent plus difficiles à construire, et les « néoclouds » (fournisseurs de puissance de calcul) en subissent les conséquences (podcast TechCrunch).",
+    "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+    "lang": "EN"
    }
   ],
   "markets": {
-   "intro": "Mardi, Wall Street a fini en ordre dispersé : le Nasdaq a perdu 1,48 % et le S&P 500 0,5 %, à cause d'une chute de 7,9 % des valeurs de puces après le rebond de Nvidia de lundi, alors que le Dow Jones a gagné 0,85 %.",
+   "intro": "Mercredi, la tech décroche : vers 18 h, le Nasdaq perdait près de 4 % et le S&P 500 environ 2,6 % en séance (chiffres en séance, les clôtures viendront ce soir), tandis que l'Europe a fini en baisse (CAC 40 -0,75 %, DAX -1,26 %) et que Séoul chutait d'environ 6 %. La veille, le Nasdaq avait déjà perdu 1,48 % et le S&P 500 0,5 %.",
    "indices": [
     {
      "name": "Nasdaq Composite",
@@ -212,30 +262,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8040.49,
-     "changePct": -0.05,
-     "session": "2026-11-24"
+     "value": 7980.57,
+     "changePct": -0.75,
+     "session": "2026-11-25"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 25017.81,
+     "value": 24702.13,
      "changePct": -1.26,
-     "session": "2026-11-24"
+     "session": "2026-11-25"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6003.76,
-     "changePct": -1.16,
-     "session": "2026-11-24"
+     "value": 5894.46,
+     "changePct": -1.82,
+     "session": "2026-11-25"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 57011.62,
-     "changePct": -2.78,
-     "session": "2026-11-25"
+     "value": 58644.63,
+     "changePct": 3.91,
+     "session": "2026-11-24"
     },
     {
      "name": "Hang Seng",
@@ -297,6 +347,107 @@ window.EDITIONS = [
     }
    ],
    "stories": [
+    {
+     "category": "Nasdaq",
+     "title": "Mercredi : Wall Street s'enfonce en séance, le Nasdaq perd près de 4 %",
+     "summary": "Vers 18 h à Paris (11 h 55 à New York), le Nasdaq Composite reculait de 3,84 % et le S&P 500 de 2,61 %, selon Investing.com. Ce sont des chiffres en séance, pas des clôtures. Les investisseurs s'inquiètent de valorisations jugées élevées, de taux plus hauts, des dépenses d'infrastructure IA et de nouveaux droits de douane.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "C'est une baisse bien plus forte que celle de mardi (-1,48 % pour le Nasdaq) et elle prolonge la correction de la tech.",
+     "image": "",
+     "links": [
+      {
+       "label": "MLQ.ai",
+       "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Macro / Fed",
+     "title": "Mercredi : l'inflation américaine à 3,8 % et de nouveaux droits de douane proposés",
+     "summary": "L'indice d'inflation PCE d'octobre ressort à 3,8 % sur un an, 3,3 % hors énergie et alimentation. Par ailleurs, le représentant américain au Commerce a proposé des droits de douane (section 301) visant 14 économies, dont l'Union européenne.",
+     "whyLabel": "Le contexte",
+     "why": "Ces nouvelles pèsent sur les marchés en même temps que le recul de la tech.",
+     "image": "",
+     "links": [
+      {
+       "label": "MLQ.ai",
+       "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Tech US",
+     "title": "Mercredi : Nvidia chute de 8,8 % en séance après -5,86 % mardi",
+     "summary": "Nvidia perdait environ 8,8 % en séance mercredi, selon Investing.com, après sa baisse de 5,86 % à la clôture de mardi. Le groupe reste sous pression alors que les doutes sur la rentabilité des dépenses en IA se renforcent et que les enquêtes sur Megaspeed continuent.",
+     "whyLabel": "En bref",
+     "why": "Le chiffre de mercredi est une variation en séance, susceptible de changer d'ici la clôture.",
+     "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2249127237.jpg?resize=1200,800",
+     "links": [
+      {
+       "label": "MLQ.ai",
+       "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+       "lang": "EN"
+      },
+      {
+       "label": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Amérique"
+    },
+    {
+     "category": "Europe",
+     "title": "Mercredi : l'Europe termine en baisse, les valeurs des puces en tête des pertes",
+     "summary": "Le STOXX 600 a perdu 1,06 %, le DAX 1,26 % et le CAC 40 0,75 %. ASM International a cédé 7,8 %, Infineon 6,5 %, ASML 5,8 % et BE Semiconductor 5,6 %. Les Bourses avaient commencé la séance en hausse avant de s'inverser avec la chute de la tech américaine.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "L'Europe, dont l'industrie des puces dépend de la demande en IA, suit désormais Wall Street.",
+     "image": "",
+     "links": [
+      {
+       "label": "MLQ.ai",
+       "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Europe",
+     "title": "Mercredi : les constructeurs auto européens résistent, Rémy Cointreau bondit de 13 %",
+     "summary": "Volkswagen (+4,6 %) et BMW (+3,7 %) ont progressé après l'annonce par la Commission européenne de quotas limitant les importations de voitures hybrides à partir du 1er décembre. Rémy Cointreau a gagné 13,1 % après avoir relevé ses objectifs annuels.",
+     "whyLabel": "À savoir",
+     "why": "Dans une séance dominée par les pertes, quelques valeurs ont profité de nouvelles propres à leur secteur.",
+     "image": "",
+     "links": [
+      {
+       "label": "MLQ.ai",
+       "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+       "lang": "EN"
+      }
+     ],
+     "region": "Europe"
+    },
+    {
+     "category": "Asie",
+     "title": "Mercredi : le Kospi sud-coréen chute d'environ 6 %, le Nikkei perd 2,7 %",
+     "summary": "En Asie, la Bourse de Séoul a reculé d'environ 6 %, Samsung Electronics et SK Hynix subissant de lourdes pertes. À Tokyo, le Nikkei 225 a perdu 2,7 %, et Hong Kong a oscillé entre hausse et baisse, selon Saxo.",
+     "whyLabel": "Le contexte",
+     "why": "Les valeurs des puces, très présentes dans ces Bourses, sont les plus touchées par les doutes autour de l'IA.",
+     "image": "",
+     "links": [
+      {
+       "label": "Saxo",
+       "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-slump-again-in-new-york-and-seoul---25-november-2026-25112026",
+       "lang": "EN"
+      }
+     ],
+     "region": "Asie"
+    },
     {
      "category": "Nasdaq",
      "title": "Mardi : le Nasdaq perd 1,48 %, les puces plongent de 7,9 %",
@@ -427,6 +578,16 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Le pétrole recule : le Brent tourne autour de 90 dollars le baril (-1,5 %), l'OPEP+ se réunit le 29 novembre.",
+     "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-slump-again-in-new-york-and-seoul---25-november-2026-25112026",
+     "lang": "EN"
+    },
+    {
+     "text": "Le bitcoin se maintient autour de 59 000 dollars, avec un sixième jour de retraits consécutifs sur les fonds cotés bitcoin.",
+     "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-slump-again-in-new-york-and-seoul---25-november-2026-25112026",
+     "lang": "EN"
+    },
     {
      "text": "Taïwan envisage de doubler son fonds national de stabilisation financière, à 1 000 milliards de dollars taïwanais, après le recul des valeurs technologiques.",
      "url": "https://finance.biggo.com/news/274bc167-8d04-4626-a754-687871a7959b",

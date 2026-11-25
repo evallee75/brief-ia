@@ -1,441 +1,602 @@
 {
- "date": "2026-11-25",
- "intro": "Mercredi : l'IA passe par les usages du quotidien, avec Tidal qui bannit la musique entièrement générée par IA, Walmart et Meta qui testent l'achat par agent IA et Pinterest qui donne plus de contrôle aux parents, tandis qu'OpenAI présente des résultats en biologie et en astronomie.",
- "stories": [
-  {
-   "category": "Culture",
-   "title": "Tidal va supprimer des millions de morceaux entièrement générés par IA",
-   "summary": "Le service de streaming musical retirera à partir du 9 décembre les titres entièrement créés par IA, soit plus de 29 millions d'ici la fin de l'année selon ses prévisions. Ces morceaux représentent environ 6,3 % de son catalogue, mais 96 % d'entre eux n'ont aucune écoute. La musique simplement assistée par IA reste acceptée.",
-   "whyLabel": "Pourquoi c'est important",
-   "why": "Après Bandcamp, une autre plateforme choisit d'interdire plutôt que d'étiqueter la musique générée par IA.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/06/tidal-brand.jpg?w=720",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Business",
-   "title": "Walmart et Meta s'allient pour que l'agent IA Muse achète vos cadeaux du Black Friday",
-   "summary": "Les clients pourront dire à Muse, l'agent IA de Meta, ce qu'ils cherchent : Walmart renvoie les produits et aide à remplir le panier. L'agent ne peut pas accéder à l'historique d'achats, et l'utilisateur peut fixer une limite de dépenses ou exiger de valider chaque commande. Amazon, lui, bloque les agents IA tiers pour les achats.",
-   "whyLabel": "À savoir",
-   "why": "Le commerce par agent IA devient concret, avec des enseignes qui s'y ouvrent et d'autres qui s'y opposent.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-walmart.png?w=1200",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Société",
-   "title": "Pinterest permet aux parents de limiter les contenus générés par IA vus par leurs ados",
-   "summary": "Un nouveau réglage permet de réduire la part de contenus créés par IA dans le fil des adolescents. La page de contrôle parental, remaniée, permet aussi d'arrêter la lecture automatique des vidéos et de régler les notifications et la publicité personnalisée.",
-   "whyLabel": "En bref",
-   "why": "Pinterest est l'une des premières grandes plateformes à agir sur les contenus IA eux-mêmes, et non seulement sur les chatbots.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/01/pinterest-header.jpg?resize=1200,800",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Santé",
-   "title": "Le patron de Novartis : l'IA fera gagner quatre ans sur un médicament, mais ne guérira pas le cancer d'ici dix ans",
-   "summary": "Vas Narasimhan, qui siège aussi au conseil d'Anthropic, estime que le développement d'un médicament passera d'environ 12 ans à 8 ans en une décennie. Il table sur un taux de réussite des essais cliniques passant de 8 % à 12 %, mais pense que les longs essais restent indispensables.",
-   "whyLabel": "Le contexte",
-   "why": "Un dirigeant du secteur tempère les promesses les plus optimistes de patrons de l'IA.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_novartis.png",
-   "links": [
-    {
-     "label": "The Decoder",
-     "url": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Science",
-   "title": "OpenAI affirme que GPT-6 sait concevoir des protéines",
-   "summary": "Selon OpenAI, ses modèles GPT-6 génèrent des structures de protéines sans outil de biologie dédié. En laboratoire, 35 des 322 petites protéines testées (10,9 %) se sont liées à leur cible. L'entreprise reconnaît une faiblesse : prédire la structure complète d'une protéine.",
-   "whyLabel": "À savoir",
-   "why": "Ce sont des résultats annoncés par OpenAI elle-même ; la conception de protéines peut accélérer la recherche de médicaments.",
-   "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
-   "links": [
-    {
-     "label": "OpenAI",
-     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Science",
-   "title": "Deux astronomes amateurs traquent des exoplanètes avec l'IA d'OpenAI",
-   "summary": "Avec Codex et Astra, Kevin Bond a passé au crible environ 100 000 étoiles du télescope Kepler et repéré deux candidates, que la recherche indépendante de l'institut SETI a aussi trouvées. Ethan Byrd, lui, a analysé environ 19 millions d'étoiles et obtenu 49 candidates initiales, dont une transmise à la NASA.",
-   "whyLabel": "En bref",
-   "why": "Confirmer une planète exige encore de longues vérifications par des astronomes professionnels.",
-   "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
-   "links": [
-    {
-     "label": "OpenAI",
-     "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Éducation",
-   "title": "Les Émirats lancent Mira, un assistant IA pour suivre la scolarité des enfants",
-   "summary": "À partir de mars, les parents d'élèves du public pourront interroger Mira sur les matières où leur enfant a des difficultés, consulter notes et absences, et prendre rendez-vous avec les enseignants. L'outil analysera les dossiers existants des écoles et concernera d'abord plus de 530 écoles et environ 280 000 élèves.",
-   "whyLabel": "Le contexte",
-   "why": "Le pays a rendu obligatoires les cours d'IA de la maternelle à la terminale il y a un an.",
-   "image": "https://img.semafor.com/c5079fdacc3813e744596d53e8a1476152fed3a4-1440x1080.jpg?rect=0,162,1440,756&w=1200&h=630&q=75&auto=format",
-   "links": [
-    {
-     "label": "Semafor",
-     "url": "https://www.semafor.com/article/11/24/2026/uae-launches-ai-assistant-to-track-childrens-learning",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Business",
-   "title": "L'action Anthropic passe sous son prix d'introduction en Bourse",
-   "summary": "Mardi, le titre a perdu plus de 6 % et est tombé sous les 83 dollars de son prix d'introduction pour la première fois. Les inquiétudes des investisseurs sur l'IA ont effacé l'optimisme né du retour de Jensen Huang chez Nvidia.",
-   "whyLabel": "Pourquoi c'est important",
-   "why": "Les marchés restent nerveux sur les valorisations de l'IA, même pour ses entreprises vedettes.",
-   "image": "https://img.semafor.com/bfefbe3aeee60a20a1643baeae1acd5fef7d3730-4327x2885.jpg?rect=0,307,4327,2272&w=1200&h=630&q=75&auto=format",
-   "links": [
-    {
-     "label": "Semafor",
-     "url": "https://www.semafor.com/article/11/24/2026/anthropic-shares-plunge-as-ai-trade-wobbles",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Produits",
-   "title": "Meta intègre son assistant Muse directement dans les messages Instagram",
-   "summary": "Il ne sera plus nécessaire d'ouvrir l'application Muse : on peut discuter avec l'assistant depuis la messagerie d'Instagram. Le déploiement commence sur iOS et Android aux États-Unis, au Canada, au Mexique, au Japon et à Singapour. Meta précise que l'utilisateur doit approuver tout ce que Muse partage, publie ou envoie.",
-   "whyLabel": "À savoir",
-   "why": "L'IA arrive dans les applications que des milliards de personnes utilisent déjà.",
-   "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-     "lang": "EN"
-    }
-   ]
-  },
-  {
-   "category": "Produits",
-   "title": "Midjourney lance Niji V8, son modèle d'images de style manga",
-   "summary": "Selon Midjourney, cette version suit mieux les consignes écrites et s'accompagne d'un modèle dédié à la retouche d'images.",
-   "whyLabel": "En bref",
-   "why": "Les générateurs d'images spécialisés continuent de se perfectionner.",
-   "image": "",
-   "links": [
-    {
-     "label": "Midjourney (X)",
-     "url": "https://x.com/midjourney/status/2125328040624521639",
-     "lang": "EN"
-    }
-   ]
-  }
- ],
- "quick": [
-  {
-   "text": "Maple lève 5,3 millions de dollars pour créer des produits d'IA qui protègent les données des utilisateurs, y compris vis-à-vis de Maple elle-même.",
-   "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-   "lang": "EN"
-  },
-  {
-   "text": "Les « artifacts » de Claude peuvent désormais s'installer comme applications de bureau sur Mac et Windows, annonce Anthropic.",
-   "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
-   "lang": "EN"
-  },
-  {
-   "text": "Au Royaume-Uni, le régulateur financier FCA détaille ses attentes pour les entreprises qui déploient des produits d'IA autonomes.",
-   "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
-   "lang": "EN"
-  }
- ],
- "markets": {
-  "intro": "Mardi, Wall Street a fini en ordre dispersé : le Nasdaq a perdu 1,48 % et le S&P 500 0,5 %, à cause d'une chute de 7,9 % des valeurs de puces après le rebond de Nvidia de lundi, alors que le Dow Jones a gagné 0,85 %.",
-  "indices": [
-   {
-    "name": "Nasdaq Composite",
-    "region": "US",
-    "value": 23733.54,
-    "changePct": -1.48,
-    "session": "2026-11-24"
-   },
-   {
-    "name": "Nasdaq 100",
-    "region": "US",
-    "value": 26214.17,
-    "changePct": -1.99,
-    "session": "2026-11-24"
-   },
-   {
-    "name": "S&P 500",
-    "region": "US",
-    "value": 7201.09,
-    "changePct": -0.5,
-    "session": "2026-11-24"
-   },
-   {
-    "name": "Dow Jones",
-    "region": "US",
-    "value": 50018.7,
-    "changePct": 0.85,
-    "session": "2026-11-24"
-   },
-   {
-    "name": "VIX (peur)",
-    "region": "US",
-    "value": 26.36,
-    "changePct": -0.98,
-    "session": "2026-11-24"
-   },
-   {
-    "name": "CAC 40",
-    "region": "Europe",
-    "value": 8040.49,
-    "changePct": -0.05,
-    "session": "2026-11-24"
-   },
-   {
-    "name": "DAX",
-    "region": "Europe",
-    "value": 25017.81,
-    "changePct": -1.26,
-    "session": "2026-11-24"
-   },
-   {
-    "name": "Euro Stoxx 50",
-    "region": "Europe",
-    "value": 6003.76,
-    "changePct": -1.16,
-    "session": "2026-11-24"
-   },
-   {
-    "name": "Nikkei 225",
-    "region": "Asie",
-    "value": 57011.62,
-    "changePct": -2.78,
-    "session": "2026-11-25"
-   },
-   {
-    "name": "Hang Seng",
-    "region": "Asie",
-    "value": 22219.65,
-    "changePct": -0.73,
-    "session": "2026-11-24"
-   }
-  ],
-  "stocks": [
-   {
-    "ticker": "NVDA",
-    "name": "Nvidia",
-    "value": 155.38,
-    "changePct": -5.86,
-    "session": "2026-11-24"
-   },
-   {
-    "ticker": "AAPL",
-    "name": "Apple",
-    "value": 354.07,
-    "changePct": 1.43,
-    "session": "2026-11-24"
-   },
-   {
-    "ticker": "MSFT",
-    "name": "Microsoft",
-    "value": 496.13,
-    "changePct": 0.74,
-    "session": "2026-11-24"
-   },
-   {
-    "ticker": "GOOGL",
-    "name": "Alphabet",
-    "value": 279.05,
-    "changePct": -1.08,
-    "session": "2026-11-24"
-   },
-   {
-    "ticker": "AMZN",
-    "name": "Amazon",
-    "value": 252.29,
-    "changePct": -1.21,
-    "session": "2026-11-24"
-   },
-   {
-    "ticker": "META",
-    "name": "Meta",
-    "value": 589.82,
-    "changePct": -1.3,
-    "session": "2026-11-24"
-   },
-   {
-    "ticker": "TSLA",
-    "name": "Tesla",
-    "value": 384.68,
-    "changePct": -0.2,
-    "session": "2026-11-24"
-   }
-  ],
+  "date": "2026-11-25",
+  "intro": "Mercredi : l'IA passe par les usages du quotidien, avec Tidal qui bannit la musique entièrement générée par IA, Walmart et Meta qui testent l'achat par agent IA et Pinterest qui donne plus de contrôle aux parents, tandis qu'OpenAI présente des résultats en biologie et en astronomie. Mise à jour du soir : Amazon et Meta discuteraient pour ouvrir la boutique d'Amazon à l'agent Muse, un test montre que les agents IA échouent encore souvent au quotidien, et les enquêtes sur Nvidia et Megaspeed continuent.",
   "stories": [
-   {
-    "category": "Nasdaq",
-    "title": "Mardi : le Nasdaq perd 1,48 %, les puces plongent de 7,9 %",
-    "summary": "Le Nasdaq Composite a terminé à 23 733,54 points (-1,48 %) et le Nasdaq-100 à 26 214,17 (-1,99 %). L'indice des semi-conducteurs de Philadelphie a cédé 7,9 %, les investisseurs reprenant une partie du bond de lundi.",
-    "whyLabel": "Pourquoi c'est important",
-    "why": "Les puces et l'IA pèsent lourd dans le Nasdaq, qui reste en correction, à plus de 10 % sous son record.",
-    "image": "https://startupfortune.com/wp-content/uploads/2026/11/nvidia-nasdaq-dow-jones.jpg",
-    "links": [
-     {
-      "label": "Startup Fortune",
-      "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "S&P 500",
-    "title": "Mardi : le S&P 500 recule de 0,5 %, sa huitième baisse en neuf séances",
-    "summary": "L'indice a clôturé à 7 201,09 points. Selon la source, les hausses de taux se heurtent aux valorisations de l'IA et les investisseurs redoutent de nouveaux droits de douane.",
-    "whyLabel": "En bref",
-    "why": "Le recul du S&P 500 est plus limité que celui du Nasdaq, car il compte aussi des secteurs moins exposés aux puces.",
-    "image": "https://startupfortune.com/wp-content/uploads/2026/11/nvidia-nasdaq-dow-jones.jpg",
-    "links": [
-     {
-      "label": "Startup Fortune",
-      "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Tech US",
-    "title": "Mardi : Nvidia perd 5,86 % et près de 240 milliards de dollars de valeur",
-    "summary": "L'action a clôturé à 155,38 dollars, effaçant une partie de la hausse de lundi, liée au retour de Jensen Huang comme patron. Le chiffre de 240 milliards est un calcul du Motley Fool cité par la source.",
-    "whyLabel": "Le contexte",
-    "why": "Après un bond de plus de 30 % lundi, le marché hésite entre vrai retournement et simple rebond.",
-    "image": "https://startupfortune.com/wp-content/uploads/2026/11/nvidia-nasdaq-dow-jones.jpg",
-    "links": [
-     {
-      "label": "Startup Fortune",
-      "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Tech US",
-    "title": "Mardi : l'action Anthropic passe sous son prix d'introduction",
-    "summary": "Le titre a perdu plus de 6 % et est tombé sous les 83 dollars de son introduction en Bourse. Un analyste cité par le Financial Times évoque des déséquilibres entre offre et demande, des risques de régulation et des retards de construction de centres de données.",
-    "whyLabel": "À savoir",
-    "why": "L'inquiétude sur l'IA touche aussi les entreprises récemment introduites en Bourse.",
-    "image": "https://img.semafor.com/bfefbe3aeee60a20a1643baeae1acd5fef7d3730-4327x2885.jpg?rect=0,307,4327,2272&w=1200&h=630&q=75&auto=format",
-    "links": [
-     {
-      "label": "Semafor",
-      "url": "https://www.semafor.com/article/11/24/2026/anthropic-shares-plunge-as-ai-trade-wobbles",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Macro / Fed",
-    "title": "Mardi : le Dow Jones repasse au-dessus de 50 000 points, tiré par la santé et l'industrie",
-    "summary": "Le Dow a gagné 423,39 points (+0,85 %) pour finir à 50 018,70. Amgen, Nike, Salesforce, GE Vernova et Eaton figurent parmi les hausses citées ; Medtronic a reculé après ses résultats. Wall Street sera fermée jeudi pour Thanksgiving et la Fed se réunit les 8 et 9 décembre.",
-    "whyLabel": "Le contexte",
-    "why": "Ce n'est pas un record : le Dow avait clôturé au-dessus de 51 600 points le 16 novembre.",
-    "image": "https://startupfortune.com/wp-content/uploads/2026/11/nvidia-nasdaq-dow-jones.jpg",
-    "links": [
-     {
-      "label": "Startup Fortune",
-      "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/",
-      "lang": "EN"
-     }
-    ],
-    "region": "Amérique"
-   },
-   {
-    "category": "Europe",
-    "title": "Mardi : l'Allemand Infineon chute de 10 % et entraîne le DAX",
-    "summary": "Le DAX a terminé à 25 005,51 points contre 25 337,27 la veille, et le STOXX 600 à 632,69 contre 636,97. Aixtron a perdu 8,8 % après une dégradation de UBS, alors que l'indice allemand ifo du climat des affaires a progressé à 90,6.",
-    "whyLabel": "Pourquoi c'est important",
-    "why": "Les valeurs européennes des puces ont suivi la baisse de Nvidia et de Wall Street.",
-    "image": "https://chipdispatch.com/media/9e/9e20260fc89bd2c3.1280.webp",
-    "links": [
-     {
-      "label": "Chip Dispatch",
-      "url": "https://chipdispatch.com/articles/infineon-falls-10-as-european-chip-rally-unravels-in-a-day",
-      "lang": "EN"
-     }
-    ],
-    "region": "Europe"
-   },
-   {
-    "category": "Europe",
-    "title": "Mardi : Sanofi gagne 5,6 % après l'annonce du rachat d'Insmed pour 41 milliards de dollars",
-    "summary": "Le groupe pharmaceutique français a accepté d'acquérir l'américain Insmed. À l'inverse, les mines ont reculé : Antofagasta a perdu plus de 8 % et Anglo American environ 6 %.",
-    "whyLabel": "À savoir",
-    "why": "Une des rares bonnes nouvelles d'une séance dominée par les valeurs technologiques en baisse.",
-    "image": "https://chipdispatch.com/media/9e/9e20260fc89bd2c3.1280.webp",
-    "links": [
-     {
-      "label": "Chip Dispatch",
-      "url": "https://chipdispatch.com/articles/infineon-falls-10-as-european-chip-rally-unravels-in-a-day",
-      "lang": "EN"
-     }
-    ],
-    "region": "Europe"
-   },
-   {
-    "category": "Asie",
-    "title": "Mercredi : les valeurs des puces s'effondrent en Asie, SoftBank perd environ 10 %",
-    "summary": "Selon BigGo Finance, le Nikkei est tombé en séance à 56 936,38 points (-2,8 %). Advantest a cédé 12,26 %, Tokyo Electron 10,9 % et SoftBank Group 10 %. À Taïwan, TSMC a reculé jusqu'à 6,28 %, et Samsung Electronics et SK Hynix ont perdu plus de 7 % à Séoul.",
-    "whyLabel": "Pourquoi c'est important",
-    "why": "L'Asie, très liée aux puces, a réagi au recul de Nvidia à Wall Street.",
-    "image": "",
-    "links": [
-     {
-      "label": "BigGo Finance",
-      "url": "https://finance.biggo.com/news/274bc167-8d04-4626-a754-687871a7959b",
-      "lang": "EN"
-     }
-    ],
-    "region": "Asie"
-   }
+    {
+      "category": "Culture",
+      "title": "Tidal va supprimer des millions de morceaux entièrement générés par IA",
+      "summary": "Le service de streaming musical retirera à partir du 9 décembre les titres entièrement créés par IA, soit plus de 29 millions d'ici la fin de l'année selon ses prévisions. Ces morceaux représentent environ 6,3 % de son catalogue, mais 96 % d'entre eux n'ont aucune écoute. La musique simplement assistée par IA reste acceptée.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Après Bandcamp, une autre plateforme choisit d'interdire plutôt que d'étiqueter la musique générée par IA.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/tidal-brand.jpg?w=720",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Walmart et Meta s'allient pour que l'agent IA Muse achète vos cadeaux du Black Friday",
+      "summary": "Les clients pourront dire à Muse, l'agent IA de Meta, ce qu'ils cherchent : Walmart renvoie les produits et aide à remplir le panier. L'agent ne peut pas accéder à l'historique d'achats, et l'utilisateur peut fixer une limite de dépenses ou exiger de valider chaque commande. Amazon, lui, bloque les agents IA tiers pour les achats.",
+      "whyLabel": "À savoir",
+      "why": "Le commerce par agent IA devient concret, avec des enseignes qui s'y ouvrent et d'autres qui s'y opposent.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/muse-walmart.png?w=1200",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Pinterest permet aux parents de limiter les contenus générés par IA vus par leurs ados",
+      "summary": "Un nouveau réglage permet de réduire la part de contenus créés par IA dans le fil des adolescents. La page de contrôle parental, remaniée, permet aussi d'arrêter la lecture automatique des vidéos et de régler les notifications et la publicité personnalisée.",
+      "whyLabel": "En bref",
+      "why": "Pinterest est l'une des premières grandes plateformes à agir sur les contenus IA eux-mêmes, et non seulement sur les chatbots.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/pinterest-header.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Amazon et Meta discuteraient pour que l'agent IA Muse puisse acheter sur Amazon",
+      "summary": "Selon Fortune, repris par TechCrunch, Amazon et Meta ont tenu plusieurs séries de discussions pour que Muse, l'agent IA de Meta, se connecte directement à la boutique d'Amazon. Il y a deux mois, les utilisateurs de Muse recevaient un message d'erreur au moment de payer sur Amazon.",
+      "whyLabel": "Le contexte",
+      "why": "Deux points restent à régler : la présentation des résultats de recherche et la publicité. Amazon craint que des agents d'achat tiers affaiblissent son lien direct avec ses clients.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Même les meilleurs agents IA échouent plus d'une fois sur trois dans la vie courante",
+      "summary": "Un nouveau test nommé ShellBench, bâti à partir de plus de 10 millions d'interactions réelles anonymisées, montre que même les modèles les plus avancés d'OpenAI, d'Anthropic et de Meta échouent plus d'un tiers du temps sur des tâches du quotidien. Sur l'ensemble des modèles, 15,7 % des essais ont enfreint au moins une règle de sécurité.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Des millions de personnes confient déjà leurs achats ou leurs voyages à ces assistants : leur fiabilité reste mal connue.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2296543552.jpg?w=1024",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Entreprises",
+      "title": "Nvidia : le retour de Jensen Huang n'efface pas les enquêtes sur Megaspeed",
+      "summary": "Malgré le retour de Jensen Huang à la tête de Nvidia, plusieurs enquêtes se poursuivent sur des puces qui auraient été détournées vers la Chine par son client Megaspeed. Le procureur général des États-Unis a laissé entendre que Nvidia n'était pas visée, mais la Californie et le Congrès continuent, et la SEC enquêterait aussi.",
+      "whyLabel": "À savoir",
+      "why": "Megaspeed nie toute faute. La question centrale est ce que Nvidia savait de la destination finale de ses puces.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2249127237.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Santé",
+      "title": "Le patron de Novartis : l'IA fera gagner quatre ans sur un médicament, mais ne guérira pas le cancer d'ici dix ans",
+      "summary": "Vas Narasimhan, qui siège aussi au conseil d'Anthropic, estime que le développement d'un médicament passera d'environ 12 ans à 8 ans en une décennie. Il table sur un taux de réussite des essais cliniques passant de 8 % à 12 %, mais pense que les longs essais restent indispensables.",
+      "whyLabel": "Le contexte",
+      "why": "Un dirigeant du secteur tempère les promesses les plus optimistes de patrons de l'IA.",
+      "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_novartis.png",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Science",
+      "title": "OpenAI affirme que GPT-6 sait concevoir des protéines",
+      "summary": "Selon OpenAI, ses modèles GPT-6 génèrent des structures de protéines sans outil de biologie dédié. En laboratoire, 35 des 322 petites protéines testées (10,9 %) se sont liées à leur cible. L'entreprise reconnaît une faiblesse : prédire la structure complète d'une protéine.",
+      "whyLabel": "À savoir",
+      "why": "Ce sont des résultats annoncés par OpenAI elle-même ; la conception de protéines peut accélérer la recherche de médicaments.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Science",
+      "title": "Deux astronomes amateurs traquent des exoplanètes avec l'IA d'OpenAI",
+      "summary": "Avec Codex et Astra, Kevin Bond a passé au crible environ 100 000 étoiles du télescope Kepler et repéré deux candidates, que la recherche indépendante de l'institut SETI a aussi trouvées. Ethan Byrd, lui, a analysé environ 19 millions d'étoiles et obtenu 49 candidates initiales, dont une transmise à la NASA.",
+      "whyLabel": "En bref",
+      "why": "Confirmer une planète exige encore de longues vérifications par des astronomes professionnels.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
+      "links": [
+        {
+          "label": "OpenAI",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Éducation",
+      "title": "Les Émirats lancent Mira, un assistant IA pour suivre la scolarité des enfants",
+      "summary": "À partir de mars, les parents d'élèves du public pourront interroger Mira sur les matières où leur enfant a des difficultés, consulter notes et absences, et prendre rendez-vous avec les enseignants. L'outil analysera les dossiers existants des écoles et concernera d'abord plus de 530 écoles et environ 280 000 élèves.",
+      "whyLabel": "Le contexte",
+      "why": "Le pays a rendu obligatoires les cours d'IA de la maternelle à la terminale il y a un an.",
+      "image": "https://img.semafor.com/c5079fdacc3813e744596d53e8a1476152fed3a4-1440x1080.jpg?rect=0,162,1440,756&w=1200&h=630&q=75&auto=format",
+      "links": [
+        {
+          "label": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/uae-launches-ai-assistant-to-track-childrens-learning",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "L'action Anthropic passe sous son prix d'introduction en Bourse",
+      "summary": "Mardi, le titre a perdu plus de 6 % et est tombé sous les 83 dollars de son prix d'introduction pour la première fois. Les inquiétudes des investisseurs sur l'IA ont effacé l'optimisme né du retour de Jensen Huang chez Nvidia.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les marchés restent nerveux sur les valorisations de l'IA, même pour ses entreprises vedettes.",
+      "image": "https://img.semafor.com/bfefbe3aeee60a20a1643baeae1acd5fef7d3730-4327x2885.jpg?rect=0,307,4327,2272&w=1200&h=630&q=75&auto=format",
+      "links": [
+        {
+          "label": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/anthropic-shares-plunge-as-ai-trade-wobbles",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Meta intègre son assistant Muse directement dans les messages Instagram",
+      "summary": "Il ne sera plus nécessaire d'ouvrir l'application Muse : on peut discuter avec l'assistant depuis la messagerie d'Instagram. Le déploiement commence sur iOS et Android aux États-Unis, au Canada, au Mexique, au Japon et à Singapour. Meta précise que l'utilisateur doit approuver tout ce que Muse partage, publie ou envoie.",
+      "whyLabel": "À savoir",
+      "why": "L'IA arrive dans les applications que des milliards de personnes utilisent déjà.",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Midjourney lance Niji V8, son modèle d'images de style manga",
+      "summary": "Selon Midjourney, cette version suit mieux les consignes écrites et s'accompagne d'un modèle dédié à la retouche d'images.",
+      "whyLabel": "En bref",
+      "why": "Les générateurs d'images spécialisés continuent de se perfectionner.",
+      "image": "",
+      "links": [
+        {
+          "label": "Midjourney (X)",
+          "url": "https://x.com/midjourney/status/2125328040624521639",
+          "lang": "EN"
+        }
+      ]
+    }
   ],
   "quick": [
-   {
-    "text": "Taïwan envisage de doubler son fonds national de stabilisation financière, à 1 000 milliards de dollars taïwanais, après le recul des valeurs technologiques.",
-    "url": "https://finance.biggo.com/news/274bc167-8d04-4626-a754-687871a7959b",
-    "lang": "EN"
-   },
-   {
-    "text": "Les indices sont tombés dans le rouge en Europe : l'indice allemand ifo du climat des affaires a toutefois progressé à 90,6 en novembre.",
-    "url": "https://chipdispatch.com/articles/infineon-falls-10-as-european-chip-rally-unravels-in-a-day",
-    "lang": "EN"
-   }
-  ]
- }
+    {
+      "text": "Maple lève 5,3 millions de dollars pour créer des produits d'IA qui protègent les données des utilisateurs, y compris vis-à-vis de Maple elle-même.",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "lang": "EN"
+    },
+    {
+      "text": "Les « artifacts » de Claude peuvent désormais s'installer comme applications de bureau sur Mac et Windows, annonce Anthropic.",
+      "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+      "lang": "EN"
+    },
+    {
+      "text": "Au Royaume-Uni, le régulateur financier FCA détaille ses attentes pour les entreprises qui déploient des produits d'IA autonomes.",
+      "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+      "lang": "EN"
+    },
+    {
+      "text": "Les centres de données IA deviennent plus difficiles à construire, et les « néoclouds » (fournisseurs de puissance de calcul) en subissent les conséquences (podcast TechCrunch).",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "intro": "Mercredi, la tech décroche : vers 18 h, le Nasdaq perdait près de 4 % et le S&P 500 environ 2,6 % en séance (chiffres en séance, les clôtures viendront ce soir), tandis que l'Europe a fini en baisse (CAC 40 -0,75 %, DAX -1,26 %) et que Séoul chutait d'environ 6 %. La veille, le Nasdaq avait déjà perdu 1,48 % et le S&P 500 0,5 %.",
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 23733.54,
+        "changePct": -1.48,
+        "session": "2026-11-24"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 26214.17,
+        "changePct": -1.99,
+        "session": "2026-11-24"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7201.09,
+        "changePct": -0.5,
+        "session": "2026-11-24"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 50018.7,
+        "changePct": 0.85,
+        "session": "2026-11-24"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 26.36,
+        "changePct": -0.98,
+        "session": "2026-11-24"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 7980.57,
+        "changePct": -0.75,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 24702.13,
+        "changePct": -1.26,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 5894.46,
+        "changePct": -1.82,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 58644.63,
+        "changePct": 3.91,
+        "session": "2026-11-24"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 22219.65,
+        "changePct": -0.73,
+        "session": "2026-11-24"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 155.38,
+        "changePct": -5.86,
+        "session": "2026-11-24"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 354.07,
+        "changePct": 1.43,
+        "session": "2026-11-24"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 496.13,
+        "changePct": 0.74,
+        "session": "2026-11-24"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 279.05,
+        "changePct": -1.08,
+        "session": "2026-11-24"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 252.29,
+        "changePct": -1.21,
+        "session": "2026-11-24"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 589.82,
+        "changePct": -1.3,
+        "session": "2026-11-24"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 384.68,
+        "changePct": -0.2,
+        "session": "2026-11-24"
+      }
+    ],
+    "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Mercredi : Wall Street s'enfonce en séance, le Nasdaq perd près de 4 %",
+        "summary": "Vers 18 h à Paris (11 h 55 à New York), le Nasdaq Composite reculait de 3,84 % et le S&P 500 de 2,61 %, selon Investing.com. Ce sont des chiffres en séance, pas des clôtures. Les investisseurs s'inquiètent de valorisations jugées élevées, de taux plus hauts, des dépenses d'infrastructure IA et de nouveaux droits de douane.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "C'est une baisse bien plus forte que celle de mardi (-1,48 % pour le Nasdaq) et elle prolonge la correction de la tech.",
+        "image": "",
+        "links": [
+          {
+            "label": "MLQ.ai",
+            "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Mercredi : l'inflation américaine à 3,8 % et de nouveaux droits de douane proposés",
+        "summary": "L'indice d'inflation PCE d'octobre ressort à 3,8 % sur un an, 3,3 % hors énergie et alimentation. Par ailleurs, le représentant américain au Commerce a proposé des droits de douane (section 301) visant 14 économies, dont l'Union européenne.",
+        "whyLabel": "Le contexte",
+        "why": "Ces nouvelles pèsent sur les marchés en même temps que le recul de la tech.",
+        "image": "",
+        "links": [
+          {
+            "label": "MLQ.ai",
+            "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Mercredi : Nvidia chute de 8,8 % en séance après -5,86 % mardi",
+        "summary": "Nvidia perdait environ 8,8 % en séance mercredi, selon Investing.com, après sa baisse de 5,86 % à la clôture de mardi. Le groupe reste sous pression alors que les doutes sur la rentabilité des dépenses en IA se renforcent et que les enquêtes sur Megaspeed continuent.",
+        "whyLabel": "En bref",
+        "why": "Le chiffre de mercredi est une variation en séance, susceptible de changer d'ici la clôture.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2249127237.jpg?resize=1200,800",
+        "links": [
+          {
+            "label": "MLQ.ai",
+            "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+            "lang": "EN"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Mercredi : l'Europe termine en baisse, les valeurs des puces en tête des pertes",
+        "summary": "Le STOXX 600 a perdu 1,06 %, le DAX 1,26 % et le CAC 40 0,75 %. ASM International a cédé 7,8 %, Infineon 6,5 %, ASML 5,8 % et BE Semiconductor 5,6 %. Les Bourses avaient commencé la séance en hausse avant de s'inverser avec la chute de la tech américaine.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "L'Europe, dont l'industrie des puces dépend de la demande en IA, suit désormais Wall Street.",
+        "image": "",
+        "links": [
+          {
+            "label": "MLQ.ai",
+            "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Europe",
+        "title": "Mercredi : les constructeurs auto européens résistent, Rémy Cointreau bondit de 13 %",
+        "summary": "Volkswagen (+4,6 %) et BMW (+3,7 %) ont progressé après l'annonce par la Commission européenne de quotas limitant les importations de voitures hybrides à partir du 1er décembre. Rémy Cointreau a gagné 13,1 % après avoir relevé ses objectifs annuels.",
+        "whyLabel": "À savoir",
+        "why": "Dans une séance dominée par les pertes, quelques valeurs ont profité de nouvelles propres à leur secteur.",
+        "image": "",
+        "links": [
+          {
+            "label": "MLQ.ai",
+            "url": "https://mlq.ai/news/european-stocks-close-down-1-as-chipmakers-slide-with-a-4-nasdaq-drop-carmakers-hold-gains-on-eu-hybrid-caps/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Mercredi : le Kospi sud-coréen chute d'environ 6 %, le Nikkei perd 2,7 %",
+        "summary": "En Asie, la Bourse de Séoul a reculé d'environ 6 %, Samsung Electronics et SK Hynix subissant de lourdes pertes. À Tokyo, le Nikkei 225 a perdu 2,7 %, et Hong Kong a oscillé entre hausse et baisse, selon Saxo.",
+        "whyLabel": "Le contexte",
+        "why": "Les valeurs des puces, très présentes dans ces Bourses, sont les plus touchées par les doutes autour de l'IA.",
+        "image": "",
+        "links": [
+          {
+            "label": "Saxo",
+            "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-slump-again-in-new-york-and-seoul---25-november-2026-25112026",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
+      {
+        "category": "Nasdaq",
+        "title": "Mardi : le Nasdaq perd 1,48 %, les puces plongent de 7,9 %",
+        "summary": "Le Nasdaq Composite a terminé à 23 733,54 points (-1,48 %) et le Nasdaq-100 à 26 214,17 (-1,99 %). L'indice des semi-conducteurs de Philadelphie a cédé 7,9 %, les investisseurs reprenant une partie du bond de lundi.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les puces et l'IA pèsent lourd dans le Nasdaq, qui reste en correction, à plus de 10 % sous son record.",
+        "image": "https://startupfortune.com/wp-content/uploads/2026/11/nvidia-nasdaq-dow-jones.jpg",
+        "links": [
+          {
+            "label": "Startup Fortune",
+            "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "S&P 500",
+        "title": "Mardi : le S&P 500 recule de 0,5 %, sa huitième baisse en neuf séances",
+        "summary": "L'indice a clôturé à 7 201,09 points. Selon la source, les hausses de taux se heurtent aux valorisations de l'IA et les investisseurs redoutent de nouveaux droits de douane.",
+        "whyLabel": "En bref",
+        "why": "Le recul du S&P 500 est plus limité que celui du Nasdaq, car il compte aussi des secteurs moins exposés aux puces.",
+        "image": "https://startupfortune.com/wp-content/uploads/2026/11/nvidia-nasdaq-dow-jones.jpg",
+        "links": [
+          {
+            "label": "Startup Fortune",
+            "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Mardi : Nvidia perd 5,86 % et près de 240 milliards de dollars de valeur",
+        "summary": "L'action a clôturé à 155,38 dollars, effaçant une partie de la hausse de lundi, liée au retour de Jensen Huang comme patron. Le chiffre de 240 milliards est un calcul du Motley Fool cité par la source.",
+        "whyLabel": "Le contexte",
+        "why": "Après un bond de plus de 30 % lundi, le marché hésite entre vrai retournement et simple rebond.",
+        "image": "https://startupfortune.com/wp-content/uploads/2026/11/nvidia-nasdaq-dow-jones.jpg",
+        "links": [
+          {
+            "label": "Startup Fortune",
+            "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Mardi : l'action Anthropic passe sous son prix d'introduction",
+        "summary": "Le titre a perdu plus de 6 % et est tombé sous les 83 dollars de son introduction en Bourse. Un analyste cité par le Financial Times évoque des déséquilibres entre offre et demande, des risques de régulation et des retards de construction de centres de données.",
+        "whyLabel": "À savoir",
+        "why": "L'inquiétude sur l'IA touche aussi les entreprises récemment introduites en Bourse.",
+        "image": "https://img.semafor.com/bfefbe3aeee60a20a1643baeae1acd5fef7d3730-4327x2885.jpg?rect=0,307,4327,2272&w=1200&h=630&q=75&auto=format",
+        "links": [
+          {
+            "label": "Semafor",
+            "url": "https://www.semafor.com/article/11/24/2026/anthropic-shares-plunge-as-ai-trade-wobbles",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Mardi : le Dow Jones repasse au-dessus de 50 000 points, tiré par la santé et l'industrie",
+        "summary": "Le Dow a gagné 423,39 points (+0,85 %) pour finir à 50 018,70. Amgen, Nike, Salesforce, GE Vernova et Eaton figurent parmi les hausses citées ; Medtronic a reculé après ses résultats. Wall Street sera fermée jeudi pour Thanksgiving et la Fed se réunit les 8 et 9 décembre.",
+        "whyLabel": "Le contexte",
+        "why": "Ce n'est pas un record : le Dow avait clôturé au-dessus de 51 600 points le 16 novembre.",
+        "image": "https://startupfortune.com/wp-content/uploads/2026/11/nvidia-nasdaq-dow-jones.jpg",
+        "links": [
+          {
+            "label": "Startup Fortune",
+            "url": "https://startupfortune.com/the-dow-closes-at-50019-while-nasdaq-drops-148-on-an-ai-chip-selloff/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Mardi : l'Allemand Infineon chute de 10 % et entraîne le DAX",
+        "summary": "Le DAX a terminé à 25 005,51 points contre 25 337,27 la veille, et le STOXX 600 à 632,69 contre 636,97. Aixtron a perdu 8,8 % après une dégradation de UBS, alors que l'indice allemand ifo du climat des affaires a progressé à 90,6.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les valeurs européennes des puces ont suivi la baisse de Nvidia et de Wall Street.",
+        "image": "https://chipdispatch.com/media/9e/9e20260fc89bd2c3.1280.webp",
+        "links": [
+          {
+            "label": "Chip Dispatch",
+            "url": "https://chipdispatch.com/articles/infineon-falls-10-as-european-chip-rally-unravels-in-a-day",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Europe",
+        "title": "Mardi : Sanofi gagne 5,6 % après l'annonce du rachat d'Insmed pour 41 milliards de dollars",
+        "summary": "Le groupe pharmaceutique français a accepté d'acquérir l'américain Insmed. À l'inverse, les mines ont reculé : Antofagasta a perdu plus de 8 % et Anglo American environ 6 %.",
+        "whyLabel": "À savoir",
+        "why": "Une des rares bonnes nouvelles d'une séance dominée par les valeurs technologiques en baisse.",
+        "image": "https://chipdispatch.com/media/9e/9e20260fc89bd2c3.1280.webp",
+        "links": [
+          {
+            "label": "Chip Dispatch",
+            "url": "https://chipdispatch.com/articles/infineon-falls-10-as-european-chip-rally-unravels-in-a-day",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Mercredi : les valeurs des puces s'effondrent en Asie, SoftBank perd environ 10 %",
+        "summary": "Selon BigGo Finance, le Nikkei est tombé en séance à 56 936,38 points (-2,8 %). Advantest a cédé 12,26 %, Tokyo Electron 10,9 % et SoftBank Group 10 %. À Taïwan, TSMC a reculé jusqu'à 6,28 %, et Samsung Electronics et SK Hynix ont perdu plus de 7 % à Séoul.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "L'Asie, très liée aux puces, a réagi au recul de Nvidia à Wall Street.",
+        "image": "",
+        "links": [
+          {
+            "label": "BigGo Finance",
+            "url": "https://finance.biggo.com/news/274bc167-8d04-4626-a754-687871a7959b",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Le pétrole recule : le Brent tourne autour de 90 dollars le baril (-1,5 %), l'OPEP+ se réunit le 29 novembre.",
+        "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-slump-again-in-new-york-and-seoul---25-november-2026-25112026",
+        "lang": "EN"
+      },
+      {
+        "text": "Le bitcoin se maintient autour de 59 000 dollars, avec un sixième jour de retraits consécutifs sur les fonds cotés bitcoin.",
+        "url": "https://home.saxo/en-mena/content/articles/macro/market-quick-take---chip-stocks-slump-again-in-new-york-and-seoul---25-november-2026-25112026",
+        "lang": "EN"
+      },
+      {
+        "text": "Taïwan envisage de doubler son fonds national de stabilisation financière, à 1 000 milliards de dollars taïwanais, après le recul des valeurs technologiques.",
+        "url": "https://finance.biggo.com/news/274bc167-8d04-4626-a754-687871a7959b",
+        "lang": "EN"
+      },
+      {
+        "text": "Les indices sont tombés dans le rouge en Europe : l'indice allemand ifo du climat des affaires a toutefois progressé à 90,6 en novembre.",
+        "url": "https://chipdispatch.com/articles/infineon-falls-10-as-european-chip-rally-unravels-in-a-day",
+        "lang": "EN"
+      }
+    ]
+  }
 }
