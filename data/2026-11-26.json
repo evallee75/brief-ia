@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-26",
+  "intro": "Jeudi : l'IA s'invite dans la loi et la finance, avec l'interdiction new-yorkaise des jouets à chatbot, la menace de dégradation de la note de Nvidia et l'autorisation d'un réseau de calcul en orbite pour SpaceX, tandis que ChatGPT fusionne ses modes Chat et Work.",
+  "stories": [
+    {
+      "category": "Espace",
+      "title": "La FCC autorise SpaceX à lancer jusqu'à un million de satellites-ordinateurs pour l'IA",
+      "summary": "L'autorité américaine des télécoms a approuvé « Starmind », le projet de SpaceX de placer en orbite basse une flotte de calcul pouvant compter jusqu'à un million de satellites. L'autorisation couvre un réseau potentiel : rien n'est encore déployé à cette échelle.",
+      "whyLabel": "À savoir",
+      "why": "Des centres de données dans l'espace passent du rêve à une autorisation officielle, alors que construire des data centers au sol devient de plus en plus difficile.",
+      "image": "",
+      "links": [
+        {
+          "label": "Gizmodo",
+          "url": "https://gizmodo.com/feds-approve-spacexs-ai-data-center-satellites-all-1-million-of-them-2000845526",
+          "lang": "EN"
+        },
+        {
+          "label": "AP",
+          "url": "https://apnews.com/article/b9897fe06f851ffaf92fd304ae69075c",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "New York interdit pendant cinq ans les jouets fonctionnant avec un chatbot IA",
+      "summary": "La gouverneure Kathy Hochul a signé une loi interdisant la fabrication, la distribution et la vente de jouets pilotés par des chatbots IA. Elle doit entrer en vigueur en février dans tout l'État. New York est le deuxième État à restreindre ces produits, après la Californie.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "À quelques semaines de Noël, les jouets parlants dotés d'IA deviennent l'un des premiers produits grand public visés par la loi.",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-03/260323-ai-toys-mn-1045-1417a0.jpg",
+      "links": [
+        {
+          "label": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+          "lang": "EN"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "S&P envisage de dégrader la note de crédit de Nvidia à cause de sa gouvernance",
+      "summary": "L'agence S&P Global Ratings, qui note Nvidia « AA », étudie une baisse à « AA- ». Elle cite le départ puis le retour de Jensen Huang, qui soulève selon elle un risque de « dépendance à un homme clé », un contrôle faible de la direction et l'absence de plan de succession. Sa revue doit se terminer sous 90 jours.",
+      "whyLabel": "Le contexte",
+      "why": "Même après le retour de Jensen Huang, les remous de gouvernance chez le géant des puces continuent d'inquiéter les investisseurs.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Character.AI : 42 procureurs généraux s'opposent à la vente des conversations privées de ses utilisateurs",
+      "summary": "Dans le cadre de la faillite de l'entreprise, une vente aux enchères prévue le 1er décembre inclurait les données de plus de 21 millions de comptes américains, dont 2,1 millions appartenant à des mineurs. Les procureurs rappellent que l'entreprise avait promis de ne jamais vendre ces données.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les discussions intimes avec un chatbot peuvent-elles être revendues comme un simple actif ? La question est posée aux tribunaux.",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "ChatGPT fusionne « Chat » et « Work » avec un seul compteur d'usage",
+      "summary": "OpenAI déploie une expérience unifiée, d'abord auprès d'un petit groupe d'abonnés Pro. Les deux modes puisent dans une même limite d'usage : la plupart des gens ne verront pas de différence, mais les plus gros utilisateurs pourraient atteindre leur plafond plus tôt. Le modèle Instant reste illimité. Un déploiement plus large est prévu en décembre.",
+      "whyLabel": "En bref",
+      "why": "Les assistants IA se transforment en outils de travail à part entière, avec des quotas à surveiller.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Géopolitique",
+      "title": "De nouvelles règles américaines sur les puces font geler des milliards de financements en Asie",
+      "summary": "Selon Bloomberg, relayé par Semafor, des prêteurs ont suspendu des milliards de dollars liés à ByteDance, Alibaba et Tencent. Les entreprises de Singapour, Malaisie, Indonésie, Thaïlande et du Brésil doivent désormais obtenir une licence américaine pour acheter des puces américaines.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Washington cible désormais l'utilisateur final de la puissance de calcul, pas seulement le lieu où se trouvent les puces.",
+      "image": "https://img.semafor.com/295b07ddc7a2069315688ba27026ccb1c1c6115a-5500x3667.jpg?rect=0,390,5500,2888&w=1200&h=630&q=75&auto=format",
+      "links": [
+        {
+          "label": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/new-us-export-rules-threaten-asian-ai-buildout",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "À Cornwall, un marché de Noël annule toutes ses réservations après des images de pub générées par IA",
+      "summary": "Visiteurs et exposants ont estimé que l'événement ne correspondait pas aux images promotionnelles créées par IA. Les organisateurs ont annulé toutes les réservations.",
+      "whyLabel": "En bref",
+      "why": "Un exemple concret des dérives de la publicité générée par IA : la réalité peut décevoir.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/2a94/live/c4c88960-e8d9-11f1-99a1-253766e7ad8b.png",
+      "links": [
+        {
+          "label": "BBC",
+          "url": "https://www.bbc.com/news/articles/cm0qjglj3ejlo",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Politique",
+      "title": "Dario Amodei dément vouloir « céder le contrôle » aux machines",
+      "summary": "Le patron d'Anthropic juge « absurdes » les accusations de rivaux selon lesquelles il favoriserait de laisser l'IA décider à la place des humains, alors que les grands laboratoires automatisent de plus en plus leur propre recherche.",
+      "whyLabel": "Le contexte",
+      "why": "Le débat sur le contrôle humain de l'IA devient une querelle publique entre dirigeants du secteur.",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
+      "links": [
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "lang": "EN"
+        },
+        {
+          "label": "Axios",
+          "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "Claude : les « artifacts » s'installent comme applications de bureau sur Mac et Windows",
+      "summary": "Anthropic permet d'installer ses artifacts Claude comme de vraies applications, avec services connectés, notifications optionnelles et accès depuis la barre de menus.",
+      "whyLabel": "En bref",
+      "why": "Les petites applications créées avec une IA sortent du navigateur pour rejoindre le quotidien sur l'ordinateur.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125315273460772865/img/NFT5H74CFoMA20tI?format=webp&name=large",
+      "links": [
+        {
+          "label": "Claude Devs (X)",
+          "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "Royaume-Uni : le régulateur financier précise ses attentes sur l'IA autonome",
+      "summary": "La FCA a détaillé ce qu'elle attend des établissements financiers, des fournisseurs de technologie et des réseaux sociaux qui conçoivent ou déploient des IA agissant seules.",
+      "whyLabel": "À savoir",
+      "why": "Les banques et assureurs britanniques savent désormais à quoi s'en tenir avant de confier des tâches à des agents IA.",
+      "image": "https://www.fca.org.uk/sites/default/files/media/images/fca_social_share.jpg",
+      "links": [
+        {
+          "label": "FCA",
+          "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "Anthropic migre son API de Python vers Rust avec l'aide d'agents Claude : environ 70 % de processeur en moins par requête et un premier mot de réponse 20 % plus rapide.",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "lang": "EN"
+    },
+    {
+      "text": "Anthropic agrandit son bureau de Zurich pour recruter des chercheurs en IA et se rapprocher des grands groupes de santé.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/anthropic-expands-in-zurich-moving-to-tap-city-s-ai-talent-pool",
+      "lang": "EN"
+    },
+    {
+      "text": "Le conseil du comté de Surrey (Royaume-Uni) adopte sa première politique officielle sur l'usage de l'IA.",
+      "url": "https://www.bbc.com/news/articles/cvn0dz8g2gggo",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "intro": "Mercredi, Wall Street a effacé l'essentiel d'une chute de plus de 4 % du Nasdaq : il clôture à -0,62 % et le S&P 500 à -0,25 %, tandis que le Dow gagne 0,33 %. Les doutes sur l'IA, une inflation plus forte que prévu et la note de Nvidia placée sous surveillance ont pesé.",
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 23585.8,
+        "changePct": -0.62,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 26046.9,
+        "changePct": -0.64,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7182.78,
+        "changePct": -0.25,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 50182.95,
+        "changePct": 0.33,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 28.29,
+        "changePct": 7.32,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 7980.57,
+        "changePct": -0.75,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 24702.13,
+        "changePct": -1.26,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 5894.46,
+        "changePct": -1.82,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 57499.16,
+        "changePct": 0.86,
+        "session": "2026-11-26"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 21966.01,
+        "changePct": -1.14,
+        "session": "2026-11-25"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 149.3,
+        "changePct": -3.91,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 355.58,
+        "changePct": 0.43,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 489.93,
+        "changePct": -1.25,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 273.1,
+        "changePct": -2.13,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 244.43,
+        "changePct": -3.12,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 609.89,
+        "changePct": 3.4,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 380.14,
+        "changePct": -1.18,
+        "session": "2026-11-25"
+      }
+    ],
+    "stories": [
+      {
+        "category": "Nasdaq",
+        "title": "Wall Street rebondit après une chute de plus de 4 % en séance, le Nasdaq finit à -0,6 %",
+        "summary": "En début de séance, le Nasdaq a perdu plus de 4 % et le Dow Jones plus de 1 000 points, avant un net rebond. À la clôture, le Nasdaq Composite cède 0,62 % et le S&P 500 0,25 %, tandis que le Dow gagne 0,33 %. Le sentiment sur l'IA reste fragile.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Une séance en dents de scie : la tech reste très nerveuse, même si la panique du matin s'est atténuée.",
+        "image": "https://i.abcnewsfe.com/a/9d32aac7-a2d0-47a6-806a-3cffa9910a1d/nyse-1-rt-gmh-261125_1795619229400_hpMain_16x9.jpg?w=1600",
+        "links": [
+          {
+            "label": "ABC News",
+            "url": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070",
+            "lang": "EN"
+          },
+          {
+            "label": "CNBC",
+            "url": "https://cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Macro / Fed",
+        "title": "Une inflation plus forte que prévu relance la crainte de taux plus élevés",
+        "summary": "Selon CNBC, la hausse de l'indice d'inflation PCE d'octobre, la mesure préférée de la Fed, a fait craindre que des taux plus élevés pèsent sur les valeurs de croissance. Les craintes sur le coût des infrastructures IA ont aussi joué. Un analyste de Barclays a parlé de « panique ».",
+        "whyLabel": "Le contexte",
+        "why": "Quand les taux montent, les entreprises technologiques très valorisées sont souvent les premières pénalisées.",
+        "image": "",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Nvidia recule de près de 4 % après la mise sous surveillance de sa note par S&P",
+        "summary": "Nvidia termine à 149,30 dollars (-3,91 %), effaçant une partie de l'élan lié au retour de Jensen Huang. Micron perd 4 %, Oracle plus de 5 %. Amazon et Alphabet cèdent environ 2 %, alors que Meta gagne 3 %.",
+        "whyLabel": "En bref",
+        "why": "Les géants de l'IA restent sous pression malgré le retour de leur patron.",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+        "links": [
+          {
+            "label": "CNBC",
+            "url": "https://cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+            "lang": "EN"
+          },
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Tech US",
+        "title": "Anthropic remonte, mais reste juste sous son prix d'introduction en Bourse",
+        "summary": "Malgré la baisse générale, l'action Anthropic a fini en hausse d'environ 1 %, à 82,79 dollars environ, soit un peu moins que son prix d'introduction de 83 dollars.",
+        "whyLabel": "À savoir",
+        "why": "Quelques jours après son arrivée en Bourse, le titre peine à s'installer au-dessus de son prix de départ.",
+        "image": "https://i.abcnewsfe.com/a/9d32aac7-a2d0-47a6-806a-3cffa9910a1d/nyse-1-rt-gmh-261125_1795619229400_hpMain_16x9.jpg?w=1600",
+        "links": [
+          {
+            "label": "ABC News",
+            "url": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070",
+            "lang": "EN"
+          }
+        ],
+        "region": "Amérique"
+      },
+      {
+        "category": "Europe",
+        "title": "Mardi : l'Europe plombée par les puces, Sanofi s'envole avec le rachat d'Insmed",
+        "summary": "À la clôture de mardi, le DAX a perdu 1,3 %, le STOXX 600 0,7 % et le CAC 40 0,1 %. Aixtron a chuté de 16,3 % après une dégradation d'UBS. Sanofi a bondi de 9,7 % en annonçant le rachat d'Insmed pour 41 milliards de dollars.",
+        "whyLabel": "Le contexte",
+        "why": "Les valeurs des puces ont rendu le rebond de lundi, tandis que les mineurs reculaient avec les métaux.",
+        "image": "https://mlq.ai/media/news_images/european-stocks-close-lower-as-infineon-and-miners-slide-sanofi-jumps-on-its_Dk5fIop.jpg",
+        "links": [
+          {
+            "label": "MLQ.ai",
+            "url": "https://mlq.ai/news/european-stocks-close-lower-as-asml-and-aixtron-fall-and-sanofi-rallies-on-its-insmed-deal/",
+            "lang": "EN"
+          }
+        ],
+        "region": "Europe"
+      },
+      {
+        "category": "Asie",
+        "title": "Mercredi : la tech asiatique s'effondre, le Kospi perd 6,2 %",
+        "summary": "Le Kospi sud-coréen a reculé de 6,2 %, le Taiex taïwanais de 4,8 % et le Nikkei de 2,8 %. SK Hynix a perdu environ 11 %, Samsung environ 10 %, Tokyo Electron 12,5 % et SoftBank près de 15 %. Les doutes sur le boom de l'IA et le feuilleton Nvidia pèsent.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "L'Asie fournit une grande part des puces et des équipements de l'IA : elle réagit très fort aux doutes sur le secteur.",
+        "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26328080652490-1795572292.jpg?resize=1920%2C1440",
+        "links": [
+          {
+            "label": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom",
+            "lang": "EN"
+          },
+          {
+            "label": "CNBC",
+            "url": "https://cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      },
+      {
+        "category": "Asie",
+        "title": "Les nouvelles règles américaines sur les puces inquiètent les prêteurs asiatiques",
+        "summary": "Des financements de plusieurs milliards liés à ByteDance, Alibaba et Tencent ont été suspendus, selon Bloomberg. Les analystes de Barclays parlent d'« un tournant important » des contrôles américains.",
+        "whyLabel": "Le contexte",
+        "why": "Les centres de données qui louent de la puissance à des entreprises chinoises ont 90 jours pour obtenir une licence.",
+        "image": "https://img.semafor.com/295b07ddc7a2069315688ba27026ccb1c1c6115a-5500x3667.jpg?rect=0,390,5500,2888&w=1200&h=630&q=75&auto=format",
+        "links": [
+          {
+            "label": "Semafor",
+            "url": "https://www.semafor.com/article/11/25/2026/new-us-export-rules-threaten-asian-ai-buildout",
+            "lang": "EN"
+          }
+        ],
+        "region": "Asie"
+      }
+    ],
+    "quick": [
+      {
+        "text": "Thanksgiving : Wall Street est fermée jeudi et rouvre vendredi pour une séance raccourcie, qui s'arrête à 13 h (heure de New York).",
+        "url": "https://www.dimsumdaily.hk/dow-erases-steep-losses-to-close-higher-while-sp-500-and-nasdaq-trim-declines-ahead-of-thanksgiving/",
+        "lang": "EN"
+      },
+      {
+        "text": "Le fonds négocié en Bourse des semi-conducteurs VanEck (SMH) perd 1 % mercredi, bien moins que les pertes du matin.",
+        "url": "https://cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+        "lang": "EN"
+      }
+    ]
+  }
+}
