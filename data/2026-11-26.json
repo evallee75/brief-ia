@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "intro": "Jeudi : l'IA s'invite dans la loi et la finance, avec l'interdiction new-yorkaise des jouets à chatbot, la menace de dégradation de la note de Nvidia et l'autorisation d'un réseau de calcul en orbite pour SpaceX, tandis que ChatGPT fusionne ses modes Chat et Work.",
+  "intro": "Jeudi : l'IA s'invite dans la loi et la finance, avec l'interdiction new-yorkaise des jouets à chatbot, la menace de dégradation de la note de Nvidia et l'autorisation d'un réseau de calcul en orbite pour SpaceX, tandis que ChatGPT fusionne ses modes Chat et Work. Mise à jour du soir : Google dévoile (dans un brevet) l'idée de fils vidéo générés par IA sur mesure, OpenAI teste une offre d'IA confidentielle pour les entreprises, et le rôle de Stephen Miller dans la politique américaine de l'IA reste à définir.",
   "stories": [
     {
       "category": "Espace",
@@ -53,6 +53,66 @@
         {
           "label": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Le brevet de Google pour des fils vidéo générés par IA, sur mesure, fait polémique",
+      "summary": "Google a déposé un brevet décrivant un flux de vidéos créées par IA pour chaque utilisateur, où la personne serait le héros de chaque histoire. The Verge y voit un avenir du divertissement « sombre », fait d'un déluge infini de contenus sans âme. Google n'a annoncé aucun produit lié à ce brevet.",
+      "whyLabel": "À savoir",
+      "why": "Un brevet n'est pas un produit, mais il montre jusqu'où les géants du numérique réfléchissent à personnaliser le divertissement avec l'IA.",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-25-at-11.34.07-AM.png?quality=90&strip=all&crop=2.859375%2C11.97652241473%2C93.788122558594%2C75.148782257541&w=1200",
+      "links": [
+        {
+          "label": "The Verge",
+          "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "OpenAI teste « Private Inference », une offre pour des usages d'IA confidentiels en entreprise",
+      "summary": "Sam Altman a annoncé que OpenAI teste avec un petit groupe de clients « Private Inference », une nouvelle offre intégrée à « OpenAI Private Intelligence ». L'objectif est de répondre aux entreprises qui veulent utiliser l'IA sur des données sensibles. Les détails techniques et les tarifs n'ont pas été précisés dans l'annonce.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "La confidentialité des données est l'un des principaux freins des entreprises pour adopter l'IA à grande échelle.",
+      "image": "",
+      "links": [
+        {
+          "label": "Sam Altman sur X",
+          "url": "https://x.com/sama/status/2125638790593274259",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Politique",
+      "title": "Washington : le rôle de Stephen Miller dans le groupe de travail sur l'IA reste flou",
+      "summary": "Selon Semafor, la place de Stephen Miller dans la task force de la Maison-Blanche sur l'IA est encore en train de se dessiner. Susie Wiles, l'ancienne cheffe de cabinet, avait joué un rôle très actif sur le sujet de l'IA.",
+      "whyLabel": "Le contexte",
+      "why": "Qui pilote la politique américaine de l'IA influence les règles sur les puces, les entreprises et la sécurité.",
+      "image": "https://img.semafor.com/6f9a85b08567f01c585804acf03a290707a69b5a-4719x3146.jpg?rect=0,335,4719,2477&w=1200&h=630&q=75&auto=format",
+      "links": [
+        {
+          "label": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/millers-ai-task-force-involvement-still-taking-shape",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Chine",
+      "title": "Ant Group publie Ling-3.2-air, un modèle d'IA ouvert qui comprend texte, images et vidéo",
+      "summary": "Le groupe chinois Ant Group a mis en ligne les « poids » de Ling-3.2-air, un modèle multimodal capable de traiter du texte, des images et de la vidéo, sous licence libre MIT. N'importe quel développeur peut donc l'utiliser et l'adapter.",
+      "whyLabel": "En bref",
+      "why": "Les modèles chinois en accès libre se multiplient et rivalisent avec ceux des grands laboratoires américains.",
+      "image": "",
+      "links": [
+        {
+          "label": "TechNode",
+          "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/",
           "lang": "EN"
         }
       ]
@@ -183,10 +243,15 @@
       "text": "Le conseil du comté de Surrey (Royaume-Uni) adopte sa première politique officielle sur l'usage de l'IA.",
       "url": "https://www.bbc.com/news/articles/cvn0dz8g2gggo",
       "lang": "EN"
+    },
+    {
+      "text": "En Afrique, l'essor des paiements sans espèces se heurte à l'IA : elle aide les escrocs à se faire passer pour des proches ou des organismes de confiance afin de faire valider des paiements.",
+      "url": "https://www.semafor.com/article/11/25/2026/africas-cashless-revolution-faces-ai-challenge",
+      "lang": "EN"
     }
   ],
   "markets": {
-    "intro": "Mercredi, Wall Street a effacé l'essentiel d'une chute de plus de 4 % du Nasdaq : il clôture à -0,62 % et le S&P 500 à -0,25 %, tandis que le Dow gagne 0,33 %. Les doutes sur l'IA, une inflation plus forte que prévu et la note de Nvidia placée sous surveillance ont pesé.",
+    "intro": "Jeudi, Wall Street est fermée pour Thanksgiving : aucun chiffre nouveau pour le Nasdaq et le S&P 500, qui restent sur leurs clôtures de mercredi (-0,62 % et -0,25 %). L'Europe en a profité pour rebondir nettement (CAC 40 +1,6 %, DAX +2,08 %), portée par les valeurs liées à l'IA, et l'Asie a rebondi à son tour. Mercredi, Wall Street avait effacé l'essentiel d'une chute de plus de 4 % du Nasdaq en séance.",
     "indices": [
       {
         "name": "Nasdaq Composite",
@@ -226,30 +291,30 @@
       {
         "name": "CAC 40",
         "region": "Europe",
-        "value": 7980.57,
-        "changePct": -0.75,
-        "session": "2026-11-25"
+        "value": 8108.74,
+        "changePct": 1.61,
+        "session": "2026-11-26"
       },
       {
         "name": "DAX",
         "region": "Europe",
-        "value": 24702.13,
-        "changePct": -1.26,
-        "session": "2026-11-25"
+        "value": 25215.52,
+        "changePct": 2.08,
+        "session": "2026-11-26"
       },
       {
         "name": "Euro Stoxx 50",
         "region": "Europe",
-        "value": 5894.46,
-        "changePct": -1.82,
-        "session": "2026-11-25"
+        "value": 6014.74,
+        "changePct": 2.04,
+        "session": "2026-11-26"
       },
       {
         "name": "Nikkei 225",
         "region": "Asie",
-        "value": 57499.16,
-        "changePct": 0.86,
-        "session": "2026-11-26"
+        "value": 57011.62,
+        "changePct": -2.78,
+        "session": "2026-11-25"
       },
       {
         "name": "Hang Seng",
@@ -311,6 +376,75 @@
       }
     ],
     "stories": [
+      {
+        "region": "Europe",
+        "category": "Europe",
+        "title": "Jeudi : la Bourse de Paris rebondit de 1,6 %, portée par les valeurs liées à l'IA",
+        "summary": "Le CAC 40 a clôturé en nette hausse de 1,6 % à 8 108,74 points, après être repassé sous les 8 000 points la veille. Le DAX allemand gagne 2,08 % et l'Euro Stoxx 50 2,04 %. Les valeurs liées à l'intelligence artificielle ont été de nouveau recherchées, alors que Wall Street était fermée.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les Bourses européennes ont effacé une bonne partie de la chute de la veille, mais sans nouvelle impulsion venue de New York.",
+        "image": "",
+        "links": [
+          {
+            "label": "ABC Bourse",
+            "url": "https://www.abcbourse.com/marches/cac-40-la-bourse-de-paris-finit-dans-le-vert-la-tech-a-repris-des-couleurs-pou_706736",
+            "lang": "FR"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Nasdaq",
+        "title": "Jeudi : Wall Street est fermée pour Thanksgiving, ses contrats à terme restent en légère hausse",
+        "summary": "La Bourse de New York est fermée jeudi pour Thanksgiving et rouvrira vendredi pour une séance raccourcie. Les contrats à terme sur le S&P 500 gagnaient environ 0,3 % et ceux sur le Nasdaq 100 environ 0,1 % en début de journée, dans la foulée du rebond de mercredi.",
+        "whyLabel": "À savoir",
+        "why": "Sans cotation à New York, les marchés d'Europe et d'Asie ont évolué sans repère américain, dans des échanges plus calmes.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/asia-stocks-open-nikkei-kospi-rebound-wall-street-lead-26-november-2026-730x548-featured-1795652347.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stock-market-update/nikkei-and-kospi-rebound-over-1-as-asia-follows-wall-street-s-comeback-bok-decision-next/",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Macro / Fed",
+        "title": "Jeudi : l'inflation américaine plus forte que prévu laisse une hausse des taux en décembre à l'esprit des marchés",
+        "summary": "Selon investingLive, l'indicateur d'inflation PCE publié mercredi, plus élevé qu'attendu, et une croissance solide ont gardé un relèvement des taux de la Réserve fédérale en décembre fermement intégré par les marchés. Les taux obligataires se sont redressés jeudi.",
+        "whyLabel": "Le contexte",
+        "why": "Des taux plus hauts pèsent surtout sur les valeurs technologiques, très sensibles au coût de l'argent.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/asia-stocks-open-nikkei-kospi-rebound-wall-street-lead-26-november-2026-730x548-featured-1795652347.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stock-market-update/nikkei-and-kospi-rebound-over-1-as-asia-follows-wall-street-s-comeback-bok-decision-next/",
+            "lang": "EN"
+          },
+          {
+            "label": "ABC Bourse",
+            "url": "https://www.abcbourse.com/marches/cac-40-la-bourse-de-paris-finit-dans-le-vert-la-tech-a-repris-des-couleurs-pou_706736",
+            "lang": "FR"
+          }
+        ]
+      },
+      {
+        "region": "Asie",
+        "category": "Asie",
+        "title": "Jeudi : la tech asiatique rebondit après la chute de la veille, le Kospi remonte après son plongeon de 6 %",
+        "summary": "À l'ouverture, le Nikkei gagnait environ 1,3 % (autour de 57 700 points) et le Kospi sud-coréen environ 1,2 % (autour de 4 750), après une baisse de plus de 6 % mercredi pour ce dernier. Le marché attendait la décision de la Banque de Corée sur ses taux.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les valeurs des puces, très touchées mercredi, restent le moteur des variations en Asie.",
+        "image": "https://investinglive.com/cms/media/Processed/Categories/featured/asia-stocks-open-nikkei-kospi-rebound-wall-street-lead-26-november-2026-730x548-featured-1795652347.jpg?width=960&format=webp",
+        "links": [
+          {
+            "label": "investingLive",
+            "url": "https://investinglive.com/stock-market-update/nikkei-and-kospi-rebound-over-1-as-asia-follows-wall-street-s-comeback-bok-decision-next/",
+            "lang": "EN"
+          }
+        ]
+      },
       {
         "category": "Nasdaq",
         "title": "Wall Street rebondit après une chute de plus de 4 % en séance, le Nasdaq finit à -0,6 %",
@@ -440,6 +574,11 @@
       }
     ],
     "quick": [
+      {
+        "text": "Le CAC 40 est repassé au-dessus de 8 100 points jeudi à la clôture, après avoir fini mercredi sous les 8 000 points.",
+        "url": "https://www.abcbourse.com/marches/cac-40-la-bourse-de-paris-finit-dans-le-vert-la-tech-a-repris-des-couleurs-pou_706736",
+        "lang": "FR"
+      },
       {
         "text": "Thanksgiving : Wall Street est fermée jeudi et rouvre vendredi pour une séance raccourcie, qui s'arrête à 13 h (heure de New York).",
         "url": "https://www.dimsumdaily.hk/dow-erases-steep-losses-to-close-higher-while-sp-500-and-nasdaq-trim-declines-ahead-of-thanksgiving/",
