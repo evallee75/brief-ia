@@ -1,7 +1,7 @@
 window.EDITIONS = [
  {
   "date": "2026-11-27",
-  "intro": "Vendredi : les restrictions américaines sur les puces bousculent l'IA chinoise et l'Asie du Sud-Est, OpenAI corrige une erreur de facturation sur GPT-6.2 et Microsoft alerte sur des cyberattaques automatisées par IA, tandis que le Canada muscle son fonds de calcul.",
+  "intro": "Vendredi : les restrictions américaines sur les puces bousculent l'IA chinoise et l'Asie du Sud-Est, OpenAI corrige une erreur de facturation sur GPT-6.2 et Microsoft alerte sur des cyberattaques automatisées par IA, tandis que le Canada muscle son fonds de calcul. Mise à jour du soir : Meta refuse de faire tester son agent Muse par le régulateur financier britannique, SoftBank et OpenAI s'allient dans l'énergie, et GTA VI relance le débat sur l'IA et la création.",
   "stories": [
    {
     "category": "Chine",
@@ -44,6 +44,51 @@ window.EDITIONS = [
      {
       "label": "The Decoder",
       "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Régulation",
+    "title": "Meta a refusé de faire tester son agent IA Muse par le régulateur financier britannique",
+    "summary": "Selon Wired, la Financial Conduct Authority (FCA) britannique avait proposé de tester Muse, l'agent personnel de Meta, dans son « bac à sable » avant son lancement au Royaume-Uni. Meta a décliné ; l'entreprise dit avoir « dialogué de façon constructive » avec les autorités. Le régulateur s'inquiète surtout de la façon dont ces agents géreront les paiements.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Quand un assistant IA peut acheter à votre place, la question de la responsabilité en cas d'erreur devient très concrète. Plus de 10 millions d'utilisateurs auraient déjà configuré Muse en Amérique du Nord, d'après Wired.",
+    "image": "https://media.wired.com/photos/6b07201067745997b8ffd8ed/191:100/w_1280,c_limit/Meta-Refused-to-Share-Muse-for-Testing-Business-2300550254.jpg",
+    "links": [
+     {
+      "label": "Wired",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Société",
+    "title": "GTA VI, fait sans IA générative, relance le débat sur l'« efficacité » de l'IA dans la création",
+    "summary": "Dans une tribune pour TechCrunch, Ben Feder rappelle que Grand Theft Auto VI, réalisé sans IA générative par environ 5 000 personnes pendant plus de dix ans, a rapporté 3,79 milliards de dollars le jour de sa sortie. C'était aussi le jour de l'entrée en Bourse d'Anthropic. Selon lui, la lenteur et les essais, voire les idées abandonnées, font la qualité de l'œuvre.",
+    "whyLabel": "Le contexte",
+    "why": "C'est un avis, pas une enquête : il alimente le débat sur ce que l'IA apporte, ou retire, aux métiers créatifs.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.117_b11r13mg5.jpg?resize=1200,675",
+    "links": [
+     {
+      "label": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "category": "Business",
+    "title": "SoftBank et OpenAI investissent ensemble 1 milliard de dollars dans SB Energy",
+    "summary": "Selon Tech in Asia, SoftBank et OpenAI ont convenu d'investir ensemble 1 milliard de dollars dans SB Energy. L'annonce arrive alors que des investisseurs s'interrogent sur le risque de crédit de SoftBank et sur ses paris très agressifs dans l'IA.",
+    "whyLabel": "En bref",
+    "why": "L'énergie est devenue un goulot d'étranglement pour les centres de données d'IA, d'où ces investissements.",
+    "image": "",
+    "links": [
+     {
+      "label": "Tech in Asia",
+      "url": "https://www.techinasia.com/news/softbanks-credit-risk-rises-as-investors-question-ai-bets",
       "lang": "EN"
      }
     ]
@@ -174,10 +219,15 @@ window.EDITIONS = [
     "text": "Tencent met en open source DFly2, un outil qui accélère les réponses des modèles d'IA.",
     "url": "https://x.com/TencentAI_News/status/2125968859450802415",
     "lang": "EN"
+   },
+   {
+    "text": "Un chercheur en sécurité signale un accès non autorisé à des données envoyées à MiniMax ; l'entreprise chinoise explique que son système de sécurité a ouvert certains liens reçus pour les analyser.",
+    "url": "https://www.techinasia.com/news/researcher-flags-unauthorized-access-data-minimax",
+    "lang": "EN"
    }
   ],
   "markets": {
-   "intro": "Wall Street était fermée jeudi pour Thanksgiving et rouvre vendredi pour une demi-séance : le Nasdaq et le S&P 500 restent sur leurs clôtures de mercredi (-0,62 % et -0,25 %), après une chute de plus de 4 % en séance effacée en grande partie. L'Europe a rebondi nettement jeudi et la tech asiatique prolonge sa remontée vendredi.",
+   "intro": "Vendredi, vers 18 h, Wall Street était en demi-séance : le Nasdaq et le S&P 500 progressaient, mais avaient rogné une partie de leurs gains du début de séance, avec un rebond des puces (Micron en tête) et des taux en hausse après la révision du PIB américain. L'Europe a fini en hausse. Les chiffres de Wall Street affichés plus bas sont ceux de mercredi. Jeudi, Wall Street était fermée pour Thanksgiving.",
    "indices": [
     {
      "name": "Nasdaq Composite",
@@ -217,30 +267,30 @@ window.EDITIONS = [
     {
      "name": "CAC 40",
      "region": "Europe",
-     "value": 8108.74,
-     "changePct": 1.61,
-     "session": "2026-11-26"
+     "value": 8156.09,
+     "changePct": 0.58,
+     "session": "2026-11-27"
     },
     {
      "name": "DAX",
      "region": "Europe",
-     "value": 25215.52,
-     "changePct": 2.08,
-     "session": "2026-11-26"
+     "value": 25441.24,
+     "changePct": 0.9,
+     "session": "2026-11-27"
     },
     {
      "name": "Euro Stoxx 50",
      "region": "Europe",
-     "value": 6014.74,
-     "changePct": 2.04,
-     "session": "2026-11-26"
+     "value": 6089.2,
+     "changePct": 1.24,
+     "session": "2026-11-27"
     },
     {
      "name": "Nikkei 225",
      "region": "Asie",
-     "value": 58711.11,
-     "changePct": 2.11,
-     "session": "2026-11-27"
+     "value": 57499.16,
+     "changePct": 0.86,
+     "session": "2026-11-26"
     },
     {
      "name": "Hang Seng",
@@ -302,6 +352,70 @@ window.EDITIONS = [
     }
    ],
    "stories": [
+    {
+     "region": "Amérique",
+     "category": "Nasdaq",
+     "title": "Vendredi : Wall Street gagne du terrain en demi-séance mais rogne ses gains",
+     "summary": "Selon le direct de Yahoo Finance, le S&P 500 et le Nasdaq progressaient vendredi (+1,3 % et +1,8 % au plus fort de la séance), avant de voir leur hausse retomber sous 1 % dans la première demi-heure. Les marchés américains fermaient à 13 h, heure de New York.",
+     "whyLabel": "À savoir",
+     "why": "Ces chiffres sont des relevés en séance, pas des clôtures. Les marchés ont pu bouger ensuite.",
+     "image": "https://s.yimg.com/lo/mysterio/api/aecfdd689e6ae8c3bab08b7ef300123d62b8a2c6a3334c42c15a473d8198cf75/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F9b4ac3c4-4698-4e43-856a-f915b3714b73",
+     "links": [
+      {
+       "label": "Yahoo Finance (direct)",
+       "url": "https://uk.finance.yahoo.com/news/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Tech US",
+     "title": "Vendredi : les puces rebondissent, Micron grimpe d'environ 7 %, Nvidia hésite",
+     "summary": "D'après Yahoo Finance, les valeurs des puces rebondissaient vendredi car les craintes sur la rentabilité de l'IA s'apaisaient. Micron gagnait près de 7 %. Nvidia, qui avait gagné plus de 2 % à l'ouverture, repassait en légère baisse.",
+     "whyLabel": "Le contexte",
+     "why": "Nvidia a perdu 5,86 % mardi et 3,9 % mercredi, après un bond de plus de 31 % lundi lié au retour de Jensen Huang.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance (direct)",
+       "url": "https://uk.finance.yahoo.com/news/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Amérique",
+     "category": "Macro / Fed",
+     "title": "Vendredi : les taux remontent après la révision à 4,3 % du PIB américain",
+     "summary": "Selon Yahoo Finance, les rendements des bons du Trésor américain sont repartis à la hausse après la révision de la croissance du troisième trimestre à 4,3 %. Le taux à 10 ans tournait autour de 4,9 %. Donald Trump a qualifié ces chiffres de « faux » sans fournir de preuve.",
+     "whyLabel": "Pourquoi c'est important",
+     "why": "Une économie plus solide peut pousser la Fed à garder des taux élevés, ce qui pèse sur les valeurs technologiques.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance (direct)",
+       "url": "https://uk.finance.yahoo.com/news/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+       "lang": "EN"
+      }
+     ]
+    },
+    {
+     "region": "Europe",
+     "category": "Europe",
+     "title": "Vendredi : l'Europe termine en hausse",
+     "summary": "Selon Yahoo Finance, le CAC 40 gagne 0,58 %, le DAX 0,9 % et l'Euro Stoxx 50 1,24 % (relevés du jour affichés dans le tableau). Le FTSE 100 londonien progresse de 0,84 % à 10 698,81 points.",
+     "whyLabel": "En bref",
+     "why": "Les Bourses européennes prolongent leur rebond de jeudi, après la chute des valeurs des puces en début de semaine.",
+     "image": "",
+     "links": [
+      {
+       "label": "Yahoo Finance (direct)",
+       "url": "https://uk.finance.yahoo.com/news/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+       "lang": "EN"
+      }
+     ]
+    },
     {
      "region": "Amérique",
      "category": "Tech US",
@@ -405,6 +519,11 @@ window.EDITIONS = [
     }
    ],
    "quick": [
+    {
+     "text": "Le Brent oscillait autour de 90 dollars le baril vendredi, entre attaques de rebelles houthis contre des sites énergétiques saoudiens et tensions dans le détroit d'Ormuz ; la prochaine réunion de l'OPEP est dimanche.",
+     "url": "https://uk.finance.yahoo.com/news/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+     "lang": "EN"
+    },
     {
      "text": "Les Bourses européennes avaient fini en forte hausse jeudi : CAC 40 +1,61 %, DAX +2,08 %.",
      "url": "https://www.abcbourse.com/marches/cac-40-la-bourse-de-paris-finit-dans-le-vert-la-tech-a-repris-des-couleurs-pou_706736",
