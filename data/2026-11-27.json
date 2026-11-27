@@ -1,0 +1,419 @@
+{
+  "date": "2026-11-27",
+  "intro": "Vendredi : les restrictions américaines sur les puces bousculent l'IA chinoise et l'Asie du Sud-Est, OpenAI corrige une erreur de facturation sur GPT-6.2 et Microsoft alerte sur des cyberattaques automatisées par IA, tandis que le Canada muscle son fonds de calcul.",
+  "stories": [
+    {
+      "category": "Chine",
+      "title": "Les restrictions américaines sur les puces freinent l'IA chinoise",
+      "summary": "Selon Reuters, le laboratoire chinois Z.ai est en retard sur son prochain grand modèle, et Moonshot AI craint que l'écart entre deux grandes versions passe de six mois à un an ou plus faute d'accès à la puissance de calcul étrangère. Washington cible aussi la « distillation », qui consiste à copier les capacités d'un modèle rival.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "La course à l'IA entre les États-Unis et la Chine se joue de plus en plus sur l'accès aux puces et aux centres de calcul.",
+      "image": "",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Business",
+      "title": "Nvidia demande de suspendre l'envoi de serveurs vers quatre pays d'Asie du Sud-Est",
+      "summary": "D'après The Decoder, Nvidia aurait demandé à des partenaires comme Dell et Supermicro de stopper les livraisons de serveurs vers la Malaisie, Singapour, la Thaïlande et l'Indonésie. Cette pause suit un durcissement des règles d'exportation américaines, destiné à empêcher des entreprises chinoises de louer de la puissance de calcul chez des fournisseurs étrangers. On ignore si elle est temporaire.",
+      "whyLabel": "Le contexte",
+      "why": "Les nouvelles règles ont déjà fait geler environ 500 millions de dollars de prêts bancaires liés à un projet à Singapour.",
+      "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Produits",
+      "title": "OpenAI corrige une erreur de facturation : les limites d'usage de GPT-6.2 arrivent plus vite",
+      "summary": "Un bug de lancement avait appliqué des remises erronées sur les modèles GPT-6.2 Astra et Sol. Après correction, les utilisateurs atteignent leur limite 40 % plus vite sur Astra et 25 % plus vite sur Sol que la semaine dernière. OpenAI n'envoie aucune facture rétroactive et offre aux abonnés Go, Plus, Pro et Business une remise à zéro supplémentaire de leur quota.",
+      "whyLabel": "À savoir",
+      "why": "Les abonnés Business reçoivent en plus le mode rapide gratuit jusqu'à la fin de l'année, et OpenAI teste la fusion de ses modes Chat et Work.",
+      "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Politique",
+      "title": "Le Canada porte son fonds d'accès au calcul IA à 1 milliard de dollars canadiens",
+      "summary": "Ottawa ajoute 700 millions de dollars canadiens au fonds, qui passe de 300 millions à 1 milliard. Il aide les petites entreprises à payer la puissance de calcul nécessaire à l'IA, avec des aides plus élevées quand elles utilisent des infrastructures détenues et exploitées au Canada. Le premier nouvel appel vise la santé et les sciences de la vie.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Les États veulent bâtir leur propre capacité de calcul pour ne pas dépendre uniquement des géants américains.",
+      "image": "",
+      "links": [
+        {
+          "label": "The Next Web",
+          "url": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion",
+          "lang": "EN"
+        },
+        {
+          "label": "BetaKit",
+          "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Black Friday : l'IA fixe les prix, mais expose les enseignes aux cyberattaques",
+      "summary": "Selon Semafor, les marques utilisent des outils d'IA pour réduire leurs remises sans faire fuir les clients. Mais cette dépendance les rend plus vulnérables : les attaques par rançongiciel visant les commerçants sont environ une fois et demie plus fréquentes en novembre, et le secteur est peu assuré contre ce risque.",
+      "whyLabel": "En bref",
+      "why": "Un expert conseille de traiter le Black Friday comme un « exercice de résilience » autant que comme une occasion de vendre.",
+      "image": "https://img.semafor.com/2581d8b412a38189c084174b045c28f7afbeb60e-7466x4977.jpg?rect=0,529,7466,3920&w=1200&h=630&q=75&auto=format",
+      "links": [
+        {
+          "label": "Semafor",
+          "url": "https://www.semafor.com/article/11/26/2026/ai-reshapes-black-friday-shopping",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "Microsoft décrit comment des pirates d'État automatisent leurs attaques avec l'IA",
+      "summary": "Microsoft explique que ARTEX, un outil de test d'intrusion piloté par IA sorti en juillet 2026, est de plus en plus utilisé par des groupes liés à la Chine et à la Corée du Nord, ainsi que par des criminels. Il ne crée pas de nouvelles techniques mais coordonne des outils existants via des agents spécialisés, ce qui laisse aux défenseurs quelques minutes pour réagir.",
+      "whyLabel": "Le contexte",
+      "why": "Microsoft recommande des leurres comme des faux systèmes ou des « fausses victoires » qui poussent l'agent à croire sa mission accomplie.",
+      "image": "https://the-decoder.com/wp-content/uploads/2026/10/microsoft_human_touch.png",
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Régulation",
+      "title": "Aux États-Unis, des élus des deux bords s'intéressent à une loi sur l'IA",
+      "summary": "Selon le New York Times, des parlementaires démocrates et républicains disent vouloir encadrer l'IA. Mais les retards législatifs et les querelles sur les compétences de chaque commission pourraient ralentir tout texte.",
+      "whyLabel": "En bref",
+      "why": "Un cadre fédéral reste incertain, alors que plusieurs États, dont New York, adoptent déjà leurs propres lois.",
+      "image": "",
+      "links": [
+        {
+          "label": "The New York Times",
+          "url": "https://www.nytimes.com/2026/11/26/us/politics/ai-regulation-congress-nvidia.html",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Cybersécurité",
+      "title": "La Suisse recense cinq cyberattaques menées avec des agents IA",
+      "summary": "L'Office fédéral suisse de cybersécurité rapporte cinq attaques récentes impliquant des agents IA, visant des entreprises et des exploitants d'infrastructures critiques, d'après Reuters.",
+      "whyLabel": "À savoir",
+      "why": "Les attaques automatisées par IA, jusque-là surtout théoriques, deviennent un sujet concret pour les autorités.",
+      "image": "",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Société",
+      "title": "Au Japon, des habitants se révoltent contre les centres de données près de chez eux",
+      "summary": "Reuters rapporte que des riverains japonais s'opposent de plus en plus à la construction de grands centres de données à proximité des habitations, alors que le pays étend ses capacités de calcul.",
+      "whyLabel": "Pourquoi c'est important",
+      "why": "Le boom de l'IA se heurte à l'acceptation locale : bruit, énergie et espace font débat.",
+      "image": "",
+      "links": [
+        {
+          "label": "Reuters",
+          "url": "https://www.reuters.com/sustainability/society-equity/japans-data-centre-boom-faces-growing-revolt-urban-residents-2026-11-25/",
+          "lang": "EN"
+        }
+      ]
+    },
+    {
+      "category": "Électronique",
+      "title": "Huawei dévoile en avant-première une puce mémoire pour l'IA",
+      "summary": "Selon Bloomberg, Huawei a présenté un futur circuit de mémoire à haute bande passante, qui viserait à concurrencer Samsung et SK Hynix. Cela s'inscrit dans l'effort de la Chine pour produire davantage de puces sur son sol.",
+      "whyLabel": "Le contexte",
+      "why": "Cette mémoire est un composant clé des puces d'IA, et la Chine cherche à réduire sa dépendance aux fournisseurs étrangers.",
+      "image": "",
+      "links": [
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix",
+          "lang": "EN"
+        }
+      ]
+    }
+  ],
+  "quick": [
+    {
+      "text": "Les cargos aériens ne ralentissent pas : selon le patron de SATS, la demande liée aux centres de données IA reste soutenue malgré les craintes d'investisseurs.",
+      "url": "https://www.reuters.com/world/asia-pacific/air-cargo-demand-ai-data-centres-shows-no-sign-slowing-sats-ceo-says-2026-11-26/",
+      "lang": "EN"
+    },
+    {
+      "text": "Le Kazakhstan accueille Sberbank et Yandex et renforce sa coopération IA avec la Russie.",
+      "url": "https://www.reuters.com/business/finance/kazakhstan-boosts-ai-cooperation-with-russia-which-is-hungry-advanced-us-chips-2026-11-26/",
+      "lang": "EN"
+    },
+    {
+      "text": "Tencent met en open source DFly2, un outil qui accélère les réponses des modèles d'IA.",
+      "url": "https://x.com/TencentAI_News/status/2125968859450802415",
+      "lang": "EN"
+    }
+  ],
+  "markets": {
+    "intro": "Wall Street était fermée jeudi pour Thanksgiving et rouvre vendredi pour une demi-séance : le Nasdaq et le S&P 500 restent sur leurs clôtures de mercredi (-0,62 % et -0,25 %), après une chute de plus de 4 % en séance effacée en grande partie. L'Europe a rebondi nettement jeudi et la tech asiatique prolonge sa remontée vendredi.",
+    "indices": [
+      {
+        "name": "Nasdaq Composite",
+        "region": "US",
+        "value": 23585.8,
+        "changePct": -0.62,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "Nasdaq 100",
+        "region": "US",
+        "value": 26046.9,
+        "changePct": -0.64,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "S&P 500",
+        "region": "US",
+        "value": 7182.78,
+        "changePct": -0.25,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "Dow Jones",
+        "region": "US",
+        "value": 50182.95,
+        "changePct": 0.33,
+        "session": "2026-11-25"
+      },
+      {
+        "name": "VIX (peur)",
+        "region": "US",
+        "value": 26.8,
+        "changePct": -5.27,
+        "session": "2026-11-26"
+      },
+      {
+        "name": "CAC 40",
+        "region": "Europe",
+        "value": 8108.74,
+        "changePct": 1.61,
+        "session": "2026-11-26"
+      },
+      {
+        "name": "DAX",
+        "region": "Europe",
+        "value": 25215.52,
+        "changePct": 2.08,
+        "session": "2026-11-26"
+      },
+      {
+        "name": "Euro Stoxx 50",
+        "region": "Europe",
+        "value": 6014.74,
+        "changePct": 2.04,
+        "session": "2026-11-26"
+      },
+      {
+        "name": "Nikkei 225",
+        "region": "Asie",
+        "value": 58711.11,
+        "changePct": 2.11,
+        "session": "2026-11-27"
+      },
+      {
+        "name": "Hang Seng",
+        "region": "Asie",
+        "value": 22226.88,
+        "changePct": 1.19,
+        "session": "2026-11-26"
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "value": 149.3,
+        "changePct": -3.91,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "value": 355.58,
+        "changePct": 0.43,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "value": 489.93,
+        "changePct": -1.25,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "value": 273.1,
+        "changePct": -2.13,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "value": 244.43,
+        "changePct": -3.12,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "value": 609.89,
+        "changePct": 3.4,
+        "session": "2026-11-25"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "value": 380.14,
+        "changePct": -1.18,
+        "session": "2026-11-25"
+      }
+    ],
+    "stories": [
+      {
+        "region": "Amérique",
+        "category": "Tech US",
+        "title": "Moody's laisse Nvidia sur une perspective stable, S&P garde ses doutes",
+        "summary": "Moody's a ramené la perspective de la note de Nvidia de « positive » à « stable », tandis que S&P Global continue de s'inquiéter du départ puis du retour de Jensen Huang, selon Semafor.",
+        "whyLabel": "Le contexte",
+        "why": "La solidité financière du premier fabricant de puces d'IA est suivie de près après la forte baisse du titre cette semaine.",
+        "image": "",
+        "links": [
+          {
+            "label": "Semafor",
+            "url": "https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Tech US",
+        "title": "Nvidia suspend des livraisons de serveurs en Asie du Sud-Est",
+        "summary": "Nvidia aurait demandé de suspendre les envois de serveurs vers la Malaisie, Singapour, la Thaïlande et l'Indonésie après un durcissement des règles américaines d'exportation.",
+        "whyLabel": "À savoir",
+        "why": "Une décision qui pèse sur la chaîne des puces d'IA, au cœur des turbulences récentes de la tech.",
+        "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png",
+        "links": [
+          {
+            "label": "The Decoder",
+            "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Amérique",
+        "category": "Nasdaq",
+        "title": "Wall Street rouvre pour une demi-séance après Thanksgiving",
+        "summary": "Les marchés américains, fermés jeudi, rouvrent vendredi pour une séance raccourcie qui s'arrête à 13 h, heure de New York. Les contrats à terme sur le S&P 500 et le Nasdaq 100 progressaient d'environ 1 % en début de journée en Asie, selon les reportages du jour.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Les derniers chiffres du Nasdaq et du S&P 500 restent ceux de mercredi (-0,62 % et -0,25 %), après une journée très agitée.",
+        "image": "",
+        "links": [
+          {
+            "label": "Newsweek",
+            "url": "https://www.newsweek.com/stock-market-thanksgiving-2026-12761725",
+            "lang": "EN"
+          },
+          {
+            "label": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Europe",
+        "category": "Europe",
+        "title": "L'UE pourrait voter le 15 décembre sur l'aide à la conduite de Tesla",
+        "summary": "Selon un projet d'ordre du jour de la Commission européenne cité par Reuters, l'UE pourrait voter sur l'autorisation du système d'aide à la conduite de Tesla dans toute l'Union lors d'une réunion le 15 décembre.",
+        "whyLabel": "À savoir",
+        "why": "Une autorisation européenne ouvrirait un marché important à l'une des fonctions phares du constructeur.",
+        "image": "",
+        "links": [
+          {
+            "label": "Reuters",
+            "url": "https://www.reuters.com/technology/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting-2026-11-26/",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Asie",
+        "category": "Asie",
+        "title": "Vendredi : la tech asiatique poursuit son rebond",
+        "summary": "Les Bourses asiatiques montent à nouveau, portées par les puces et la tech. Le Nikkei progresse en séance, le Kospi sud-coréen gagne plus de 2 % en matinée et le Hang Seng finit en hausse d'environ 0,5 %, d'après les reportages du jour.",
+        "whyLabel": "Pourquoi c'est important",
+        "why": "Le Kospi reste pourtant environ 16 % plus bas sur novembre : le rebond ne gomme pas encore la chute.",
+        "image": "",
+        "links": [
+          {
+            "label": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout",
+            "lang": "EN"
+          }
+        ]
+      },
+      {
+        "region": "Asie",
+        "category": "Asie",
+        "title": "Huawei dévoile un futur concurrent à la mémoire de Samsung et SK Hynix",
+        "summary": "Huawei a présenté en avant-première une mémoire à haute bande passante pour l'IA, selon Bloomberg, dans la course chinoise à l'autonomie en puces.",
+        "whyLabel": "Le contexte",
+        "why": "Samsung et SK Hynix dominent ce segment, très suivi par les investisseurs en Corée du Sud.",
+        "image": "",
+        "links": [
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix",
+            "lang": "EN"
+          }
+        ]
+      }
+    ],
+    "quick": [
+      {
+        "text": "Les Bourses européennes avaient fini en forte hausse jeudi : CAC 40 +1,61 %, DAX +2,08 %.",
+        "url": "https://www.abcbourse.com/marches/cac-40-la-bourse-de-paris-finit-dans-le-vert-la-tech-a-repris-des-couleurs-pou_706736",
+        "lang": "FR"
+      },
+      {
+        "text": "Aux États-Unis, la séance de vendredi s'arrête à 13 h (New York) ; le marché reprend son horaire normal lundi 30 novembre.",
+        "url": "https://www.newsweek.com/stock-market-thanksgiving-2026-12761725",
+        "lang": "EN"
+      }
+    ]
+  }
+}
