@@ -1,0 +1,440 @@
+{
+ "date": "2026-11-28",
+ "intro": "Samedi, l'IA reste marquée par la course aux puces (des Nvidia interdites d'export retrouvées en Chine), les ambitions de SpaceX dans l'espace et les agents IA qui s'invitent dans nos achats et nos boîtes mail.",
+ "stories": [
+  {
+   "category": "Nvidia",
+   "title": "Des puces Nvidia interdites d'export retrouvées dans des centres de données liés à la Chine",
+   "summary": "Selon Bloomberg, relayé par The Verge, des puces Blackwell (GB200 et GB300), dont l'export vers la Chine n'est pas autorisé, auraient été installées dans au moins deux centres de données liés à Megaspeed, l'ancienne société d'Alice Huang, aujourd'hui sur liste noire américaine. Cette affaire alimente les questions du Congrès sur le patron de Nvidia, Jensen Huang.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "Elle montre à quel point les restrictions américaines sur les puces sont difficiles à faire respecter, au moment où Washington durcit le ton.",
+   "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x2531+0+142/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F80%2Fe4%2F4f6d59a04c01950dd8cc6ac618a1%2Fgettyimages-1243410569.jpg",
+   "links": [
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/tech/1043882/nvidias-most-powerful-chips-made-it-into-chinese-data-centers-linked-to-megaspeed",
+     "lang": "EN"
+    },
+    {
+     "label": "NPR",
+     "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Espace",
+   "title": "SpaceX obtient un feu vert conditionnel pour un million de satellites de calcul IA",
+   "summary": "Selon The Neuron, la FCC américaine a donné le 25 novembre un accord conditionnel à SpaceX pour déployer jusqu'à un million de satellites destinés à des centres de données dans l'espace, avec des puces Nvidia. Le calendrier fixé court jusqu'en 2040 : premier satellite opérationnel en 2033, constellation complète en 2040.",
+   "whyLabel": "À savoir",
+   "why": "Reste à prouver que refroidir, alimenter et renouveler autant de satellites est réaliste et rentable ; astronomes et opérateurs s'inquiètent aussi de l'encombrement de l'orbite.",
+   "image": "https://cdn.theneuron.ai/spacex-ai-data-centers-in-space.png",
+   "links": [
+    {
+     "label": "The Neuron",
+     "url": "https://www.theneuron.ai/news/spacex-orbital-ai-data-centers/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Société",
+   "title": "Black Friday : les agents d'achat IA séduisent peu les consommateurs",
+   "summary": "D'après Fortune, 54 % des Américains ont déjà utilisé l'IA pour au moins une tâche d'achat, mais seuls 23 % lui font confiance pour payer à leur place. Dans un test de Visa, seulement 57 % des courses d'agents IA ont abouti à un achat ou une suggestion correspondant au besoin.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "Les enseignes investissent dans les assistants d'achat, mais la confiance du public, surtout pour les gros achats, reste le principal frein.",
+   "image": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2247033876-e1795688813723.jpg?resize=1200,600",
+   "links": [
+    {
+     "label": "Fortune",
+     "url": "https://fortune.com/2026/11/27/black-friday-ai-agentic-shopping-consumer-trust/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Anthropic",
+   "title": "Anthropic fait réécrire le cœur de son API par ses propres agents IA",
+   "summary": "Anthropic a migré son API Messages de Python vers Rust, avec des agents Claude pour écrire le nouveau code. Résultat annoncé : environ 70 % de processeur et plus de 80 % de mémoire en moins par requête. Mais la vérification a pris des mois, et des ingénieurs ont dû relire et corriger le travail des agents.",
+   "whyLabel": "Le contexte",
+   "why": "C'est un cas concret d'entreprise qui fait travailler l'IA sur son propre logiciel, avec un bilan nuancé : gains réels, mais supervision humaine indispensable.",
+   "image": "https://cdn.theneuron.ai/claude-api-rebuild-cpu-usage-reduction.png",
+   "links": [
+    {
+     "label": "The Neuron",
+     "url": "https://www.theneuron.ai/news/anthropic-claude-api-rust-migration/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "OpenAI",
+   "title": "ChatGPT : un compteur d'usage commun pour le chat et le travail",
+   "summary": "OpenAI fusionne les modes « Chat » et « Work » (dont Codex) de ChatGPT autour d'un seul quota d'usage, déjà testé chez quelques abonnés Pro, puis élargi en décembre. Selon TechCrunch, la plupart des utilisateurs ne devraient rien remarquer, mais les plus gros utilisateurs pourraient atteindre leurs limites plus vite. Les conversations avec le modèle Instant restent illimitées.",
+   "whyLabel": "En bref",
+   "why": "Certains abonnés craignent de payer le même prix pour un accès réduit aux modèles les plus puissants.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Google",
+   "title": "Un agent de Google rédige six articles de maths en une journée",
+   "summary": "Google Research a publié le 25 novembre six articles de mathématiques produits par Cogentic, un système d'agents IA, sans intervention humaine après la consigne initiale. L'un annonce un nouvel algorithme de factorisation d'entiers. Mais aucun article n'a été relu par des pairs, et il ne s'agit pas d'une menace pour le chiffrement actuel.",
+   "whyLabel": "À savoir",
+   "why": "Les résultats restent à vérifier : c'est un test de recherche assistée par IA, pas une percée établie.",
+   "image": "https://sg-imgs.dealroom.co/3709f6bdaaeab7ab0f14dd9ac1996c0b.jpeg?cs=origin&w=1200&h=630&fit=crop&crop=faces%2Ccenter&q=85",
+   "links": [
+    {
+     "label": "Dealroom",
+     "url": "https://dealroom.co/news/176577-google-ai-agent-posts-six-math-papers-in-a-day-led-by-l-1-3-factoring-bo",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Nvidia",
+   "title": "Les agences de notation commencent à surveiller Nvidia",
+   "summary": "Moody's a fait passer la perspective de la note de Nvidia de « positive » à « stable », et S&P Global a évoqué le départ puis le retour de Jensen Huang. Aucune note n'a été abaissée. Selon Semafor, Nvidia sert de garant financier à de nombreux clients de l'IA : une dégradation renchérirait leurs emprunts.",
+   "whyLabel": "Pourquoi c'est important",
+   "why": "La santé financière de Nvidia soutient une grande partie du financement de l'IA, en pleine hausse des taux.",
+   "image": "https://img.semafor.com/278e8d609239fc008bd1498cc1a7f515b1ad8597-5858x3884.jpg?rect=0,405,5858,3075&w=1200&h=630&q=75&auto=format",
+   "links": [
+    {
+     "label": "Semafor",
+     "url": "https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Google",
+   "title": "Google ouvre Gmail, Drive et Agenda aux agents IA, avec des garde-fous",
+   "summary": "Google a rendu disponibles ses serveurs MCP et son outil en ligne de commande pour Workspace, qui permettent à des agents IA d'accéder à Gmail, Drive, Docs, Agenda et plus. Les administrateurs pourront exiger une confirmation pour les actions sensibles, et les actions des agents seront journalisées. À partir du 1er février 2027, les agents devront passer par ces voies officielles.",
+   "whyLabel": "En bref",
+   "why": "Les assistants capables d'agir dans vos e-mails et documents arrivent, mais sous contrôle des entreprises.",
+   "image": "",
+   "links": [
+    {
+     "label": "Google Workspace Updates",
+     "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Anthropic",
+   "title": "Claude Duet, l'agent qui travaille à votre place, arrive dans quatre pays de plus",
+   "summary": "Après les États-Unis, Claude Duet, l'application d'agent proactif d'Anthropic, s'ouvre en préversion à l'Inde, l'Indonésie, le Brésil et le Japon. Elle s'appuie sur la mémoire, les compétences et les applications connectées de Claude, sur mobile et sur claude.ai, avec les abonnements payants existants.",
+   "whyLabel": "En bref",
+   "why": "Les assistants IA qui agissent sans qu'on les sollicite à chaque étape s'étendent hors des États-Unis.",
+   "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/claude-duet-255341847-16x9_0.png?VersionId=xmTLH3q03Eya0SO5nlMS2iPss73k6usY",
+   "links": [
+    {
+     "label": "India Today",
+     "url": "https://www.indiatoday.in/technology/news/story/anthropic-launches-claude-duet-in-india-it-works-for-you-even-when-you-are-not-in-office-3046799-2026-11-25",
+     "lang": "EN"
+    }
+   ]
+  },
+  {
+   "category": "Science",
+   "title": "L'IA et les maths : un ancien chercheur d'OpenAI y voit un tournant",
+   "summary": "Scott Aaronson, spécialiste de l'informatique théorique et ancien chercheur d'OpenAI, estime que l'essentiel est que l'IA sache désormais produire ce type de preuves, après deux résultats d'OpenAI sur la multiplication de matrices et la transformée de Fourier. Il pense aussi que des laboratoires détiennent peut-être des avancées en cryptographie, une rumeur non confirmée.",
+   "whyLabel": "Le contexte",
+   "why": "Ces résultats n'ont pas été confirmés par des pairs, et certains mathématiciens réclament un boycott d'OpenAI face aux preuves générées par IA.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/math_geometry_openai_hodge-1200x670.png",
+   "links": [
+    {
+     "label": "The Decoder",
+     "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+     "lang": "EN"
+    }
+   ]
+  }
+ ],
+ "quick": [
+  {
+   "text": "Au Royaume-Uni, une enquête du Bureau of Investigative Journalism recense au moins 25 affaires judiciaires perturbées en 2026 par un usage non déclaré de l'IA.",
+   "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+   "lang": "EN"
+  },
+  {
+   "text": "Perplexity lance « Time Machine » : une recherche limitée aux copies du web datant de moins d'un an, sans supplément de prix.",
+   "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine",
+   "lang": "EN"
+  },
+  {
+   "text": "Près de Bristol, l'agence Natural England demande de refuser un centre de données de 40 MW à proximité d'un habitat protégé pour les oiseaux.",
+   "url": "https://www.theguardian.com/environment/2026/nov/27/natural-england-objected-datacentre-ministers-abolish-bristol",
+   "lang": "EN"
+  }
+ ],
+ "markets": {
+  "intro": "Vendredi, lors d'une séance écourtée à 13 h, Wall Street a rebondi nettement : le Nasdaq a gagné 2,3 % et le S&P 500 1,6 %, portés par les valeurs de l'IA et des puces, malgré des taux en hausse après la révision du PIB. L'Europe et l'Asie ont aussi terminé en hausse.",
+  "indices": [
+   {
+    "name": "Nasdaq Composite",
+    "region": "US",
+    "value": 24129.5,
+    "changePct": 2.31,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "Nasdaq 100",
+    "region": "US",
+    "value": 26726.39,
+    "changePct": 2.61,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "S&P 500",
+    "region": "US",
+    "value": 7297.49,
+    "changePct": 1.6,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "Dow Jones",
+    "region": "US",
+    "value": 50774.94,
+    "changePct": 1.18,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "VIX (peur)",
+    "region": "US",
+    "value": 23.81,
+    "changePct": -11.16,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "CAC 40",
+    "region": "Europe",
+    "value": 8156.09,
+    "changePct": 0.58,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "DAX",
+    "region": "Europe",
+    "value": 25441.24,
+    "changePct": 0.9,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "Euro Stoxx 50",
+    "region": "Europe",
+    "value": 6089.2,
+    "changePct": 1.24,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "Nikkei 225",
+    "region": "Asie",
+    "value": 58711.11,
+    "changePct": 2.11,
+    "session": "2026-11-27"
+   },
+   {
+    "name": "Hang Seng",
+    "region": "Asie",
+    "value": 22694.77,
+    "changePct": 2.11,
+    "session": "2026-11-27"
+   }
+  ],
+  "stocks": [
+   {
+    "ticker": "NVDA",
+    "name": "Nvidia",
+    "value": 150.49,
+    "changePct": 0.8,
+    "session": "2026-11-27"
+   },
+   {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "value": 358.54,
+    "changePct": 0.83,
+    "session": "2026-11-27"
+   },
+   {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "value": 492.85,
+    "changePct": 0.6,
+    "session": "2026-11-27"
+   },
+   {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "value": 274.96,
+    "changePct": 0.68,
+    "session": "2026-11-27"
+   },
+   {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "value": 254.12,
+    "changePct": 3.96,
+    "session": "2026-11-27"
+   },
+   {
+    "ticker": "META",
+    "name": "Meta",
+    "value": 628.96,
+    "changePct": 3.13,
+    "session": "2026-11-27"
+   },
+   {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "value": 400.0,
+    "changePct": 5.22,
+    "session": "2026-11-27"
+   }
+  ],
+  "stories": [
+   {
+    "region": "Amérique",
+    "category": "Nasdaq",
+    "title": "Wall Street rebondit fortement lors de la séance écourtée du Black Friday",
+    "summary": "Vendredi, la séance s'est terminée à 13 h, heure de New York. Le Nasdaq Composite a gagné 2,3 % à 24 129 points, le S&P 500 1,6 % à 7 297 points et le Dow Jones 1,2 %. Les valeurs liées à l'IA, malmenées en début de semaine, ont mené le rebond.",
+    "whyLabel": "À savoir",
+    "why": "Le marché américain a fermé tôt pour la fête de Thanksgiving ; les volumes sont souvent plus faibles ces jours-là.",
+    "image": "https://s.yimg.com/lo/mysterio/api/aecfdd689e6ae8c3bab08b7ef300123d62b8a2c6a3334c42c15a473d8198cf75/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F9b4ac3c4-4698-4e43-856a-f915b3714b73",
+    "links": [
+     {
+      "label": "Yahoo Finance (direct)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "region": "Amérique",
+    "category": "Tech US",
+    "title": "Les puces rebondissent : Micron en tête, Nvidia plus timide",
+    "summary": "Micron a gagné 7,6 % et Seagate comme Western Digital environ 7 à 8 %. Selon Yahoo Finance, l'indice des semi-conducteurs a regagné près de 5 % vendredi. Nvidia n'a pris que 0,8 % (150,49 dollars) après des séances très agitées depuis le retour de son patron, Jensen Huang.",
+    "whyLabel": "Le contexte",
+    "why": "Les valeurs de l'IA ont beaucoup bougé ces dernières semaines : le rebond de vendredi ne gomme pas la nervosité.",
+    "image": "https://s.yimg.com/lo/mysterio/api/aecfdd689e6ae8c3bab08b7ef300123d62b8a2c6a3334c42c15a473d8198cf75/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F9b4ac3c4-4698-4e43-856a-f915b3714b73",
+    "links": [
+     {
+      "label": "Yahoo Finance (direct)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "lang": "EN"
+     },
+     {
+      "label": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "region": "Amérique",
+    "category": "Macro / Fed",
+    "title": "Croissance américaine révisée en hausse, taux à 10 ans autour de 4,9 %",
+    "summary": "Le PIB américain du troisième trimestre a été révisé à +4,3 %, contre +3,4 % auparavant. Les taux des emprunts d'État à 10 ans ont rebondi vers 4,92 %. Le président Trump a qualifié ces chiffres de « faux » et demandé une enquête, sans apporter de preuve, selon Yahoo Finance.",
+    "whyLabel": "Pourquoi c'est important",
+    "why": "Une économie plus forte et des taux élevés pèsent sur les valeurs de croissance comme la tech.",
+    "image": "https://s.yimg.com/lo/mysterio/api/aecfdd689e6ae8c3bab08b7ef300123d62b8a2c6a3334c42c15a473d8198cf75/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F9b4ac3c4-4698-4e43-856a-f915b3714b73",
+    "links": [
+     {
+      "label": "Yahoo Finance (direct)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "region": "Amérique",
+    "category": "Tech US",
+    "title": "Nvidia reste volatile, sous l'œil des agences de notation",
+    "summary": "Après un bond de 31 % lundi puis deux séances de baisse, l'action Nvidia a regagné 0,8 % vendredi. Moody's a par ailleurs ramené la perspective de sa note de « positive » à « stable », sans la dégrader, selon Semafor.",
+    "whyLabel": "À savoir",
+    "why": "Nvidia pèse lourd dans les indices américains : ses mouvements influencent tout le marché.",
+    "image": "https://s.yimg.com/lo/mysterio/api/aecfdd689e6ae8c3bab08b7ef300123d62b8a2c6a3334c42c15a473d8198cf75/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F9b4ac3c4-4698-4e43-856a-f915b3714b73",
+    "links": [
+     {
+      "label": "Yahoo Finance (direct)",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+      "lang": "EN"
+     },
+     {
+      "label": "Semafor",
+      "url": "https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "region": "Europe",
+    "category": "Europe",
+    "title": "L'Europe termine en hausse, portée par les puces et les mines",
+    "summary": "L'indice STOXX 600 a gagné 1,08 % à 643,84 points. ASML, ASM International, Soitec et Infineon ont progressé d'environ 4 à 7 % selon Reuters. Les valeurs minières ont profité de la hausse du cuivre, de l'or et de l'argent. À Paris, le CAC 40 a pris 0,58 % et à Francfort, le DAX 0,9 %.",
+    "whyLabel": "En bref",
+    "why": "L'Europe a suivi le rebond des valeurs de l'IA, après un mois de novembre difficile.",
+    "image": "https://mlq.ai/media/news_images/european-stocks-close-up-11-as-chipmakers-and-miners-extend-rebound.jpg",
+    "links": [
+     {
+      "label": "MLQ.ai",
+      "url": "https://mlq.ai/news/european-stocks-close-up-11-as-chipmakers-and-miners-extend-rebound/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "region": "Europe",
+    "category": "Europe",
+    "title": "Rheinmetall et les banques en vue ; taux européens en hausse",
+    "summary": "Rheinmetall a gagné près de 5 % après l'annonce d'un projet de partenariat dans l'IA avec Deutsche Telekom, et Santander comme UniCredit plus de 4 %. Les rendements obligataires ont monté après le compte rendu jugé ferme de la BCE, tandis qu'une inflation plus faible que prévu en France et en Espagne a calmé les paris sur de nouvelles hausses de taux.",
+    "whyLabel": "Le contexte",
+    "why": "Le compte rendu de la BCE d'octobre a pesé sur les taux, mais l'inflation modérée rassure.",
+    "image": "https://mlq.ai/media/news_images/european-stocks-close-up-11-as-chipmakers-and-miners-extend-rebound.jpg",
+    "links": [
+     {
+      "label": "MLQ.ai",
+      "url": "https://mlq.ai/news/european-stocks-close-up-11-as-chipmakers-and-miners-extend-rebound/",
+      "lang": "EN"
+     }
+    ]
+   },
+   {
+    "region": "Asie",
+    "category": "Asie",
+    "title": "L'Asie rebondit avec le retour des achats sur l'IA",
+    "summary": "Selon un bilan publié vendredi, la bourse de Shenzhen a gagné 4,4 % et le Kospi sud-coréen 3,6 %, tandis que le Nikkei et le Hang Seng progressaient d'environ 2 %. Les investisseurs sont revenus sur les valeurs liées à l'IA après plusieurs semaines agitées, la Chine continentale menant le mouvement.",
+    "whyLabel": "En bref",
+    "why": "Les places asiatiques ont profité du même regain d'appétit pour le risque que Wall Street.",
+    "image": "https://coinedition.com/wp-content/uploads/2026/01/Stocks-and-Crypto-Market-Face-Volatility-From-U.S.-Tariffs.png",
+    "links": [
+     {
+      "label": "Coin Edition",
+      "url": "https://coinedition.com/asia-market-recap-shenzhen-kospi-and-nikkei-climb-as-ai-buying-returns/",
+      "lang": "EN"
+     }
+    ]
+   }
+  ],
+  "quick": [
+   {
+    "text": "Le Brent oscillait autour de 90 dollars le baril vendredi, après des attaques de rebelles houthis contre des sites énergétiques saoudiens ; l'OPEP se réunit dimanche.",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+    "lang": "EN"
+   },
+   {
+    "text": "L'or a dépassé 3 650 dollars l'once et l'argent a bondi dans le sillage du rebond de Wall Street.",
+    "url": "https://kitco.com/news/article/2026-11-27/gold-climbs-above-3650-silver-surges-wall-street-rebounds-sharply-kitco-pm",
+    "lang": "EN"
+   }
+  ]
+ }
+}
